@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Forever Field Guide</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -104,6 +108,47 @@ ul.plain{margin:0;padding-left:18px}
 ul.plain li{margin:2px 0}
 footer{color:var(--muted);font-size:13px;padding-block:20px 32px;border-top:1px solid var(--line)}
 @media (max-width:420px){.road li{grid-template-columns:1fr;gap:2px} dl{grid-template-columns:1fr} dt{margin-top:4px}}
+.navgroup{display:none}
+.pane{display:none}
+
+/* Desktop: fixed section sidebar, wide content, list + detail panel side by side */
+@media (min-width:1100px){
+  :root{--side:236px}
+  header .wrap{max-width:none;display:grid;grid-template-columns:var(--side) minmax(0,720px) 1fr;align-items:center;column-gap:28px;padding-block:12px}
+  .mast{padding:0}
+  .upd{grid-column:3;justify-self:end;grid-row:1}
+  .searchrow{padding:0;grid-column:2;grid-row:1}
+  #q{padding:11px 14px;font-size:15px}
+  nav{position:fixed;top:var(--hh,64px);left:0;bottom:0;width:var(--side);flex-direction:column;gap:2px;overflow-y:auto;
+      padding:14px 12px 24px;border-right:1px solid var(--line);background:var(--surface);scrollbar-width:thin}
+  nav a{border:0;border-radius:8px;padding:7px 12px;font-size:14.5px;background:transparent}
+  nav a:hover{background:var(--sunk);color:var(--fg)}
+  nav a[aria-current="page"]{background:var(--accent);color:var(--accent-ink)}
+  .navgroup{display:block;font:500 10.5px/1 var(--f-data);letter-spacing:.09em;text-transform:uppercase;color:var(--muted);padding:16px 12px 6px}
+  .navgroup:first-child{padding-top:4px}
+  main.wrap,footer.wrap{max-width:none;margin-left:var(--side);padding-left:32px;padding-right:32px}
+  main{padding-block:24px 56px}
+  h2{font-size:32px}
+  .lede{max-width:80ch}
+  .split{display:grid;grid-template-columns:minmax(360px,5fr) minmax(420px,7fr);gap:24px;align-items:start}
+  .split .list{gap:6px}
+  .split details.entry>summary{padding:10px 14px}
+  .split details.entry .body{display:none}
+  .split details.entry>summary:hover{background:var(--sunk)}
+  .split details.entry.sel{border-color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+  .pane{display:block;position:sticky;top:calc(var(--hh,64px) + 16px);max-height:calc(100vh - var(--hh,64px) - 32px);overflow-y:auto;
+        background:var(--surface);border:1px solid var(--line);border-radius:var(--r);scrollbar-width:thin}
+  .pane-head{padding:18px 22px 14px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+  .pane-head h3{font-size:24px}
+  .pane .body{padding:18px 22px 22px;gap:14px}
+  .pane .body p{max-width:75ch}
+  .pane dl{grid-template-columns:150px 1fr;gap:10px 18px}
+  .pane .empty{margin:16px;border:0}
+  .stats{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .grid2{grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px}
+}
+@media (min-width:1600px){ .split{grid-template-columns:minmax(420px,1fr) minmax(560px,1.3fr)} }
+
 @media (prefers-reduced-motion:no-preference){details.entry[open] .body{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:none}}}
 </style>
 
@@ -205,7 +250,7 @@ const CFG = {
     head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction","source","family"])}),
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["cost","Cost"]])+srcLink(it)},
   hunterpets:{filters:["family","zone","rank"], sort:(a,b)=>(a.family||"").localeCompare(b.family||"")||((a.name?1:0)-(b.name?1:0))||lvMin(a.levels)-lvMin(b.levels)||(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name||`${it.family} (family)`, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it, it.name?["family","rank"]:[])}),
+    head:it=>({title:it.name||`${it.family} (family)`, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it, it.name?["family","rank","zone"]:[])}),
     body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["role","Role"],["diet","Diet"],["abilities","Abilities"]])+(it.name&&FAM[it.family]?`<p class="src">${esc(it.family)} family: ${esc(arr(FAM[it.family].abilities).join(", "))}${has(FAM[it.family].diet)?` · eats ${esc(FAM[it.family].diet)}`:""}</p>`:"")+srcLink(it)},
   gear:{filters:["slot","quality","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, cls:"q-"+(it.quality||""), right:it.level?`Req ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])}),
@@ -302,18 +347,19 @@ function renderList(sec){
   const st=state[sec]||(state[sec]={newOnly:false});
   const opts=k=>[...new Set(all.map(i=>i[k]).filter(has))].sort();
   const filt=cfg.filters.map(k=>{const o=opts(k); if(o.length<2) return "";
-    const PL={family:"families",category:"categories",quality:"qualities",itemClass:"item types",slot:"slots",source:"sources",faction:"factions",kind:"kinds",type:"types",zone:"zones",continent:"continents",profession:"professions"};
+    const PL={class:"classes",spec:"specs",sub:"subcategories",rank:"ranks",family:"families",category:"categories",quality:"qualities",itemClass:"item types",slot:"slots",source:"sources",faction:"factions",kind:"kinds",type:"types",zone:"zones",continent:"continents",profession:"professions"};
     return `<select data-k="${k}" aria-label="Filter by ${k}"><option value="">All ${PL[k]||k+"s"}</option>${o.map(v=>`<option${st[k]===v?" selected":""}>${esc(v)}</option>`).join("")}</select>`;}).join("");
   const anyNew=all.some(i=>i.new);
   $("#main").innerHTML=`<h2>${esc(meta.title||meta.label)}</h2>${meta.lede?`<p class="lede">${esc(meta.lede)}</p>`:""}
     <div class="filters">${filt}${anyNew?`<label class="toggle"><input type="checkbox" id="newOnly"${st.newOnly?" checked":""}> New in Forever only</label>`:""}<span class="count" id="count"></span></div>
-    <div class="list" id="list"></div>`;
+    <div class="split"><div class="list" id="list"></div>${PANE}</div>`;
   const draw=()=>{
     const q=$("#q").value.trim().toLowerCase();
     const items=all.filter(it=>cfg.filters.every(k=>!st[k]||it[k]===st[k]) && (!st.newOnly||it.new) && (!q||flat(it).includes(q)));
     $("#count").textContent=`${items.length} of ${all.length}`;
     if(items.length) paged($("#list"), sec, items);
     else $("#list").innerHTML=`<div class="empty">${all.length?"Nothing matches those filters.":(EMPTY[sec]||"No entries yet. The next refresh will add them as sources confirm them.")}</div>`;
+    selectFirst();
   };
   $("#main").querySelectorAll("select").forEach(s=>s.onchange=()=>{st[s.dataset.k]=s.value;draw();});
   const n=$("#newOnly"); if(n) n.onchange=()=>{st.newOnly=n.checked;draw();};
@@ -326,9 +372,36 @@ function renderSearch(q){
     const hits=(DATA[s.id]||[]).filter(it=>flat(it).includes(ql)).sort(CFG[s.id].sort);
     if(!hits.length) continue; total+=hits.length;
     out.push([s.id,hits]);}
-  $("#main").innerHTML=`<h2>Results for “${esc(q)}”</h2><p class="lede">${total} match${total===1?"":"es"} across the guide.</p>${out.length?out.map(([id,h])=>`<div class="section"><div class="eyebrow">${esc(SECTIONS.find(s=>s.id===id).label)} · ${h.length}</div><div class="list" style="margin-top:8px" data-sec="${id}"></div></div>`).join(""):`<div class="empty">No matches. Try a shorter word, like a zone or boss name.</div>`}`;
+  $("#main").innerHTML=`<h2>Results for “${esc(q)}”</h2><p class="lede">${total} match${total===1?"":"es"} across the guide.</p>${out.length?`<div class="split"><div>${out.map(([id,h])=>`<div class="section"><div class="eyebrow">${esc(SECTIONS.find(s=>s.id===id).label)} · ${h.length}</div><div class="list" style="margin-top:8px" data-sec="${id}"></div></div>`).join("")}</div>${PANE}</div>`:`<div class="empty">No matches. Try a shorter word, like a zone or boss name.</div>`}`;
   out.forEach(([id,h])=>paged($(`.list[data-sec="${id}"]`), id, h));
+  selectFirst();
 }
+
+/* Desktop: entries open in a side panel instead of expanding in place. Phones keep the expanding list. */
+const DESK=matchMedia("(min-width:1100px)");
+const PANE=`<aside class="pane" id="pane" aria-live="polite"><div class="empty">Pick an entry to see its details here.</div></aside>`;
+function showInPane(det){
+  const pane=$("#pane"); if(!pane||!det) return;
+  document.querySelectorAll("details.entry.sel").forEach(d=>d.classList.remove("sel"));
+  det.classList.add("sel");
+  const sum=det.querySelector("summary"), body=det.querySelector(".body");
+  pane.innerHTML=`<div class="pane-head">${sum.innerHTML}</div>${body?body.outerHTML:""}`;
+  pane.scrollTop=0;
+}
+function selectFirst(){ if(DESK.matches) showInPane(document.querySelector("#main details.entry")); }
+document.addEventListener("click",e=>{
+  const s=e.target.closest("#main .split details.entry>summary"); if(!s||!DESK.matches) return;
+  e.preventDefault(); showInPane(s.parentElement);
+});
+document.addEventListener("keydown",e=>{ /* arrow keys move through the list on desktop */
+  if(!DESK.matches||!["ArrowDown","ArrowUp"].includes(e.key)||(e.target.matches&&e.target.matches("input,select,textarea"))) return;
+  const all=[...document.querySelectorAll("#main .split details.entry")]; if(!all.length) return;
+  const i=all.findIndex(d=>d.classList.contains("sel")); const n=all[Math.max(0,Math.min(all.length-1,i+(e.key==="ArrowDown"?1:-1)))];
+  if(n){ e.preventDefault(); showInPane(n); n.querySelector("summary").focus({preventScroll:true}); n.scrollIntoView({block:"nearest"}); }
+});
+DESK.addEventListener("change",()=>route());
+const headerH=()=>document.documentElement.style.setProperty("--hh",document.querySelector("header").offsetHeight+"px");
+window.addEventListener("resize",headerH);
 
 function renderHome(){
   const S=DATA.systems||{}; const news=(DATA.news||[]).slice().sort(CFG.news.sort).slice(0,5);
@@ -365,7 +438,13 @@ function route(){
   if(id==="home") renderHome(); else if(id==="systems") renderSystems(); else renderList(id);
 }
 
-$("#nav").innerHTML=SECTIONS.map(s=>`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`).join("");
+const NAVGROUPS=[["Start",["home","news","guides","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
+  ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","instances","rares","treasures","travel","services","reputations","events","pvp"]],
+  ["Characters",["classes","talents"]]];
+{ const used=new Set(NAVGROUPS.flatMap(g=>g[1])); const rest=SECTIONS.filter(s=>!used.has(s.id)).map(s=>s.id);
+  const link=id=>{const s=SECTIONS.find(x=>x.id===id); return s?`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`:"";};
+  $("#nav").innerHTML=NAVGROUPS.concat(rest.length?[["More",rest]]:[]).map(([g,ids])=>`<span class="navgroup">${esc(g)}</span>${ids.map(link).join("")}`).join(""); }
+headerH();
 $("#nav").addEventListener("click",e=>{ if(e.target.closest("a")){ $("#q").value=""; window.scrollTo(0,0);} });
 window.addEventListener("hashchange",route);
 let t; $("#q").addEventListener("input",()=>{clearTimeout(t);t=setTimeout(route,150);});
