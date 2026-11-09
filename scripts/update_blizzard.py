@@ -89,7 +89,7 @@ def pmap(fn, xs, workers=8):
 def load(name):
     p = LIVE / f"{name}.json"
     try:
-        return json.loads(p.read_text())
+        return json.loads(p.read_text()) or {}
     except Exception:
         return {}
 
@@ -565,7 +565,8 @@ def media():
         out["pet"][str(pid)] = url
     print(f"media pet: {sum(1 for v in out['pet'].values() if v)} renders")
     fill("achievement", [e["id"] for e in load("achievements").get("entries", [])], "/data/wow/media/achievement/{}", ("icon",))
-    fill("spell", [e.get("spell") for e in load("talents").get("entries", [])], "/data/wow/media/spell/{}", ("icon",))
+    tree_spells = [n.get("spell") for t in (load("talenttrees") or {}).get("trees", []) for n in t.get("nodes", [])]
+    fill("spell", [e.get("spell") for e in load("talents").get("entries", [])] + tree_spells, "/data/wow/media/spell/{}", ("icon",))
     fill("profession", [e["id"] for e in load("professions").get("entries", [])], "/data/wow/media/profession/{}", ("icon",))
     fill("class", [e["id"] for e in load("classes").get("entries", []) if e.get("kind") == "Class"],
          "/data/wow/media/playable-class/{}", ("icon",))

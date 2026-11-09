@@ -207,6 +207,21 @@ details.entry[open] .body .chips span{background:rgba(255,255,255,.35);border-co
 .rel a img{width:20px;height:20px;border-radius:50%;object-fit:cover;background:#2b1c0c}
 .rel a:hover{background:rgba(255,255,255,.65)}
 .permalink{font-size:13px}
+/* talent calculator */
+.calc{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.tree{background:linear-gradient(#1d1610,#100c08);border:1px solid var(--gold-3);border-radius:var(--r);box-shadow:var(--frame);padding:12px}
+.tree-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.tree-head span{font:700 20px var(--f-display);color:var(--gold)}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:62px;gap:8px;justify-items:center;align-items:center}
+.tal{position:relative;width:50px;height:50px;padding:0;border-radius:6px;border:2px solid #555;background:#000;cursor:pointer;filter:grayscale(.85) brightness(.7)}
+.tal img,.tal .noicon{width:100%;height:100%;border-radius:4px;display:grid;place-items:center;object-fit:cover;color:var(--gold);font:700 20px var(--f-display)}
+.tal b{position:absolute;right:-8px;bottom:-8px;font:700 11px var(--f-data);background:#000;color:#9aff9a;border:1px solid #444;border-radius:4px;padding:1px 4px}
+.tal:not(.locked){filter:none;border-color:#2fbf2f}
+.tal.has{border-color:#2fbf2f;box-shadow:0 0 8px rgba(47,191,47,.5)}
+.tal.max{border-color:var(--gold);box-shadow:0 0 10px rgba(248,212,122,.6)} .tal.max b{color:var(--gold)}
+.tal.locked b{color:#888}
+.tal:focus-visible{outline:2px solid #fff}
+.btn{padding:4px 12px;border-radius:5px;cursor:pointer;font-size:13px}
 /* item links and in-game style tooltips */
 a.ilink{text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:5px;text-shadow:0 1px 0 rgba(0,0,0,.6)}
 a.ilink img{width:18px;height:18px;border-radius:3px;border:1px solid #000;box-shadow:0 0 0 1px var(--gold-3)}
@@ -281,6 +296,7 @@ const SECTIONS = [
   {id:"events", label:"Events", title:"World events", lede:"Holidays and recurring events, when they run and what they give."},
   {id:"recipes", label:"Recipes", title:"Recipes", lede:"Profession recipes, camp objects and blueprints, with what they make, the materials and where to learn each one."},
   {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
+  {id:"talentcalc", label:"Talent calculator", title:"Talent calculator"},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
   {id:"treasures", label:"Treasures & nodes", title:"Treasures, herbs & ore", lede:"Chests, footlockers, crates, herbs and ore veins: where they spawn and what they can contain. Filter by kind to see just herbs or just ore."},
@@ -566,6 +582,67 @@ document.addEventListener("mouseover",e=>{ const p=e.target.closest(".map .pin")
   if(p){ const t=document.createElement("span"); t.className="tip"; t.textContent=p.dataset.tip; t.style.left=p.style.left; t.style.top=p.style.top; m.appendChild(t);} });
 document.addEventListener("click",e=>{ const p=e.target.closest(".map .pin"); if(p){ e.preventDefault(); location.hash=p.dataset.href; } });
 
+/* ---------- talent calculator ---------- */
+let TREES=null;
+function renderCalc(cls,code,lvl){
+  const main=$("#main");
+  if(!TREES){ main.innerHTML=`<h2>Talent calculator</h2><p class="lede">Loading talent trees…</p>`;
+    opt("live/talenttrees.json").then(d=>{ TREES=(d&&d.trees)||[]; if((location.hash||"").startsWith("#talentcalc")) route(); }); return; }
+  const classes=[...new Set(TREES.map(t=>t.class))].sort();
+  cls=classes.includes(cls)?cls:classes[0]; lvl=Math.max(10,Math.min(60,+lvl||60));
+  const trees=TREES.filter(t=>t.class===cls).sort((a,b)=>Math.min(...a.nodes.map(n=>n.col))-Math.min(...b.nodes.map(n=>n.col)));
+  const nodes=trees.flatMap(t=>t.nodes.slice().sort((a,b)=>a.id-b.id));
+  const pts=new Map(nodes.map((n,i)=>[n.id,Math.min(+((code||"")[i]||0),n.ranks.length)]));
+  const cap=lvl-9;
+  const spent=t=>t.nodes.reduce((s,n)=>s+pts.get(n.id),0), total=()=>trees.reduce((s,t)=>s+spent(t),0);
+  const canAdd=(t,n)=>pts.get(n.id)<n.ranks.length&&total()<cap&&spent(t)>=(n.row-1)*5;
+  const canRemove=(t,n)=>{ if(!pts.get(n.id)) return false;
+    pts.set(n.id,pts.get(n.id)-1); let ok=true;
+    for(const m of t.nodes) if(pts.get(m.id)&&m.row>n.row){ const below=t.nodes.filter(x=>x.row<m.row).reduce((s,x)=>s+pts.get(x.id),0); if(below<(m.row-1)*5){ok=false;break;} }
+    pts.set(n.id,pts.get(n.id)+1); return ok; };
+  const encode=()=>nodes.map(n=>pts.get(n.id)).join("").replace(/0+$/,"");
+  const icon=n=>(MEDIA.spell||{})[n.spell]||"";
+  const draw=()=>{
+    history.replaceState(null,"",`#talentcalc/${encodeURIComponent(cls)}/${encode()||"0"}${lvl!==60?`/${lvl}`:""}`);
+    main.querySelector("#calc").innerHTML=trees.map(t=>{ const c0=Math.min(...t.nodes.map(n=>n.col));
+      return `<div class="tree"><div class="tree-head"><h3>${esc(t.name)}</h3><span>${spent(t)}</span></div><div class="tgrid">${t.nodes.map(n=>{
+        const p=pts.get(n.id), max=n.ranks.length, open=spent(t)>=(n.row-1)*5;
+        return `<button type="button" class="tal${p?" has":""}${p===max?" max":""}${open?"":" locked"}" style="grid-row:${n.row};grid-column:${n.col-c0+1}" data-id="${n.id}" aria-label="${esc(n.name)} ${p}/${max}">${icon(n)?`<img src="${esc(icon(n))}" alt="" onerror="this.outerHTML='<span class=noicon>${esc((n.name||"?")[0]).replace(/'/g,"")}</span>'">`:`<span class="noicon">${esc((n.name||"?")[0])}</span>`}<b>${p}/${max}</b></button>`;}).join("")}</div></div>`;}).join("");
+    main.querySelector("#calc-sum").innerHTML=`<b>${total()}</b> / ${cap} points · ${trees.map(t=>spent(t)).join(" / ")} <button class="btn" id="calc-reset" type="button">Reset</button> <button class="btn" id="calc-copy" type="button">Copy link</button>`;
+  };
+  main.innerHTML=`<h2>Talent calculator</h2>
+    <p class="lede">Plan a build with Forever's real talent trees from Blizzard's data. Left-click a talent to add a point, right-click (or long-press on a phone) to remove one. Each row needs 5 more points in that tree, as in Classic. The page link updates as you go, so you can share your build.</p>
+    <div class="filters"><select id="calc-class" aria-label="Class">${classes.map(c=>`<option${c===cls?" selected":""}>${esc(c)}</option>`).join("")}</select>
+      <label class="toggle">Level <input id="calc-lvl" type="number" min="10" max="60" value="${lvl}" style="width:58px;background:transparent;border:0;color:inherit"></label>
+      <span class="count" id="calc-sum"></span></div>
+    <div id="calc" class="calc"></div><div id="calc-tip" class="wtt"></div>`;
+  const tip=main.querySelector("#calc-tip"), calc=main.querySelector("#calc");
+  const find=id=>{ for(const t of trees){ const n=t.nodes.find(x=>x.id===+id); if(n) return [t,n]; } return []; };
+  const moveTip=ev=>{ const w=tip.offsetWidth,h=tip.offsetHeight; let x=ev.clientX+16,y=ev.clientY+16; if(x+w>innerWidth-8) x=ev.clientX-w-16; if(y+h>innerHeight-8) y=Math.max(8,innerHeight-h-8); tip.style.left=x+"px"; tip.style.top=y+"px"; };
+  const showTip=(el,ev)=>{ const [t,n]=find(el.dataset.id); if(!n) return; const p=pts.get(n.id), max=n.ranks.length;
+    tip.innerHTML=`<div class="wtt-name" style="color:#fff">${esc(n.name)}</div><div>Rank ${p}/${max}</div>
+      ${n.cast&&n.cast!=="Passive"?`<div class="wtt-row"><span>${esc(n.cost||"")}</span><span>${esc(n.range||"")}</span></div><div class="wtt-row"><span>${esc(n.cast)}</span><span>${esc(n.cooldown||"")}</span></div>`:""}
+      ${p?`<div class="wtt-flavor" style="margin-top:4px">${esc(n.ranks[p-1])}</div>`:""}
+      ${p<max?`<div style="margin-top:6px">Next rank:</div><div class="wtt-flavor">${esc(n.ranks[p])}</div>`:""}
+      ${spent(t)<(n.row-1)*5?`<div style="color:#ff4b3a;margin-top:6px">Requires ${(n.row-1)*5} points in ${esc(t.name)}</div>`:""}`;
+    tip.style.display="block"; moveTip(ev); };
+  const act=(el,add)=>{ const [t,n]=find(el.dataset.id); if(!n) return; if(add?canAdd(t,n):canRemove(t,n)){ pts.set(n.id,pts.get(n.id)+(add?1:-1)); draw(); calc.querySelector(`[data-id="${n.id}"]`)?.focus(); } };
+  calc.addEventListener("click",e=>{ const b=e.target.closest(".tal"); if(b) act(b,true); });
+  calc.addEventListener("contextmenu",e=>{ const b=e.target.closest(".tal"); if(b){ e.preventDefault(); act(b,false); } });
+  let press, long=false; calc.addEventListener("touchstart",e=>{ const b=e.target.closest(".tal"); long=false; if(b) press=setTimeout(()=>{long=true; act(b,false);},500); },{passive:true});
+  calc.addEventListener("touchend",e=>{ clearTimeout(press); if(long) e.preventDefault(); });
+  calc.addEventListener("mouseover",e=>{ const b=e.target.closest(".tal"); if(b) showTip(b,e); else tip.style.display="none"; });
+  calc.addEventListener("mousemove",e=>{ if(tip.style.display==="block") moveTip(e); });
+  calc.addEventListener("mouseleave",()=>tip.style.display="none");
+  calc.addEventListener("keydown",e=>{ const b=e.target.closest(".tal"); if(b&&(e.key==="-"||e.key==="Backspace")){ e.preventDefault(); act(b,false);} });
+  main.querySelector("#calc-class").onchange=e=>{ location.hash=`#talentcalc/${encodeURIComponent(e.target.value)}`; };
+  main.querySelector("#calc-lvl").onchange=e=>{ const L=Math.max(10,Math.min(60,+e.target.value||60));
+    while(total()>L-9){ const n=[...nodes].reverse().find(n=>pts.get(n.id)); pts.set(n.id,pts.get(n.id)-1); } renderCalc(cls,encode(),L); };
+  main.querySelector("#calc-sum").addEventListener("click",e=>{ if(e.target.id==="calc-reset"){ nodes.forEach(n=>pts.set(n.id,0)); draw(); }
+    if(e.target.id==="calc-copy"){ navigator.clipboard?.writeText(location.href); e.target.textContent="Copied!"; setTimeout(()=>e.target.textContent="Copy link",1500); } });
+  draw();
+}
+
 /* ---------- full page for one entry ---------- */
 function renderEntry(sec,it){
   const meta=SECTIONS.find(s=>s.id===sec)||{}; const h=CFG[sec].head(it);
@@ -685,6 +762,7 @@ function route(){
   let [id,key]=(location.hash||"#home").slice(1).split("/"); key=key?decodeURIComponent(key):""; if(!SECTIONS.some(s=>s.id===id)) id="home";
   document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
   if(DATA&&key&&CFG[id]&&!q){ const it=findEntry(id,key); if(it) return renderEntry(id,it); }
+  if(DATA&&id==="talentcalc"&&!q){ const p=(location.hash||"").slice(1).split("/"); return renderCalc(decodeURIComponent(p[1]||""),p[2]||"",p[3]); }
   if(!DATA) return;
   if(q.length>=2) return renderSearch(q);
   if(id==="home") renderHome(); else if(id==="systems") renderSystems(); else renderList(id);
@@ -692,7 +770,7 @@ function route(){
 
 const NAVGROUPS=[["Start",["home","news","guides","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
   ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","instances","rares","treasures","travel","services","reputations","events","pvp"]],
-  ["Characters",["classes","talents"]]];
+  ["Characters",["classes","talentcalc","talents"]]];
 { const used=new Set(NAVGROUPS.flatMap(g=>g[1])); const rest=SECTIONS.filter(s=>!used.has(s.id)).map(s=>s.id);
   const link=id=>{const s=SECTIONS.find(x=>x.id===id); return s?`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`:"";};
   $("#nav").innerHTML=NAVGROUPS.concat(rest.length?[["More",rest]]:[]).map(([g,ids])=>`<span class="navgroup">${esc(g)}</span>${ids.map(link).join("")}`).join(""); }
