@@ -51,6 +51,7 @@ jobs:
           HOUR=$(date -u +%H)
           if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ] || [ ! -f live/quests.json ]; then
             python scripts/update_blizzard.py
+            python scripts/update_questie.py || echo "::warning::Questie enrichment failed; Blizzard data still published"
           else
             echo "Blizzard refresh runs at 05:xx UTC; skipping this hour."
           fi

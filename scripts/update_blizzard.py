@@ -403,6 +403,7 @@ def talents():
 def quests():
     old = cached("quests")
     meta = {}
+    areas = {a["id"]: nm(a) for a in (get("/data/wow/quest/area/index") or {}).get("areas", [])}
     for kind, idx_path, list_key, field in (("zone", "/data/wow/quest/area/index", "areas", "area"),
                                             ("category", "/data/wow/quest/category/index", "categories", "category"),
                                             ("type", "/data/wow/quest/type/index", "types", "type")):
@@ -447,7 +448,7 @@ def quests():
     for qid, m in meta.items():
         e = {**old.get(qid, {}), **m}
         out.append(clean(e))
-    save("quests", out)
+    save("quests", out, areas=areas)
 
 
 # ---------------------------------------------------------------- professions & recipes

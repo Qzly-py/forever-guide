@@ -1,0 +1,36 @@
+name: Test Questie enrichment
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run enrichment (nothing is saved)
+        run: |
+          mkdir -p live
+          echo '{"entries":[{"id":69,"name":"Timber Wolf","family":"Wolf"},{"id":3058,"name":"Arra'"'"'chea","family":"Tallstrider"}]}' > live/hunterpets.json
+          echo '{"entries":[{"id":33,"name":"Wolves Across the Border"}],"areas":{"12":"Elwynn Forest"}}' > live/quests.json
+          time python scripts/update_questie.py
+          python - <<'EOF'
+          import json
+          for f in ("hunterpets", "quests", "rares", "services", "instances"):
+              d = json.load(open(f"live/{f}.json"))["entries"]
+              print(f"\n== {f}: {len(d)}")
+              for e in d[:3]:
+                  print(json.dumps(e, ensure_ascii=False)[:600])
+          q = {e["id"]: e for e in json.load(open("live/quests.json"))["entries"]}
+          for i in (33, 783, 7, 5):
+              print("quest", i, json.dumps(q.get(i), ensure_ascii=False)[:700])
+          items = {e["id"]: e for e in json.load(open("items.json"))["items"]}
+          for i in (2244, 19019, 6948, 2589):
+              print("item", i, json.dumps(items.get(i), ensure_ascii=False)[:700])
+          EOF
