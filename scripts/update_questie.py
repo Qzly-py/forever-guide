@@ -187,7 +187,24 @@ def npc_info(nid):
                 first = (zone(z), pts[0])
                 break
     return {"name": at(r, 1), "levels": lv, "zones": list(dict.fromkeys(zs)), "rank": RANK.get(at(r, 6), ""),
-            "title": at(r, 14) or "", "friendly": at(r, 13) or "", "at": first}
+            "title": at(r, 14) or "", "friendly": at(r, 13) or "", "at": first, "pts": spawn_pts(spawns)}
+
+
+def spawn_pts(spawns, per_zone=40):
+    """{zone name: [[x, y], ...]} map coordinates (0-100), trimmed for size."""
+    out = {}
+    if not isinstance(spawns, dict):
+        return out
+    for z, pts in spawns.items():
+        zn = zone(z)
+        if not zn or not isinstance(pts, list):
+            continue
+        good = [[round(p[0], 1), round(p[1], 1)] for p in pts
+                if isinstance(p, list) and len(p) >= 2 and isinstance(p[0], (int, float)) and 0 <= p[0] <= 100 and 0 <= p[1] <= 100]
+        if good:
+            step = max(1, len(good) // per_zone)
+            out.setdefault(zn, []).extend(good[::step][:per_zone])
+    return out
 
 
 def where_npc(nid):
@@ -237,6 +254,8 @@ if hp:
         e["zone"] = i["zones"][0] if i["zones"] else ""
         if i["rank"]:
             e["rank"] = i["rank"]
+        if i["pts"]:
+            e["pts"] = i["pts"]
     write(LIVE / "hunterpets.json", hp)
     print(f"hunter pets enriched: {n}/{len(hp['entries'])}")
 
@@ -244,6 +263,14 @@ if hp:
 RACE = {1: "Human", 2: "Orc", 4: "Dwarf", 8: "Night Elf", 16: "Undead", 32: "Tauren", 64: "Gnome", 128: "Troll"}
 CLS = {1: "Warrior", 2: "Paladin", 4: "Hunter", 8: "Rogue", 16: "Priest", 64: "Shaman", 128: "Mage", 256: "Warlock", 1024: "Druid"}
 ALLY, HORDE = 1 | 4 | 8 | 64, 2 | 16 | 32 | 128
+
+
+def giver_pt(nid):
+    i = npc_info(nid) if nid else None
+    if not i or not i["at"]:
+        return None
+    x, y = i["at"][1][:2]
+    return {i["at"][0]: [[round(x, 1), round(y, 1)]]}
 
 
 def quest_extra(qid):
@@ -284,6 +311,7 @@ def quest_extra(qid):
     lvl = at(r, 5)
     return {k: v for k, v in {
         "startsAt": "; ".join(x for x in starts if x), "endsAt": "; ".join(x for x in ends if x),
+        "pts": giver_pt((at(st, 1) or [None])[0]),
         "steps": goals, "objectivesText": " ".join(at(r, 8) or []) if isinstance(at(r, 8), list) else "",
         "level": lvl if isinstance(lvl, int) and lvl > 0 else None, "reqLevel": at(r, 4) or None,
         "faction": fac, "classes": [v for k, v in CLS.items() if (at(r, 7) or 0) & k] if at(r, 7) else [],
@@ -390,7 +418,7 @@ for nid, r in NPC.items():
         continue
     loot = LOOT.get(nid, [])[:8]
     rares.append({"id": nid, "name": i["name"], "kind": i["rank"], "levels": i["levels"],
-                  "where": ", ".join(i["zones"][:3]), "drops": loot})
+                  "where": ", ".join(i["zones"][:3]), "drops": loot, "pts": i["pts"]})
 write(LIVE / "rares.json", {"updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
                             "entries": rares})
 print(f"rares: {len(rares)}")
@@ -442,7 +470,7 @@ for nid, r in NPC.items():
         continue
     x, y = i["at"][1]
     svc.append({"id": nid, "name": i["name"], "title": i["title"], "kind": roles[0], "zone": i["at"][0],
-                "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})",
+                "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})", "pts": {i["at"][0]: [[round(x, 1), round(y, 1)]]},
                 "faction": {"A": "Alliance", "H": "Horde", "AH": "Both"}.get(i["friendly"], "")})
 # ------------------------------------------------------------------ vendors and what each one sells
 SELLS = {}
@@ -459,7 +487,8 @@ for nid, goods in SELLS.items():
         continue
     x, y = i["at"][1]
     svc.append({"id": nid, "name": i["name"], "title": i["title"] or "Vendor", "kind": "Vendor", "zone": i["at"][0],
-                "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})", "sells": sorted(set(g for g in goods if g))[:80],
+                "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})", "pts": {i["at"][0]: [[round(x, 1), round(y, 1)]]},
+                "sells": sorted(set(g for g in goods if g))[:80],
                 "faction": {"A": "Alliance", "H": "Horde", "AH": "Both"}.get(i["friendly"], "")})
 print(f"vendors with stock lists: {len(SELLS)}")
 
@@ -490,7 +519,7 @@ for oid, r in OBJ.items():
     treasures.append({"id": oid, "name": name, "kind": "Chest" if CHEST.search(name) else "Object",
                       "zone": zones_.most_common(1)[0][0],
                       "where": ", ".join(f"{z} ({n} spot{'s' if n > 1 else ''})" for z, n in zones_.most_common(8)),
-                      "spots": sample[:12], "drops": loot[:40]})
+                      "spots": sample[:12], "drops": loot[:40], "pts": spawn_pts(sp, 25)})
 write(LIVE / "treasures.json", {"updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
                                 "entries": treasures})
 print(f"treasures/objects: {len(treasures)}")

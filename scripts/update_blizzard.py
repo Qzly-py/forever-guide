@@ -3,6 +3,7 @@ Standard library only. Needs repository secrets BLIZZARD_CLIENT_ID and BLIZZARD_
 without them. Detail lookups are cached in the previous output files, so daily runs only fetch what's new;
 a full refresh happens on Mondays (or with FULL_REFRESH=1)."""
 import os, re, sys, json, time, base64, pathlib, datetime, threading, urllib.request, urllib.parse, urllib.error
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -533,6 +534,24 @@ def media():
     fill("profession", [e["id"] for e in load("professions").get("entries", [])], "/data/wow/media/profession/{}", ("icon",))
     fill("class", [e["id"] for e in load("classes").get("entries", []) if e.get("kind") == "Class"],
          "/data/wow/media/playable-class/{}", ("icon",))
+    # Drop renders that are missing (non-200) or Blizzard's checkerboard placeholder (one file shared by many ids).
+    renders = {u for k in ("creature", "mount", "pet") for u in out[k].values() if u}
+    checked = old.get("_checked", {}) if not FULL else {}
+
+    def head(u):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=30) as r:
+                return u, (r.status, r.headers.get("ETag", ""))
+        except Exception:
+            return u, (0, "")
+    for u, res in pmap(head, [u for u in renders if u not in checked], workers=12):
+        checked[u] = list(res)
+    etags = Counter(v[1] for u, v in checked.items() if u in renders and v[0] == 200 and v[1])
+    bad = {u for u, v in checked.items() if v[0] != 200 or etags[v[1]] >= 3}
+    for k in ("creature", "mount", "pet"):
+        out[k] = {i: ("" if u in bad else u) for i, u in out[k].items()}
+    out["_checked"] = checked
+    print(f"media: dropped {len(bad & renders)} missing or placeholder renders")
     (LIVE / "media.json").write_text(json.dumps({"updated": NOW.isoformat(timespec="seconds"), **out},
                                                 ensure_ascii=False, separators=(",", ":")))
 

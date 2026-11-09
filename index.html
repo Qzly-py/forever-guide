@@ -5,29 +5,25 @@
 <title>Forever Field Guide</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap">
 <style>
-/* Layout: a pocket field guide — sticky masthead + search, a scrolling tab strip of chapters, then filterable entry lists that expand in place. */
+/* Theme: an adventurer's field guide in the spirit of the game's interface: dark stone and leather,
+   gold-trimmed frames, parchment for the open entry, and the game's own item-quality and faction colours. */
 :root{
-  --bg:#f3f5f8; --surface:#ffffff; --sunk:#e7ebf1; --fg:#17202c; --muted:#5a6676; --line:#d5dbe4;
-  --accent:#9a6a12; --accent-ink:#ffffff; --sky:#2b6cb0;
-  --q-common:#4b5563; --q-uncommon:#1a8a1a; --q-rare:#0b5fc4; --q-epic:#8a2fd1; --q-legendary:#c25e00;
-  --ally:#2457a6; --horde:#a8261f; --both:#5a6676;
-  --f-display:"Marcellus","Palatino Linotype","Book Antiqua",Georgia,serif;
-  --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:dark;
+  --bg:#0b0907; --surface:#17120d; --sunk:#221a12; --fg:#efe3c8; --muted:#b4a27e; --line:#4a3a22;
+  --gold:#f8d47a; --gold-2:#c99a3e; --gold-3:#7a5a22;
+  --accent:#e3b448; --accent-ink:#1d1206; --sky:#7cc4ff;
+  --red-1:#9c1c12; --red-2:#5c0d07;
+  --parch:#efe2bf; --parch-2:#dcc69a; --ink:#2b1c0c; --ink-muted:#6b5232; --ink-line:#bfa271;
+  --q-poor:#9d9d9d; --q-common:#ffffff; --q-uncommon:#1eff00; --q-rare:#0070dd; --q-epic:#a335ee; --q-legendary:#ff8000; --q-artifact:#e6cc80;
+  --ally:#5a8cff; --horde:#ff4b3a; --both:#b4a27e;
+  --f-display:"Cinzel","Trajan Pro","Palatino Linotype",Georgia,serif;
+  --f-body:"Alegreya Sans","Segoe UI",system-ui,sans-serif;
   --f-data:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
-  --r:10px;
+  --r:6px;
+  --frame:0 0 0 1px #000, inset 0 0 0 1px rgba(255,214,130,.07), 0 2px 8px rgba(0,0,0,.55);
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#0e141c; --surface:#151d28; --sunk:#1c2633; --fg:#e6ebf2; --muted:#93a0b2; --line:#263243;
-  --accent:#e2b04a; --accent-ink:#1a1206; --sky:#7fb3f0;
-  --q-common:#c8ced8; --q-uncommon:#3fd03f; --q-rare:#4a9dff; --q-epic:#c27bff; --q-legendary:#ff9a2e;
-  --ally:#7aa7f2; --horde:#f07a72; --both:#93a0b2; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#0e141c; --surface:#151d28; --sunk:#1c2633; --fg:#e6ebf2; --muted:#93a0b2; --line:#263243;
-  --accent:#e2b04a; --accent-ink:#1a1206; --sky:#7fb3f0;
-  --q-common:#c8ced8; --q-uncommon:#3fd03f; --q-rare:#4a9dff; --q-epic:#c27bff; --q-legendary:#ff9a2e;
-  --ally:#7aa7f2; --horde:#f07a72; --both:#93a0b2; color-scheme:dark}
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--f-body);margin:0}
@@ -150,12 +146,98 @@ footer{color:var(--muted);font-size:13px;padding-block:20px 32px;border-top:1px 
 @media (min-width:1600px){ .split{grid-template-columns:minmax(420px,1fr) minmax(560px,1.3fr)} }
 
 @media (prefers-reduced-motion:no-preference){details.entry[open] .body{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:none}}}
+
+/* ===== WoW-inspired skin ===== */
+body{font-size:17px;background:
+  radial-gradient(1200px 600px at 70% -10%, rgba(120,80,30,.18), transparent 60%),
+  radial-gradient(900px 700px at -10% 110%, rgba(60,30,10,.35), transparent 60%),
+  repeating-linear-gradient(45deg, rgba(255,255,255,.012) 0 2px, transparent 2px 6px),
+  var(--bg)}
+a{color:var(--sky)} a:hover{color:#b4ddff}
+h2,h3,.brand,.navgroup,.pane-head h3{font-family:var(--f-display);letter-spacing:.02em}
+h2{color:var(--gold);font-weight:700;text-shadow:0 2px 0 #000,0 0 18px rgba(227,180,72,.18)}
+h2::after{content:"";display:block;height:2px;margin-top:8px;max-width:420px;background:linear-gradient(90deg,var(--gold-2),rgba(201,154,62,0))}
+h3{font-weight:500;color:var(--fg)}
+.eyebrow,dt,.count,.lv,.upd{color:var(--muted)}
+/* header: carved stone with a gold rail */
+header{background:linear-gradient(#251b12,#140f0a);border-bottom:0;box-shadow:0 1px 0 var(--gold-3),0 3px 0 #000,0 4px 0 var(--gold-2),0 8px 18px rgba(0,0,0,.6)}
+.brand{color:var(--gold);font-weight:700;text-shadow:0 2px 0 #000}
+.brand small{color:var(--gold-2);font-family:var(--f-display);letter-spacing:.14em;font-size:10px;white-space:nowrap}
+#q{background:#0d0a07;border:1px solid var(--gold-3);box-shadow:inset 0 2px 6px rgba(0,0,0,.7);color:var(--fg)}
+#q::placeholder{color:#8c7a58}
+#q:focus{outline:none;border-color:var(--gold);box-shadow:inset 0 2px 6px rgba(0,0,0,.7),0 0 0 2px rgba(227,180,72,.25)}
+/* navigation: leather tabs; the active one is a red-and-gold game button */
+nav a{background:linear-gradient(#2a2016,#1b140e);border:1px solid var(--line);color:var(--muted);font-family:var(--f-display);font-weight:500;letter-spacing:.03em}
+nav a:hover{color:var(--gold)}
+nav a[aria-current="page"],.btn{background:linear-gradient(#c1291b,var(--red-1) 45%,var(--red-2));color:var(--gold);
+  border:1px solid #e0b347;box-shadow:inset 0 1px 0 rgba(255,220,150,.45),0 0 0 1px #000;text-shadow:0 1px 0 #000;font-weight:700}
+/* framed panels */
+details.entry,.panel,.stat,.empty,.filters select,.toggle{background:linear-gradient(#1d1610,#141009);border:1px solid var(--gold-3);box-shadow:var(--frame)}
+details.entry>summary:hover,.stat:hover{background:linear-gradient(#2a2016,#1a130d)}
+.filters select,.toggle{color:var(--fg)}
+.stat b{color:var(--gold);font-family:var(--f-display);font-weight:700;text-shadow:0 2px 0 #000}
+.tag{background:#0f0b07;border:1px solid #3a2c18;color:#d6c39b}
+.tag.new{background:linear-gradient(#e9c35a,#b8862b);color:#201304;border-color:#f6dc8b}
+.tag.Alliance{color:var(--ally);border-color:#26407a} .tag.Horde{color:var(--horde);border-color:#6e1d16}
+.tag.Rare,.tag.Rare\ elite{color:#c7d2ff} .tag.Elite,.tag.Rare\ elite{border-color:var(--gold-2)}
+.chips span{border-color:#3a2c18;background:#100c08}
+.q-Poor{color:var(--q-poor)} .q-Common{color:var(--q-common)} .q-Uncommon{color:var(--q-uncommon)} .q-Rare{color:var(--q-rare)} .q-Epic{color:var(--q-epic)} .q-Legendary{color:var(--q-legendary)} .q-Artifact,.q-Heirloom{color:var(--q-artifact)}
+/* icons: square game-style frames */
+.ico{border-radius:4px;border:1px solid #000;box-shadow:0 0 0 1px var(--gold-3);background:#000}
+.portrait{display:block;width:100%;max-height:340px;object-fit:contain;background:radial-gradient(circle at 50% 40%,#3b2c1a,#120d08 70%);border:1px solid var(--gold-3);border-radius:var(--r);box-shadow:var(--frame)}
+.thumb{width:54px;height:54px;flex:none;border-radius:6px;object-fit:cover;object-position:50% 45%;filter:brightness(1.35) contrast(1.05);background:radial-gradient(circle,#3b2c1a,#0d0906);border:1px solid #000;box-shadow:0 0 0 1px var(--gold-3)}
+.row0{display:flex;gap:12px;align-items:center}
+.row0>div{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+footer{border-top:1px solid var(--gold-3);color:var(--muted)}
+/* the open entry reads like a page in a quest log */
+.parch,.pane .body{background:linear-gradient(var(--parch),var(--parch-2));color:var(--ink)}
+.pane .body a,.parch a{color:#7a1d0e}
+.pane .body dt,.parch dt{color:var(--ink-muted)}
+.pane .body .chips span,.parch .chips span{background:rgba(255,255,255,.35);border-color:var(--ink-line);color:var(--ink)}
+.pane .body .tag{background:rgba(255,255,255,.4);color:var(--ink);border-color:var(--ink-line)}
+.pane .body .q-Uncommon{color:#127a00} .pane .body .q-Common{color:var(--ink)} .pane .body .q-Rare{color:#004fa3} .pane .body .q-Epic{color:#7a1fbf} .pane .body .q-Legendary{color:#b85a00}
+details.entry[open] .body{background:linear-gradient(var(--parch),var(--parch-2));color:var(--ink);border-radius:0 0 var(--r) var(--r)}
+details.entry[open] .body a{color:#7a1d0e} details.entry[open] .body dt{color:var(--ink-muted)}
+details.entry[open] .body .chips span{background:rgba(255,255,255,.35);border-color:var(--ink-line);color:var(--ink)}
+.related{display:grid;gap:10px}
+.related h4{margin:4px 0 2px;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;color:var(--ink-muted);text-transform:uppercase}
+.rel{display:flex;flex-wrap:wrap;gap:6px}
+.rel a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;font-size:14px;padding:3px 9px 3px 4px;border-radius:999px;border:1px solid var(--ink-line);background:rgba(255,255,255,.35);color:var(--ink)}
+.rel a:not(:has(img)){padding-left:9px}
+.rel a img{width:20px;height:20px;border-radius:50%;object-fit:cover;background:#2b1c0c}
+.rel a:hover{background:rgba(255,255,255,.65)}
+.permalink{font-size:13px}
+.entrypage{display:grid;gap:16px}
+.entrypage .panel.parch{border-color:var(--ink-line)}
+@media (min-width:1100px){ .entrypage{grid-template-columns:minmax(0,1.35fr) minmax(360px,1fr);align-items:start} }
+/* interactive zone map */
+.map{position:relative;aspect-ratio:3/2;width:100%;border:1px solid var(--gold-3);border-radius:var(--r);overflow:hidden;box-shadow:var(--frame);
+  background:radial-gradient(circle at 50% 50%,rgba(239,226,191,.08),transparent 70%),
+  linear-gradient(rgba(201,154,62,.12) 1px,transparent 1px) 0 0/10% 10%,linear-gradient(90deg,rgba(201,154,62,.12) 1px,transparent 1px) 0 0/10% 10%,#120d08}
+.map .pin{position:absolute;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;border:1px solid #000;cursor:pointer;padding:0}
+.map .pin:hover,.map .pin:focus{transform:scale(1.8);z-index:3;outline:none}
+.map .lbl{position:absolute;left:8px;top:6px;font:700 13px var(--f-display);color:var(--gold);text-shadow:0 1px 0 #000;pointer-events:none}
+.map .tip{position:absolute;z-index:4;pointer-events:none;background:#0b0907f2;border:1px solid var(--gold-2);color:var(--fg);font-size:13px;padding:4px 8px;border-radius:4px;white-space:nowrap;transform:translate(-50%,-130%)}
+.layers{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.layers label{display:inline-flex;align-items:center;gap:6px;font-size:13px;padding:4px 9px;border:1px solid var(--ink-line);border-radius:999px;background:rgba(255,255,255,.35);cursor:pointer}
+.layers i{width:10px;height:10px;border-radius:50%;border:1px solid #000;display:inline-block}
+.L-quests{background:#f8d47a} .L-hunterpets{background:#5ad35a} .L-rares{background:#c27bff} .L-treasures{background:#ff9a2e} .L-services{background:#7cc4ff}
+@media (min-width:1100px){
+  nav{background:linear-gradient(90deg,#16110c,#120e0a);border-right:1px solid var(--gold-3);box-shadow:1px 0 0 #000,3px 0 12px rgba(0,0,0,.5)}
+  nav a{background:transparent;border:1px solid transparent}
+  nav a:hover{background:rgba(227,180,72,.07);border-color:#3a2c18}
+  .navgroup{color:var(--gold-2);font-weight:700}
+  .split details.entry.sel{border-color:var(--gold);box-shadow:var(--frame),inset 3px 0 0 var(--gold)}
+  .pane{background:#120d08;border:1px solid var(--gold-2);box-shadow:var(--frame),0 0 0 4px #0b0907,0 0 0 5px var(--gold-3)}
+  .pane-head{background:linear-gradient(#2a1f14,#17110b);border-bottom:2px solid var(--gold-3)}
+  .pane .body{border-radius:0 0 var(--r) var(--r)}
+}
 </style>
 
 <header>
   <div class="wrap gut">
     <div class="mast">
-      <h1 class="brand"><small>World of Warcraft</small>Forever Field Guide</h1>
+      <h1 class="brand"><small>Fan guide · WoW: Forever</small>Forever Field Guide</h1>
       <div class="upd" id="upd">Loading…</div>
     </div>
     <div class="searchrow"><input id="q" type="search" placeholder="Search everything — mounts, bosses, zones…" aria-label="Search the guide" autocomplete="off"></div>
@@ -336,10 +418,112 @@ function paged(el, sec, items){
   el.innerHTML=""; more();
 }
 
+/* ---------- pictures: Blizzard's creature renders and icons (live/media.json) ---------- */
+let MEDIA={};
+const slug=s=>String(s||"").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+const keyOf=it=>String(it.id||slug(it.name||it.title||it.family));
+const IDX={}; /* lazy lookups by name */
+function byName(sec){ if(!IDX[sec]){ const m=new Map(); for(const it of (DATA[sec]||[])){ const k=String(it.name||it.title||"").toLowerCase(); if(k&&!m.has(k)) m.set(k,it);} IDX[sec]=m; } return IDX[sec]; }
+function byId(sec){ const k=sec+"#id"; if(!IDX[k]){ const m=new Map(); for(const it of (DATA[sec]||[])) if(it.id!=null) m.set(String(it.id),it); IDX[k]=m; } return IDX[k]; }
+function imgOf(sec,it){
+  const M=MEDIA; if(!M||!it) return "";
+  if(sec==="hunterpets") return (M.creature||{})[it.display]||"";
+  if(sec==="mounts") return (M.mount||{})[it.id]||"";
+  if(sec==="pets") return (M.pet||{})[it.id]||"";
+  return "";
+}
+function iconOf(sec,it){
+  const M=MEDIA||{};
+  if(it.icon) return it.icon;
+  if(sec==="achievements") return (M.achievement||{})[it.id]||"";
+  if(sec==="talents") return (M.spell||{})[it.spell]||"";
+  if(sec==="professions") return (M.profession||{})[it.id]||"";
+  if(sec==="classes"&&it.kind==="Class") return (M.class||{})[it.id]||"";
+  if(sec==="collectibles"&&it.itemId) return (byId("items").get(String(it.itemId))||{}).icon||"";
+  if(sec==="recipes"&&it.madeId) return (byId("items").get(String(it.madeId))||{}).icon||"";
+  if(sec==="itemsets"&&arr(it.pieces).length) return (byName("items").get(String(it.pieces[0]).toLowerCase())||{}).icon||"";
+  return "";
+}
+function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
+
+/* ---------- Related: links between sections ---------- */
+const lk=(sec,it)=>{ if(!it) return ""; const p=imgOf(sec,it)||iconOf(sec,it); return `<a href="#${sec}/${encodeURIComponent(keyOf(it))}">${p?`<img src="${esc(p)}" alt="" loading="lazy">`:""}${esc(it.name||it.title||it.family)}</a>`; };
+const lkName=(sec,name)=>{ const it=byName(sec).get(String(name||"").toLowerCase()); return it?lk(sec,it):""; };
+const relBlock=(title,links,more)=>{ links=links.filter(Boolean); return links.length?`<div><h4>${esc(title)}${more?` · ${more}`:""}</h4><div class="rel">${links.join("")}</div></div>`:""; };
+const inZone=(it,z)=>{ const zl=z.toLowerCase(); return [it.zone,it.where].some(v=>String(v||"").toLowerCase().includes(zl))||(it.pts&&Object.keys(it.pts).some(k=>k.toLowerCase()===zl)); };
+const zoneOf=it=>it.zone||(it.pts&&Object.keys(it.pts)[0])||"";
+function related(sec,it){
+  const b=[], cap=(a,n=24)=>a.slice(0,n), same=(s,f)=>(DATA[s]||[]).filter(x=>x!==it&&f(x));
+  const z=zoneOf(it);
+  if(z&&sec!=="zones") b.push(relBlock("Zone",[lkName("zones",z)]));
+  if(sec==="zones"){ const n=it.name;
+    for(const [s,l] of [["quests","Quests here"],["hunterpets","Tameable beasts here"],["rares","Rares here"],["instances","Dungeons & raids"],["treasures","Treasures here"],["services","NPCs here"]]){
+      const xs=(DATA[s]||[]).filter(x=>inZone(x,n)); if(xs.length) b.push(relBlock(l,cap(xs,40).map(x=>lk(s,x)),xs.length>40?`${xs.length} in total`:""));}
+  }
+  if(sec==="hunterpets"&&it.family){ b.push(relBlock(`More from the ${it.family} family`,cap(same("hunterpets",x=>x.family===it.family&&x.name)).map(x=>lk(sec,x))));
+    if(z) b.push(relBlock(`Other beasts in ${z}`,cap(same("hunterpets",x=>x.name&&zoneOf(x)===z)).map(x=>lk(sec,x)))); }
+  if(sec==="quests"){ b.push(relBlock("Complete first",arr(it.after).map(n=>lkName("quests",n))), relBlock("Leads to",[lkName("quests",it.leadsTo)]),
+      relBlock("Item rewards",arr(it.rewardItems).map(n=>lkName("items",n)))); if(z) b.push(relBlock(`More quests in ${z}`,cap(same("quests",x=>zoneOf(x)===z),18).map(x=>lk(sec,x)))); }
+  if(sec==="items"){ const n=String(it.name||"");
+    b.push(relBlock("Rewarded by",cap(same("quests",x=>arr(x.rewardItems).includes(n))).map(x=>lk("quests",x))),
+      relBlock("Made by",cap((DATA.recipes||[]).filter(r=>String(r.madeId)===String(it.id))).map(x=>lk("recipes",x))),
+      relBlock("Part of",[lkName("itemsets",it.set)]),
+      relBlock("Sold by",cap((DATA.services||[]).filter(s=>arr(s.sells).includes(n))).map(x=>lk("services",x))),
+      relBlock("Found in",cap((DATA.treasures||[]).filter(t=>arr(t.drops).includes(n))).map(x=>lk("treasures",x)))); }
+  if(sec==="itemsets") b.push(relBlock("Pieces",arr(it.pieces).map(n=>lkName("items",n))));
+  if(sec==="recipes") b.push(relBlock("Makes",[it.madeId?lk("items",byId("items").get(String(it.madeId))):""]), relBlock(`More ${it.profession||""} recipes`,cap(same("recipes",x=>x.profession===it.profession&&x.category===it.category),18).map(x=>lk(sec,x))));
+  if(sec==="rares"||sec==="treasures") b.push(relBlock("Drops",cap(arr(it.drops).map(n=>lkName("items",n)),30)), z?relBlock(`More in ${z}`,cap(same(sec,x=>zoneOf(x)===z),18).map(x=>lk(sec,x))):"");
+  if(sec==="services") b.push(relBlock("Sells",cap(arr(it.sells).map(n=>lkName("items",n)),40)), z?relBlock(`Other NPCs in ${z}`,cap(same(sec,x=>x.zone===z),18).map(x=>lk(sec,x))):"");
+  if(sec==="talents") b.push(relBlock(`More ${it.spec||""} talents`,cap(same(sec,x=>x.spec===it.spec&&x.class===it.class),30).map(x=>lk(sec,x))), relBlock("Guides",same("guides",x=>x.class===it.class&&x.kind==="Class guide").map(x=>lk("guides",x))));
+  if(sec==="classes"&&it.kind!=="Race") b.push(relBlock("Guides",same("guides",x=>x.class===it.name).map(x=>lk("guides",x))), relBlock("Talents",cap(same("talents",x=>x.class===it.name),40).map(x=>lk("talents",x))));
+  if(sec==="guides"&&it.class) b.push(relBlock(`More ${it.class} guides`,same(sec,x=>x.class===it.class).map(x=>lk(sec,x))), relBlock("Class",[lkName("classes",it.class)]));
+  if(sec==="achievements") b.push(relBlock(`More in ${it.sub||it.kind||"this category"}`,cap(same(sec,x=>x.kind===it.kind&&x.sub===it.sub),24).map(x=>lk(sec,x))));
+  if(sec==="instances") b.push(relBlock("Boss loot",cap(arr(it.notableLoot).map(n=>lkName("items",n)),30)));
+  return b.filter(Boolean).length?`<div class="related">${b.filter(Boolean).join("")}</div>`:"";
+}
+
+/* ---------- interactive maps (coordinates on a grid; no game artwork) ---------- */
+const MAPL=[["quests","Quest givers"],["hunterpets","Tameable beasts"],["rares","Rares"],["treasures","Treasures"],["services","NPCs"]];
+function mapHTML(zone,focus){
+  const zl=zone.toLowerCase(), pins=[];
+  for(const [s] of MAPL) for(const it of (DATA[s]||[])){
+    const pts=it.pts&&Object.entries(it.pts).find(([k])=>k.toLowerCase()===zl); if(!pts) continue;
+    const mine=focus&&it===focus; const list=mine?pts[1]:pts[1].slice(0,s==="hunterpets"?4:3);
+    for(const [x,y] of list) pins.push(`<button class="pin L-${s}${mine?" me":""}" data-l="${s}" style="left:${x}%;top:${y}%${mine?";transform:scale(1.6);z-index:2;box-shadow:0 0 0 2px #fff":""}" data-href="#${s}/${encodeURIComponent(keyOf(it))}" data-tip="${esc((it.name||it.title)+" ("+x.toFixed(0)+", "+y.toFixed(0)+")")}" aria-label="${esc(it.name||it.title)}"></button>`);
+  }
+  if(!pins.length) return "";
+  const present=new Set(pins.map(p=>p.match(/data-l="(\w+)"/)[1]));
+  return `<div><h4 style="margin:4px 0 2px;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;color:inherit;opacity:.75">Map of ${esc(zone)}</h4>
+    <div class="layers">${MAPL.filter(([s])=>present.has(s)).map(([s,l])=>`<label><input type="checkbox" data-layer="${s}" checked><i class="L-${s}"></i>${esc(l)}</label>`).join("")}</div>
+    <div class="map" data-map><span class="lbl">${esc(zone)}</span>${pins.join("")}</div>
+    <p class="src" style="margin:4px 0 0;opacity:.8">Positions use the in-game map's coordinates (0-100). Hover a pin for its name; click to open it.</p></div>`;
+}
+document.addEventListener("change",e=>{ const c=e.target.closest("[data-layer]"); if(!c) return; const m=c.closest("div").parentElement.querySelector("[data-map]");
+  m.querySelectorAll(`[data-l="${c.dataset.layer}"]`).forEach(p=>p.style.display=c.checked?"":"none"); });
+document.addEventListener("mouseover",e=>{ const p=e.target.closest(".map .pin"); const m=e.target.closest(".map"); if(!m) return; m.querySelector(".tip")?.remove();
+  if(p){ const t=document.createElement("span"); t.className="tip"; t.textContent=p.dataset.tip; t.style.left=p.style.left; t.style.top=p.style.top; m.appendChild(t);} });
+document.addEventListener("click",e=>{ const p=e.target.closest(".map .pin"); if(p){ e.preventDefault(); location.hash=p.dataset.href; } });
+
+/* ---------- full page for one entry ---------- */
+function renderEntry(sec,it){
+  const meta=SECTIONS.find(s=>s.id===sec)||{}; const h=CFG[sec].head(it);
+  const pic=imgOf(sec,it), icon=iconOf(sec,it), z=sec==="zones"?it.name:zoneOf(it);
+  const map=z?mapHTML(z,sec==="zones"?null:it):"";
+  $("#main").innerHTML=`<p class="eyebrow" style="margin:0 0 6px"><a href="#${sec}">${esc(meta.label||sec)}</a> ›</p>
+    <h2 class="${h.cls||""}">${icon&&!pic?`<img class="ico" src="${esc(icon)}" alt="" style="width:36px;height:36px;vertical-align:-6px">`:""}${esc(h.title)}</h2>
+    ${h.tags?`<div class="tags" style="margin:10px 0 16px">${h.tags}${h.right?`<span class="tag">${esc(h.right)}</span>`:""}</div>`:""}
+    <div class="entrypage">
+      <div class="panel parch" style="padding:20px 22px;display:grid;gap:14px">${CFG[sec].body(it)}${whLink(sec,it)}${related(sec,it)}</div>
+      <div style="display:grid;gap:14px;align-content:start">${pic?`<img class="portrait" src="${esc(pic)}" alt="${esc(h.title)}">`:""}${map?`<div class="panel parch" style="padding:14px">${map}</div>`:""}</div>
+    </div>`;
+  window.scrollTo(0,0);
+}
+
 function entryHTML(sec,it){
   const h=CFG[sec].head(it);
-  const icon=h.icon||it.icon;
-  return `<details class="entry"><summary><div class="row1"><h3 class="${h.cls||""}">${icon?`<img class="ico" src="${esc(icon)}" alt="" loading="lazy" width="22" height="22">`:""}${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</summary><div class="body">${CFG[sec].body(it)}${whLink(sec,it)}</div></details>`;
+  const pic=imgOf(sec,it), icon=pic?"":(h.icon||iconOf(sec,it));
+  const thumb=pic?`<img class="thumb" src="${esc(pic)}" alt="" loading="lazy">`:"";
+  return `<details class="entry" data-sec="${sec}" data-key="${esc(keyOf(it))}"><summary><div class="row0">${thumb}<div><div class="row1"><h3 class="${h.cls||""}">${icon?`<img class="ico" src="${esc(icon)}" alt="" loading="lazy" width="22" height="22">`:""}${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</div></div></summary><div class="body">${CFG[sec].body(it)}${whLink(sec,it)} <a class="permalink" href="#${sec}/${encodeURIComponent(keyOf(it))}">Full page →</a></div></details>`;
 }
 
 function renderList(sec){
@@ -385,7 +569,12 @@ function showInPane(det){
   document.querySelectorAll("details.entry.sel").forEach(d=>d.classList.remove("sel"));
   det.classList.add("sel");
   const sum=det.querySelector("summary"), body=det.querySelector(".body");
-  pane.innerHTML=`<div class="pane-head">${sum.innerHTML}</div>${body?body.outerHTML:""}`;
+  const sec=det.dataset.sec, it=sec&&findEntry(sec,det.dataset.key);
+  const pic=it?imgOf(sec,it):"", z=it?(sec==="zones"?it.name:zoneOf(it)):"";
+  pane.innerHTML=`<div class="pane-head">${sum.innerHTML}</div>${pic?`<div style="padding:14px 22px 0;background:#120d08"><img class="portrait" src="${esc(pic)}" alt=""></div>`:""}${body?body.outerHTML:""}`;
+  const pb=pane.querySelector(".body"); pb?.querySelector(".row0 .thumb")?.remove();
+  pane.querySelector(".pane-head .thumb")?.remove();
+  if(pb&&it){ const extra=(z?mapHTML(z,sec==="zones"?null:it):"")+related(sec,it); if(extra) pb.insertAdjacentHTML("beforeend",extra); }
   pane.scrollTop=0;
 }
 function selectFirst(){ if(DESK.matches) showInPane(document.querySelector("#main details.entry")); }
@@ -431,8 +620,9 @@ function renderSystems(){
 
 function route(){
   const q=$("#q").value.trim();
-  let id=(location.hash||"#home").slice(1); if(!SECTIONS.some(s=>s.id===id)) id="home";
+  let [id,key]=(location.hash||"#home").slice(1).split("/"); key=key?decodeURIComponent(key):""; if(!SECTIONS.some(s=>s.id===id)) id="home";
   document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
+  if(DATA&&key&&CFG[id]&&!q){ const it=findEntry(id,key); if(it) return renderEntry(id,it); }
   if(!DATA) return;
   if(q.length>=2) return renderSearch(q);
   if(id==="home") renderHome(); else if(id==="systems") renderSystems(); else renderList(id);
@@ -462,8 +652,9 @@ function loadItems(){
     }
     DATA.items=[...byId.values()];
     EMPTY.items="The item database couldn't load. Reload the page to try again.";
-    const id=(location.hash||"#home").slice(1);
-    if($("#q").value.trim().length>=2||["items","home","mounts","pets"].includes(id)) route();
+    for(const k in IDX) delete IDX[k];
+    const [id,key]=(location.hash||"#home").slice(1).split("/");
+    if($("#q").value.trim().length>=2||key||["items","home","mounts","pets","recipes","collectibles","itemsets"].includes(id)) route();
   });
 }
 /* Blizzard's official Forever data (live/*.json, refreshed daily, enriched with Questie's levels, zones and sources).
@@ -482,7 +673,7 @@ function mergeInto(sec, entries, prep){
 }
 const LIVE_FILES=["treasures","instances","hunterpets","mounts","pets","toys","titles","itemsets","achievements","reputations","classes","talents","quests","professions","recipes","rares","services"];
 function loadLive(){
-  Promise.all(LIVE_FILES.map(f=>opt(`live/${f}.json`))).then(res=>{
+  Promise.all(LIVE_FILES.map(f=>opt(`live/${f}.json`)).concat([opt("live/media.json")])).then(res=>{
     const L={}; LIVE_FILES.forEach((f,i)=>L[f]=(res[i]&&res[i].entries)||[]);
     for(const f of (DATA.hunterpets||[])) if(!f.name&&f.family) FAM[f.family]=f;
     mergeInto("instances", L.instances);
@@ -505,8 +696,9 @@ function loadLive(){
     mergeInto("rares", L.rares);
     mergeInto("services", L.services);
     DATA.treasures=L.treasures.map(e=>({...e,_live:true}));
-    const id=(location.hash||"#home").slice(1);
-    if($("#q").value.trim().length>=2||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services","treasures"].includes(id)) route();
+    MEDIA=res[LIVE_FILES.length]||{}; for(const k in IDX) delete IDX[k];
+    const [id,key]=(location.hash||"#home").slice(1).split("/");
+    if($("#q").value.trim().length>=2||key||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services","treasures"].includes(id)) route();
   });
 }
 Promise.all([
