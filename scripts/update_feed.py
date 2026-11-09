@@ -65,7 +65,18 @@ for url, cat, forever_only in FEEDS:
             txt = raw.decode("utf-8", "replace")
             txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", txt)
             txt = re.sub(r"&(?!(?:[a-zA-Z]+|#\d+|#x[0-9a-fA-F]+);)", "&amp;", txt)
-            root = ET.fromstring(txt.encode("utf-8"))
+            try:
+                root = ET.fromstring(txt.encode("utf-8"))
+            except ET.ParseError:
+                # Last resort: rebuild a minimal feed from each <item>'s title, link, date and summary.
+                root = ET.Element("rss")
+                for block in re.findall(r"<item\b.*?</item>", txt, re.S):
+                    item = ET.SubElement(root, "item")
+                    for tag in ("title", "link", "pubDate", "description", "category"):
+                        m = re.search(rf"<{tag}\b[^>]*>(.*?)</{tag}>", block, re.S)
+                        if m:
+                            val = re.sub(r"^<!\[CDATA\[|\]\]>$", "", m.group(1).strip(), flags=re.S)
+                            ET.SubElement(item, tag).text = html.unescape(val)
     except Exception as e:
         print(f"skip {url}: {e}")
         continue
