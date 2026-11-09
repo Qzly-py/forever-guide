@@ -333,9 +333,9 @@ if it:
             names = [where_npc(x) for x in drops[:6]]
             parts.append("Drops from " + ", ".join(names) + (f" and {len(drops) - 6} more" if len(drops) > 6 else ""))
         if at(r, 3):
-            parts.append("Found in " + ", ".join(where_obj(x) for x in at(r, 3)[:4] if where_obj(x)))
+            parts.append("Found in " + ", ".join(list(dict.fromkeys(where_obj(x) for x in at(r, 3)[:12] if where_obj(x)))[:4]))
         if at(r, 14):
-            parts.append("Sold by " + ", ".join(where_npc(x) for x in at(r, 14)[:5] if where_npc(x)))
+            parts.append("Sold by " + ", ".join(list(dict.fromkeys(where_npc(x) for x in at(r, 14)[:12] if where_npc(x)))[:5]))
         if at(r, 6):
             parts.append("Reward from " + ", ".join(f"“{qname(q)}”" for q in at(r, 6)[:5] if qname(q)))
         if at(r, 4):

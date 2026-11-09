@@ -81,6 +81,7 @@ dd{margin:0;min-width:0;overflow-wrap:anywhere}
 .chips{display:flex;flex-wrap:wrap;gap:5px}
 .chips span{font-size:13px;padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
 .src{font-size:13px}
+.ico{width:22px;height:22px;border-radius:4px;vertical-align:-4px;margin-right:8px;border:1px solid var(--line)}
 .q-Common{color:var(--q-common)} .q-Uncommon{color:var(--q-uncommon)} .q-Rare{color:var(--q-rare)} .q-Epic{color:var(--q-epic)} .q-Legendary{color:var(--q-legendary)}
 .empty{padding:28px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
 
@@ -125,6 +126,7 @@ footer{color:var(--muted);font-size:13px;padding-block:20px 32px;border-top:1px 
 const SECTIONS = [
   {id:"home", label:"Overview"},
   {id:"news", label:"News"},
+  {id:"guides", label:"Guides", title:"Guides", lede:"Class and spec guides, levelling, professions and how-tos: stat priorities, rotations, talents, best races and tips, each linked to its full source guide."},
   {id:"mounts", label:"Mounts", title:"Mounts", lede:"Every mount we can confirm in Forever, with how and where to get it."},
   {id:"pets", label:"Pets", title:"Companion pets", lede:"Vanity pets and how to collect them."},
   {id:"hunterpets", label:"Hunter pets", title:"Hunter pets", lede:"Tameable families, their abilities and the notable beasts worth taming."},
@@ -136,7 +138,11 @@ const SECTIONS = [
   {id:"rares", label:"Rares & world bosses", title:"Rare elites & world bosses", lede:"Where they spawn and what they drop."},
   {id:"pvp", label:"PvP", title:"PvP", lede:"Honor ranks, battlegrounds, world PvP and rewards."},
   {id:"events", label:"Events", title:"World events", lede:"Holidays and recurring events, when they run and what they give."},
-  {id:"recipes", label:"Recipes", title:"Recipes", lede:"Profession recipes, camp objects and blueprints, with where to learn each one."},
+  {id:"recipes", label:"Recipes", title:"Recipes", lede:"Profession recipes, camp objects and blueprints, with what they make, the materials and where to learn each one."},
+  {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
+  {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
+  {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
+  {id:"services", label:"NPC finder", title:"NPC finder", lede:"Flight masters, trainers, innkeepers, stable masters, banks, auctioneers and battlemasters, with map coordinates."},
   {id:"items", label:"Item database", title:"Item database", lede:"Every item from the original game with stats and where it drops. Blizzard's live Forever data replaces each one as it arrives, and Forever-only items are added automatically."},
   {id:"travel", label:"Travel", title:"Travel", lede:"Flight paths, boats, zeppelins and portals, including Forever's new routes."},
   {id:"zones", label:"Zones", title:"Zones", lede:"Every zone by level range, including Forever's new and reworked areas."},
@@ -162,12 +168,34 @@ const tagsFor = (it, keys)=>keys.map(k=>{
   + (it.confidence==="datamined"?`<span class="tag carry">Datamined</span>`:"");
 const dlFor = (it, pairs)=>{
   const rows = pairs.filter(([k])=>has(it[k])).map(([k,label])=>{
-    const v=it[k]; const val = (k==="steps"&&Array.isArray(v))?`<ol class="plain" style="margin:0;padding-left:18px">${arr(v).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`:Array.isArray(v)?`<div class="chips">${arr(v).map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:esc(v);
+    const v=it[k];
+    const OL=["steps","rotation","statPriority","route","strategy"], UL=["bossLoot","tips","bonuses","standings","racials","books","bestRaces","keyGear","reputation"];
+    const list=(tag)=>`<${tag} class="plain" style="margin:0;padding-left:18px">${arr(v).map(x=>`<li>${esc(x)}</li>`).join("")}</${tag}>`;
+    const val = (OL.includes(k)&&Array.isArray(v))?list("ol"):(UL.includes(k)&&Array.isArray(v))?list("ul"):Array.isArray(v)?`<div class="chips">${arr(v).map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:esc(v);
     return `<dt>${label}</dt><dd>${val}</dd>`;}).join("");
   return rows?`<dl>${rows}</dl>`:"";
 };
+const WH = {hunterpets:"npc", rares:"npc", services:"npc", quests:"quest", achievements:"achievement", itemsets:"item-set"};
+const whLink = (sec,it)=>{
+  let kind=WH[sec], id=it.id;
+  if(sec==="talents"&&it.spell){kind="spell";id=it.spell;}
+  if(sec==="collectibles"&&it.itemId){kind="item";id=it.itemId;}
+  if(sec==="recipes"&&it.madeId){kind="item";id=it.madeId;}
+  return kind&&id&&it._live?` <a class="src" href="https://www.wowhead.com/forever/${kind}=${esc(id)}" target="_blank" rel="noopener">Wowhead ↗</a>`:"";
+};
 const srcLink = it=>has(it.sourceUrl)?`<a class="src" href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">Source ↗</a>`:"";
 
+/* "In this zone" counts, built from the other sections; each count runs a search for the zone name */
+function zoneCounts(z){
+  if(!DATA||!z) return "";
+  const zl=z.toLowerCase(); const inZ=(it,keys)=>keys.some(k=>String(it[k]||"").toLowerCase().includes(zl));
+  const parts=[["quests",["zone"],"quests"],["hunterpets",["where","zone"],"tameable beasts"],["rares",["where"],"rares"],["services",["zone"],"NPCs"]]
+    .map(([sec,keys,lab])=>[(DATA[sec]||[]).filter(it=>inZ(it,keys)).length,lab]).filter(([n])=>n);
+  return parts.length?`<p class="src">In this zone: ${parts.map(([n,l])=>`${n} ${l}`).join(" · ")} · <a href="#" data-zsearch="${esc(z)}">search everything in ${esc(z)}</a></p>`:"";
+}
+document.addEventListener("click",e=>{const a=e.target.closest("[data-zsearch]"); if(!a) return; e.preventDefault(); $("#q").value=a.dataset.zsearch; route(); window.scrollTo(0,0);});
+const GORDER=["Class guide","Levelling","Class quest","How-to","Profession","Reputation","Travel","Camp object"];
+const GORD=it=>{const i=GORDER.indexOf(it.kind);return i<0?99:i;};
 const CFG = {
   mounts:{filters:["faction","source","type"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:it.speed, tags:tagsFor(it,["faction","source","type"])}),
@@ -175,33 +203,48 @@ const CFG = {
   pets:{filters:["faction","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction","source","family"])}),
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["cost","Cost"]])+srcLink(it)},
-  hunterpets:{filters:["family"], sort:(a,b)=>(a.family||"").localeCompare(b.family||"")||((a.name?1:0)-(b.name?1:0))||(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name||`${it.family} (family)`, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it, it.name?["family"]:[])}),
-    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["role","Role"],["diet","Diet"],["abilities","Abilities"]])+srcLink(it)},
+  hunterpets:{filters:["family","zone","rank"], sort:(a,b)=>(a.family||"").localeCompare(b.family||"")||((a.name?1:0)-(b.name?1:0))||lvMin(a.levels)-lvMin(b.levels)||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name||`${it.family} (family)`, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it, it.name?["family","rank"]:[])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["role","Role"],["diet","Diet"],["abilities","Abilities"]])+(it.name&&FAM[it.family]?`<p class="src">${esc(it.family)} family: ${esc(arr(FAM[it.family].abilities).join(", "))}${has(FAM[it.family].diet)?` · eats ${esc(FAM[it.family].diet)}`:""}</p>`:"")+srcLink(it)},
   gear:{filters:["slot","quality","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, cls:"q-"+(it.quality||""), right:it.level?`Req ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])}),
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["classes","Used by"]])+srcLink(it)},
   recipes:{filters:["profession","source"], sort:(a,b)=>(a.profession||"").localeCompare(b.profession||"")||(parseInt(a.skill)||0)-(parseInt(b.skill)||0),
     head:it=>({title:it.name, right:has(it.skill)?`Skill ${it.skill}`:"", tags:tagsFor(it,["profession","source"])}),
-    body:it=>(has(it.makes)?`<p>${esc(it.makes)}</p>`:"")+(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"]])+srcLink(it)},
+    body:it=>(has(it.makes)?`<p>Makes: ${esc(it.makes)}</p>`:"")+(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["reagents","Materials"],["category","Category"],["where","Where"]])+srcLink(it)},
   items:{filters:["quality","itemClass","slot","source"], sort:(a,b)=>(b.level||0)-(a.level||0)||(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name, cls:"q-"+(it.quality||""), right:it.level?`iLvl ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])+(it.api?`<span class="tag">Live Forever data</span>`:`<span class="tag carry">Original-game data</span>`)}),
-    body:it=>(arr(it.stats).length?`<ul class="plain">${arr(it.stats).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:"")+dlFor(it,[["where","Where"],["subclass","Type"],["reqLevel","Requires level"],["sellPrice","Sells for"]])+(it.id?`<a class="src" href="https://www.wowhead.com/forever/item=${esc(it.id)}" target="_blank" rel="noopener">Drops, sources and comments ↗</a>`:"")},
+    head:it=>({title:it.name, icon:it.icon, cls:"q-"+(it.quality||""), right:it.level?`iLvl ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])+(it.api?`<span class="tag">Live Forever data</span>`:`<span class="tag carry">Original-game data</span>`)}),
+    body:it=>(arr(it.stats).length?`<ul class="plain">${arr(it.stats).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:"")+dlFor(it,[["where","Where"],["set","Part of set"],["subclass","Type"],["reqLevel","Requires level"],["durability","Durability"],["buyPrice","Costs"],["sellPrice","Sells for"]])+(it.id?`<a class="src" href="https://www.wowhead.com/forever/item=${esc(it.id)}" target="_blank" rel="noopener">Drops, sources and comments ↗</a>`:"")},
   travel:{filters:["kind","faction"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:"", tags:tagsFor(it,["kind","faction"])}),
     body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["from","From"],["to","To"]])+srcLink(it)},
   quests:{filters:["zone","kind","faction"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels)||(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["zone","kind","faction"])}),
-    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["startsAt","Starts at"],["steps","Steps"],["reward","Reward"]])+srcLink(it)},
+    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["zone","kind","faction","repeatable"])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+(has(it.how)&&it.how!==it.notes?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["startsAt","Starts at"],["endsAt","Turn in to"],["steps","Steps"],["reqLevel","Requires level"],["after","Complete first"],["leadsTo","Leads to"],["classes","Classes"],["races","Races"],["reward","Reward"],["rewardItems","Item rewards"],["xp","Experience"],["money","Money"],["reputation","Reputation"]])+srcLink(it)},
   collectibles:{filters:["kind","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:"", tags:tagsFor(it,["kind","source"])}),
-    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"]])+srcLink(it)},
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["display","Shows as"],["where","Where"]])+srcLink(it)},
+  guides:{filters:["kind","class"], sort:(a,b)=>GORD(a)-GORD(b)||(a.class||"").localeCompare(b.class||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.levels||"", tags:tagsFor(it,["kind","class","role"])}),
+    body:it=>(has(it.summary)?`<p>${esc(it.summary)}</p>`:"")+(has(it.forevChanges)?`<p><b>New in Forever:</b> ${esc(it.forevChanges)}</p>`:"")+dlFor(it,[["statPriority","Stat priority"],["rotation","Rotation"],["steps","Steps"],["route","Route"],["talents","Talents"],["bestRaces","Best races"],["keyGear","Key gear"],["trainers","Trainers"],["requirement","How to get it"],["books","Books"],["tips","Tips"]])+srcLink(it)},
+  achievements:{filters:["kind","sub"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(a.sub||"").localeCompare(b.sub||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:has(it.legacyPoints)?`${it.legacyPoints} Legacy`:"", tags:tagsFor(it,["kind","sub","accountWide"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["steps","Criteria"],["reward","Reward"]])},
+  talents:{filters:["class","spec"], sort:(a,b)=>(a.class||"").localeCompare(b.class||"")||(a.spec||"").localeCompare(b.spec||"")||(a.tier||99)-(b.tier||99)||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:[it.tier?`Tier ${it.tier}`:"",it.ranks?`${it.ranks} rank${it.ranks>1?"s":""}`:""].filter(Boolean).join(" · "), tags:tagsFor(it,["class","spec"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")},
+  itemsets:{filters:[], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:arr(it.pieces).length?`${arr(it.pieces).length} pieces`:"", tags:""}),
+    body:it=>dlFor(it,[["pieces","Pieces"],["bonuses","Set bonuses"]])},
+  services:{filters:["kind","zone","faction"], sort:(a,b)=>(a.zone||"").localeCompare(b.zone||"")||(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.title||"", tags:tagsFor(it,["kind","zone","faction"])}),
+    body:it=>dlFor(it,[["where","Where"],["title","Role"]])},
   legacy:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(parseFloat(a.points)||0)-(parseFloat(b.points)||0),
     head:it=>({title:it.name, right:has(it.points)?`${it.points} pts`:"", tags:tagsFor(it,["kind"])}),
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["reward","Reward"]])+srcLink(it)},
   reputations:{filters:["faction"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction"])}),
-    body:it=>(has(it.howToRaise)?`<p>${esc(it.howToRaise)}</p>`:"")+dlFor(it,[["where","Where"],["keyRewards","Rewards"]])+srcLink(it)},
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction","group"])}),
+    body:it=>(has(it.howToRaise)?`<p>${esc(it.howToRaise)}</p>`:"")+dlFor(it,[["where","Where"],["keyRewards","Rewards"],["standings","Standings"]])+srcLink(it)},
   rares:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
     head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind"])}),
     body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["drops","Drops"]])+srcLink(it)},
@@ -213,16 +256,16 @@ const CFG = {
     body:it=>(has(it.what)?`<p>${esc(it.what)}</p>`:"")+dlFor(it,[["where","Where"],["rewards","Rewards"]])+srcLink(it)},
   zones:{filters:["continent","faction"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
     head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["faction","continent"])}),
-    body:it=>(has(it.changed)?`<p>${esc(it.changed)}</p>`:"")+dlFor(it,[["highlights","Highlights"]])+srcLink(it)},
+    body:it=>(has(it.changed)?`<p>${esc(it.changed)}</p>`:"")+dlFor(it,[["highlights","Highlights"]])+zoneCounts(it.name)+srcLink(it)},
   instances:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
     head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind","size"])}),
-    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["location","Location"],["unlock","Opens"],["bosses","Bosses"],["notableLoot","Notable loot"]])+srcLink(it)},
-  classes:{filters:[], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
-    head:it=>({title:it.name, right:"", tags:arr(it.roles).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}),
-    body:it=>(has(it.forevChanges)?`<p>${esc(it.forevChanges)}</p>`:"")+dlFor(it,[["specs","Talent trees"],["races","Races"]])+srcLink(it)},
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["location","Location"],["unlock","Opens"],["bosses","Bosses"],["strategy","Boss tactics"],["notableLoot","Notable loot"],["bossLoot","Loot by boss"],["tips","Tips"]])+srcLink(it)},
+  classes:{filters:["kind","faction"], sort:(a,b)=>(a.kind||"Class").localeCompare(b.kind||"Class")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.power||"", tags:tagsFor(it,["kind","faction"])+arr(it.roles).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}),
+    body:it=>(has(it.forevChanges)?`<p>${esc(it.forevChanges)}</p>`:"")+dlFor(it,[["specs","Talent trees"],["races","Races"],["classes","Classes"],["racials","Racial abilities"]])+srcLink(it)},
   professions:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:it.maxSkill?`Max ${it.maxSkill}`:"", tags:tagsFor(it,["kind"])}),
-    body:it=>(has(it.changes)?`<p>${esc(it.changes)}</p>`:"")+dlFor(it,[["trainers","Trainers"],["levelingTips","Levelling"],["notableRecipes","Notable recipes"]])+srcLink(it)},
+    body:it=>(has(it.changes)?`<p>${esc(it.changes)}</p>`:"")+dlFor(it,[["tiers","Skill tiers"],["trainers","Trainers"],["levelingTips","Levelling"],["notableRecipes","Notable recipes"]])+srcLink(it)},
   news:{filters:["category"], sort:(a,b)=>(b.date||"").localeCompare(a.date||""),
     head:it=>({title:it.title, right:it.date, tags:tagsFor(it,["category"])}),
     body:it=>`<p>${esc(it.summary)}</p>`+(has(it.url)?`<a class="src" href="${esc(it.url)}" target="_blank" rel="noopener">Read the full story ↗</a>`:"")}
@@ -246,7 +289,8 @@ function paged(el, sec, items){
 
 function entryHTML(sec,it){
   const h=CFG[sec].head(it);
-  return `<details class="entry"><summary><div class="row1"><h3 class="${h.cls||""}">${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</summary><div class="body">${CFG[sec].body(it)}</div></details>`;
+  const icon=h.icon||it.icon;
+  return `<details class="entry"><summary><div class="row1"><h3 class="${h.cls||""}">${icon?`<img class="ico" src="${esc(icon)}" alt="" loading="lazy" width="22" height="22">`:""}${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</summary><div class="body">${CFG[sec].body(it)}${whLink(sec,it)}</div></details>`;
 }
 
 function renderList(sec){
@@ -334,13 +378,50 @@ function loadItems(){
       m.api=true; byId.set(it.id,m);
     }
     DATA.items=[...byId.values()];
-    for(const k of ["mounts","pets"]){ if(!live||!Array.isArray(live[k])) continue;
-      const have=new Set((DATA[k]||[]).map(m=>(m.name||"").toLowerCase()));
-      DATA[k]=(DATA[k]||[]).concat(live[k].filter(m=>m.name&&!have.has(m.name.toLowerCase())).map(m=>({name:m.name, source:"In game data", how:"Listed in Blizzard's official Forever data. How to get it hasn't been documented yet.", sourceUrl:""})));
-    }
     EMPTY.items="The item database couldn't load. Reload the page to try again.";
     const id=(location.hash||"#home").slice(1);
     if($("#q").value.trim().length>=2||["items","home","mounts","pets"].includes(id)) route();
+  });
+}
+/* Blizzard's official Forever data (live/*.json, refreshed daily, enriched with Questie's levels, zones and sources).
+   Researched entries win; live data fills their gaps and adds everything they're missing. */
+const FAM={};
+const norm=s=>String(s||"").toLowerCase().replace(/^(recipe|pattern|plans|formula|schematic|manual|design|technique): /,"").replace(/[^a-z0-9]+/g," ").trim();
+function mergeInto(sec, entries, prep){
+  const list=DATA[sec]=DATA[sec]||[];
+  const byName=new Map(); for(const it of list){ const k=norm(it.name||it.title); if(k&&!byName.has(k)) byName.set(k,it); }
+  for(const raw of entries){ const e=prep?prep(raw):raw; if(!e||!has(e.name)) continue; e._live=true;
+    /* fill a researched entry once; same-named live entries (e.g. Alliance and Horde versions of a quest) stay separate */
+    const old=byName.get(norm(e.name));
+    if(old&&!old._live){ for(const [k,v] of Object.entries(e)) if(has(v)&&!has(old[k])) old[k]=v; old._live=true; if(e.id&&!old.id) old.id=e.id; }
+    else list.push(e);
+  }
+}
+const LIVE_FILES=["instances","hunterpets","mounts","pets","toys","titles","itemsets","achievements","reputations","classes","talents","quests","professions","recipes","rares","services"];
+function loadLive(){
+  Promise.all(LIVE_FILES.map(f=>opt(`live/${f}.json`))).then(res=>{
+    const L={}; LIVE_FILES.forEach((f,i)=>L[f]=(res[i]&&res[i].entries)||[]);
+    for(const f of (DATA.hunterpets||[])) if(!f.name&&f.family) FAM[f.family]=f;
+    mergeInto("instances", L.instances);
+    mergeInto("hunterpets", L.hunterpets);
+    mergeInto("mounts", L.mounts, e=>({...e, source:e.source||"In game data"}));
+    mergeInto("pets", L.pets);
+    mergeInto("collectibles", L.toys);
+    mergeInto("collectibles", L.titles, e=>({...e, kind:"Title"}));
+    DATA.itemsets=L.itemsets.map(e=>({...e,_live:true}));
+    const legacyPts=e=>{const m=String(e.reward||"").match(/(\d+)\s+Legacy Point/i); return m?+m[1]:"";};
+    DATA.achievements=L.achievements.map(e=>({...e,_live:true,legacyPoints:legacyPts(e)}));
+    mergeInto("legacy", L.achievements.filter(e=>legacyPts(e)), e=>({name:e.name, kind:e.kind||"Achievement", points:legacyPts(e), how:e.how, reward:e.reward, id:e.id}));
+    mergeInto("reputations", L.reputations);
+    mergeInto("classes", L.classes);
+    DATA.talents=L.talents.map(e=>({...e,_live:true}));
+    mergeInto("quests", L.quests, e=>({...e, how:String(e.how||"").replace(/\{name\}|\$[nN]/g,"adventurer").replace(/\$[bB]/g," "), kind:e.kind||e.type||e.category||"", levels:e.levels||(e.level?String(e.level):"")}));
+    mergeInto("professions", L.professions);
+    mergeInto("recipes", L.recipes);
+    mergeInto("rares", L.rares);
+    mergeInto("services", L.services);
+    const id=(location.hash||"#home").slice(1);
+    if($("#q").value.trim().length>=2||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services"].includes(id)) route();
   });
 }
 Promise.all([
@@ -357,9 +438,10 @@ Promise.all([
   DATA=d;
   const when=d.updated?new Date(d.updated):null;
   $("#upd").innerHTML=when?`Updated<br>${when.toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}`:"";
-  $("#foot").innerHTML=`Fan-made guide, not affiliated with Blizzard. Refreshed automatically from official news and community databases; each entry links to its source. ${d.updated?"Last refresh: "+esc(new Date(d.updated).toUTCString()):""}`;
+  $("#foot").innerHTML=`Fan-made guide, not affiliated with Blizzard. Refreshed automatically from official news, Blizzard's Game Data API and community databases; each entry links to its source. Creature levels and zones, quest givers and objectives, and item drop sources come from <a href="https://github.com/Questie/QuestieDB" target="_blank" rel="noopener">Questie's QuestieDB</a> (GPLv3), with thanks to the Questie team and contributors. ${d.updated?"Last refresh: "+esc(new Date(d.updated).toUTCString()):""}`;
   route();
   loadItems();
+  loadLive();
 }).catch(()=>{ $("#main").innerHTML=`<div class="empty">The guide's data didn't load. Reload the page; if it keeps failing, the latest refresh may still be publishing.</div>`; $("#upd").textContent=""; });
 route();
 })();

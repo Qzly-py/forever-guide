@@ -1,0 +1,2351 @@
+[
+    {
+        "name":  "Denatharion",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (35, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Fylerian Nightwing",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (34, 9)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Mathrengyl Bearwalker",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (35, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Golhine the Hooded",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Felwood",
+        "where":  "Felwood, Talonbranch Glade (62, 24)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Loganaar",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Moonglade",
+        "where":  "Moonglade, Nighthaven (52, 41)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kal",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (56, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Mardant Strongoak",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (59, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Alfina Nightgaze",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dalaran",
+        "where":  "Dalaran, The Sky Enclave (12, 57)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Maldryn",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, The Park (34, 65)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sheldras Moontree",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, The Park (36, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Theridran",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, The Park (36, 64)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Xyton Silverwind",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (42, 23)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Naeluna Swiftmend",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lotheluum Starbreeze",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (64, 75)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jannos Lighthoof",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Camp Mojache (76, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gennia Runetotem",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (48, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gart Mistrunner",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (45, 76)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hana Lighthoof",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Camp Gev\u0027rek (33, 22)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kym Wildmane",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Elder Rise (77, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sheal Runetotem",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Elder Rise (77, 27)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Turak Runetotem",
+        "title":  "Druid Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Elder Rise (76, 28)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Danlaar Nightstride",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Silverwind Refuge (50, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Alenndaar Lapidaar",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Bolyun\u0027s Camp (18, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dorion",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (42, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jeen\u0027ra Nightrunner",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (40, 6)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jocaste",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (40, 10)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kaerbrus",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Felwood",
+        "where":  "Felwood, Talonbranch Glade (62, 24)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ayanna Everstride",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (59, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dazalar",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (57, 60)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thorgas Grimson",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Grif Wildheart",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (46, 53)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Daera Brightspear",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (72, 89)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Olmin Burningbeard",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (71, 84)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Regnus Thundergranite",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (70, 84)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dargh Trueaim",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, The Farstrider Lodge (82, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Einris Brightspear",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Dwarven District (67, 36)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thorfin Stoneshield",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Dwarven District (68, 36)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ulfir Ironbeard",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Dwarven District (68, 36)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Tai\u0027ree Farsight",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (42, 24)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Elayaa Easewind",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Quel\u0027ana Quickgale",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (60, 73)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jen\u0027shan",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (43, 69)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thotar",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 44)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lanka Farshot",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (44, 76)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Yaw Sharpmane",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (47, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ormak Grimshot",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (66, 18)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sian\u0027dur",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (68, 18)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Xor\u0027juul",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (67, 20)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Holt Thunderhorn",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (58, 89)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kary Thunderhorn",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (58, 88)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Urek Thunderhorn",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (59, 86)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kragg",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Grom\u0027gol Base Camp (31, 29)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Orgromm",
+        "title":  "Hunter Trainer",
+        "kind":  "Trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (47, 53)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Bolyun",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Bolyun\u0027s Camp (18, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Caelyb",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Silverwind Refuge (50, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Silvaria",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (42, 9)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Nalesette Wildbringer",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Felwood",
+        "where":  "Felwood, Talonbranch Glade (62, 24)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Keldas",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (57, 60)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Peria Lamenur",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Belia Thundergranite",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (71, 86)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Claude Erksine",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, The Farstrider Lodge (82, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Karrina Mekenda",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Dwarven District (67, 37)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Quel\u0027dora Quickgale",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (60, 73)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Harruk",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 44)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Reban Freerunner",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (47, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Xao\u0027tsu",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (66, 15)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hesuwa Thunderhorn",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (54, 83)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Zudd",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Grom\u0027gol Base Camp (31, 29)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Grokar",
+        "title":  "Hunter Pet Trainer",
+        "kind":  "Trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (47, 53)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jessa Weaver",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dalaran",
+        "where":  "Dalaran, The Violet Gate (18, 70)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Marryk Nurribit",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Magis Sparkmantle",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Khelden Bremen",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Zaldimar Wefhellt",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (43, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Bink",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (27, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dink",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (27, 9)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Juli Stormkettle",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (26, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Nittlebur Sparkfizzle",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (27, 7)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Elsharin",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (48, 87)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jennea Cannon",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (50, 86)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dorii Brightwhisper",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (42, 24)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Shenaan Spellwind",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 46)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Anathamaas Aetherwind",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (66, 80)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Mai\u0027ah",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (43, 69)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Un\u0027Thuwa",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Sen\u0027jin Village (56, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Deino",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (39, 86)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Enyo",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (39, 85)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Pephredo",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (39, 86)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Uthel\u0027nay",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (39, 86)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Archmage Shymm",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (23, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thurston Xane",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (26, 22)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ursyn Ghull",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (26, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Isabella",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (31, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Cain Firesong",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Anastasia Hartwell",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (85, 10)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kaelystia Hatebringer",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (85, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Pierce Shackleton",
+        "title":  "Mage Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (86, 15)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Elissa Dumas",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple of the Moon (41, 82)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Milstaff Stormeye",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (26, 9)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Larimaine Purdue",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (50, 86)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thuul",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (39, 86)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Birgitte Cranston",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (22, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lexington Mortaim",
+        "title":  "Portal Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (85, 17)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brother Karman",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dustwallow Marsh",
+        "where":  "Dustwallow Marsh, Theramore (67, 47)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Bromos Grummner",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Azar Stronghammer",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Thunderbrew Distillery (48, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brother Sammuel",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 42)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brother Wilhelm",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (41, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Beldruk Doombrow",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (25, 6)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brandur Ironhammer",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (24, 7)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Valgar Highforge",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (24, 5)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Arthur the Faithful",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (50, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Katherine the Pure",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (49, 49)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lord Grayson Shadowbreaker",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (49, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Aramis Hammerhand",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (31, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Shari Stilwell",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (60, 53)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hilda the Breaker",
+        "title":  "Paladin Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Bandarion Keep (22, 47)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jandria",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple of the Moon (38, 82)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lariia",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple of the Moon (40, 89)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Astarii Starseeker",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple of the Moon (39, 81)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Priestess Alathea",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple of the Moon (39, 81)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Shanda",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (59, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Laurna Morninglight",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (56, 57)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Branstock Khalder",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Maxan Anvol",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Priestess Anetta",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Priestess Josetta",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (44, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Braenna Flintcrag",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (25, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "High Priest Rohan",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (26, 9)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Theodrus Frostbeard",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (24, 10)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Toldren Deepiron",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Mystic Ward (26, 10)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brother Benjamin",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (51, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Brother Joshua",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (50, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "High Priestess Laurena",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Cathedral of Light (50, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Nara Meideros",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, The Park (36, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ken\u0027jai",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (42, 69)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Tai\u0027jin",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (54, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ur\u0027kyo",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (36, 88)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "X\u0027yera",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (36, 88)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Father Cobb",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (26, 22)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Malakai Cross",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (25, 23)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Miles Welsh",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (26, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dark Cleric Duesten",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (31, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dark Cleric Beryl",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Aelthalyste",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (50, 17)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Father Lankester",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (50, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Father Lazarus",
+        "title":  "Priest Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (48, 19)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Anishar",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (39, 21)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Erion Shadewhisper",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (35, 25)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Syurna",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Cenarion Enclave (37, 22)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Frahun Shadewhisper",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (60, 39)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jannok Breezesong",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (56, 60)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Solm Hargrin",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (28, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hogral Bakkan",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (48, 53)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jorik Kerridan",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Keryn Sylvius",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (44, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Fenthwick",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (52, 14)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hulfdan Blackbeard",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (52, 15)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ormyr Flinteye",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (53, 15)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lord Tony Romano",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Old Town (80, 69)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Osborne the Night Man",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Old Town (77, 65)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ian Strom",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (27, 77)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Akeri Duskblade",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (44, 24)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Miriaan Mistblade",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (43, 43)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Eltheen Nightbreeze",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (60, 72)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Rwag",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (41, 68)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kaplak",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 44)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gest",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (43, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ormok",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (44, 55)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Shenthul",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (43, 54)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "David Trias",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (33, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Marion Call",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Carolyn Ward",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Rogues\u0027 Quarter (84, 72)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gregory Charles",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Rogues\u0027 Quarter (85, 72)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Miles Dexter",
+        "title":  "Rogue Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Rogues\u0027 Quarter (85, 71)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Teo Hammerstorm",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ingrid Dunwald",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (48, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Eldrun Stormbreaker",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (47, 14)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Shikrik",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (42, 69)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Swart",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (54, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Meela Dawnstrider",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (45, 76)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Narm Skychaser",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (48, 59)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Palah Thunderhoof",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Camp Gev\u0027rek (34, 22)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kardris Dreamseeker",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Wisdom (39, 37)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sagorne Creststrider",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Wisdom (39, 37)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sian\u0027tsu",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Wisdom (38, 37)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Beram Skychaser",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (23, 19)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Siln Skychaser",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (24, 21)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Tigor Skychaser",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (24, 20)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Haromm",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (48, 58)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Windshaper Boro",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (43, 24)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Aarnor Galestrike",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (44, 45)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sessaria Skystride",
+        "title":  "Shaman Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (58, 79)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Alamar Grimm",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gimrizz Shadowcog",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Drusilla La Salle",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 43)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Maximillian Crowe",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (44, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Alexander Calder",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (51, 6)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Briarthorn",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (50, 7)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thistleheart",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (51, 7)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Demisette Cloyce",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (39, 85)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sandahl",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (40, 86)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ursula Deline",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (40, 84)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Nartok",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (41, 68)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dhugru Gorelust",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (54, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Grol\u0027dar",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (48, 46)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Mirket",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (49, 47)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Zevrost",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (48, 46)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kartosh",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (49, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Maximillion",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (31, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Rupert Boch",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kaal Soulreaper",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (86, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Luther Pickman",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (86, 15)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Richard Kerwin",
+        "title":  "Warlock Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (89, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Wren Darkspring",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dannie Fizzwizzle",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dane Winslow",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 43)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Cylina Darkheart",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (44, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Jubahl Corpseseeker",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Forlorn Cavern (53, 8)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Spackle Thornberry",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Mage Quarter (40, 85)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Hraug",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (41, 68)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kitha",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (55, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kurgul",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Cleft of Shadow (48, 47)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kayla Smithe",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (31, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Gina Lang",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Martha Strain",
+        "title":  "Demon Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Magic Quarter (86, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Arias\u0027ta Bladesinger",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Warrior\u0027s Terrace (58, 35)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Darnath Bladesinger",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Warrior\u0027s Terrace (58, 36)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sildanair",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Warrior\u0027s Terrace (62, 43)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Captain Evencane",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dustwallow Marsh",
+        "where":  "Dustwallow Marsh, Theramore (68, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Alyissia",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (60, 39)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kyra Windblade",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (56, 59)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Thran Khorman",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Granis Swiftaxe",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 53)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Llane Beshere",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (50, 42)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Lyria Du Lac",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (41, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Bilban Tosslespanner",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (67, 88)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kelstrum Stonebreaker",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (67, 88)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Kelv Sternhammer",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Hall of Arms (71, 92)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ander Germaine",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Old Town (80, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ilsa Corbin",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Old Town (80, 60)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Wu Shen",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind, Old Town (81, 60)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Blademaster Ren",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Thendal Village (44, 24)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Corsan Earthrazer",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 45)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Seena Skybreaker",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (60, 73)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Frang",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (43, 69)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Tarshaw Jaggedscar",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (54, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Harutt Thunderhorn",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (44, 76)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Krang Stonehoof",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (50, 61)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Grezz Ragefist",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (80, 32)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sorek",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (80, 31)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Zel\u0027mak",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (80, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Ker Ragetotem",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (58, 85)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Sark Ragetotem",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (58, 89)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Torm Ragetotem",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Hunter\u0027s Rise (58, 88)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Malosh",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (45, 57)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Dannal Stern",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (33, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Austil de Mon",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Angela Curthas",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (48, 16)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Baltus Fowler",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (48, 17)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    },
+    {
+        "name":  "Christoph Walker",
+        "title":  "Warrior Trainer",
+        "kind":  "Trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, War Quarter (48, 15)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/class-trainers/"
+    }
+]

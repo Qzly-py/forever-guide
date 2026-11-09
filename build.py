@@ -5,7 +5,7 @@ import json, sys, pathlib, datetime
 
 root = pathlib.Path(__file__).parent
 LISTS = ["mounts", "pets", "hunterpets", "gear", "quests", "zones", "instances", "classes", "professions", "news",
-         "collectibles", "legacy", "reputations", "rares", "pvp", "events", "recipes", "travel"]
+         "collectibles", "legacy", "reputations", "rares", "pvp", "events", "recipes", "travel", "guides", "services"]
 
 
 def empty(v):

@@ -1,0 +1,2603 @@
+[
+    {
+        "name":  "Alchemist Mallory",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Outside Stormwind (40, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Cyndra Kindwhisper",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (58, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ghak Healtouch",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, Thelsamar (37, 49)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Iaadaria Bitterwind",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (66, 80)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Milla Fairancora",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (55, 23)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nyassa Swiftdraught",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (44, 43)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tel\u0027Athir",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (56, 85)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Valiena Swiftgale",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (59, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vosur Brakthel",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Tinker Town (67, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alchemist Narett",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dustwallow Marsh",
+        "where":  "Dustwallow Marsh, Theramore Isle (64, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jaxin Chong",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (28, 78)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kylanna",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Silverwind Refuge (51, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lilyssia Nightbreeze",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (56, 85)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tally Berryfizz",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Tinker Town (67, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ainethil",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (56, 23)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Linzy Blackbolt",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (19, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Patricia Egan",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (19, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Sylvanna Forestmoon",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (56, 24)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kylanna Windwhisper",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Feathermoon Stronghold (33, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Master Mycologist Shurome",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Felwood",
+        "where":  "Felwood, Emerald Sanctuary (52, 82)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Carolai Anise",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (60, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Doctor Martin Felben",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (46, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kray",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (47, 35)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Miao\u0027zan",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Sen\u0027jin Village (56, 74)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Whuut",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (56, 33)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Bena Winterhoof",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (47, 33)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Doctor Marsh",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (52, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Serge Hinott",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Hillsbrad Foothills",
+        "where":  "Hillsbrad Foothills, Tarren Mill (62, 19)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Yelmak",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (56, 34)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Doctor Herbert Halsey",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (48, 72)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Rogvar",
+        "title":  "Alchemy Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Swamp of Sorrows",
+        "where":  "Swamp of Sorrows, Stonard (48, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Aedi Thriceforged",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alphonse Dumas",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Farholde Keep (64, 82)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dane Lindgren",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Dwarven District (64, 37)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Delfrum Flintbeard",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darkshore",
+        "where":  "Darkshore, Auberdine (38, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gelman Stonehand",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Dwarven District (59, 38)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Groum Stonebeard",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (52, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Smith Argus",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (42, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tognus Flintfire",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (45, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Clarise Gnarltree",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Duskwood",
+        "where":  "Duskwood, Darkshire (74, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Daeann Steelwind",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (65, 80)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Rotgath Stonebeard",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (51, 43)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Therum Deepforge",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Dwarven District (63, 37)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alard Schmied",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (20, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Bengus Deepforge",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (52, 42)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brikk Keencraft",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (29, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Basil Frye",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The War Quarter (61, 28)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dwukk",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Guillaume Sorouy",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Silverpine Forest",
+        "where":  "Silverpine Forest, The Sepulcher (43, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gur\u0027dok",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Rog\u0027mar (60, 46)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Thrag Stonehoof",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (40, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ug\u0027thok",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (81, 24)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Angus Hammerhand",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Bandarion Keep (21, 46)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "James Van Brunt",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The War Quarter (62, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Karn Stonehoof",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (40, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Snarl",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (80, 23)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Traugh",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Crossroads (51, 29)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Saru Steelfury",
+        "title":  "Blacksmithing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (82, 24)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alanna Raveneye",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, The Oracle Glade (37, 34)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Betty Quin",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (53, 74)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Eaysaa Brightgust",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (59, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lalina Summermoon",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (60, 12)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nasalanna Windsinger",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (43, 43)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Thonys Pillarstone",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (61, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gimble Thistlefuzz",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (60, 46)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lucan Cordell",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (53, 74)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Taladan",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (59, 14)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Xylinnia Starshine",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Feathermoon Stronghold (32, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kitta Firewind",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Tower of Azora (65, 71)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Melanie Sable",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Farholde Keep (66, 83)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vanessa Sellers",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (17, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jhag",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (54, 38)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Malcomb Wynn",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (63, 61)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mot Dawnstrider",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (45, 38)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Pa\u0027zula",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Sen\u0027jin Village (57, 74)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vance Undergloom",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Godan",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (54, 38)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lavinia Crowe",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (62, 61)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Teg Dawnstrider",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (45, 38)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Hgarth",
+        "title":  "Enchanting Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stonetalon Mountains",
+        "where":  "Stonetalon Mountains, Sun Rock Retreat (49, 57)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Bronk Guzzlegear",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (50, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Deek Fizzlebizz",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, Stonewrought Dam (46, 14)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jemma Quikswitch",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Tinker Town (68, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jenna Lemkenilli",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darkshore",
+        "where":  "Darkshore, Auberdine (38, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Sprite Jumpsprocket",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Dwarven District (62, 31)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Strange Hermit",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shadowgale Forest (54, 39)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tinkerwiz",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Ratchet (63, 33)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Finbus Geargrind",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Duskwood",
+        "where":  "Duskwood, Darkshire (78, 49)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lilliam Sparkspindle",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Dwarven District (62, 31)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Trixie Quikswitch",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Tinker Town (68, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Springspindle Fizzlegear",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Tinker Town (69, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Buzzek Bracketswing",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tanaris",
+        "where":  "Tanaris, Gadgetzan (52, 28)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kaylaena Springwhisper",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mount Hyjal",
+        "where":  "Mount Hyjal, Mount Hyjal (60, 61)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Graham Van Talen",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Rogues\u0027 Quarter (76, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mukdrak",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Thund",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (75, 25)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Twizwick Sprocketgrind",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, The Venture Co. Mine (59, 39)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Franklin Lloyd",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Rogues\u0027 Quarter (76, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nogg",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (76, 25)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Roxxik",
+        "title":  "Engineering Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (76, 25)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Eleyna Duskbreeze",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (60, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Emrys Flintbeard",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nancy Songflower",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (52, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alma Jainrose",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Redridge Mountains",
+        "where":  "Redridge Mountains, Lakeshire (17, 47)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brant Jasperbloom",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dustwallow Marsh",
+        "where":  "Dustwallow Marsh, Theramore Isle (64, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Cylania Rootstalker",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Silverwind Refuge (51, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Edward Egan",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (18, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Firodren Mooncaller",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple Gardens (48, 69)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Flora Silverwind",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (28, 78)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Halassa Fernbreeze",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (43, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Herbalist Pomeroy",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Outside Stormwind (40, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kali Healtouch",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, Thelsamar (37, 48)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Malorne Bladeleaf",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (58, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Malvor",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Moonglade",
+        "where":  "Moonglade, Nighthaven (46, 47)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Reyna Stonebranch",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, Great Forge (56, 58)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Shylamiir",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, The Park (31, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Syriel Nightrain",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (58, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tannysa",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (54, 84)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Telurinon Moonshadow",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Wetlands",
+        "where":  "Wetlands, Menethil Harbor (8, 56)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Florence Nightshade",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (32, 65)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Garan Sunstrider",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (44, 78)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Zor\u0027la",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (43, 67)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Angrun",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Grom\u0027gol Base Camp (32, 28)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Aranae Venomblood",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Hillsbrad Foothills",
+        "where":  "Hillsbrad Foothills, Tarren Mill (62, 20)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Faruza",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (60, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jandi",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (56, 40)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Komin Winterhoof",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (50, 40)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Martha Alliestar",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Apothecarium (55, 50)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mishiki",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Sen\u0027jin Village (55, 75)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ruw",
+        "title":  "Herbalism Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Camp Mojache (76, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Adele Fielder",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (46, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Darianna",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (65, 21)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gretta Finespindle",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (40, 34)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Indari Sunseam",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 45)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nadyia Maneweaver",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Outside Darnassus (42, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Randal Worth",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Old Town (72, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Waldor",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Wailing Caverns (46, 36)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Aayndia Floralwind",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Astranaar (36, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Emerii Tallgust",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (64, 81)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Faldron",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (64, 22)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Fimble Finespindle",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (40, 34)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Simon Tanner",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Old Town (72, 63)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Telonis",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (65, 22)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Drakk Stonehand",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Hinterlands",
+        "where":  "The Hinterlands, Aerie Peak (13, 43)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Chaw Stronghide",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (45, 61)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dan Golthas",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Rogues\u0027 Quarter (71, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kamari",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (63, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mak",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (42, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Shelene Rhobart",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Camp near Undercity (65, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Arthur Moore",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Rogues\u0027 Quarter (71, 58)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brawn",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Grom\u0027gol Base Camp (31, 29)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Karolek",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (63, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Krulmoo Fullmoon",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Camp Taurajo (45, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Narv Hidecrafter",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Desolace",
+        "where":  "Desolace, Ghost Walker Post (55, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tarn",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (42, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Una",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (42, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Hahrana Ironhide",
+        "title":  "Leatherworking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Camp Mojache (74, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Fanorran Stilloak",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (58, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kelsey Fargo",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (47, 32)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Sally Swiftwrench",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brock Stoneseeker",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, Thelsamar (37, 47)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dank Drizzlecut",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Gol\u0027Bolar Quarry (69, 56)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Geofram Bouldertoe",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (50, 28)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Grungle",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Powderfuse Port (78, 52)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Halavuul Cragwind",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (65, 80)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kurdram Stonehammer",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darkshore",
+        "where":  "Darkshore, Auberdine (38, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Matt Johnson",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Duskwood",
+        "where":  "Duskwood, Darkshire (74, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Messana Crestwind",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Pikkle",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tanaris",
+        "where":  "Tanaris, Gadgetzan (51, 28)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Yarr Hammerstone",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (50, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Norzsh",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (40, 68)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vartha Rockmane",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (44, 78)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Walter Mason",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (32, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brek Stonehoof",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (34, 58)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brom Killian",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The War Quarter (56, 36)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Johan Focht",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Silverpine Forest",
+        "where":  "Silverpine Forest, The Sepulcher (43, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Krunn",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (52, 41)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Makaru",
+        "title":  "Mining Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (73, 27)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brighid Stormflayer",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Coldridge Valley (29, 68)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Riley Peltskinner",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Northshire (47, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Terunne Bearshaper",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Shadowglen (59, 39)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Balthus Stoneflayer",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (40, 33)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Eladriel",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (64, 22)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Helene Peltskinner",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (46, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ishlee Breezewhisper",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (60, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jayla",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Silverwind Refuge (50, 67)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Maris Granger",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Old Town (72, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mendalass Tattermend",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (43, 43)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Radnaal Maneweaver",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Outside Darnassus (42, 50)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Wilma Ranthal",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Redridge Mountains",
+        "where":  "Redridge Mountains, Shalewind Canyon (84, 71)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kagil",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Valley of Trials (41, 68)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Margaret Weaver",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Deathknell (33, 66)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nawka Wildsong",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Red Cloud Mesa (45, 77)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dranh",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Camp Taurajo (45, 59)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Killian Hagey",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Rogues\u0027 Quarter (71, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kulleg Stonehorn",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Camp Mojache (74, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Malux",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Desolace",
+        "where":  "Desolace, Shadowprey Village (23, 70)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mooranta",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (45, 43)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Rand Rhobart",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Camp near Undercity (66, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Thuwd",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (63, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Yonn Deepcut",
+        "title":  "Skinning Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (45, 61)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Eldrin",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Eastvale Logging Camp (79, 69)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Grondal Moonbreeze",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darkshore",
+        "where":  "Darkshore, Auberdine (38, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Trianna",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (64, 22)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Uthrar Threx",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (44, 29)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Grarnik Goodstitch",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (29, 77)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Jormund Stonebrow",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (44, 30)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Me\u0027lynn",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (63, 23)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Othesia Evengale",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (64, 81)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Sellandus",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (52, 83)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Taleen Shimmerthread",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Charles Worth",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (18, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Georgio Bolero",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (53, 82)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lawrence Schneider",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Mage Quarter (54, 82)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Timothy Worthington",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dustwallow Marsh",
+        "where":  "Dustwallow Marsh, Theramore Isle (66, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Bowen Brisboise",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (53, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kil\u0027hala",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Crossroads (52, 32)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Snang",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (63, 50)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vhan",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (44, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Victor Ward",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Magic Quarter (71, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Magar",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (64, 50)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mahani",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Camp Taurajo (45, 60)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Rhiannon Davis",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Magic Quarter (70, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tepa",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (44, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Josef Gregorian",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Magic Quarter (71, 31)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Daryl Stack",
+        "title":  "Tailoring Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Hillsbrad Foothills",
+        "where":  "Hillsbrad Foothills, Tarren Mill (64, 21)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Alegorn",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (49, 21)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Cook Ghilm",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Gol\u0027Bolar Quarry (68, 54)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Crystal Boughman",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Redridge Mountains",
+        "where":  "Redridge Mountains, Lakeshire (18, 44)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Daryl Riknussun",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (60, 38)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gremlock Pilsnor",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (48, 52)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Hnaz Blunderflame",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mount Hyjal",
+        "where":  "Mount Hyjal, Elderwild (16, 50)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Katherine Lee",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (12, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nyalah Brightfire",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (61, 73)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Stephen Ryback",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Old Town (78, 53)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Tomas",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (44, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Zarrin",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (57, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Zerril Softbreeze",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (44, 44)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Aska Mistrunner",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (51, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Cook Torka",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (51, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Duhng",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Barrens",
+        "where":  "The Barrens, Crossroads (55, 32)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Eunice Burch",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, Trade Quarter (63, 45)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Gorg",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Rog\u0027mar (59, 44)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mudduk",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Grom\u0027gol Base Camp (31, 28)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Ortak Lomgok",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mount Hyjal",
+        "where":  "Mount Hyjal, Elderwild (13, 53)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Pyall Silentstride",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (45, 62)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "William Pickman",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 52)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Zamja",
+        "title":  "Cooking Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, The Drag (57, 54)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Androl Oakhand",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Rut\u0027theran Village (56, 94)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Arnold Leland",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Trade District (55, 70)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Astaia",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Temple Gardens (48, 56)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Baelann Swiftcurrent",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (63, 76)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Brannock",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Feralas",
+        "where":  "Feralas, Feathermoon Stronghold (32, 41)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Donald Rabonne",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Hillsbrad Foothills",
+        "where":  "Hillsbrad Foothills, Southshore (50, 64)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Fenn Fairweather",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (45, 48)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Grimnur Stonebrand",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Forlorn Cavern (48, 6)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Harold Riggs",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Wetlands",
+        "where":  "Wetlands, Menethil Harbor (8, 58)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Hunter Moore",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Hillsbrad Foothills",
+        "where":  "Hillsbrad Foothills, Island off the coast (54, 81)",
+        "faction":  "",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Krix",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Riverglades",
+        "where":  "Riverglades, Powderfuse Port (79, 55)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lee Brown",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (48, 62)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Matthew Hooper",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Redridge Mountains",
+        "where":  "Redridge Mountains, Lakeshire (22, 51)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Myizz Luckycatch",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stranglethorn Vale",
+        "where":  "Stranglethorn Vale, Booty Bay (28, 77)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Paxton Ganter",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Iceflow Lake (36, 40)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Warg Deepwater",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Loch Modan",
+        "where":  "Loch Modan, The Loch (40, 39)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Armand Cromwell",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Magic Quarter (81, 30)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Clyde Kellen",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brightwater Lake (67, 51)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kah Mistrunner",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Middle Rise (56, 48)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Katoom the Angler",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "The Hinterlands",
+        "where":  "The Hinterlands, Revantusk Village (80, 82)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Kil\u0027Hiwana",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ashenvale",
+        "where":  "Ashenvale, Zoram Strand (11, 34)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lau\u0027Tiki",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Sen\u0027jin Village (53, 82)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lui\u0027Mala",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Desolace",
+        "where":  "Desolace, Shadowprey Village (23, 73)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Lumak",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Honor (70, 29)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Uthan Stillwater",
+        "title":  "Fishing Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (44, 64)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Angelique Butler",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Alterac Mountains",
+        "where":  "Alterac Mountains, Dalaran (17, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Byancie",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Teldrassil",
+        "where":  "Teldrassil, Dolanaar (55, 57)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Dannelor",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Darnassus",
+        "where":  "Darnassus, Craftsmen\u0027s Terrace (52, 14)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Fremal Doohickey",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Wetlands",
+        "where":  "Wetlands, Menethil Harbor (11, 61)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Melasa Fairmend",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Valanaar (63, 73)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Michelle Belle",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Elwynn Forest",
+        "where":  "Elwynn Forest, Goldshire (43, 66)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Naleeia Tattermend",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Zephras Isle",
+        "where":  "Zephras Isle, Shen\u0027dar Village (43, 46)",
+        "faction":  "Both",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nissa Firestone",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Ironforge",
+        "where":  "Ironforge, The Great Forge (55, 59)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Shaina Fuller",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Stormwind",
+        "where":  "Stormwind City, Cathedral Square (53, 45)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Thamner Pol",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Dun Morogh",
+        "where":  "Dun Morogh, Kharanos (47, 53)",
+        "faction":  "Alliance",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Arnok",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Orgrimmar",
+        "where":  "Orgrimmar, Valley of Spirits (34, 84)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Mary Edras",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Undercity",
+        "where":  "Undercity, The Rogues\u0027 Quarter (74, 56)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Nurse Neela",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Tirisfal Glades",
+        "where":  "Tirisfal Glades, Brill (62, 53)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Pand Stonebinder",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Thunder Bluff",
+        "where":  "Thunder Bluff, Spirit Rise (29, 22)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Rawrk",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Durotar",
+        "where":  "Durotar, Razor Hill (54, 42)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    },
+    {
+        "name":  "Vira Younghoof",
+        "title":  "First Aid Trainer",
+        "kind":  "Profession trainer",
+        "zone":  "Mulgore",
+        "where":  "Mulgore, Bloodhoof Village (46, 65)",
+        "faction":  "Horde",
+        "sourceUrl":  "https://www.warcrafttavern.com/forever/guides/profession-trainers/"
+    }
+]

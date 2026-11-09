@@ -51,19 +51,30 @@ jobs:
           HOUR=$(date -u +%H)
           if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ] || [ ! -f live/quests.json ]; then
             python scripts/update_blizzard.py
-            python scripts/update_questie.py || echo "::warning::Questie enrichment failed; Blizzard data still published"
           else
             echo "Blizzard refresh runs at 05:xx UTC; skipping this hour."
+          fi
+
+      - name: Add Questie levels, zones, quest givers and drop sources
+        if: github.event_name != 'schedule' || startsWith(github.event.schedule, '17 ')
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ]; then
+            python scripts/update_questie.py || echo "::warning::Questie enrichment failed; Blizzard data still published"
           fi
 
       - name: Save updates to the repository
         run: |
           git config user.name "guide-updater"
           git config user.email "actions@users.noreply.github.com"
-          git pull --rebase -q || true
           git add data.json feed.json items.json live 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Automatic update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push || true
+          # Someone may have pushed while this ran: rebase onto it and retry rather than losing the update.
+          for i in 1 2 3 4 5; do
+            git push && break
+            git pull --rebase -X theirs -q || { git rebase --abort; git pull --no-rebase -X ours -q; }
+            sleep $((i * 5))
+          done
 
       - uses: actions/configure-pages@v5
 
