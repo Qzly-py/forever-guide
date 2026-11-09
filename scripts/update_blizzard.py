@@ -486,7 +486,9 @@ def professions():
     save("recipes", out)
 
 
+ONLY = {s.strip() for s in os.environ.get("SECTIONS", "").split(",") if s.strip()}
 for fn in (hunterpets, mounts, pets, toys, titles, itemsets, achievements, reputations, classes, talents, quests,
            professions, items):
-    section(fn)
+    if not ONLY or fn.__name__ in ONLY:
+        section(fn)
 print(f"done: {_calls[0]} API calls, full refresh={FULL}")
