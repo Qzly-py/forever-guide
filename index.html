@@ -1,0 +1,366 @@
+<title>Forever Field Guide</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a pocket field guide — sticky masthead + search, a scrolling tab strip of chapters, then filterable entry lists that expand in place. */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --sunk:#e7ebf1; --fg:#17202c; --muted:#5a6676; --line:#d5dbe4;
+  --accent:#9a6a12; --accent-ink:#ffffff; --sky:#2b6cb0;
+  --q-common:#4b5563; --q-uncommon:#1a8a1a; --q-rare:#0b5fc4; --q-epic:#8a2fd1; --q-legendary:#c25e00;
+  --ally:#2457a6; --horde:#a8261f; --both:#5a6676;
+  --f-display:"Marcellus","Palatino Linotype","Book Antiqua",Georgia,serif;
+  --f-body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-data:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e141c; --surface:#151d28; --sunk:#1c2633; --fg:#e6ebf2; --muted:#93a0b2; --line:#263243;
+  --accent:#e2b04a; --accent-ink:#1a1206; --sky:#7fb3f0;
+  --q-common:#c8ced8; --q-uncommon:#3fd03f; --q-rare:#4a9dff; --q-epic:#c27bff; --q-legendary:#ff9a2e;
+  --ally:#7aa7f2; --horde:#f07a72; --both:#93a0b2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e141c; --surface:#151d28; --sunk:#1c2633; --fg:#e6ebf2; --muted:#93a0b2; --line:#263243;
+  --accent:#e2b04a; --accent-ink:#1a1206; --sky:#7fb3f0;
+  --q-common:#c8ced8; --q-uncommon:#3fd03f; --q-rare:#4a9dff; --q-epic:#c27bff; --q-legendary:#ff9a2e;
+  --ally:#7aa7f2; --horde:#f07a72; --both:#93a0b2; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--f-body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--sky)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:860px;margin:0 auto}
+
+/* Masthead */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line)}
+.mast{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-block:12px 8px}
+.brand{font:400 22px/1.1 var(--f-display);letter-spacing:.02em;margin:0}
+.brand small{display:block;font:500 11px/1.4 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.upd{font:500 11px/1.3 var(--f-data);color:var(--muted);text-align:right;white-space:nowrap}
+.searchrow{padding-block:0 10px}
+#q{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:var(--r);background:var(--sunk)}
+nav{display:flex;gap:6px;overflow-x:auto;padding-block:0 10px;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav a{flex:none;text-decoration:none;color:var(--muted);font-size:14px;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface)}
+nav a[aria-current="page"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:700}
+
+main{padding-block:18px 48px}
+h2{font:400 28px/1.15 var(--f-display);margin:0 0 4px;text-wrap:balance}
+h3{font:400 19px/1.25 var(--f-display);margin:0;text-wrap:balance}
+.lede{color:var(--muted);margin:0 0 16px;max-width:65ch}
+.eyebrow{font:500 11px/1.3 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+
+/* Filters */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.filters select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);max-width:100%}
+.toggle{display:inline-flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surface);font-size:14px;cursor:pointer}
+.count{font:500 12px/1 var(--f-data);color:var(--muted);align-self:center;margin-left:auto}
+
+/* Entries */
+.list{display:flex;flex-direction:column;gap:8px}
+details.entry{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+details.entry>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+details.entry>summary::-webkit-details-marker{display:none}
+details.entry[open]>summary{border-bottom:1px solid var(--line)}
+.row1{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.row1 h3{min-width:0;overflow-wrap:anywhere}
+.lv{font:500 12px/1 var(--f-data);color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{font:500 11px/1 var(--f-data);letter-spacing:.03em;padding:4px 7px;border-radius:5px;background:var(--sunk);color:var(--muted)}
+.tag.new{background:var(--accent);color:var(--accent-ink)}
+.tag.Alliance{color:var(--ally)} .tag.Horde{color:var(--horde)}
+.tag.carry{font-style:italic}
+.body{padding:12px 14px 14px;display:grid;gap:10px}
+.body p{margin:0;max-width:65ch}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:6px 14px}
+dt{font:500 11px/1.6 var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chips span{font-size:13px;padding:3px 8px;border-radius:999px;border:1px solid var(--line)}
+.src{font-size:13px}
+.q-Common{color:var(--q-common)} .q-Uncommon{color:var(--q-uncommon)} .q-Rare{color:var(--q-rare)} .q-Epic{color:var(--q-epic)} .q-Legendary{color:var(--q-legendary)}
+.empty{padding:28px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--r)}
+
+/* Home */
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;min-width:0}
+.panel h3{margin-bottom:8px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:0 0 18px}
+.stat{text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:10px 12px}
+.stat b{display:block;font:500 22px/1.1 var(--f-data);font-variant-numeric:tabular-nums;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+.road{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.road li{display:grid;grid-template-columns:110px 1fr;gap:10px}
+.road .when{font:500 12px/1.5 var(--f-data);color:var(--accent)}
+.news-mini{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.news-mini li{display:grid;gap:2px}
+.news-mini .d{font:500 11px/1.3 var(--f-data);color:var(--muted)}
+.section{margin-top:22px}
+ul.plain{margin:0;padding-left:18px}
+ul.plain li{margin:2px 0}
+footer{color:var(--muted);font-size:13px;padding-block:20px 32px;border-top:1px solid var(--line)}
+@media (max-width:420px){.road li{grid-template-columns:1fr;gap:2px} dl{grid-template-columns:1fr} dt{margin-top:4px}}
+@media (prefers-reduced-motion:no-preference){details.entry[open] .body{animation:in .18s ease-out}@keyframes in{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:none}}}
+</style>
+
+<header>
+  <div class="wrap gut">
+    <div class="mast">
+      <h1 class="brand"><small>World of Warcraft</small>Forever Field Guide</h1>
+      <div class="upd" id="upd">Loading…</div>
+    </div>
+    <div class="searchrow"><input id="q" type="search" placeholder="Search everything — mounts, bosses, zones…" aria-label="Search the guide" autocomplete="off"></div>
+    <nav id="nav" aria-label="Chapters"></nav>
+  </div>
+</header>
+
+<main class="wrap gut" id="main"><p class="lede">Loading the guide…</p></main>
+<footer class="wrap gut" id="foot"></footer>
+
+<script>
+(function(){
+const SECTIONS = [
+  {id:"home", label:"Overview"},
+  {id:"news", label:"News"},
+  {id:"mounts", label:"Mounts", title:"Mounts", lede:"Every mount we can confirm in Forever, with how and where to get it."},
+  {id:"pets", label:"Pets", title:"Companion pets", lede:"Vanity pets and how to collect them."},
+  {id:"hunterpets", label:"Hunter pets", title:"Hunter pets", lede:"Tameable families, their abilities and the notable beasts worth taming."},
+  {id:"gear", label:"Gear", title:"Gear", lede:"Best-in-slot, set pieces, legendaries and standout rewards."},
+  {id:"quests", label:"Quests", title:"Quests & questlines", lede:"Story chains, attunements, class quests and the legendary questline."},
+  {id:"collectibles", label:"Toys & cosmetics", title:"Toys, tabards & cosmetics", lede:"Toys, tabards, transmog and novelty items."},
+  {id:"legacy", label:"Legacy", title:"Legacy points & rewards", lede:"How to earn Legacy points and what they unlock across your account."},
+  {id:"reputations", label:"Reputations", title:"Reputations", lede:"Every faction, how to raise it and what each standing unlocks."},
+  {id:"rares", label:"Rares & world bosses", title:"Rare elites & world bosses", lede:"Where they spawn and what they drop."},
+  {id:"pvp", label:"PvP", title:"PvP", lede:"Honor ranks, battlegrounds, world PvP and rewards."},
+  {id:"events", label:"Events", title:"World events", lede:"Holidays and recurring events, when they run and what they give."},
+  {id:"recipes", label:"Recipes", title:"Recipes", lede:"Profession recipes, camp objects and blueprints, with where to learn each one."},
+  {id:"items", label:"Item database", title:"Item database", lede:"Every item from the original game with stats and where it drops. Blizzard's live Forever data replaces each one as it arrives, and Forever-only items are added automatically."},
+  {id:"travel", label:"Travel", title:"Travel", lede:"Flight paths, boats, zeppelins and portals, including Forever's new routes."},
+  {id:"zones", label:"Zones", title:"Zones", lede:"Every zone by level range, including Forever's new and reworked areas."},
+  {id:"instances", label:"Dungeons & raids", title:"Dungeons, raids & battlegrounds", lede:"Instances, group sizes, bosses and notable loot."},
+  {id:"classes", label:"Classes", title:"Classes", lede:"Races, roles and what changed for each class."},
+  {id:"professions", label:"Professions", title:"Professions", lede:"Where to train, how to level and what's different in Forever."},
+  {id:"systems", label:"Systems & FAQ", title:"Systems & FAQ"}
+];
+let DATA = null;
+const $ = s=>document.querySelector(s);
+const esc = s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const has = v=>v!==undefined && v!==null && String(v).trim()!=="" && !(Array.isArray(v)&&!v.length);
+const arr = v=>Array.isArray(v)?v.filter(has):(has(v)?[v]:[]);
+const lvMin = s=>{const m=String(s||"").match(/\d+/);return m?+m[0]:999};
+const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+/* per-section field setup */
+const tagsFor = (it, keys)=>keys.map(k=>{
+  const v=it[k]; if(!has(v)) return "";
+  return `<span class="tag ${k==="faction"?esc(v):""}">${esc(v)}</span>`;}).join("")
+  + (it.new?`<span class="tag new">New in Forever</span>`:"")
+  + (it.confidence==="vanilla-carryover"?`<span class="tag carry">Vanilla carry-over</span>`:"")
+  + (it.confidence==="datamined"?`<span class="tag carry">Datamined</span>`:"");
+const dlFor = (it, pairs)=>{
+  const rows = pairs.filter(([k])=>has(it[k])).map(([k,label])=>{
+    const v=it[k]; const val = (k==="steps"&&Array.isArray(v))?`<ol class="plain" style="margin:0;padding-left:18px">${arr(v).map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`:Array.isArray(v)?`<div class="chips">${arr(v).map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:esc(v);
+    return `<dt>${label}</dt><dd>${val}</dd>`;}).join("");
+  return rows?`<dl>${rows}</dl>`:"";
+};
+const srcLink = it=>has(it.sourceUrl)?`<a class="src" href="${esc(it.sourceUrl)}" target="_blank" rel="noopener">Source ↗</a>`:"";
+
+const CFG = {
+  mounts:{filters:["faction","source","type"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.speed, tags:tagsFor(it,["faction","source","type"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["cost","Cost"],["speed","Speed"]])+srcLink(it)},
+  pets:{filters:["faction","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction","source","family"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["cost","Cost"]])+srcLink(it)},
+  hunterpets:{filters:["family"], sort:(a,b)=>(a.family||"").localeCompare(b.family||"")||((a.name?1:0)-(b.name?1:0))||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name||`${it.family} (family)`, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it, it.name?["family"]:[])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["role","Role"],["diet","Diet"],["abilities","Abilities"]])+srcLink(it)},
+  gear:{filters:["slot","quality","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, cls:"q-"+(it.quality||""), right:it.level?`Req ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"],["classes","Used by"]])+srcLink(it)},
+  recipes:{filters:["profession","source"], sort:(a,b)=>(a.profession||"").localeCompare(b.profession||"")||(parseInt(a.skill)||0)-(parseInt(b.skill)||0),
+    head:it=>({title:it.name, right:has(it.skill)?`Skill ${it.skill}`:"", tags:tagsFor(it,["profession","source"])}),
+    body:it=>(has(it.makes)?`<p>${esc(it.makes)}</p>`:"")+(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"]])+srcLink(it)},
+  items:{filters:["quality","itemClass","slot","source"], sort:(a,b)=>(b.level||0)-(a.level||0)||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, cls:"q-"+(it.quality||""), right:it.level?`iLvl ${it.level}`:"", tags:tagsFor(it,["quality","slot","source"])+(it.api?`<span class="tag">Live Forever data</span>`:`<span class="tag carry">Original-game data</span>`)}),
+    body:it=>(arr(it.stats).length?`<ul class="plain">${arr(it.stats).map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:"")+dlFor(it,[["where","Where"],["subclass","Type"],["reqLevel","Requires level"],["sellPrice","Sells for"]])+(it.id?`<a class="src" href="https://www.wowhead.com/forever/item=${esc(it.id)}" target="_blank" rel="noopener">Drops, sources and comments ↗</a>`:"")},
+  travel:{filters:["kind","faction"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["kind","faction"])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["from","From"],["to","To"]])+srcLink(it)},
+  quests:{filters:["zone","kind","faction"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels)||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["zone","kind","faction"])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["startsAt","Starts at"],["steps","Steps"],["reward","Reward"]])+srcLink(it)},
+  collectibles:{filters:["kind","source"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["kind","source"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["where","Where"]])+srcLink(it)},
+  legacy:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(parseFloat(a.points)||0)-(parseFloat(b.points)||0),
+    head:it=>({title:it.name, right:has(it.points)?`${it.points} pts`:"", tags:tagsFor(it,["kind"])}),
+    body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["reward","Reward"]])+srcLink(it)},
+  reputations:{filters:["faction"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction"])}),
+    body:it=>(has(it.howToRaise)?`<p>${esc(it.howToRaise)}</p>`:"")+dlFor(it,[["where","Where"],["keyRewards","Rewards"]])+srcLink(it)},
+  rares:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
+    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind"])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["drops","Drops"]])+srcLink(it)},
+  pvp:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||""),
+    head:it=>({title:it.name, right:"", tags:tagsFor(it,["kind"])}),
+    body:it=>(has(it.details)?`<p>${esc(it.details)}</p>`:"")+dlFor(it,[["requirements","Requires"],["rewards","Rewards"]])+srcLink(it)},
+  events:{filters:[], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.when||"", tags:tagsFor(it,[])}),
+    body:it=>(has(it.what)?`<p>${esc(it.what)}</p>`:"")+dlFor(it,[["where","Where"],["rewards","Rewards"]])+srcLink(it)},
+  zones:{filters:["continent","faction"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
+    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["faction","continent"])}),
+    body:it=>(has(it.changed)?`<p>${esc(it.changed)}</p>`:"")+dlFor(it,[["highlights","Highlights"]])+srcLink(it)},
+  instances:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
+    head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind","size"])}),
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["location","Location"],["unlock","Opens"],["bosses","Bosses"],["notableLoot","Notable loot"]])+srcLink(it)},
+  classes:{filters:[], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:"", tags:arr(it.roles).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}),
+    body:it=>(has(it.forevChanges)?`<p>${esc(it.forevChanges)}</p>`:"")+dlFor(it,[["specs","Talent trees"],["races","Races"]])+srcLink(it)},
+  professions:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:it.maxSkill?`Max ${it.maxSkill}`:"", tags:tagsFor(it,["kind"])}),
+    body:it=>(has(it.changes)?`<p>${esc(it.changes)}</p>`:"")+dlFor(it,[["trainers","Trainers"],["levelingTips","Levelling"],["notableRecipes","Notable recipes"]])+srcLink(it)},
+  news:{filters:["category"], sort:(a,b)=>(b.date||"").localeCompare(a.date||""),
+    head:it=>({title:it.title, right:it.date, tags:tagsFor(it,["category"])}),
+    body:it=>`<p>${esc(it.summary)}</p>`+(has(it.url)?`<a class="src" href="${esc(it.url)}" target="_blank" rel="noopener">Read the full story ↗</a>`:"")}
+};
+
+const state = {}; // per-section filter state
+const FL = new WeakMap();
+const flat = it=>{let s=FL.get(it); if(s===undefined){s=Object.values(it).map(v=>Array.isArray(v)?v.join(" "):(typeof v==="object"&&v?"":String(v??""))).join(" ").toLowerCase(); FL.set(it,s);} return s;};
+const PAGE = 60;
+const EMPTY = {items:"The item database fills itself in from Blizzard's official data once the guide's self-updating home is set up."};
+function paged(el, sec, items){
+  let shown=0;
+  const more=()=>{
+    const next=items.slice(shown, shown+PAGE); shown+=next.length;
+    el.querySelector(".more")?.remove();
+    el.insertAdjacentHTML("beforeend", next.map(it=>entryHTML(sec,it)).join("") + (shown<items.length?`<button class="more toggle" type="button">Show ${Math.min(PAGE,items.length-shown)} more of ${items.length-shown}</button>`:""));
+    el.querySelector(".more")?.addEventListener("click", more);
+  };
+  el.innerHTML=""; more();
+}
+
+function entryHTML(sec,it){
+  const h=CFG[sec].head(it);
+  return `<details class="entry"><summary><div class="row1"><h3 class="${h.cls||""}">${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</summary><div class="body">${CFG[sec].body(it)}</div></details>`;
+}
+
+function renderList(sec){
+  const meta=SECTIONS.find(s=>s.id===sec); const cfg=CFG[sec]; const all=(DATA[sec]||[]).slice().sort(cfg.sort);
+  const st=state[sec]||(state[sec]={newOnly:false});
+  const opts=k=>[...new Set(all.map(i=>i[k]).filter(has))].sort();
+  const filt=cfg.filters.map(k=>{const o=opts(k); if(o.length<2) return "";
+    const PL={family:"families",category:"categories",quality:"qualities",itemClass:"item types",slot:"slots",source:"sources",faction:"factions",kind:"kinds",type:"types",zone:"zones",continent:"continents",profession:"professions"};
+    return `<select data-k="${k}" aria-label="Filter by ${k}"><option value="">All ${PL[k]||k+"s"}</option>${o.map(v=>`<option${st[k]===v?" selected":""}>${esc(v)}</option>`).join("")}</select>`;}).join("");
+  const anyNew=all.some(i=>i.new);
+  $("#main").innerHTML=`<h2>${esc(meta.title||meta.label)}</h2>${meta.lede?`<p class="lede">${esc(meta.lede)}</p>`:""}
+    <div class="filters">${filt}${anyNew?`<label class="toggle"><input type="checkbox" id="newOnly"${st.newOnly?" checked":""}> New in Forever only</label>`:""}<span class="count" id="count"></span></div>
+    <div class="list" id="list"></div>`;
+  const draw=()=>{
+    const q=$("#q").value.trim().toLowerCase();
+    const items=all.filter(it=>cfg.filters.every(k=>!st[k]||it[k]===st[k]) && (!st.newOnly||it.new) && (!q||flat(it).includes(q)));
+    $("#count").textContent=`${items.length} of ${all.length}`;
+    if(items.length) paged($("#list"), sec, items);
+    else $("#list").innerHTML=`<div class="empty">${all.length?"Nothing matches those filters.":(EMPTY[sec]||"No entries yet. The next refresh will add them as sources confirm them.")}</div>`;
+  };
+  $("#main").querySelectorAll("select").forEach(s=>s.onchange=()=>{st[s.dataset.k]=s.value;draw();});
+  const n=$("#newOnly"); if(n) n.onchange=()=>{st.newOnly=n.checked;draw();};
+  draw();
+}
+
+function renderSearch(q){
+  const ql=q.toLowerCase(); const out=[]; let total=0;
+  for(const s of SECTIONS){ if(!CFG[s.id]) continue;
+    const hits=(DATA[s.id]||[]).filter(it=>flat(it).includes(ql)).sort(CFG[s.id].sort);
+    if(!hits.length) continue; total+=hits.length;
+    out.push([s.id,hits]);}
+  $("#main").innerHTML=`<h2>Results for “${esc(q)}”</h2><p class="lede">${total} match${total===1?"":"es"} across the guide.</p>${out.length?out.map(([id,h])=>`<div class="section"><div class="eyebrow">${esc(SECTIONS.find(s=>s.id===id).label)} · ${h.length}</div><div class="list" style="margin-top:8px" data-sec="${id}"></div></div>`).join(""):`<div class="empty">No matches. Try a shorter word, like a zone or boss name.</div>`}`;
+  out.forEach(([id,h])=>paged($(`.list[data-sec="${id}"]`), id, h));
+}
+
+function renderHome(){
+  const S=DATA.systems||{}; const news=(DATA.news||[]).slice().sort(CFG.news.sort).slice(0,5);
+  const stat=(id,lab)=>`<a class="stat" href="#${id}"><b>${(DATA[id]||[]).length}</b><span>${lab}</span></a>`;
+  $("#main").innerHTML=`
+    <h2>World of Warcraft: Forever</h2>
+    <p class="lede">${esc(S.overview||"")}</p>
+    <div class="stats">${SECTIONS.filter(s=>CFG[s.id]).map(s=>stat(s.id,s.label)).join("")}</div>
+    <div class="grid2">
+      <div class="panel"><h3>Latest news</h3><ul class="news-mini">${news.map(n=>`<li><span class="d">${esc(n.date)} · ${esc(n.category)}</span>${has(n.url)?`<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>`:esc(n.title)}</li>`).join("")||"<li>No news yet.</li>"}</ul><p style="margin:10px 0 0"><a href="#news">All news →</a></p></div>
+      <div class="panel"><h3>Roadmap</h3><ul class="road">${arr(S.roadmap).map(r=>`<li><span class="when">${esc(r.when)}</span><span>${esc(r.what)}</span></li>`).join("")}</ul></div>
+    </div>
+    <div class="grid2 section">
+      <div class="panel"><h3>At a glance</h3>${dlFor(S,[["launch","Launched"],["levelCap","Level cap"],["price","How to play"]])}</div>
+      ${S.skyborne?`<div class="panel"><h3>The Skyborne</h3><p style="margin:0 0 8px">${esc(S.skyborne.desc)}</p>${dlFor(S.skyborne,[["factions","Factions"],["classes","Classes"],["racials","Racials"],["startingZone","Start"],["howToUnlock","Unlock"]])}</div>`:""}
+    </div>`;
+}
+
+function renderSystems(){
+  const S=DATA.systems||{};
+  $("#main").innerHTML=`<h2>Systems & FAQ</h2><p class="lede">How Forever works differently from Classic and Retail.</p>
+    ${arr(S.rulesets).length?`<div class="section"><div class="eyebrow">Rulesets</div><div class="list" style="margin-top:8px">${S.rulesets.map(r=>`<div class="panel"><h3>${esc(r.name)}</h3><p style="margin:6px 0 0">${esc(r.desc)}</p></div>`).join("")}</div></div>`:""}
+    <div class="section"><div class="eyebrow">Systems</div><div class="list" style="margin-top:8px">${arr(S.systems).map(s=>`<details class="entry"><summary><h3>${esc(s.name)}</h3></summary><div class="body"><p>${esc(s.desc)}</p></div></details>`).join("")}</div></div>
+    <div class="section"><div class="eyebrow">FAQ</div><div class="list" style="margin-top:8px">${arr(S.faq).map(f=>`<details class="entry"><summary><h3>${esc(f.q)}</h3></summary><div class="body"><p>${esc(f.a)}</p></div></details>`).join("")}</div></div>
+    <div class="section panel"><h3>Useful links</h3><ul class="plain">${arr(S.links).map(l=>`<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></li>`).join("")}</ul></div>`;
+}
+
+function route(){
+  const q=$("#q").value.trim();
+  let id=(location.hash||"#home").slice(1); if(!SECTIONS.some(s=>s.id===id)) id="home";
+  document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
+  if(!DATA) return;
+  if(q.length>=2) return renderSearch(q);
+  if(id==="home") renderHome(); else if(id==="systems") renderSystems(); else renderList(id);
+}
+
+$("#nav").innerHTML=SECTIONS.map(s=>`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`).join("");
+$("#nav").addEventListener("click",e=>{ if(e.target.closest("a")){ $("#q").value=""; window.scrollTo(0,0);} });
+window.addEventListener("hashchange",route);
+let t; $("#q").addEventListener("input",()=>{clearTimeout(t);t=setTimeout(route,150);});
+
+const opt = u=>fetch(u,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
+EMPTY.items="Loading the item database…";
+function loadItems(){
+  Promise.all([opt("items_base.json"), opt("items.json")]).then(([base,live])=>{
+    const byId=new Map();
+    for(const it of (base&&base.items)||[]) byId.set(it.id,it);
+    for(const it of (live&&live.items)||[]){ /* Blizzard's live Forever data wins over original-game data */
+      const old=byId.get(it.id)||{}; const m={...old};
+      for(const [k,v] of Object.entries(it)) if(has(v)) m[k]=v;
+      m.api=true; byId.set(it.id,m);
+    }
+    DATA.items=[...byId.values()];
+    for(const k of ["mounts","pets"]){ if(!live||!Array.isArray(live[k])) continue;
+      const have=new Set((DATA[k]||[]).map(m=>(m.name||"").toLowerCase()));
+      DATA[k]=(DATA[k]||[]).concat(live[k].filter(m=>m.name&&!have.has(m.name.toLowerCase())).map(m=>({name:m.name, source:"In game data", how:"Listed in Blizzard's official Forever data. How to get it hasn't been documented yet.", sourceUrl:""})));
+    }
+    EMPTY.items="The item database couldn't load. Reload the page to try again.";
+    const id=(location.hash||"#home").slice(1);
+    if($("#q").value.trim().length>=2||["items","home","mounts","pets"].includes(id)) route();
+  });
+}
+Promise.all([
+  fetch("data.json",{cache:"no-store"}).then(r=>{if(!r.ok) throw new Error(r.status);return r.json();}),
+  opt("feed.json")
+]).then(([d,feed])=>{
+  /* feed.json and items.json are written by the site's own updater; items load after first paint */
+  d.items=[];
+  if(feed&&Array.isArray(feed.news)){
+    const seen=new Set((d.news||[]).map(n=>n.url).filter(Boolean));
+    d.news=(d.news||[]).concat(feed.news.filter(n=>n.url&&!seen.has(n.url)));
+    if(feed.updated&&(!d.updated||feed.updated>d.updated)) d.updated=feed.updated;
+  }
+  DATA=d;
+  const when=d.updated?new Date(d.updated):null;
+  $("#upd").innerHTML=when?`Updated<br>${when.toLocaleDateString(undefined,{day:"numeric",month:"short",year:"numeric"})}`:"";
+  $("#foot").innerHTML=`Fan-made guide, not affiliated with Blizzard. Refreshed automatically from official news and community databases; each entry links to its source. ${d.updated?"Last refresh: "+esc(new Date(d.updated).toUTCString()):""}`;
+  route();
+  loadItems();
+}).catch(()=>{ $("#main").innerHTML=`<div class="empty">The guide's data didn't load. Reload the page; if it keeps failing, the latest refresh may still be publishing.</div>`; $("#upd").textContent=""; });
+route();
+})();
+</script>

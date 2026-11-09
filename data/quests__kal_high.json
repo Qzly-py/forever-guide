@@ -1,0 +1,5873 @@
+[
+ {
+  "name": "Gnomes Win!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "11",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Gnome racer wins the Mirage Raceway race",
+   "claim the prize"
+  ],
+  "reward": "Gnome Prize Box",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/1174/gnomes-win"
+ },
+ {
+  "name": "Goblins Win!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "11",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Goblin racer wins the Mirage Raceway race",
+   "claim the prize"
+  ],
+  "reward": "Goblin Prize Box",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/1099/goblins-win"
+ },
+ {
+  "name": "Message to Freewind Post",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "25",
+  "zone": "Thousand Needles",
+  "startsAt": "Brave Moonhorn",
+  "steps": [
+   "Carry a message to Freewind Post"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Pacify the Centaur",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "25",
+  "zone": "Thousand Needles",
+  "startsAt": "Cliffwatcher Longhorn",
+  "steps": [
+   "Thin out the Galak centaur"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Alien Egg",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "26",
+  "zone": "Thousand Needles",
+  "startsAt": "Hagar Lightninghoof",
+  "steps": [
+   "Find the strange egg"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Serpent Wild",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "26",
+  "zone": "Thousand Needles",
+  "startsAt": "Hagar Lightninghoof",
+  "steps": [
+   "Follow up on the alien egg"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Test of Faith",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "26",
+  "zone": "Thousand Needles",
+  "startsAt": "Dorn Plainstalker",
+  "steps": [
+   "Take the leap of faith test"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Sacred Fire",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "27",
+  "zone": "Thousand Needles",
+  "startsAt": "Motega Firemane",
+  "steps": [
+   "Fire-related errand for Motega"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Arikara",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "28",
+  "zone": "Thousand Needles",
+  "startsAt": "Magatha Grimtotem",
+  "steps": [
+   "Summon and slay Arikara"
+  ],
+  "reward": "Brute Hammer / Stingshot Wand / Clink Shield / Smouldering Leggings",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Assassination Plot",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "28",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Foil a plot against Kanati Greycloud"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Grimtotem Spying",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "28",
+  "zone": "Thousand Needles",
+  "startsAt": "Cliffwatcher Longhorn",
+  "steps": [
+   "Spy on the Grimtotem"
+  ],
+  "reward": "Desert Shoulders / Tundra Boots / Grimtoll Wristguards",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Protect Kanati Greycloud",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "28",
+  "zone": "Thousand Needles",
+  "startsAt": "Kanati Greycloud",
+  "steps": [
+   "Defend Kanati from assassins"
+  ],
+  "reward": "Lightheel Boots / Loamflake Bracers / Palestrider Gloves",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Free at Last",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "29",
+  "zone": "Thousand Needles",
+  "startsAt": "Lakota Windsong",
+  "steps": [
+   "Escort Lakota out of Darkcloud Pinnacle"
+  ],
+  "reward": "Windsong Cinch / Windsong Drape",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Homeward Bound",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "29",
+  "zone": "Thousand Needles",
+  "startsAt": "Pao'ka Swiftmountain",
+  "steps": [
+   "Escort Pao'ka out of Highperch"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Wanted - Arnak Grimtotem",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "29",
+  "zone": "Thousand Needles",
+  "startsAt": "Wanted Poster - Arnak Grimtotem",
+  "steps": [
+   "Slay Arnak Grimtotem"
+  ],
+  "reward": "Brawnhide Armor / Plainsguard Leggings",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Wind Rider",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "29",
+  "zone": "Thousand Needles",
+  "startsAt": "Elu",
+  "steps": [
+   "Deliver for Elu"
+  ],
+  "reward": "Heavy Armor Kit",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Hardened Shells",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Wizzle Brassbolts",
+  "steps": [
+   "Collect hardened tortoise shells"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Hypercapacitor Gizmo",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Wizlo Bearingshiner",
+  "steps": [
+   "Use the gizmo on a caged beast (elite)"
+  ],
+  "reward": "Inventor's League Ring / Wizlo's Tuning Wrench",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Load Lightening",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Pozzik",
+  "steps": [
+   "Gather materials to lighten the racer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Salt Flat Venom",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Fizzle Brassbolts",
+  "steps": [
+   "Collect venom from the salt flats"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Test of Endurance",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Dorn Plainstalker",
+  "steps": [
+   "Slay Grenka Bloodscreech (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Test of Lore",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Dorn Plainstalker",
+  "steps": [
+   "Multi-step warrior lore test leading to Parqual Fintallas"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Test of Strength",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "30",
+  "zone": "Thousand Needles",
+  "startsAt": "Dorn Plainstalker",
+  "steps": [
+   "Slay Rok'Alim the Pounder (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "The Brassbolts Brothers",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "30-46",
+  "zone": "Thousand Needles",
+  "startsAt": "Pilot Longbeard",
+  "steps": [
+   "Meet the Brassbolts brothers",
+   "later Gnomeregan-linked follow-up from Klockmort Spannerspan"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Hemet Nesingwary",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Deliver a message to Hemet Nesingwary"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Pristine Pesterhide Pelts",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Kristy Grant",
+  "steps": [
+   "Gather 5 Pristine Pesterhide Pelts from Pesterhide hyenas"
+  ],
+  "reward": "300 gold 30 silver, 2,500 XP, +100 Stormwind",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/98155/pristine-pesterhide-pelts"
+ },
+ {
+  "name": "Packaged Pristine Pelts",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Kristy Grant",
+  "steps": [
+   "Deliver the pelt package to Kimberly Grant in Stormwind"
+  ],
+  "reward": "Pelt Pants, 2,500 XP, +100 Stormwind",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/98156/packaged-pristine-pelts"
+ },
+ {
+  "name": "Rocket Car Parts",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Gather rocket car parts on the Shimmering Flats"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Stolen Freewind Supplies",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Jandia (Freewind Post)",
+  "steps": [
+   "Recover 8 Stolen Freewind Supplies from harpies west of Freewind Post"
+  ],
+  "reward": "300 gold 30 silver, 2,500 XP, +100 Thunder Bluff",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/98069/stolen-freewind-supplies"
+ },
+ {
+  "name": "Stop the Screeching",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "31",
+  "zone": "Thousand Needles",
+  "startsAt": "Jandia (Freewind Post)",
+  "steps": [
+   "Kill 5 each of Screeching Harpies, Roguefeathers and Windcallers"
+  ],
+  "reward": "300 gold 30 silver, 2,500 XP, +100 Thunder Bluff",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/98070/stop-the-screeching"
+ },
+ {
+  "name": "A Bump in the Road",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "33",
+  "zone": "Thousand Needles",
+  "startsAt": "Trackmaster Zherin",
+  "steps": [
+   "Deal with obstacles on the race track"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Lonebrow's Journal",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "34",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Return Lonebrow's journal (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Encrusted Tail Fins",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Thousand Needles",
+  "startsAt": "Wizzle Brassbolts",
+  "steps": [
+   "Collect encrusted tail fins (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Family Tree",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Thousand Needles",
+  "startsAt": "Cliffwatcher Longhorn",
+  "steps": [
+   "Investigate Grimtotem lineage"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Martek the Exiled",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Thousand Needles",
+  "startsAt": "Fizzle Brassbolts",
+  "steps": [
+   "Find Martek the Exiled"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Parts of the Swarm",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Thousand Needles",
+  "startsAt": "Korran",
+  "steps": [
+   "Collect silithid parts for analysis"
+  ],
+  "reward": "Dryleaf Pants / Bleeding Crescent",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "The Swarm Grows",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Thousand Needles",
+  "startsAt": "Moktar Krin",
+  "steps": [
+   "Report on the growing silithid swarm"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Delivery to the Gnomes",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Deliver to the gnome racers"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Final Passage",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Parqual Fintallas",
+  "steps": [
+   "Final step of the warrior Test of Lore"
+  ],
+  "reward": "Windstorm Hammer / Dancing Flame",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Parts for Kravel",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Wharfmaster Dizzywig",
+  "steps": [
+   "Bring parts to Kravel"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Rumors for Kravel",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Krazek",
+  "steps": [
+   "Bring rumors to Kravel"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "The Rumormonger",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Seek out a rumormonger"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Wharfmaster Dizzywig",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Speak with Wharfmaster Dizzywig"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Goblin Sponsorship",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Thousand Needles",
+  "startsAt": "Pozzik",
+  "steps": [
+   "Courier chain seeking goblin sponsors (Gazlowe, Lozgil, Revilgaz)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "The Eighteenth Pilot",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Thousand Needles",
+  "startsAt": "Pozzik",
+  "steps": [
+   "Find a new pilot for the racer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "News for Fizzle",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Thousand Needles",
+  "startsAt": "Martek the Exiled",
+  "steps": [
+   "Bring news to Fizzle"
+  ],
+  "reward": "Fizzle's Zippy Lighter / Gnomish Mechanics Gloves",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Indurium",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "39",
+  "zone": "Thousand Needles",
+  "startsAt": "Martek the Exiled",
+  "steps": [
+   "Gather indurium for the racers"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Keeping Pace",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Thousand Needles",
+  "startsAt": "Pozzik",
+  "steps": [
+   "Keep pace with the gnome racer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Razzeric's Tweaking",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Thousand Needles",
+  "startsAt": "Razzeric",
+  "steps": [
+   "Help tweak the goblin car"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Rizzle's Schematics",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Thousand Needles",
+  "startsAt": "Rizzle's Unguarded Plans",
+  "steps": [
+   "Steal Rizzle's plans"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Safety First",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Thousand Needles",
+  "startsAt": "Razzeric",
+  "steps": [
+   "Gather safety gear for the race"
+  ],
+  "reward": "Razzeric's Customized Seatbelt / Razzeric's Racing Grips",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Zamek's Distraction",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Cause a distraction at the race"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/1191/zameks-distraction"
+ },
+ {
+  "name": "Indurium Ore",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Thousand Needles",
+  "startsAt": "",
+  "steps": [
+   "Collect indurium ore"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/1192/indurium-ore"
+ },
+ {
+  "name": "Back to Booty Bay",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "43",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Return to Booty Bay"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Get the Gnomes Drunk",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Sabotage the gnomes with drink"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Get the Goblins Drunk",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Sabotage the goblins with drink"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Report Back to Fizzlebub",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Thousand Needles",
+  "startsAt": "Kravel Koalbeard",
+  "steps": [
+   "Report back to Crank Fizzlebub"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Zanzil's Mixture and a Fool's Stout",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Thousand Needles",
+  "startsAt": "Crank Fizzlebub",
+  "steps": [
+   "Brew the spiked drinks"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/thousand-needles"
+ },
+ {
+  "name": "Fish in a Bucket",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "25",
+  "zone": "Desolace",
+  "startsAt": "",
+  "steps": [
+   "Fishing-related errand in Desolace"
+  ],
+  "reward": "Bloodbelly Fish",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Centaur Bounty",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "31",
+  "zone": "Desolace",
+  "startsAt": "Felgur Twocuts",
+  "steps": [
+   "Bring 15 centaur ears"
+  ],
+  "reward": "Lilac Sash / Braced Handguards",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Centaur Bounty",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "31",
+  "zone": "Desolace",
+  "startsAt": "Corporal Melkins",
+  "steps": [
+   "Bring 15 centaur ears"
+  ],
+  "reward": "Ring of Calm",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Hunting in Stranglethorn",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "31",
+  "zone": "Desolace",
+  "startsAt": "Roon Wildmane",
+  "steps": [
+   "Take Roon's kodo horn to Hemet Nesingwary in Stranglethorn"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Assault on the Kolkar",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "32",
+  "zone": "Desolace",
+  "startsAt": "Warug",
+  "steps": [
+   "Keep Magram rep and kill Kolkar centaurs, scouts and maulers"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Raid on the Kolkar",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "32",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Keep Gelkis rep and bring 10 Crude Charms"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Regthar Deathgate",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "32",
+  "zone": "Desolace",
+  "startsAt": "Krusk",
+  "steps": [
+   "Speak with Regthar Deathgate"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "The Kolkar of Desolace",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "32",
+  "zone": "Desolace",
+  "startsAt": "Regthar Deathgate",
+  "steps": [
+   "Speak with Felgur at Ghost Walker Post"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Broken Tears",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Warug",
+  "steps": [
+   "Keep Magram rep and bring 3 Broken Tears"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Gelkis Alliance",
+  "kind": "Reputation",
+  "faction": "Horde",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Gurda Wildmane",
+  "steps": [
+   "Reach Friendly with the Gelkis, then speak to Uthek"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Magram Alliance",
+  "kind": "Reputation",
+  "faction": "Horde",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Gurda Wildmane",
+  "steps": [
+   "Reach Friendly with the Magram, then speak to Warug"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Hate the Hatefury",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Aka'rai, Shadowprey Village",
+  "steps": [
+   "Kill 2 each of five Hatefury satyr types at Sargeron and return to Aka'rai"
+  ],
+  "reward": "Aka'rai's Tattered Vestments or Dagger of Deals, 2,650 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/97265/hate-the-hatefury"
+ },
+ {
+  "name": "Reagents for Reclaimers Inc.",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "33-40",
+  "zone": "Desolace",
+  "startsAt": "Kreldig Ungor",
+  "steps": [
+   "Four-part reagent chain: Hatefury claws/horns, Scorpashi venom and kodo hides, demon parts, then deliver Leftwitch's Package to Roetten in Ironforge"
+  ],
+  "reward": "Auric Bracers / Stormfire Gauntlets",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Return to Vahlarriel",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Dalinda Malem",
+  "steps": [
+   "Escort Dalinda from Thunder Axe Fortress"
+  ],
+  "reward": "Grappler's Belt / Gloves of Insight / Garrison Cloak / Moonlit Amice",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Sceptre of Light",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Azore Aldamort",
+  "steps": [
+   "Retrieve the Sceptre of Light"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Search for Tyranis",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Dalinda Malem",
+  "steps": [
+   "Find Tyranis Malem"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "The Corrupter",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "33-40",
+  "zone": "Desolace",
+  "startsAt": "Flayed Demon Skin (drop)",
+  "steps": [
+   "Maurin Bonesplitter chain: demon skin, Shadowstalker scalp, Oracle Crystal, speak to Takata, kill Lord Azrethoc and Jugkar Grim'rod"
+  ],
+  "reward": "Basalt Buckler / Enforcer Pauldrons",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Vahlarriel's Search",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Vahlarriel Demonslayer",
+  "steps": [
+   "Search the Malem wagon, find Dalinda, return the Malem Pendant"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Vahlarriel's Vengeance",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "33",
+  "zone": "Desolace",
+  "startsAt": "Vahlarriel Demonslayer, Nijel's Point",
+  "steps": [
+   "Kill 4 each of Burning Blade Augurs, Reavers, Adepts and Felsworn at Thunder Axe Fortress"
+  ],
+  "reward": "650 gold 65 silver, 2,650 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/97284/vahlarriels-vengeance"
+ },
+ {
+  "name": "Kodo Roundup",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "34",
+  "zone": "Desolace",
+  "startsAt": "Smeed Scrabblescrew",
+  "steps": [
+   "Tame 5 kodos with the Kodo Kombobulator"
+  ],
+  "reward": "Kodo Rustler Boots / Wrangling Spaulders",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "A New Need for Shadow Protection",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Mirda, Magram Village",
+  "steps": [
+   "Keep Magram rep and bring 3 Greater Shadow Protection Potions"
+  ],
+  "reward": "Recipe: Greater Spellblasting Potion or Greater Frenzy Potion, +1,000 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92754/a-new-need-for-shadow-protection"
+ },
+ {
+  "name": "Big, No, MASSIVE Iron Axes",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Grolkar, Magram Village",
+  "steps": [
+   "Keep Magram rep and bring 2 Massive Iron Axes"
+  ],
+  "reward": "Plans: Hard Gold Gauntlet or Plans: Iron Morningstar, +1,000 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92818/big-no-massive-iron-axes"
+ },
+ {
+  "name": "Bodyguard for Hire",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Cork Gizelton",
+  "steps": [
+   "Escort the caravan past the Kolkar village"
+  ],
+  "reward": "Trader's Ring",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Brutal Politics",
+  "kind": "Reputation",
+  "faction": "Alliance",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Captain Pentigast",
+  "steps": [
+   "Reach Friendly with the Magram, then speak to Warug"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Clam Bait",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Mai'Lahii",
+  "steps": [
+   "Gather 10 soft-shelled clam meat"
+  ],
+  "reward": "Pardoc Grips / Ringtail Girdle / Bracesteel Belt",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Gizmo for Warug",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Warug",
+  "steps": [
+   "Keep Magram rep and bring an Advanced Target Dummy"
+  ],
+  "reward": "Schematic: Hoof-Shaped Foot Pedal / Schematic: Centaur Banner Deployment Device",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "I Need a Tailor",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Molkar, Gelkis Village",
+  "steps": [
+   "Keep Gelkis rep and bring a White Bandit Mask"
+  ],
+  "reward": "Pattern: Stormcloth Gloves or Pattern: Silk Reagent Bag, +1,000 Gelkis",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92814/i-need-a-tailor"
+ },
+ {
+  "name": "Khan Dez'hepah",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Felgur Twocuts",
+  "steps": [
+   "Bring Khan Dez'hepah's head"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Leather Technique",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Talra, Gelkis Village",
+  "steps": [
+   "Keep Gelkis rep and deliver a Barbaric Harness"
+  ],
+  "reward": "Pattern: Mystic Thick Armor Kit or Pattern: Blue Suede Armor, +1,000 Gelkis",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92817/leather-technique"
+ },
+ {
+  "name": "Mysterious Mysticism",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Halea, Gelkis Village",
+  "steps": [
+   "Keep Gelkis rep and bring 3 Greater Mystic Essences"
+  ],
+  "reward": "Formula: Enchant Bracer - Lesser Agility or Lesser Healing Power, +1,000 Gelkis",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92755/mysterious-mysticism"
+ },
+ {
+  "name": "Stealing Supplies",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Bring 6 bags of crudely dried meat"
+  ],
+  "reward": "Silver Star / Feathered Arrow / Exploding Shot",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Strange Alliance",
+  "kind": "Reputation",
+  "faction": "Alliance",
+  "levels": "35",
+  "zone": "Desolace",
+  "startsAt": "Captain Pentigast",
+  "steps": [
+   "Reach Friendly with the Gelkis, then speak to Uthek"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Claim Rackmore's Treasure!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Desolace",
+  "startsAt": "Rackmore's Log",
+  "steps": [
+   "Find both Rackmore keys and open the chest"
+  ],
+  "reward": "Captain Rackmore's Wheel / Captain Rackmore's Tiller",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Other Fish to Fry",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "36",
+  "zone": "Desolace",
+  "startsAt": "Drulzegar Skraghook",
+  "steps": [
+   "Kill Slitherblade nagas"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Catch of the Day",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "37",
+  "zone": "Desolace",
+  "startsAt": "Nataka Longhorn",
+  "steps": [
+   "Speak to Jinar'Zillen and bring 2 Bloodbelly fish"
+  ],
+  "reward": "Mithril Ore / Thick Leather / Mageweave Cloth",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Khan Jehn",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Bring Khan Jehn's head (classic version)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Khan Shaka",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Desolace",
+  "startsAt": "Warug",
+  "steps": [
+   "Keep Magram rep and bring Khan Shaka's head"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Ongeku",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Keep Gelkis rep and bring a Draenethyst Shard"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Valley of Bones (Gelkis)",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Gelkis chain, after Ongeku",
+  "steps": [
+   "Raise Gelkis rep and find Nerlokh near the Valley of Bones east of Gelkis Village"
+  ],
+  "reward": "290 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93034/valley-of-bones"
+ },
+ {
+  "name": "Ravaging Ravagers",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Nerlokh, Valley of Bones",
+  "steps": [
+   "Keep Gelkis rep and slay 6 Undead Ravagers"
+  ],
+  "reward": "1,450 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93035/ravaging-ravagers"
+ },
+ {
+  "name": "Facing the Truth",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Nerlokh",
+  "steps": [
+   "Bring an Accursed Skull and Gelkis Necromantic Garb to Uthek the Wise"
+  ],
+  "reward": "700 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93041/facing-the-truth"
+ },
+ {
+  "name": "A Cleansing Cry",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Speak with Mulara in the Gelkis cave and collect 3 Tears of Theradras for Uthek"
+  ],
+  "reward": "2,150 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93044/a-cleansing-cry"
+ },
+ {
+  "name": "Test Your Theory",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise",
+  "steps": [
+   "Use Uthek's draenethyst staff to dispel the curse on the Accursed Skull by the pond east of Gelkis Village",
+   "report to Nerlokh"
+  ],
+  "reward": "Centaur Spear / Wanderer's Broadsword / Desert Crawler's Claw, +500 Gelkis",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93045/test-your-theory"
+ },
+ {
+  "name": "The Visiting Mage",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "",
+  "steps": [
+   "Find the mage in Desolace who knows about draenethyst"
+  ],
+  "reward": "110 gold 11 silver, 700 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93464/the-visiting-mage"
+ },
+ {
+  "name": "Book of the Ancients",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Azore Aldamort",
+  "steps": [
+   "Retrieve the Book of the Ancients"
+  ],
+  "reward": "Silkstream Cuffs / Arcmetal Shoulders",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Gizelton Caravan",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Rigger Gizelton",
+  "steps": [
+   "Escort the caravan through Mannoroc Coven"
+  ],
+  "reward": "Sidegunner Shottie / Kodo Brander / Studded Ring Shield / Farseer's Forgotten Shield",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Hand of Iruxos",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Taiga Wisemane",
+  "steps": [
+   "Retrieve the Demon Box from Thunder Axe Fortress"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Portals of the Legion",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "38",
+  "zone": "Desolace",
+  "startsAt": "Taiga Wisemane",
+  "steps": [
+   "Banish 6 portals at Mannoroc Coven"
+  ],
+  "reward": "Gripsteel Wristguards / Braidfur Gloves",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Bone Collector",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "39",
+  "zone": "Desolace",
+  "startsAt": "Bibbly F'utzbuckle",
+  "steps": [
+   "Bring 10 kodo bones from the Kodo Graveyard"
+  ],
+  "reward": "Kodobone Necklace",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Brother Anton",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "39",
+  "zone": "Desolace",
+  "startsAt": "Brother Crowley",
+  "steps": [
+   "Speak with Brother Anton"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Down the Scarlet Path",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "39-40",
+  "zone": "Desolace",
+  "startsAt": "Brother Anton",
+  "steps": [
+   "Destroy 30 Undead Ravagers, then take Anton's letter to Raleigh in Southshore"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Get Me Out of Here!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "39",
+  "zone": "Desolace",
+  "startsAt": "Melizza Brimbuzzle",
+  "steps": [
+   "Escort Melizza to Hornizz at the Kodo Graveyard"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Ghost-o-plasm Round Up",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "39",
+  "zone": "Desolace",
+  "startsAt": "Hornizz Brimbuzzle",
+  "steps": [
+   "Collect 8 Ghost-o-plasms with ghost magnets"
+  ],
+  "reward": "Condor Bracers / Anchorhold Buckler",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "The Karnitol Shipwreck",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "39",
+  "zone": "Desolace",
+  "startsAt": "Kreldig Ungor",
+  "steps": [
+   "Find Karnitol's Chest and Satchel and take it to Roetten in Ironforge"
+  ],
+  "reward": "Hellion Boots / Sanguine Pauldrons",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "A Conqueror's Crown",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "Warug, Magram Village",
+  "steps": [
+   "Keep Magram rep and bring a Conqueror's Crown from a Badlands crypt"
+  ],
+  "reward": "3,150 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92743/a-conquerors-crown"
+ },
+ {
+  "name": "Valley of Bones (Magram)",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "",
+  "steps": [
+   "Raise Magram rep and find Orgrul south of Magram Village"
+  ],
+  "reward": "320 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92841/valley-of-bones"
+ },
+ {
+  "name": "Bone Raising",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Summon or slay 10 Haggard Bones to grow the Magram army"
+  ],
+  "reward": "2,350 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92894/bone-raising"
+ },
+ {
+  "name": "Carved Centaur Totems",
+  "kind": "Reputation",
+  "faction": "Alliance",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "Captain Pentigast, Nijel's Point",
+  "steps": [
+   "Collect 5 Carved Centaur Totems from centaur of any clan"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93224/carved-centaur-totems"
+ },
+ {
+  "name": "Carved Centaur Totems",
+  "kind": "Reputation",
+  "faction": "Horde",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "Gurda Wildmane, Ghost Walker Post",
+  "steps": [
+   "Collect 5 Carved Centaur Totems from centaur of any clan"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93225/carved-centaur-totems"
+ },
+ {
+  "name": "Notes on Draenethyst",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "40",
+  "zone": "Desolace",
+  "startsAt": "",
+  "steps": [
+   "Take Gimashi's notes on draenethyst from his tower in a southeastern ravine and bring them to Azore Aldamort"
+  ],
+  "reward": "500 gold 50 silver, 3,150 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93465/notes-on-draenethyst"
+ },
+ {
+  "name": "Proof of Concept",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "41",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Keep Magram rep and bring Well Cursed Bones to Orgrul"
+  ],
+  "reward": "Blade of the Magram Clan / Staff of Revelations / Desperate Barrier, +500 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92873/proof-of-concept"
+ },
+ {
+  "name": "Mountain of Bones",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Keep Magram rep and bring Gently Cursed Bones to Orgrul"
+  ],
+  "reward": "300 gold 30 silver, 3,450 XP, +500 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92844/mountain-of-bones"
+ },
+ {
+  "name": "Corrupting Tears",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Bring 3 Petrified Bark and 3 Imbued Tears to Orgrul"
+  ],
+  "reward": "3,450 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92847/corrupting-tears"
+ },
+ {
+  "name": "No Mercy for the Weak",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Slay 5 Gelkis Captives in the Valley of Bones"
+  ],
+  "reward": "2,550 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92893/no-mercy-for-the-weak"
+ },
+ {
+  "name": "Saving Our Own",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Gelkis, after Test Your Theory",
+  "steps": [
+   "Rescue 5 Gelkis Captives in the Valley of Bones",
+   "report to Nerlokh"
+  ],
+  "reward": "2,550 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93058/saving-our-own"
+ },
+ {
+  "name": "Bone Burying",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Gelkis Clan",
+  "steps": [
+   "Dispel the curses on 8 Haggard Bones in the Valley of Bones"
+  ],
+  "reward": "3,450 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93062/bone-burying"
+ },
+ {
+  "name": "Khan Jehn (Gelkis, Forever)",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise / Nerlokh chain",
+  "steps": [
+   "Slay Khan Jehn at Magram Village while keeping Gelkis rep"
+  ],
+  "reward": "Abandoned Ferocity / Thrice-Damned Effigy / Bludgeon of Betrayed Virtues, +6,000 Gelkis",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93128/khan-jehn"
+ },
+ {
+  "name": "Khan Jehn (Magram, Forever)",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Orgrul",
+  "steps": [
+   "Keep Magram rep and resurrect Khan Jehn by necromantic ritual in the tent at Magram Village's lake"
+  ],
+  "reward": "Greatstaff of the Necrokhans / Soulsplatter Mace / Scavenged Magram Armament, +6,000 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93196/khan-jehn"
+ },
+ {
+  "name": "Khan Hratha",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Uthek the Wise or Warug",
+  "steps": [
+   "Keep clan rep and bring the Maraudine Key Fragment (elite)"
+  ],
+  "reward": "Kolkar Marauder Chain / Traitor's Finger / Kolkar Hunter's Belt / Ceremonial Centaur Blanket",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Khan Hratha (Umarak)",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "42",
+  "zone": "Desolace",
+  "startsAt": "Umarak (43.4, 78.9)",
+  "steps": [
+   "Get a War Horn Mouthpiece, challenge Khan Hratha on the highest peak of the Valley of Spears, return the Maraudine Key Fragment (elite)"
+  ],
+  "reward": "Choice of Kolkar Marauder Chain / Traitor's Finger / Kolkar Hunter's Belt / Ceremonial Centaur Blanket, plus 10 Carved Centaur Totems, 4,300 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/96222/khan-hratha"
+ },
+ {
+  "name": "Checking Things Out",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "43",
+  "zone": "Desolace",
+  "startsAt": "Nerlokh",
+  "steps": [
+   "Investigate centaur points of interest in the Valley of Bones area",
+   "report to Nerlokh"
+  ],
+  "reward": "360 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93122/checking-things-out"
+ },
+ {
+  "name": "Bristleback Retreat",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "43",
+  "zone": "Desolace",
+  "startsAt": "Magram chain",
+  "steps": [
+   "Kill Bristleback Nomads, Thornweavers and Skullcrushers",
+   "report to Hagiak at the Magram Front"
+  ],
+  "reward": "600 gold 60 silver, 3,600 XP, +500 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93066/bristleback-retreat"
+ },
+ {
+  "name": "Long-Term Solutions",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "43",
+  "zone": "Desolace",
+  "startsAt": "Magram chain",
+  "steps": [
+   "Kill Outcast Scouts, Marauders and Necromancers",
+   "report to Hagiak"
+  ],
+  "reward": "300 gold 30 silver, 3,600 XP, +500 Magram",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93072/long-term-solutions"
+ },
+ {
+  "name": "Return to Orgrul",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "43",
+  "zone": "Desolace",
+  "startsAt": "Hagiak, Magram Front",
+  "steps": [
+   "Report back to Orgrul at the Valley of Bones"
+  ],
+  "reward": "360 XP",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93188/return-to-orgrul"
+ },
+ {
+  "name": "Buying Friendship: Gelkis",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Desolace",
+  "startsAt": "Captain Pentigast (66.6, 11)",
+  "steps": [
+   "Take the Totem Tote to the Gelkis Quartermaster (needs Neutral+ with Gelkis)"
+  ],
+  "reward": "Large Gelkis reputation gain",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93227/buying-friendship-gelkis"
+ },
+ {
+  "name": "Buying Friendship: Magram",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Desolace",
+  "startsAt": "Captain Pentigast (66.6, 11)",
+  "steps": [
+   "Take the Totem Tote to the Magram Quartermaster (needs Neutral+ with Magram)"
+  ],
+  "reward": "Large Magram reputation gain",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/93226/buying-friendship-magram"
+ },
+ {
+  "name": "Economic Warfare",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "scales",
+  "zone": "Desolace",
+  "startsAt": "",
+  "steps": [
+   "Collect 5 Carved Centaur Totems (level scales to the player)"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/92811/economic-warfare"
+ },
+ {
+  "name": "The Testament of Rexxar",
+  "kind": "Attunement",
+  "faction": "Horde",
+  "levels": "60",
+  "zone": "Desolace",
+  "startsAt": "Rexxar",
+  "steps": [
+   "Deliver Rexxar's Letter to Myranda the Hag in Western Plaguelands"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/desolace"
+ },
+ {
+  "name": "Highperch Venom",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "30",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Fiora Longears",
+  "steps": [
+   "Bring 10 Highperch Venom Sacs"
+  ],
+  "reward": "Windborne Belt",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Captain Vimes",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Theramore Lieutenant",
+  "steps": [
+   "Deliver the Spy's Report to Captain Vimes"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Jarl Needs Eyes",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "\"Swamp Eye\" Jarl",
+  "steps": [
+   "Bring 20 Unpopped Darkmist Eyes"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Jarl Needs a Blade",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "\"Swamp Eye\" Jarl",
+  "steps": [
+   "Bring a Moonsteel Broadsword"
+  ],
+  "reward": "Artisan's Trousers / Reedknot Ring / Swamp Ring",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Soothing Spices",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "\"Swamp Eye\" Jarl",
+  "steps": [
+   "Bring 3 Soothing Spices"
+  ],
+  "reward": "Frog Leg Stew",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Suspicious Hoofprints",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Suspicious Hoofprint (Shady Rest Inn)",
+  "steps": [
+   "Report the hoofprints to Krog (Horde) or Captain Vimes (Alliance)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Black Shield",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "35-37",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Black Shield (Shady Rest Inn)",
+  "steps": [
+   "Investigate the Blackened Iron Shield: Alliance via Vimes and Caz Twosprocket",
+   "Horde via Krog, Do'gol (5 Acidic Venom Sacs) and Mosarn in Thunder Bluff"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Lost Report",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Loose Dirt",
+  "steps": [
+   "Bring the Spy's Report to Nazeer Bloodpike"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Orc Report",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Loose Dirt",
+  "steps": [
+   "Bring the Spy's Report to a Theramore Lieutenant"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Severed Head",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Loose Dirt",
+  "steps": [
+   "Bring the Defiant Orc Head to Nazeer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Theramore Docks",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Nazeer Bloodpike",
+  "steps": [
+   "Bring the Captain's Documents"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Troll Witchdoctor",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Nazeer Bloodpike",
+  "steps": [
+   "Take the orc head to Kin'weelay in Grom'gol"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Theramore Spies",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Nazeer Bloodpike",
+  "steps": [
+   "Kill 9 Theramore Infiltrators"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "They Call Him Smiling Jim",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "35",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Guard Byron",
+  "steps": [
+   "Speak with Captain Vimes in Foothold Citadel"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Hungry!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "36",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Mudcrush Durtfeet",
+  "steps": [
+   "Bring 8 Mirefin Heads"
+  ],
+  "reward": "Mud's Crushers / Durtfeet Stompers",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Feast at the Blue Recluse",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "37",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Angus Stern",
+  "steps": [
+   "Errand for Angus Stern"
+  ],
+  "reward": "Moist Towelette",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Lieutenant Paval Reethe",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "37-40",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Theramore Guard Badge",
+  "steps": [
+   "Bring Reethe's badge to Krog (Horde) or Vimes (Alliance)",
+   "Alliance continues with Adjutant Tesoran"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Questioning Reethe",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "37",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Ogron",
+  "steps": [
+   "Go with Ogron to question Reethe"
+  ],
+  "reward": "Eyepoker / Blasting Hackbut",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Stinky's Escape",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "37",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "\"Stinky\" Ignatz",
+  "steps": [
+   "Escort Stinky to safety"
+  ],
+  "reward": "Elixir of Lesser Fortitude",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Daelin's Men",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "38",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Adjutant Tesoran",
+  "steps": [
+   "Return information about Reethe to Vimes"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Morgan Stern",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "38",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Angus Stern",
+  "steps": [
+   "Speak with Morgan Stern in Theramore"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Mudrock Soup and Bugs",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "38",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Morgan Stern",
+  "steps": [
+   "Bring 8 Forked Mudrock Tongues"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Deserters",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "38",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Captain Garran Vimes",
+  "steps": [
+   "Get information on Reethe from Balos Jacken and the deserters"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Vimes's Report",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "38",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Captain Garran Vimes",
+  "steps": [
+   "Report concluding the Reethe investigation (exact steps unconfirmed)"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/1288/vimess-report"
+ },
+ {
+  "name": "... and Bugs",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "40",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Morgan Stern",
+  "steps": [
+   "Bring 12 Pristine Crawler Legs"
+  ],
+  "reward": "Baroque Apron",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Marg Speaks",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "40",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Bubbling Cauldron",
+  "steps": [
+   "Bring the Jeweled Pendant to Nazeer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Report to Zor",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "40",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Nazeer Bloodpike",
+  "steps": [
+   "Take the Jeweled Pendant to Zor Lonetree in Orgrimmar"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Service to the Horde",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Zor Lonetree",
+  "steps": [
+   "Service to the Horde follow-up for Zor Lonetree"
+  ],
+  "reward": "Band of Allegiance / Lonetree's Circle",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Army of the Black Dragon",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Tharg",
+  "steps": [
+   "Kill Firemane Scouts, Ash Tails and Scalebanes"
+  ],
+  "reward": "Tharg's Shoelace / Tharg's Disk",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Identifying the Brood",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Draz'Zilb",
+  "steps": [
+   "Bring 15 Searing Tongues and 15 Searing Hearts"
+  ],
+  "reward": "Scorched Cape / Rustler Gloves",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Overlord Mok'Morokk's Concern",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Overlord Mok'Morokk",
+  "steps": [
+   "Retrieve his grog, snuff and strongbox (elite)"
+  ],
+  "reward": "Enormous Ogre Boots",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Brood of Onyxia",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "43-45",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Draz'Zilb",
+  "steps": [
+   "Speak with Mok'Morokk, then destroy 5 Eggs of Onyxia (elite)"
+  ],
+  "reward": "Encarmine Boots / Boots of Zuatec",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Challenge Overlord Mok'Morokk",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Overlord Mok'Morokk",
+  "steps": [
+   "Defeat Mok'Morokk (elite)"
+  ],
+  "reward": "Fiendish Skiv / Chillnail Splinter",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Deadmire",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Melor Stonehoof",
+  "steps": [
+   "Bring Deadmire's Tooth to Thunder Bluff"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Emberstrife",
+  "kind": "Attunement",
+  "faction": "Horde",
+  "levels": "60",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Myranda the Hag",
+  "steps": [
+   "Wear the Dull Drakefire Amulet into Emberstrife's Den (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "The Test of Skulls",
+  "kind": "Attunement",
+  "faction": "Horde",
+  "levels": "60",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Emberstrife",
+  "steps": [
+   "Bring the skulls of Scryer, Somnus, Chronalis and Axtroz to Emberstrife (raid-level)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "Ascension...",
+  "kind": "Attunement",
+  "faction": "Horde",
+  "levels": "60",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Emberstrife",
+  "steps": [
+   "Show Rexxar the Dull Drakefire Amulet to complete the Onyxia attunement"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "I See Alcaz Island In Your Future...",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Dustwallow Marsh",
+  "startsAt": "Bodley",
+  "steps": [
+   "Gather 20 Bloodkelp from the Strashaz nagas (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/dustwallow-marsh"
+ },
+ {
+  "name": "To the Top",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "25",
+  "zone": "Feralas",
+  "startsAt": "",
+  "steps": [
+   "Feralas-listed low-level quest (details unknown)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "War on the Woodpaw",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "42",
+  "zone": "Feralas",
+  "startsAt": "Hadoken Swiftstrider",
+  "steps": [
+   "Gather 10 Woodpaw Gnoll Manes"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Against the Hatecrest",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Shandris Feathermoon",
+  "steps": [
+   "Report to Latronicus, then gather 10 Hatecrest Naga Scales"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Alpha Strike",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Hadoken Swiftstrider",
+  "steps": [
+   "Kill 5 Woodpaw Alphas within an hour"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Gordunni Cobalt",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Orwin Gizzmick",
+  "steps": [
+   "Gather 12 Gordunni Cobalt"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Ruins of Solarsal",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Shandris Feathermoon",
+  "steps": [
+   "Investigate naga at the Ruins of Solarsal"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Return to Feathermoon Stronghold",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Solarsal Gazebo",
+  "steps": [
+   "Report to Shandris"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Battle Plans",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Woodpaw Battle Map",
+  "steps": [
+   "Deliver the Woodpaw Battle Plans to Hadoken"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Gordunni Scroll",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "",
+  "steps": [
+   "Deliver the Gordunni Scroll to Rok Orhan"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Missing Courier",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "43-46",
+  "zone": "Feralas",
+  "startsAt": "Latronicus Moonspear",
+  "steps": [
+   "Courier chain: Ginro, the wrecked row boat, Discarded Knife, Quintis's psychometric reading, Woodpaw camps, Writhing Deep, free Raschal, A Hero's Welcome from Shandris"
+  ],
+  "reward": "Rewards along the chain",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Ogres of Feralas",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43-44",
+  "zone": "Feralas",
+  "startsAt": "Rok Orhan",
+  "steps": [
+   "Kill Gordunni ogres in two waves"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Woodpaw Investigation",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "43",
+  "zone": "Feralas",
+  "startsAt": "Hadoken Swiftstrider",
+  "steps": [
+   "Find gnoll battle plans south of Camp Mojache"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Thalanaar Delivery",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "44",
+  "zone": "Feralas",
+  "startsAt": "",
+  "steps": [
+   "Deliver the Undelivered Parcel to Falfindel Waywarder"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The High Wilderness",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "44",
+  "zone": "Feralas",
+  "startsAt": "Angelas Moonbreeze",
+  "steps": [
+   "Kill Gordunni warlocks, shamans and brutes"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "A Grim Discovery",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Krueg Skullsplitter",
+  "steps": [
+   "Collect 20 Grimtotem Horns, then deliver the crate to Belgrom Rockmaul in Orgrimmar"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "A New Cloak's Sheen",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Krueg Skullsplitter",
+  "steps": [
+   "Bring 10 Iridescent Sprite Darter Wings"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "A Strange Request",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Witch Doctor Uzer'i",
+  "steps": [
+   "Take the Shrunken Head to Neeru Fireblade",
+   "return with Neeru's Herb Pouch"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Against Lord Shalzaru",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Latronicus Moonspear",
+  "steps": [
+   "Defeat Lord Shalzaru, then deliver the relic to Vestia Moonspear"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Muisek chain",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "45-50",
+  "zone": "Feralas",
+  "startsAt": "Witch Doctor Uzer'i",
+  "steps": [
+   "Capture spirits with the Muisek Vessel: faerie dragon, hippogryph, wildkin, mountain giant, treant",
+   "gather Natural Materials, then Weapons of Spirit"
+  ],
+  "reward": "Weapons of Spirit weapon choice",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Find OOX-22/FE!",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Distress beacon (drop)",
+  "steps": [
+   "Bring the beacon to the robot near Feral Scar Vale, then escort it (Rescue OOX-22/FE!)"
+  ],
+  "reward": "Rewards from Oglethorpe in Booty Bay",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Zukk'ash Infestation",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "45",
+  "zone": "Feralas",
+  "startsAt": "Hadoken Swiftstrider",
+  "steps": [
+   "Bring 20 Zukk'ash Carapaces",
+   "later Stinglasher and Zukk'ash Report"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Dark Ceremony",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "46",
+  "zone": "Feralas",
+  "startsAt": "Rok Orhan",
+  "steps": [
+   "Find a Gordunni Orb, then take it to Uthel'nay in Orgrimmar (The Gordunni Orb)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Rise of the Silithid",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "46",
+  "zone": "Feralas",
+  "startsAt": "Shandris Feathermoon",
+  "steps": [
+   "Take Raschal's Report to Gracina Spiritmight in Darnassus"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Mark of Quality",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "46-48",
+  "zone": "Feralas",
+  "startsAt": "Pratt McGrubben / Jangdor Swiftstrider",
+  "steps": [
+   "Bring Thick then Rage Scar Yeti Hides (Improved Quality)",
+   "leatherworking hide chain"
+  ],
+  "reward": "Leatherworking patterns",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Pristine Yeti Hide",
+  "kind": "Profession",
+  "faction": "Alliance",
+  "levels": "48",
+  "zone": "Feralas",
+  "startsAt": "Pratt McGrubben",
+  "steps": [
+   "Bring a pristine yeti hide"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Perfect Yeti Hide",
+  "kind": "Profession",
+  "faction": "Horde",
+  "levels": "48",
+  "zone": "Feralas",
+  "startsAt": "Jangdor Swiftstrider",
+  "steps": [
+   "Bring a perfect yeti hide"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Doling Justice",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "47",
+  "zone": "Feralas",
+  "startsAt": "Jer'kai Moonweaver",
+  "steps": [
+   "Kill Grimtotem naturalists, raiders and shamans, then take the signet to Tyrande"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Freedom for All Creatures",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "47",
+  "zone": "Feralas",
+  "startsAt": "Kindal Moonweaver",
+  "steps": [
+   "Free caged sprite darters"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "An Orphan Looking For a Home",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "47-48",
+  "zone": "Feralas",
+  "startsAt": "Kindal Moonweaver",
+  "steps": [
+   "Hippogryph egg chain: Quentin in Thousand Needles, A Short Incubation, The Newest Member of the Family, Food for Baby, Becoming a Parent with Agnar Beastamer"
+  ],
+  "reward": "Pet reward",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Feralas: A History",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "47-48",
+  "zone": "Feralas",
+  "startsAt": "Troyas Moonbreeze",
+  "steps": [
+   "In Search of Knowledge: borrow Daryn Lightwind's book, then The Borrower, The Super Snapper FX (photograph Gammerita) and Return to Troyas"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Zapped Giants",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "48-55",
+  "zone": "Feralas",
+  "startsAt": "Zorbin Fandazzle",
+  "steps": [
+   "Shrink giants with the Ultra-Shrinker",
+   "Fuel for the Zapping, Again With the Zapped Giants and Refuel for the Zapping follow"
+  ],
+  "reward": "Zorbin's Ultra-Shrinker items",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Giant Guardian",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "49",
+  "zone": "Feralas",
+  "startsAt": "Rockbiter",
+  "steps": [
+   "Find Shay Leafrunner, then Wandering Shay (fetch her bell)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Dark Heart",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "50",
+  "zone": "Feralas",
+  "startsAt": "Talo Thornhoof",
+  "steps": [
+   "Bring Edana Hatetalon's Dark Heart (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Vengeance on the Northspring",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "50",
+  "zone": "Feralas",
+  "startsAt": "Talo Thornhoof",
+  "steps": [
+   "Kill Northspring harpies"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Strength of Corruption",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "52",
+  "zone": "Feralas",
+  "startsAt": "Talo Thornhoof",
+  "steps": [
+   "Kill Angerclaw Grizzlies and Felpaw Ravagers in Felwood"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Stave of Equinex",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "50",
+  "zone": "Feralas",
+  "startsAt": "Troyas Moonbreeze",
+  "steps": [
+   "Energize the stave and find the Equinex Monolith",
+   "The Morrow Stone follows"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Mystery of Morrowgrain",
+  "kind": "Reputation",
+  "faction": "Alliance",
+  "levels": "50-55",
+  "zone": "Feralas",
+  "startsAt": "Quintis Jonespyre",
+  "steps": [
+   "Bring 10 Morrowgrain",
+   "repeatable Morrowgrain to Feathermoon Stronghold"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Jonespyre's Request",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "50",
+  "zone": "Feralas",
+  "startsAt": "Innkeeper Shyria",
+  "steps": [
+   "Speak with Quintis Jonespyre"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Sunken Temple",
+  "kind": "Dungeon",
+  "faction": "Alliance",
+  "levels": "51",
+  "zone": "Feralas",
+  "startsAt": "Angelas Moonbreeze",
+  "steps": [
+   "Find Marvon Rivetseeker in Tanaris"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "The Videre Elixir",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "52",
+  "zone": "Feralas",
+  "startsAt": "Donova Snowden",
+  "steps": [
+   "Get the Videre Elixir recipe from Gregan Brewspewer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/feralas"
+ },
+ {
+  "name": "Wastewander Justice",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "43-44",
+  "zone": "Tanaris",
+  "startsAt": "Chief Engineer Bilgewhizzle",
+  "steps": [
+   "Kill Wastewander bandits and thieves, then More Wastewander Justice"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Water Pouch Bounty",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Tanaris",
+  "startsAt": "Spigot Operator Luglunket",
+  "steps": [
+   "Bring 5 Wastewander Water Pouches"
+  ],
+  "reward": "Gadgetzan Water Co. Care Package",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Screecher Spirits",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "44",
+  "zone": "Tanaris",
+  "startsAt": "Yeh'kinya",
+  "steps": [
+   "Capture 3 screecher spirits in Feralas"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Stoley's Debt",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Tanaris",
+  "startsAt": "\"Sea Wolf\" MacKinley",
+  "steps": [
+   "Steamwheedle Port chain: Stoley's Debt, Stoley's Shipment, Deliver to MacKinley"
+  ],
+  "reward": "Swashbuckler Sash / Shinkicker Boots",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Pirate Hats Ahoy!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Tanaris",
+  "startsAt": "Haughty Modiste",
+  "steps": [
+   "Collect 20 Southsea Pirate Hats"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Southsea Shakedown",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Tanaris",
+  "startsAt": "Security Chief Bilgewhizzle",
+  "steps": [
+   "Kill four types of Southsea pirates"
+  ],
+  "reward": "Southsea Head Bucket / Southsea Mojo Boots",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Ship Schedules",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Tanaris",
+  "startsAt": "Ship Schedules (drop)",
+  "steps": [
+   "Report the schedules in Steamwheedle Port"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "WANTED: Andre Firebeard",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "45",
+  "zone": "Tanaris",
+  "startsAt": "Wanted Poster",
+  "steps": [
+   "Bring Andre Firebeard's head"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Gadgetzan Water Survey",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "46",
+  "zone": "Tanaris",
+  "startsAt": "Senior Surveyor Fizzledowser",
+  "steps": [
+   "Use a dowsing widget at the pool by Sandsorrow Watch"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Tanaris Field Sampling",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "46",
+  "zone": "Tanaris",
+  "startsAt": "Apothecary Zinge",
+  "steps": [
+   "Into the Field, Another Power Source?, Slake That Thirst: sample basilisks, hyenas and scorpions"
+  ],
+  "reward": "Model 4711-FTZ Power Source",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "WANTED: Caliph Scorpidsting",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "46",
+  "zone": "Tanaris",
+  "startsAt": "Wanted Poster",
+  "steps": [
+   "Bring Caliph Scorpidsting's head"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Handle With Care",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "47",
+  "zone": "Tanaris",
+  "startsAt": "Curgle Cranklehop",
+  "steps": [
+   "Deliver a crate to Erelas Ambersky in Rut'theran"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Noxious Lair Investigation",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "47-49",
+  "zone": "Tanaris",
+  "startsAt": "Senior Surveyor Fizzledowser",
+  "steps": [
+   "Centipaar insect parts, Insect Part Analysis, then Rise of the Silithid to Darnassus or Orgrimmar"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Super Egg-O-Matic",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "47-60",
+  "zone": "Tanaris",
+  "startsAt": "Egg-O-Matic",
+  "steps": [
+   "Use the Egg-O-Matic on Gammerita's egg",
+   "hatches An Ordinary/Fine/Extraordinary/Bad Egg"
+  ],
+  "reward": "Egg Crate; Box of Rations / Spells / Goodies",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Find OOX-17/TN!",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Tanaris",
+  "startsAt": "Distress beacon (drop)",
+  "steps": [
+   "Find and escort OOX-17/TN (Rescue OOX-17/TN!)"
+  ],
+  "reward": "Optomatic Deflector / Thermotastic Egg Timer",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Gahz'ridian",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Tanaris",
+  "startsAt": "Marvon Rivetseeker",
+  "steps": [
+   "Collect 30 Gahz'ridian Ornaments"
+  ],
+  "reward": "Surveyor's Tunic / Staff of Lore",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Scrimshank Redemption",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Tanaris",
+  "startsAt": "Senior Surveyor Fizzledowser",
+  "steps": [
+   "Find Scrimshank's surveying gear"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Noggenfogger Elixir",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "49",
+  "zone": "Tanaris",
+  "startsAt": "Marin Noggenfogger",
+  "steps": [
+   "The Thirsty Goblin, In Good Taste, Sprinkle's Secret Ingredient, Delivery for Marin"
+  ],
+  "reward": "Noggenfogger Elixir",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Dunemaul Compound",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "49",
+  "zone": "Tanaris",
+  "startsAt": "Andi Lynn",
+  "steps": [
+   "Kill Dunemaul brutes, enforcers and Gor'marok"
+  ],
+  "reward": "Witherseed Gloves / Rugwood Mantle",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Stone Watcher",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "50",
+  "zone": "Tanaris",
+  "startsAt": "Stone Watcher of Norgannon",
+  "steps": [
+   "Learn the Watcher's purpose (Uldaman/Uldum lore, elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Thistleshrub Valley",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "50",
+  "zone": "Tanaris",
+  "startsAt": "Tran'rek",
+  "steps": [
+   "Kill Gnarled Thistleshrubs and Rootshapers"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Tooga's Quest",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "50",
+  "zone": "Tanaris",
+  "startsAt": "Tooga",
+  "steps": [
+   "Guide Tooga the turtle home to Torta"
+  ],
+  "reward": "Chelonian Cuffs / Band of the Great Tortoise",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Stone Circle",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "51",
+  "zone": "Tanaris",
+  "startsAt": "Marvon Rivetseeker",
+  "steps": [
+   "Fetch the Stone Circle from Marvon's workshop in Ratchet"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Bungle in the Jungle",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "53",
+  "zone": "Tanaris",
+  "startsAt": "Alchemist Pestlezugg",
+  "steps": [
+   "Bring a Gorishi Scent Gland and 5 Un'Goro Soil"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Super Sticky",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "54",
+  "zone": "Tanaris",
+  "startsAt": "Tran'rek",
+  "steps": [
+   "Collect 12 Super Sticky Tar"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Pawn Captures Queen",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "54",
+  "zone": "Tanaris",
+  "startsAt": "Alchemist Pestlezugg",
+  "steps": [
+   "Defeat the Gorishi Hive Queen, then Calm Before the Storm"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Fire Plume Forged",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "57",
+  "zone": "Tanaris",
+  "startsAt": "Krinkle Goodsteel",
+  "steps": [
+   "Forge the Unfinished Skeleton Key at Fire Plume Ridge (Scholomance key)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Hand of Rastakhan",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "58",
+  "zone": "Tanaris",
+  "startsAt": "Prospector Ironboot",
+  "steps": [
+   "Speak with Molthor (Zul'Gurub)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Narain Soothfancy chain",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Narain Soothfancy",
+  "steps": [
+   "Translating the Ledger, Stewvul Ex-B.F.F., Never Ask Me About My Business, The Isle of Dread!, Return to Narain, Draconic for Dummies, rAnS0m, Decoy!, Love Song for Narain, The Only Prescription"
+  ],
+  "reward": "Gnomish Turban of Psychic Might",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Dirge's Kickin' Chimaerok Chops",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Dirge Quikcleave",
+  "steps": [
+   "Bring 20 Goblin Rocket Fuel and 20 Deeprock Salt"
+  ],
+  "reward": "Recipe: Dirge's Kickin' Chimaerok Chops",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Good News and The Bad News",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Narain Soothfancy",
+  "steps": [
+   "Bring arcanite, elementium, diamonds and sapphires (Wrath of Neptulon prep)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "Mux Manascrambler: Ectoplasmic Distiller",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Mux Manascrambler",
+  "steps": [
+   "A Portable Power Source, A Supernatural Device, A Shifty Merchant, The Ectoplasmic Distiller, Hunting for Ectoplasm"
+  ],
+  "reward": "Mux's Quality Goods",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Charge of the Dragonflights",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "Start of the Scepter of the Shifting Sands finale"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Path of the Conqueror",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "AQ40 ring line (Conqueror path, four steps) ending with The Qiraji Conqueror"
+  ],
+  "reward": "Signet Ring of the Bronze Dragonflight",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Path of the Invoker",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "AQ40 ring line (Invoker path, four steps) ending with The Grand Invoker"
+  ],
+  "reward": "Signet Ring of the Bronze Dragonflight",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Path of the Protector",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "AQ40 ring line (Protector path, four steps) ending with The Protector of Kalimdor"
+  ],
+  "reward": "Signet Ring of the Bronze Dragonflight",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Changing of Paths",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "Switch AQ ring path (Conqueror/Invoker/Protector No More)"
+  ],
+  "reward": "Signet Ring of the Bronze Dragonflight",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "The Might of Kalimdor",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Tanaris",
+  "startsAt": "Anachronos",
+  "steps": [
+   "Final step of the Scepter of the Shifting Sands chain"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/tanaris"
+ },
+ {
+  "name": "A Land Filled with Hatred",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "47",
+  "zone": "Azshara",
+  "startsAt": "Loh'atu",
+  "steps": [
+   "Slay Haldarr satyrs"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Spiritual Unrest",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "47",
+  "zone": "Azshara",
+  "startsAt": "Loh'atu",
+  "steps": [
+   "Destroy highborne apparitions and lichlings"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "A Meeting with the Master",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Azshara",
+  "startsAt": "Sanath Lim-yo",
+  "steps": [
+   "Bring 2 Undamaged Hippogryph Feathers"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/3381/a-meeting-with-the-master"
+ },
+ {
+  "name": "Stealing Knowledge",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "52",
+  "zone": "Azshara",
+  "startsAt": "Jediga",
+  "steps": [
+   "Collect four tablets",
+   "deliver them to Andron Gant, Xylem, Jes'rimon and Magatha, then return each payment to Jediga"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Kim'jael Indeed!",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "53",
+  "zone": "Azshara",
+  "startsAt": "Kim'jael",
+  "steps": [
+   "Recover four items from the Thalassian Base Camp",
+   "then Kim'jael's \"Missing\" Equipment"
+  ],
+  "reward": "M73 Frag Grenade",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Meeting with the Master",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Azshara",
+  "startsAt": "",
+  "steps": [
+   "Meet the master",
+   "Return Trip follows"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Poisoned Water",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "56",
+  "zone": "Azshara",
+  "startsAt": "Duke Hydraxis",
+  "steps": [
+   "Cleanse poisoned elementals in Eastern Plaguelands"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Stormers and Rumblers",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "57",
+  "zone": "Azshara",
+  "startsAt": "Duke Hydraxis",
+  "steps": [
+   "Kill dust stormers and desert rumblers in Silithus"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "A Crew Under Fire",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "57",
+  "zone": "Azshara",
+  "startsAt": "Captain Vanessa Beltis",
+  "steps": [
+   "Defend Beltis and her crew from a naga attack"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Loramus",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "57-58",
+  "zone": "Azshara",
+  "startsAt": "Loramus Thalipedes",
+  "steps": [
+   "Felbane chain: Loramus, Breaking the Ward, The Name of the Beast (Lord Arkkoroc, Hetaera), Azsharite, The Formation of Felbane"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Agent of Hydraxis",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Azshara",
+  "startsAt": "Duke Hydraxis",
+  "steps": [
+   "Reach Honored with the Hydraxian Waterlords",
+   "leads to Eye of the Emberseer, The Molten Core, Hands of the Enemy, A Hero's Reward"
+  ],
+  "reward": "Ocean's Breeze / Tidal Loop",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Azuregos's Magical Ledger",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Azshara",
+  "startsAt": "Ledger (drop from Azuregos)",
+  "steps": [
+   "Deliver the ledger to Narain Soothfancy"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "The Wrath of Neptulon",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Azshara",
+  "startsAt": "Narain Soothfancy",
+  "steps": [
+   "Use the Arcanite Buoy at the Swirling Maelstrom (raid-level)"
+  ],
+  "reward": "Band of Icy Depths / Darkwater Robes",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/azshara"
+ },
+ {
+  "name": "Timbermaw Ally",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Felwood",
+  "startsAt": "Grazle",
+  "steps": [
+   "Slay 5 each of Deadwood Warriors, Pathfinders and Gardeners (Forever version)"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quest/6131/timbermaw-ally"
+ },
+ {
+  "name": "Timbermaw Ally",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "48",
+  "zone": "Felwood",
+  "startsAt": "Grazle",
+  "steps": [
+   "Kill 6 each of Deadwood Warriors, Pathfinders and Gardeners"
+  ],
+  "reward": "Earth Warder's Vest / Belt of the Den Watcher",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "A Husband's Last Battle",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "51",
+  "zone": "Felwood",
+  "startsAt": "Dreka'Sur",
+  "steps": [
+   "Kill Overlord Ror and bring his claw"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Forces of Jaedenar",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "51-55",
+  "zone": "Felwood",
+  "startsAt": "Greta Mosshoof",
+  "steps": [
+   "Emerald Sanctuary chain: Forces of Jaedenar, Collection of the Corrupt Water, Seeking Spiritual Aid, Cleansed Water Returns, Dousing the Flames of Protection, A Final Blow"
+  ],
+  "reward": "Brantwood Sash / Blight Leather Gloves / Gearforge Girdle",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Corrupted Sabers",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "54",
+  "zone": "Felwood",
+  "startsAt": "Winna Hazzard",
+  "steps": [
+   "Release Winna's kitten at the corrupted moonwell"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Well of Corruption",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "54",
+  "zone": "Felwood",
+  "startsAt": "Winna Hazzard",
+  "steps": [
+   "Collect corrupted water from the Jadefire moonwell"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "The Corruption of the Jadefire",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "54",
+  "zone": "Felwood",
+  "startsAt": "Eridan Bluewind",
+  "steps": [
+   "Kill Jadefire satyrs and Xavathras",
+   "Further Corruption, Flute of Xavaric, Felbound Ancients, Purified!"
+  ],
+  "reward": "Breezecloud Bracers; Flute of the Ancients",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Verifying the Corruption",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "54",
+  "zone": "Felwood",
+  "startsAt": "Taronn Redfeather",
+  "steps": [
+   "Check Shatter Scar Vale (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "A Strange Red Key",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55-57",
+  "zone": "Felwood",
+  "startsAt": "Blood Red Key (drop)",
+  "steps": [
+   "Rescue From Jaedenar, Retribution of the Light, The Remains of Trey Lightforge"
+  ],
+  "reward": "Hunt Tracker Blade / Tidecrest Blade",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Cleansing Felwood",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Arathandris Silversky (A) / Maybess Riverbreeze (H)",
+  "steps": [
+   "Bring 15 Blood Amber"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Salve via Hunting/Mining/Gathering/Skinning/Disenchanting",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Arathandris Silversky / Maybess Riverbreeze",
+  "steps": [
+   "Repeatable Cenarion Plant Salve hand-ins"
+  ],
+  "reward": "Cenarion Plant Salve",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Corrupted Songflower / Windblossom / Whipper Root / Night Dragon",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Corrupted plants in Felwood",
+  "steps": [
+   "Cleanse corrupted plants with a Cenarion Plant Salve for buff/fruit"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Deadwood of the North",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Nafien",
+  "steps": [
+   "Kill Deadwood den watchers, avengers and shamans"
+  ],
+  "reward": "Leggings of the Ursa / Helm of the Pathfinder",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Deadwood Ritual Totem",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Deadwood Ritual Totem (drop)",
+  "steps": [
+   "Take the totem to Kernda in Timbermaw Hold"
+  ],
+  "reward": "Major Healing Potion / Major Mana Potion",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Feathers for Grazle / Nafien",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Grazle / Nafien",
+  "steps": [
+   "Repeatable Deadwood Headdress Feather hand-ins"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Speak to Nafien",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Grazle",
+  "steps": [
+   "Travel north to Nafien",
+   "then Speak to Salfa"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Runecloth",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Meilosh",
+  "steps": [
+   "Bring 30 Runecloth to Meilosh"
+  ],
+  "reward": "Shadowskin Spaulders / Bricksteel Gauntlets",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Sacred Cloth",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Felwood",
+  "startsAt": "Meilosh",
+  "steps": [
+   "Bring 2 Mooncloth"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Ancient Spirit",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "56",
+  "zone": "Felwood",
+  "startsAt": "Arei",
+  "steps": [
+   "Escort Arei to safety"
+  ],
+  "reward": "Ethereal Mist Cape / Clouddrift Mantle",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "To Winterspring!",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "56",
+  "zone": "Felwood",
+  "startsAt": "Ivy Leafrunner",
+  "steps": [
+   "Go to Starfall Village and speak with Wynd Nightchaser"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Wild Guardians",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "56-59",
+  "zone": "Felwood",
+  "startsAt": "Trull Failbane",
+  "steps": [
+   "Hunt owlbeasts in Felwood and Winterspring"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Beads for Salfa",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "56",
+  "zone": "Felwood",
+  "startsAt": "Salfa",
+  "steps": [
+   "Repeatable Winterfall Spirit Beads hand-in"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Winterfall Activity",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "58",
+  "zone": "Felwood",
+  "startsAt": "Salfa",
+  "steps": [
+   "Kill Winterfall shaman, den watchers and ursa"
+  ],
+  "reward": "Earth Warder's Gloves / Gloves of the Pathfinder / Vest of the Den Watcher / Ursa's Embrace",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "The Root of All Evil",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Felwood",
+  "startsAt": "Gorn One Eye",
+  "steps": [
+   "Summon and defeat Xandivious at High Chief Winterfall's cave (elite)"
+  ],
+  "reward": "Defender of the Timbermaw",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "The Brokering of Peace",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Felwood",
+  "startsAt": "Gorn One Eye",
+  "steps": [
+   "Take the Timbermaw Offering of Peace to Magni or Thrall"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/felwood"
+ },
+ {
+  "name": "Williden's Journal",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "50",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Williden's Journal (drop)",
+  "steps": [
+   "Return the journal to Williden Marshal"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Roll the Bones",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "51",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Spark Nilminer",
+  "steps": [
+   "Bring 8 Dinosaur Bones"
+  ],
+  "reward": "Archaeologist's Quarry Boots / Excavator's Utility Belt",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Shizzle's Flyer",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "51",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Shizzle",
+  "steps": [
+   "Gather webbed diemetradon and pterrordax scales"
+  ],
+  "reward": "Shizzle's Drizzle Blocker / Muzzle / Nozzle Wiper",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Alien Ecology",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "52",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Hol'anyee Marshal",
+  "steps": [
+   "Take a sample from a Gorishi hive wall"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "It's a Secret to Everybody",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "52-56",
+  "zone": "Un'Goro Crater",
+  "startsAt": "A Wrecked Raft",
+  "steps": [
+   "Linken chain: the pack, Linken's Sword, Videre Elixir, Meet at the Grave, A Grave Situation, Linken's Memory, Silver Heart, Aquementas, Linken's Adventure, It's Dangerous to Go Alone"
+  ],
+  "reward": "Linken's Boomerang / Linken's Sword of Mastery / Spirit of Aquementas",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Muigin and Larion",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "52-53",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Muigin (A) / Larion (H)",
+  "steps": [
+   "Bloodpetal collection, A Visit to Gregan, Haze of Evil, Marvon's Workshop, Bloodpetal Sprouts, Bloodpetal Zapper"
+  ],
+  "reward": "Bloodpetal Zapper",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Chasing A-Me 01",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "53",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Karna Remtravel",
+  "steps": [
+   "Find A-Me 01, get a Mithril Casing, escort it back"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Crystals of Power",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "53",
+  "zone": "Un'Goro Crater",
+  "startsAt": "J.D. Collie",
+  "steps": [
+   "Collect power crystals",
+   "pylon discovery and crystal buff hand-ins (Charge, Force, Restore, Spire, Ward, Yield)"
+  ],
+  "reward": "Crystal Pylon User's Manual and crystal buffs",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Expedition Salvation",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "53",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Williden Marshal",
+  "steps": [
+   "Bring foodstuffs and research equipment"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "The Scent of Lar'korwi",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "53-56",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Torwa Pathfinder",
+  "steps": [
+   "The Fare of Lar'korwi, The Bait for Lar'korwi, The Apes of Un'Goro, The Mighty U'cha"
+  ],
+  "reward": "Plainstalker Tunic / Outrider Leggings; Beastsmasher / Beastslayer",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Beware of Pterrordax",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Wanted sign",
+  "steps": [
+   "Kill 10 Pterrordax and 15 Frenzied Pterrordax"
+  ],
+  "reward": "Grotslab Gloves / Cragplate Greaves",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Lost!",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Spraggle Frock",
+  "steps": [
+   "Find Ringo, then A Little Help From My Friends (escort)"
+  ],
+  "reward": "Bejeweled Legguards / Treetop Leggings / Clayridge Helm",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Dadanga is Hungry!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Un'Goro Crater",
+  "startsAt": "",
+  "steps": [
+   "Feed Dadanga"
+  ],
+  "reward": "Small Brown Wrapped Package",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Finding the Source",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Krakle",
+  "steps": [
+   "Find the hottest area of Fire Plume Ridge",
+   "then The New Springs"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "Volcanic Activity",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Un'Goro Crater",
+  "startsAt": "Liv Rizzlefix",
+  "steps": [
+   "Collect 9 Un'Goro Ash"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/ungoro-crater"
+ },
+ {
+  "name": "The Everlook Report",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "52",
+  "zone": "Winterspring",
+  "startsAt": "Gregor Greystone",
+  "steps": [
+   "Deliver the report to the Argent Dawn officer"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Duke Nicholas Zverenhoff",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "52",
+  "zone": "Winterspring",
+  "startsAt": "Gregor Greystone",
+  "steps": [
+   "Deliver a book to the Duke at Light's Hope Chapel"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "A Strange One",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "54",
+  "zone": "Winterspring",
+  "startsAt": "Harlo Wigglesworth",
+  "steps": [
+   "Speak with Winna Hazzard in Felwood"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Chillwind Horns",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "54",
+  "zone": "Winterspring",
+  "startsAt": "Felnok Steelspring",
+  "steps": [
+   "Bring 8 Uncracked Chillwind Horns",
+   "then Return to Tinkee"
+  ],
+  "reward": "Blitzcleaver / Grave Scepter",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Are We There, Yeti?",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "56-58",
+  "zone": "Winterspring",
+  "startsAt": "Umi Rumplesnicker",
+  "steps": [
+   "Yeti furs, yeti horns, then scare Umi's friends with the Mechanical Yeti",
+   "A Yeti of Your Own follows"
+  ],
+  "reward": "Mechanical Yeti",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Trouble in Winterspring!",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "56",
+  "zone": "Winterspring",
+  "startsAt": "Meggi Peppinrocker",
+  "steps": [
+   "Find Donova Snowden at the hot springs"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Strange Sources",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "56",
+  "zone": "Winterspring",
+  "startsAt": "Donova Snowden",
+  "steps": [
+   "Follow Donova's instructions"
+  ],
+  "reward": "Deep River Cloak",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Threat of the Winterfall",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "56-59",
+  "zone": "Winterspring",
+  "startsAt": "Donova Snowden",
+  "steps": [
+   "Winterfall chain: Winterfall Firewater, Falling to Corruption, Mystery Goo, Toxic Horrors, Winterfall Runners, High Chief Winterfall, The Final Piece, Words of the High Chief"
+  ],
+  "reward": "Crystal Breeze Mantle / Fernpulse Jerkin / Willow Band Hauberk",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Winterfall Ritual Totem",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "56",
+  "zone": "Winterspring",
+  "startsAt": "Winterfall Ritual Totem (drop)",
+  "steps": [
+   "Take it to Kernda in Timbermaw Hold"
+  ],
+  "reward": "Major Healing Potion / Major Mana Potion",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "The Ruins of Kel'Theril",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "56",
+  "zone": "Winterspring",
+  "startsAt": "Wynd Nightchaser",
+  "steps": [
+   "Speak to Jaron Stoneshaper",
+   "Troubled Spirits of Kel'Theril, Remorseful Highborne, The Crystal of Zin-Malor"
+  ],
+  "reward": "Turquoise Sash / Plow-Wood Spaulders / Emerald Mist Gauntlets",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Ursius of the Shardtooth",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "56-60",
+  "zone": "Winterspring",
+  "startsAt": "Storm Shadowhoof",
+  "steps": [
+   "Hunter-style hunts: Ursius, Brumeran, Shy-Rotam, Past Endeavors"
+  ],
+  "reward": "Beasthunter Dagger / Beaststalker Blade; Hunter's Insignia Medal",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Wildkin of Elune",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "57",
+  "zone": "Winterspring",
+  "startsAt": "Erelas Ambersky",
+  "steps": [
+   "Speak with Fandral Staghelm"
+  ],
+  "reward": "Thornflinger / Opaline Medallion",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Enraged Wildkin",
+  "kind": "Questline",
+  "faction": "Alliance",
+  "levels": "59",
+  "zone": "Winterspring",
+  "startsAt": "Jaron Stoneshaper",
+  "steps": [
+   "Recover Jaron's supplies and amulet from the wildkin"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Guardians of the Altar",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "59",
+  "zone": "Winterspring",
+  "startsAt": "Ranshalla",
+  "steps": [
+   "Escort Ranshalla while she reactivates the Altar of Elune"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Guarding Secrets",
+  "kind": "Questline",
+  "faction": "Horde",
+  "levels": "59",
+  "zone": "Winterspring",
+  "startsAt": "Blue-feathered Necklace (drop)",
+  "steps": [
+   "Take the necklace to Trull Failbane, then Nara Wildmane"
+  ],
+  "reward": "Seaspray Bracers / Shining Armplates",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "A Little Luck",
+  "kind": "Side quest",
+  "faction": "Horde",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Harlo Wigglesworth",
+  "steps": [
+   "Speak with Witch Doctor Mau'ari"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Luck Be With You",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Witch Doctor Mau'ari",
+  "steps": [
+   "Collect 4 Frostmaul Shards (elite)",
+   "Cache of Mau'ari follows"
+  ],
+  "reward": "Cache of Mau'ari",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "E'ko quests (Chillwind, Frostmaul, Frostsaber, Ice Thistle, Shardtooth, Wildkin, Winterfall)",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Witch Doctor Mau'ari",
+  "steps": [
+   "Turn in E'ko for Juju consumables"
+  ],
+  "reward": "Juju Chill / Might / Flurry / Escape / Ember / Guile / Power",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Frostsaber Provisions",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "",
+  "steps": [
+   "Frostsaber provisions hand-in"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Winterfall Intrusion",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "",
+  "steps": [
+   "Deal with Winterfall intruders"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Rampaging Giants",
+  "kind": "Side quest",
+  "faction": "Alliance",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "",
+  "steps": [
+   "Kill rampaging giants (elite)"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Lorax's Tale",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Lorax",
+  "steps": [
+   "Listen to Lorax",
+   "then The Demon Forge in Blackrock Spire"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Fiery Plate Gauntlets",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Malyfous Darkhammer",
+  "steps": [
+   "Thorium Brotherhood plan quest"
+  ],
+  "reward": "Plans: Fiery Plate Gauntlets",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Breastplate of Bloodthirst",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Malyfous Darkhammer",
+  "steps": [
+   "Leatherworking pattern quest (elite)"
+  ],
+  "reward": "Breastplate of Bloodthirst",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Cap of the Scarlet Savant",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Malyfous Darkhammer",
+  "steps": [
+   "Tailoring pattern quest (elite)"
+  ],
+  "reward": "Cap of the Scarlet Savant",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Leggings of Arcana",
+  "kind": "Profession",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Malyfous Darkhammer",
+  "steps": [
+   "Tailoring pattern quest (elite)"
+  ],
+  "reward": "Leggings of Arcana",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Making Amends",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Haleh",
+  "steps": [
+   "Blue dragonflight chain: Making Amends, Wrath of the Blue Flight"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Tinkee Steamboil",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Winterspring",
+  "startsAt": "Felnok Steelspring",
+  "steps": [
+   "Speak with Tinkee Steamboil"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/winterspring"
+ },
+ {
+  "name": "Deadly Desert Venom",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Silithus",
+  "startsAt": "Beetix Ficklespragg",
+  "steps": [
+   "Gather scorpid stingers and skitterer fangs",
+   "Noggle's Last Hope follows"
+  ],
+  "reward": "Major Healing Potion / Major Mana Potion",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Securing the Supply Lines",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Silithus",
+  "startsAt": "Windcaller Proudhorn",
+  "steps": [
+   "Kill 15 Dredge Strikers",
+   "Stepping Up Security follows"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "The Spirits of Southwind",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Silithus",
+  "startsAt": "Layo Starstrike",
+  "steps": [
+   "Free tortured druids and sentinels",
+   "Hive in the Tower, Umber Archivist"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Noggle's Lost Satchel",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "58",
+  "zone": "Silithus",
+  "startsAt": "Noggle Ficklespragg",
+  "steps": [
+   "Retrieve his satchel from the southern mountains"
+  ],
+  "reward": "Elixir of the Mongoose / Elixir of the Sages",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "The Twilight Mystery",
+  "kind": "Questline",
+  "faction": "Both",
+  "levels": "58-60",
+  "zone": "Silithus",
+  "startsAt": "Geologist Larksbane",
+  "steps": [
+   "Twilight tablet fragments",
+   "The Deserter, The Twilight Lexicon, A Terrible Purpose"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "True Believers",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "59",
+  "zone": "Silithus",
+  "startsAt": "Hermit Ortell",
+  "steps": [
+   "Bring 10 Encrypted Twilight Texts",
+   "Still Believing repeatable"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Wanted - Deathclasp, Terror of the Sands",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "59",
+  "zone": "Silithus",
+  "startsAt": "Wanted Poster",
+  "steps": [
+   "Bring Deathclasp's Pincer (elite)"
+  ],
+  "reward": "Sandstrider's Mark / Black Crystal Dagger",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Abyssal Council quests",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Bor Wildmane / Aurel Goldleaf",
+  "steps": [
+   "Abyssal Contacts, Crests, Signets, Scepters",
+   "Dukes/Lords of the Council",
+   "Signet of the Dukes",
+   "Scepter of the Council",
+   "A Humble Offering"
+  ],
+  "reward": "Bags/Sacks/Chests of Spoils, Band of Cenarius",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Twilight Geolords",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Huum Wildmane",
+  "steps": [
+   "Kill 10 Twilight Geolords",
+   "Vyral the Vile"
+  ],
+  "reward": "Desert Wind Gauntlets / Sunprism Pendant",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Secret Communication",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Bor Wildmane",
+  "steps": [
+   "Bring 10 Encrypted Twilight Texts"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Twilight Cult medallion/ring",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Cenarion Hold",
+  "steps": [
+   "Medallion of Station, Twilight Ring of Lordship hand-ins"
+  ],
+  "reward": "Twilight Cultist Medallion / Ring",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Cenarion Battlegear",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Windcaller Kaldon",
+  "steps": [
+   "Battlegear hand-ins: Volunteer's, Veteran's, Stalwart's, Champion's"
+  ],
+  "reward": "Earthen/Cenarius rings, bracers, weapons",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Field Duty",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Cenarion Hold",
+  "steps": [
+   "Combat, Logistics and Tactical Assignments (Target: Hive'Ashi/Regal/Zora",
+   "supply hand-ins",
+   "Templar and scout reports)"
+  ],
+  "reward": "Cenarion Combat/Logistics/Tactical Badges",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Report to Marshal Bluewall / General Kirika",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Rifleman Torrig (A) / Scout Bloodfist (H)",
+  "steps": [
+   "Report to your faction's Silithus PvP camp"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Scouring the Desert",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Marshal Bluewall (A) / General Kirika (H)",
+  "steps": [
+   "Deliver Silithyst to the extractor (world PvP)"
+  ],
+  "reward": "Major Healing Potion / Major Mana Potion",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Secrets of the Colossus",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Colossus researchers",
+  "steps": [
+   "Take Colossus husks (Ashi, Regal, Zora) to their buyers"
+  ],
+  "reward": "Colossal Bag of Loot",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Brann Bronzebeard's Lost Letter",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Letter (drop)",
+  "steps": [
+   "Take it to Rutgar Glyphshaper (elite)"
+  ],
+  "reward": "Brann's Trusty Pick",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Dearest Natalia",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Commander Mar'alith",
+  "steps": [
+   "Natalia chain: Into the Maw of Madness, Breaking the Code, Glyph Chasing, Unraveling the Mystery, The Calling"
+  ],
+  "reward": "Corrupted Blackwood Staff",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest, flagged as changed in Forever (XP/rewards/text).",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "The Path of the Righteous",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Baristolth of the Shifting Sands",
+  "steps": [
+   "Collect 200 Silithid Carapace Fragments",
+   "then The Hand of the Righteous"
+  ],
+  "reward": "Proxy of Nozdormu",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "What Tomorrow Brings",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Baristolth of the Shifting Sands",
+  "steps": [
+   "Scepter chain: Anachronos, A Pawn on the Eternal Board, Long Forgotten Memories, The Four Dukes, The Ultimate Deception"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Armaments of War",
+  "kind": "Reputation",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Geologist Larksbane",
+  "steps": [
+   "AQ war effort raid hand-ins (eight class variants)"
+  ],
+  "reward": "Cenarion Reservist's legwear and gloves/boots",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "The Perfect Poison",
+  "kind": "Dungeon",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "",
+  "steps": [
+   "Bring Venoxis's and Kurinnaxx's venom sacs (raid)"
+  ],
+  "reward": "Ravenholdt Slicer / Shivsprocket's Shiv / The Thunderwood Poker / Doomulus Prime",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Bang a Gong!",
+  "kind": "Unlock",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "The Scarab Gong",
+  "steps": [
+   "Ring the Scarab Gong to open the gates of Ahn'Qiraj"
+  ],
+  "reward": "Black Qiraji Resonating Crystal",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "Treasure of the Timeless One",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Silithus",
+  "startsAt": "Jonathan the Revelator",
+  "steps": [
+   "Final AQ reward"
+  ],
+  "reward": "Fang of Korialstrasz / Shadowsong's Sorrow / Runesword of the Red / Ravencrest's Legacy",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/silithus"
+ },
+ {
+  "name": "The Great Cat Spirit",
+  "kind": "Class",
+  "faction": "Both",
+  "levels": "20",
+  "zone": "Moonglade",
+  "startsAt": "Dendrite Starblaze",
+  "steps": [
+   "Druid quest: find the Great Cat Spirit in southern Moonglade, recover three relics from the Stormrage Barrow Den, receive its blessings"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://foreverdb.net/quests/moonglade"
+ },
+ {
+  "name": "To Darnassus",
+  "kind": "Class",
+  "faction": "Alliance",
+  "levels": "20",
+  "zone": "Moonglade",
+  "startsAt": "Dendrite Starblaze",
+  "steps": [
+   "Druid quest: return to Mathrengyl Bearwalker in Darnassus"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://warcraft.wiki.gg/wiki/To_Darnassus_(Forever)"
+ },
+ {
+  "name": "To Thunder Bluff",
+  "kind": "Class",
+  "faction": "Horde",
+  "levels": "20",
+  "zone": "Moonglade",
+  "startsAt": "Dendrite Starblaze",
+  "steps": [
+   "Druid quest: return to Turak Runetotem in Thunder Bluff"
+  ],
+  "reward": "",
+  "new": true,
+  "confidence": "confirmed",
+  "notes": "New in WoW: Forever.",
+  "sourceUrl": "https://warcraft.wiki.gg/wiki/To_Thunder_Bluff"
+ },
+ {
+  "name": "Wasteland",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "55",
+  "zone": "Moonglade",
+  "startsAt": "Rabine Saturna",
+  "steps": [
+   "Show Rabine's Letter to Layo Starstrike in Silithus"
+  ],
+  "reward": "",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/moonglade"
+ },
+ {
+  "name": "Uncovering Past Secrets",
+  "kind": "Side quest",
+  "faction": "Both",
+  "levels": "57",
+  "zone": "Moonglade",
+  "startsAt": "Umber",
+  "steps": [
+   "Speak with Rabine Saturna (after Under the Chitin Was...)"
+  ],
+  "reward": "Ring of Living Stone / Glowing Crystal Ring",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/moonglade"
+ },
+ {
+  "name": "A Reliquary of Purity",
+  "kind": "Dungeon",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Moonglade",
+  "startsAt": "Rabine Saturna",
+  "steps": [
+   "Find the Reliquary in Southwind Village",
+   "then Shards of the Felvine (Dire Maul)"
+  ],
+  "reward": "Millis Shield / Millis Lexicon",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/moonglade"
+ },
+ {
+  "name": "The Nightmare's Corruption",
+  "kind": "Attunement",
+  "faction": "Both",
+  "levels": "60",
+  "zone": "Moonglade",
+  "startsAt": "Keeper Remulos",
+  "steps": [
+   "Collect fragments from the four Emerald Dream portals",
+   "The Nightmare Manifests (defend Nighthaven from Eranikus)",
+   "The Champion Returns"
+  ],
+  "reward": "Drake Tooth Necklace / Drudge Boots",
+  "new": false,
+  "confidence": "confirmed",
+  "notes": "Classic quest still present in Forever.",
+  "sourceUrl": "https://foreverchanges.pro/quests/moonglade"
+ }
+]

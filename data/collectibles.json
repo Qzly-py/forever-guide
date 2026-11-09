@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Holstered Replica Ironforge Air Rifle",
+    "kind": "Toy",
+    "source": "Legacy reward (15 points)",
+    "how": "An opt-in shootout toy. It only stuns other players holding the same rifle, and it tracks your hits. Claim it once your account has 15 Legacy Points.",
+    "where": "Innkeeper Wiley, Ratchet",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Replica Dartol's Rod of Transformation",
+    "kind": "Toy",
+    "source": "Quest reward",
+    "how": "A Forever toy copy of the furbolg-disguise rod. It turns you into a furbolg for 3 minutes. It comes from the Raene's Cleansing quest chain, and one guide warns the final turn-in may take it back.",
+    "where": "Ashenvale",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Traveler's Symbols",
+    "kind": "Toy",
+    "source": "Quest: Ever After",
+    "how": "Places a sign for 1 minute. With a written message, the sign lasts an hour and other players can see it.",
+    "where": "Blackrock Depths",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://metabot.gg/en/wow-forever/toys"
+  },
+  {
+    "name": "Shen'dorei Windwell",
+    "kind": "Toy",
+    "source": "Skyborne Heroic Pack",
+    "how": "Summons a portable Windwell for 15 minutes. It comes with the Skyborne Heroic Pack and the higher packs.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24301508"
+  },
+  {
+    "name": "Pouch of Violet Dust",
+    "kind": "Toy",
+    "source": "Twitch Drop (Launch Celebration)",
+    "how": "Earned by watching 4 hours of eligible WoW streams with Twitch linked to Battle.net, from 5 to 13 Nov 2026. Thrown on a campfire, it turns the fire purple and adds an hour to camp benefits for everyone resting there. It only works during the Launch Celebration, which ends in early December, and is then removed.",
+    "where": "Twitch / YouTube drop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/how-to-get-the-pouch-of-violet-dust-toy-for-wow-forever/"
+  },
+  {
+    "name": "Dwarven Tradeskill Signpost",
+    "kind": "Toy",
+    "source": "Quest: A Quick Craft",
+    "how": "An Alliance crafter's sign that advertises a profession you know for 1 minute. An Advertising License Application from the Azeroth Commerce Authority leads into the quest.",
+    "where": "Ironforge; Three Crossroads, Redridge Mountains",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Orcish Tradeskill Signpost",
+    "kind": "Toy",
+    "source": "",
+    "how": "The Horde counterpart to the dwarven signpost. It shows a profession sign for 1 minute. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://metabot.gg/en/wow-forever/toys"
+  },
+  {
+    "name": "Centaur Banner Deployment Device",
+    "kind": "Toy",
+    "source": "Engineering (per datamine)",
+    "how": "Plants a banner for your chosen side in the Desolace centaur war for 5 minutes.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Everlasting Silvermoon Shimmerwine",
+    "kind": "Toy",
+    "source": "",
+    "how": "Pours you a glass of Silvermoon Shimmerwine. Datamined client price is 2g 50s, but the vendor isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Adventurer's Tent",
+    "kind": "Toy",
+    "source": "",
+    "how": "A Forever toy listed in the datamined toy list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Surfer Shoes",
+    "kind": "Toy",
+    "source": "Vendor: Jang",
+    "how": "Bought for a single coin from Jang.",
+    "where": "Stranglethorn Vale",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Gordok Ogre Suit",
+    "kind": "Toy",
+    "source": "Crafted",
+    "how": "Made from cloth, leather and Ogre Tannin. Needs level 55. It's a toy collection entry in Forever.",
+    "where": "",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Orb of Deception",
+    "kind": "Toy",
+    "source": "World drop",
+    "how": "A classic item that makes you look like the opposing faction. It's a very rare drop from mobs level 55 and up, needs level 54, and counts as a toy in Forever.",
+    "where": "Level 55+ zones",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "World Enlarger",
+    "kind": "Toy",
+    "source": "Engineering",
+    "how": "A classic gnomish engineering gadget that enlarges the world for 5 minutes. The schematic is a rare drop from the Weapon Technician.",
+    "where": "Blackrock Depths",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Snowmaster 9000",
+    "kind": "Toy",
+    "source": "Engineering",
+    "how": "A classic engineering item that turns water into a snowball. It needs a day to recharge.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://metabot.gg/en/wow-forever/toys"
+  },
+  {
+    "name": "Steam Tonk Controller",
+    "kind": "Toy",
+    "source": "",
+    "how": "A classic item that summons a steam tonk you control. Its Forever source isn't listed.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://metabot.gg/en/wow-forever/toys"
+  },
+  {
+    "name": "Elune's Lantern",
+    "kind": "Toy",
+    "source": "",
+    "how": "A classic item that makes an Elune Stone and needs a Solid Stone. It's a toy entry in Forever. Its source isn't listed.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://metabot.gg/en/wow-forever/toys"
+  },
+  {
+    "name": "Piccolo of the Flaming Fire",
+    "kind": "Toy",
+    "source": "",
+    "how": "A classic novelty instrument, listed among Forever toys. Its source isn't confirmed.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Winter Veil Disguise Kit",
+    "kind": "Toy",
+    "source": "",
+    "how": "A classic holiday novelty, listed among Forever toys. Its source isn't confirmed.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Spectral Bear Tabard",
+    "kind": "Tabard",
+    "source": "Legacy reward (40 points)",
+    "how": "Claim it once your account reaches 40 Legacy Points.",
+    "where": "Innkeeper Wiley, Ratchet",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Lordaeron Forever Tabard",
+    "kind": "Tabard",
+    "source": "Skyborne Epic Pack",
+    "how": "Vanity tabard that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Shen'dorei Tabard",
+    "kind": "Tabard",
+    "source": "Skyborne Epic Pack",
+    "how": "Vanity tabard that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Azeroth Commerce Authority Tabard",
+    "kind": "Tabard",
+    "source": "Faction vendor (Merchant's Favor)",
+    "how": "Bought from Tamelyn Aldridge with Merchant's Favor, the currency from the Alliance supply faction.",
+    "where": "Three Crossroads, Redridge Mountains",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/waylaid-supplies-factions-from-sod-spotted-in-wow-forever/"
+  },
+  {
+    "name": "Durotar Supply and Logistics Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "The Horde supply faction's tabard. It's in the datamined list, but its vendor and cost aren't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Tabard of Eternal Exploration",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Collector's Edition Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Darkspear Battle Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Theramore Battle Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Farholde Keep Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Guardians of Hyjal Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Kirin Tor Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Skyborne Tabard",
+    "kind": "Tabard",
+    "source": "",
+    "how": "A Forever tabard appearance in the datamined cosmetics list. Its source isn't confirmed yet.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Knight's Colors",
+    "kind": "Tabard",
+    "source": "PvP rank",
+    "how": "A classic honor-rank tabard that's in the Forever appearance list.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Private's Tabard",
+    "kind": "Tabard",
+    "source": "PvP rank",
+    "how": "A classic honor-rank tabard that's in the Forever appearance list.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Scout's Tabard",
+    "kind": "Tabard",
+    "source": "PvP rank",
+    "how": "A classic honor-rank tabard that's in the Forever appearance list.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Stone Guard's Herald",
+    "kind": "Tabard",
+    "source": "PvP rank",
+    "how": "A classic honor-rank tabard that's in the Forever appearance list.",
+    "where": "",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Shen'dorei Skyseer's Garb",
+    "kind": "Transmog",
+    "source": "Skyborne Heroic Pack",
+    "how": "Transmog set that comes with the Heroic Pack and up.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24301508"
+  },
+  {
+    "name": "Veteran Adventurer's Rucksack",
+    "kind": "Transmog",
+    "source": "Skyborne Heroic Pack",
+    "how": "Back-slot cosmetic that comes with the Heroic Pack and up.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/world-of-warcraft-forever-editions-skyborne-race-unlock-beta-access/"
+  },
+  {
+    "name": "Veteran Adventurer's Outdoor Wear",
+    "kind": "Transmog",
+    "source": "Skyborne Epic Pack",
+    "how": "Transmog set that comes with the Epic Pack and the Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/world-of-warcraft-forever-editions-skyborne-race-unlock-beta-access/"
+  },
+  {
+    "name": "Eternal Explorer's Backpack",
+    "kind": "Transmog",
+    "source": "2027 12-Month Subscription Bundle",
+    "how": "Added to Collections automatically when you buy the 2027 12-month subscription bundle. It's only available through the Shop.",
+    "where": "Battle.net Shop / In-Game Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Eternal_Explorer%27s_Backpack"
+  },
+  {
+    "name": "Shen'dorei Magister's Garb",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A new transmog set in Forever's data. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Shen'dorei Peacekeeper's Garb",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A new transmog set in Forever's data. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Al'Aketh Zealot's Garb",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A new transmog set in Forever's data. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Gilded Blademaster's Armor",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A new transmog set in Forever's data. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Stillwater Fisher Attire",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A new transmog set in Forever's data. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Fizzbolt's Fashionable Fedora",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Haughty Fellow's Monocle",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Master Angler's Fishing Hat",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Rugged Totemic Backpack",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Forever-Lovely Rose",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Barrens Headband",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Tough Guy's Eyepatch",
+    "kind": "Transmog",
+    "source": "",
+    "how": "A cosmetic appearance in Forever's datamined list. Its source isn't confirmed.",
+    "where": "",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://theforeverera.com/en/new-items/"
+  },
+  {
+    "name": "Skyborne race access",
+    "kind": "Edition bonus",
+    "source": "Skyborne Heroic Pack ($29.99)",
+    "how": "Unlocks the Skyborne race and the Zephras Isle starting zone. It's the one part of Forever locked behind a pack, since everything else needs only game time.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/world-of-warcraft-forever-editions-skyborne-race-unlock-beta-access/"
+  },
+  {
+    "name": "Cerulean Prideclaw",
+    "kind": "Edition bonus",
+    "source": "Skyborne Heroic Pack",
+    "how": "Ground mount. You still have to buy the riding skill in-game.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24301508"
+  },
+  {
+    "name": "Veteran Adventurer's Loyal Companion",
+    "kind": "Edition bonus",
+    "source": "Skyborne Epic Pack ($59.99)",
+    "how": "Ground mount that comes with the Epic Pack and up.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/world-of-warcraft-forever-editions-skyborne-race-unlock-beta-access/"
+  },
+  {
+    "name": "Zergling Leash",
+    "kind": "Edition bonus",
+    "source": "Skyborne Epic Pack",
+    "how": "Companion pet that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Panda Collar",
+    "kind": "Edition bonus",
+    "source": "Skyborne Epic Pack",
+    "how": "Companion pet that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Diablo Stone",
+    "kind": "Edition bonus",
+    "source": "Skyborne Epic Pack",
+    "how": "Companion pet that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Pachimari",
+    "kind": "Edition bonus",
+    "source": "Skyborne Epic Pack",
+    "how": "Companion pet that comes with the Epic Pack and the Warcraft Forever Collection.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Azurky",
+    "kind": "Edition bonus",
+    "source": "12-month subscription",
+    "how": "Companion pet that comes with a 12-month subscription. Redeem it by 30 Apr 2027.",
+    "where": "Battle.net Shop",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://forever.wowfun.fyi/en/guides/toys-and-pets/"
+  },
+  {
+    "name": "Skyborne Housing Decor",
+    "kind": "Edition bonus",
+    "source": "Skyborne Heroic Pack",
+    "how": "Decor such as the Handmade Shen'dorei Pillow and Shen'dorei Standard. It works only in modern WoW housing, not in Forever.",
+    "where": "Modern (retail) WoW",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Forsaken and Human Figurine Decor",
+    "kind": "Edition bonus",
+    "source": "Warcraft Forever Collection ($79.99)",
+    "how": "Housing figurines for modern WoW. The Collection is on sale until 11 Jan 2027 and also includes Warcraft III: Reforged and its Forsaken Kingdom campaign.",
+    "where": "Modern (retail) WoW",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/news/world-of-warcraft-forever-editions-skyborne-race-unlock-beta-access/"
+  },
+  {
+    "name": "Cozy Sleeping Bag",
+    "kind": "Novelty",
+    "source": "Scavenger-hunt quest chain (level 14+)",
+    "how": "A world-object hunt with no quest givers. Alliance starts with a note in a burned cart at Alexston Farmstead in Westfall; Horde runs the chain the other way, starting in The Barrens. It goes on through Stonetalon, the Loch Modan dam and Thoradin's Wall. Resting in the bag stacks an XP buff of up to 3% and builds rested XP. It has a 1-hour cooldown.",
+    "where": "Westfall / The Barrens to Arathi Highlands",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://kami-labs.fr/en/wow-forever/wow-forever-sac-de-couchage-douillet/"
+  },
+  {
+    "name": "Student Fodder",
+    "kind": "Consumable",
+    "source": "Cozy Sleeping Bag chain reward",
+    "how": "Comes in the satchel at the end of the sleeping-bag hunt. In SoD it gave rested XP; reports say it restores health in Forever.",
+    "where": "Thoradin's Wall",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://kami-labs.fr/en/wow-forever/wow-forever-sac-de-couchage-douillet/"
+  },
+  {
+    "name": "Sturdy Lunchbox",
+    "kind": "Novelty",
+    "source": "Cozy Sleeping Bag chain reward",
+    "how": "A 12-slot container from the sleeping-bag scavenger hunt, according to the wiki.",
+    "where": "",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Chronoboon Displacer",
+    "kind": "Consumable",
+    "source": "",
+    "how": "Stores your world buffs so you can use them later. The main Forever wiki page lists it as returning but only useful in the open world, since world buffs are stripped in dungeons and raids. The item's own wiki page says it doesn't exist in Forever, so its availability is disputed.",
+    "where": "",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  },
+  {
+    "name": "Library books",
+    "kind": "Novelty",
+    "source": "World pickups",
+    "how": "Books hidden around Azeroth, now open to every class instead of just mages. Hand them in to Garion Wendell (Stormwind Mage Quarter) or Owen Thadd (Undercity Magic Quarter). Reaching 10, 20 and 25 books unlocks reward quests that offer amulets, rings and a bow or night-light. Mages who turn in a book also learn Study.",
+    "where": "Stormwind / Undercity libraries",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/library-books/"
+  },
+  {
+    "name": "Comprehension scrolls (Bundle of Scrolls)",
+    "kind": "Consumable",
+    "source": "World drops / Study",
+    "how": "Mages learn Comprehend Scroll at level 6 and use it to decipher world-dropped scrolls into buffs and cantrips. Study at a library, which costs a Light Feather and can be used once an hour, gives a Bundle of Scrolls.",
+    "where": "Anywhere; Stormwind/Undercity library for Study",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.method.gg/wow-forever/mage-comprehension-and-study-guide-in-wow-forever-how-scrolls-work-and-all-scroll-effects"
+  },
+  {
+    "name": "Tarnished Undermine Real",
+    "kind": "Consumable",
+    "source": "Dungeon bosses level 55+",
+    "how": "SoD currency dropped by high-level dungeon bosses. Spend it with Pix Xizzix on armor, reagents and recipes.",
+    "where": "Pix Xizzix, Booty Bay",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"
+  }
+]

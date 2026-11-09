@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Darkmoon Faire",
+    "when": "Monthly, one week from Monday 04:00 realm time. Nov 9-15 2026 (Elwynn), Dec 7-13 2026 (Mulgore), Jan 4-10 2027 (Elwynn)",
+    "where": "Alternates between Goldshire, Elwynn Forest and the foot of Thunder Bluff, Mulgore",
+    "what": "Travelling carnival with games, ticket turn-ins and Sayge's fortunes. Sayge gives one of eight 2-hour buffs (+10% damage, armor, a stat, or +25 resistances). In Forever, world buffs do nothing inside raids but still work in the open world, dungeons and battlegrounds.",
+    "rewards": [
+      "Sayge's Dark Fortune buffs",
+      "Orb of the Darkmoon (1,200 tickets)",
+      "Amulet of the Darkmoon (1,200 tickets)",
+      "Darkmoon Ring and Darkmoon Necklace (level 50+)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://endgametools.com/en/wow-forever/news/wow-forever-darkmoon-faire"
+  },
+  {
+    "name": "Stranglethorn Fishing Extravaganza",
+    "when": "Weekly on Sundays, starting 14:00 realm time",
+    "where": "Stranglethorn Vale coastline",
+    "what": "Fishing tournament: the first angler to bring 40 Speckled Tastyfish to Riggle Bassbait wins; anyone can also turn in rare fish for prizes.",
+    "rewards": [
+      "Grand prize for the winner (Arcanite Fishing Pole or Glinting Steel Dagger in vanilla)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Call to Arms (featured battleground)",
+    "when": "Week-long, rotating every 3 weeks: Arathi Basin Nov 3-10, Warsong Gulch Nov 10-17, Darkspear Islands Nov 17-24 2026",
+    "where": "Battlemasters in capitals and The Barrens",
+    "what": "One battleground is highlighted each week with boosted honor and Rank Points.",
+    "rewards": [
+      "Bonus Honor",
+      "Bonus Rank Points"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Raid launch",
+    "when": "9 December 2026",
+    "where": "Barrow Deeps (10), Hyjal Summit (20), Onyxia's Lair (40)",
+    "what": "All three launch raids unlock on the same day for level 60s, with weekly lockouts.",
+    "rewards": [
+      "Raid loot",
+      "Raid Legacy Challenges"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://worldofwarcraft.blizzard.com/en-us/news/24315820/"
+  },
+  {
+    "name": "Invite-A-Friend launch week",
+    "when": "4-11 November 2026",
+    "where": "Game-wide",
+    "what": "Players with an Invite-A-Friend code could play Forever without a subscription during launch week.",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Feast of Winter Veil",
+    "when": "15 Dec 2026 - 2 Jan 2027",
+    "where": "Ironforge and Orgrimmar (Greatfather Winter), plus wider Azeroth",
+    "what": "Winter holiday with gift-giving, snowball fights and holiday quests; presents appear under the city trees on Christmas Day.",
+    "rewards": [
+      "Winter Veil presents",
+      "Holiday recipes and cosmetics"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://metaforge.app/wow-forever/database/events/feast-of-winter-veil"
+  },
+  {
+    "name": "Lunar Festival",
+    "when": "2-16 Feb 2027",
+    "where": "Moonglade and Elder locations across Azeroth",
+    "what": "Seek out the Elders around the world for coins, celebrating in Moonglade with feasts and fireworks.",
+    "rewards": [
+      "Coins of Ancestry",
+      "Festive clothing and fireworks"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Love is in the Air",
+    "when": "11-16 Feb 2027",
+    "where": "Major cities",
+    "what": "Exchange gifts and tokens of affection among citizens.",
+    "rewards": [
+      "Holiday gifts and cosmetics"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Noblegarden",
+    "when": "29 Mar 2027",
+    "where": "Racial starting areas",
+    "what": "Hunt for brightly coloured eggs hidden in each race's starting area.",
+    "rewards": [
+      "Egg contents (candy, cosmetics)"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Children's Week",
+    "when": "",
+    "where": "Stormwind and Orgrimmar orphanages",
+    "what": "Adopt an orphan and take them on a sightseeing tour.",
+    "rewards": [
+      "Companion pets from the orphan quests"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": ""
+  },
+  {
+    "name": "Midsummer Fire Festival",
+    "when": "21 Jun - 5 Jul 2027",
+    "where": "Bonfires across Azeroth",
+    "what": "Summer festival with bonfires to honour and to desecrate in each capital and zone.",
+    "rewards": [
+      "Blossoms and holiday items"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Fireworks Spectacular",
+    "when": "4 Jul 2027 (Americas only)",
+    "where": "Capital cities and Booty Bay",
+    "what": "Hourly fireworks shows.",
+    "rewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Harvest Festival",
+    "when": "11-18 Sep 2027",
+    "where": "Outside Orgrimmar and Ironforge",
+    "what": "Feasting to honour fallen heroes.",
+    "rewards": [
+      "Harvest feast food"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Hallow's End",
+    "when": "18 Oct - 2 Nov 2027",
+    "where": "Inns and capital cities",
+    "what": "Trick-or-treat at innkeepers and take part in Halloween festivities.",
+    "rewards": [
+      "Treat bags, costumes and masks"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://metaforge.app/wow-forever/database/events/hallows-end"
+  },
+  {
+    "name": "Gurubashi Arena chest",
+    "when": "Every 3 hours",
+    "where": "Gurubashi Arena, Stranglethorn Vale",
+    "what": "A free-for-all PvP scramble for a chest that drops into the arena.",
+    "rewards": [
+      "Arena Master trinket quest items"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": ""
+  }
+]

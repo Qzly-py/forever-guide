@@ -1,0 +1,833 @@
+[
+  {
+    "name": "Zephras Isle storyline (Skyborne starting story)",
+    "kind": "Zone story",
+    "faction": "Both",
+    "levels": "1-13",
+    "startsAt": "Ailee Farheart, Thendal Village (Zephras Isle)",
+    "steps": [
+      "Coming of Age: receive an Ancient Heirloom, hand in to Rorian the Dayseeker",
+      "Harmony in Balance / Infestation Investigation / The Cirrusfly Queen in Thendal Grove",
+      "Elemental Unrest and Agitators: deal with rolling winds and Al'Aketh converts to the north",
+      "Return to Rorian, then Aetheen of the Gales; Foul Matriarch kills the bear matriarch Urs'anah",
+      "The Next Step: travel to Shen'dar Village (Al'Aketh Thugs, The Adventurer on the way)",
+      "Faction intro: The Windshapers (Horde) or The High Order (Alliance)",
+      "Infiltrate the Al'Aketh cult at Falaath Village (Among the Faithful), then fight it in the Shen'dar Highlands",
+      "Go to Valanaar, the Skyborne capital, and meet your faction leader",
+      "Faction branch in Shadowgale Forest (e.g. A Firm Response for Windshapers)",
+      "What Comes Next: once the cult is beaten, leave the isle by skycutter"
+    ],
+    "reward": "Quest XP, High Order or Windshapers reputation, early class rewards",
+    "new": true,
+    "notes": "Both factions share the zone but are phased apart. The Skyborne made a pact with air elementals after the War of the Ancients; the Al'Aketh cult, devoted to Al'Akir, threatens the isle. Faction split at level 4: Reading the Leylines (Alliance) or The Gift of Skysight (Horde). The final chapter quest names were not captured by sources.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/zephras-isle-walkthrough/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "What Comes Next (leaving Zephras Isle)",
+    "kind": "Zone story",
+    "faction": "Both",
+    "levels": "13 (req 7)",
+    "startsAt": "Talaanis Shadowsong, Zephras Isle",
+    "steps": [
+      "Speak with Elaadrin Evengale (Alliance) or Ayessa Dawnsinger (Horde) when ready to leave"
+    ],
+    "reward": "XP, +25 High Order or Windshapers reputation",
+    "new": true,
+    "notes": "Alliance skycutters go to Dalaran (set up by Ansirem). Horde skycutters go to Mulgore, home of the Earthen Ring (set up by Muln).",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/What_Comes_Next",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "High Order / Windshapers reputation (Galestrider access)",
+    "kind": "Reputation",
+    "faction": "Both",
+    "levels": "1+",
+    "startsAt": "Zephras Isle questing; cloth turn-ins at Belanaa Windveil (Dalaran) or Oura Stormspinner (Mulgore)",
+    "steps": [
+      "Quest on Zephras Isle for High Order (Alliance) or Windshapers (Horde) reputation",
+      "Turn in cloth to the faction's representative to keep raising reputation",
+      "At Exalted, non-Skyborne races can buy Galestriders at Fairweather Stables"
+    ],
+    "reward": "Galestrider mounts (Umber, Stormy, Empyrean and Swift versions); 5-20% discount on mounts and riding from Friendly to Exalted",
+    "new": true,
+    "notes": "Skyborne buy Galestriders with no quest. The reputation is mainly how other races get them.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/skyborne/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "The Great Outdoors (Camping unlock)",
+    "kind": "Unlock",
+    "faction": "Both",
+    "levels": "~5",
+    "startsAt": "Just outside each starting town: Sam Sarsaparilla (Elwynn), Eric Brighthammer (Dun Morogh), Lyreena Duskblade (Teldrassil), Brakk (Durotar), Eleanor Shackleton (Tirisfal), Kaga Wildhoof (Mulgore), Raan Wildwind (Zephras Isle)",
+    "steps": [
+      "Sit at a campfire (X or /sit) until the 60-second Welcoming Campfire timer finishes",
+      "Follow-up Camping 101 quests: learn Cooking from the local trainer, which lets you build a Basic Campfire from Simple Wood and Flint and Tinder"
+    ],
+    "reward": "Unlocks Camping and the campfire rest buff; leads to Camping 101 quests",
+    "new": true,
+    "notes": "Some players found the sit objective stuck at 0/1; sitting and then typing /sit fixed it for some.",
+    "sourceUrl": "https://www.method.gg/wow-forever/camping-in-wow-forever-how-it-all-works-all-profession-buffs",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Camping 101 (profession camp quests)",
+    "kind": "Profession",
+    "faction": "Both",
+    "levels": "6 (req 4) and up",
+    "startsAt": "Same camping NPCs as The Great Outdoors; profession quests from town campfire NPCs",
+    "steps": [
+      "Camping 101: Cooking - learn Cooking from the town trainer",
+      "Other Camping 101 quests for First Aid, Fishing, Herbalism and Skinning",
+      "When you learn a profession, a campfire NPC asks you to raise it to 20"
+    ],
+    "reward": "Ability to craft that profession's Tier 1 camp item",
+    "new": true,
+    "notes": "Wiki lists Camping 101: Cooking, First Aid, Fishing, Herbalism and Skinning.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Camping_101:_Cooking",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Taldramir, the Whispering Wood (legendary)",
+    "kind": "Legendary",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "",
+    "steps": [],
+    "reward": "Taldramir, the Whispering Wood - legendary two-handed staff",
+    "new": true,
+    "notes": "Revealed by Blizzard on 4-5 Nov 2026 (made with Weta Workshop). The class, stats and how to get it are not announced. Wowhead reports a druid theme. A legendary questline is scheduled for Spring 2027 and is tied to the new raids. Datamined clues are unconfirmed. Blizzard plans an earnable legendary for every class or spec over time.",
+    "sourceUrl": "https://foreverdb.net/article/taldramir-legendary-staff-reported-violet-dust-toy",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Onyxia's Lair attunement - Alliance (Drakefire Amulet)",
+    "kind": "Attunement",
+    "faction": "Alliance",
+    "levels": "48-60",
+    "startsAt": "Helendis Riverhorn, Morgan's Vigil (Burning Steppes)",
+    "steps": [
+      "Dragonkin Menace",
+      "The True Masters chain: Lakeshire (Magistrate Solomon), Stormwind (Bolvar, Lady Katrana Prestor), back to Marshal Maxwell",
+      "Marshal Windsor: find him jailed in Blackrock Depths",
+      "Abandoned Hope, then A Crumpled Up Note (dropped by BRD mobs)",
+      "A Shred of Hope: kill Golem Lord Argelmach and General Angerforge",
+      "Jail Break! escort out of BRD",
+      "Stormwind Rendezvous and The Great Masquerade in Stormwind",
+      "The Dragon's Eye: Haleh in Winterspring",
+      "Drakefire Amulet: kill General Drakkisath in UBRS for the Blood of the Black Dragon Champion"
+    ],
+    "reward": "Drakefire Amulet (must be in bags to enter Onyxia's Lair)",
+    "new": false,
+    "notes": "Onyxia's Lair (40 players) opens 9 Dec 2026. The attunement is per character, not account-wide, at least at first.",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24303009/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Onyxia's Lair attunement - Horde (Drakefire Amulet)",
+    "kind": "Attunement",
+    "faction": "Horde",
+    "levels": "55-60",
+    "startsAt": "Warlord Goretooth, Kargath (Badlands)",
+    "steps": [
+      "Blood and Thunder, Warlord's Command (LBRS)",
+      "For the Horde!, What the Wind Carries, The Champion of the Horde (Thrall and Eitrigg in Orgrimmar)",
+      "The Testament of Rexxar (Desolace), Oculus Illusions (Myranda the Hag, Western Plaguelands)",
+      "Emberstrife (Dustwallow Marsh)",
+      "The Test of Skulls x4: four elite dragons in four zones",
+      "Ascension...",
+      "Blood of the Black Dragon Champion: kill Drakkisath in UBRS and return to Rexxar"
+    ],
+    "reward": "Drakefire Amulet",
+    "new": false,
+    "notes": "15 quests. Onyxia's Lair opens 9 Dec 2026.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-attunements/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Barrow Deeps access",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "Entrances in Mount Hyjal, Winterspring and Blackmaw Hold",
+    "steps": [],
+    "reward": "Access to the 10-player, 8-boss raid",
+    "new": true,
+    "notes": "Blizzard's raid overview lists no attunement for Barrow Deeps; only Onyxia needs one. Opens 9 Dec 2026, level 60.",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24303009/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Hyjal Summit access",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "Summit of Mount Hyjal, near Nordrassil",
+    "steps": [],
+    "reward": "Access to the 20-player, 13-boss raid",
+    "new": true,
+    "notes": "No attunement is listed by Blizzard. Old client records labelled 'Hyjal Attunement' mention Distilled Demonic Essence, Gol'gere and Leyara, but their purpose is unconfirmed. Opens 9 Dec 2026.",
+    "sourceUrl": "https://expcarry.com/wow-forever-mount-hyjal-guide",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "City of Dalaran key - Horde (Dalaran Sewer Key)",
+    "kind": "Attunement",
+    "faction": "Horde",
+    "levels": "30",
+    "startsAt": "Magus Wordeen Voidglare, Tarren Mill (Hillsbrad Foothills)",
+    "steps": [
+      "Prison Break In: collect four Bloodstone pieces at Lordamere Internment Camp",
+      "Key to the City: get the Grimy Key from a Warden's Footlocker",
+      "Dalaran Patrols: kill Dalaran Summoners and Elemental Slaves at the Old Dalaran ruins",
+      "Blood in the Streets: speak to the Image of Archmage Modera at the sewer entrance",
+      "Heart of Disruption (inside the dungeon): Arcane Mote from the Shade of the Archmage"
+    ],
+    "reward": "Dalaran Sewer Key (one group member needs it)",
+    "new": true,
+    "notes": "City of Dalaran is a new dungeon in Alterac Mountains, about levels 28-33. Keeper Bel'varil in Tarren Mill has related side quests (Stone Tokens, Bracers of Binding).",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/city-of-dalaran-quests/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "City of Dalaran key - Alliance (An Alarming Request)",
+    "kind": "Attunement",
+    "faction": "Alliance",
+    "levels": "24-33",
+    "startsAt": "Emissary Jaques, Southshore town hall (Hillsbrad Foothills)",
+    "steps": [
+      "An Alarming Request: report to the Image of Archmage Modera at the sewer gate",
+      "Heart of Disruption: take an Arcane Mote from the Shade of the Archmage",
+      "Friend of the Kirin Tor: take the mote to Archmage Celindra in the Violet Citadel"
+    ],
+    "reward": "Dalaran Sewer Key (granted while Heart of Disruption is in your log); Kirin Tor reputation",
+    "new": true,
+    "notes": "Other Alliance Dalaran quests: Power Overwhelming and A Green Sample (from Stormwind), Starving Arcane (from Modera).",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Friend_of_the_Kirin_Tor",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Seal of Ascension (UBRS key)",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "58-60",
+    "startsAt": "Vaelan, near the Lower Blackrock Spire entrance",
+    "steps": [
+      "Loot the Unadorned Seal of Ascension from LBRS trash",
+      "Collect gemstones from Highlord Omokk, War Master Voone and Overlord Wyrmthalak",
+      "Take the Unforged Seal to Emberstrife in the Wyrmbog (Dustwallow Marsh) and defeat him"
+    ],
+    "reward": "Seal of Ascension",
+    "new": false,
+    "notes": "Whether the UBRS door still needs the seal in Forever is unconfirmed.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-attunements/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Dark Iron Legacy (Shadowforge Key)",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "52 (start 48)",
+    "startsAt": "Ghost of Franclorn Forgewright, Molten Span (Blackrock Mountain)",
+    "steps": [
+      "Kill Fineous Darkvire in BRD for Ironfel",
+      "Place Ironfel on Franclorn's statue at the Shrine of Thaurissan"
+    ],
+    "reward": "Shadowforge Key",
+    "new": false,
+    "notes": "",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-attunements/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "The Key to Scholomance",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "55",
+    "startsAt": "Chillwind Camp (Alliance) or The Bulwark (Horde), Western Plaguelands",
+    "steps": [],
+    "reward": "Skeleton Key to Scholomance",
+    "new": false,
+    "notes": "The final quest requires level 55.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-attunements/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Legends of Maraudon / The Scepter of Celebras",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "",
+    "startsAt": "Desolace / Maraudon",
+    "steps": [
+      "Collect the two scepter parts in Maraudon",
+      "Free Celebras the Redeemed, who forges the scepter"
+    ],
+    "reward": "Scepter of Celebras (shortcut into inner Maraudon)",
+    "new": false,
+    "notes": "",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-attunements/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Attunement to the Core (Molten Core)",
+    "kind": "Attunement",
+    "faction": "Both",
+    "levels": "30+",
+    "startsAt": "Lothos Riftwaker, outside Blackrock Depths",
+    "steps": [
+      "Get a Core Fragment near the Molten Core portal in BRD and bring it to Lothos"
+    ],
+    "reward": "Attunement to Molten Core (teleport via Lothos)",
+    "new": false,
+    "notes": "Classic quest. Blizzard has not confirmed Molten Core in Forever; its launch roadmap names only Onyxia, Barrow Deeps and Hyjal Summit, plus unnamed later raids.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Attunement_to_the_Core",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Mount Hyjal restoration story",
+    "kind": "Zone story",
+    "faction": "Both",
+    "levels": "55-60",
+    "startsAt": "Darkwhisper Gorge (Winterspring); Summit of Eternity hub",
+    "steps": [
+      "Pass the druidic wards through Darkwhisper Gorge into Hyjal",
+      "Help the Cenarion Circle and Druids of the Talon heal the land after Archimonde's death",
+      "Conflict with the Wild King (later a Hyjal Summit boss)",
+      "A chain started by a Curious Crow leads to warlock activity around the Wild King"
+    ],
+    "reward": "Guardians of Hyjal and Barkskin Burrow reputation",
+    "new": true,
+    "notes": "The road into Hyjal is open for the first time since the Third War. Horde and Alliance share the mountain uneasily. Exact quest names and order were largely unpublished at the time of research.",
+    "sourceUrl": "https://wowclassicforever.info/zones/mount-hyjal/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "To Have Loved and Lost (Hyjal druid camp)",
+    "kind": "Questline",
+    "faction": "Both",
+    "levels": "55-60",
+    "startsAt": "Mount Hyjal",
+    "steps": [
+      "Rebuild a druid camp; later phases swap its basic objects for upgraded ones"
+    ],
+    "reward": "",
+    "new": true,
+    "notes": "Named in the client and treated as high-confidence by the source. Steps and rewards are not detailed.",
+    "sourceUrl": "https://expcarry.com/wow-forever-mount-hyjal-guide",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Guardians of Hyjal reputation (Friendly Advice)",
+    "kind": "Reputation",
+    "faction": "Both",
+    "levels": "55-60",
+    "startsAt": "Summit of Eternity, Mount Hyjal (Aisarra Nightmeadow, Keeper of Knowledge)",
+    "steps": [
+      "Reach Friendly and complete Friendly Advice to buy high-level profession patterns",
+      "Revered: Rousing Seed Pod",
+      "Exalted: Guardians of Hyjal Tabard"
+    ],
+    "reward": "Raid-tier profession patterns (Manaflare, Conviction, Demonheart, Grovekeeper); Rousing Seed Pod (raises the Artisan's Tier equip limit to two); tabard",
+    "new": true,
+    "notes": "A splinter of the Cenarion Circle. Barkskin Burrow (furbolg) is a second Hyjal reputation, earned with Ceremonial Mastic; its rewards are datamined only.",
+    "sourceUrl": "https://expcarry.com/wow-forever-mount-hyjal-guide",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Riverglades - Alliance frontier (Brotherhood of the Horse)",
+    "kind": "Zone story",
+    "faction": "Alliance",
+    "levels": "35-45",
+    "startsAt": "Knight Commander Demar Brant, Farholde Keep (Riverglades)",
+    "steps": [
+      "Support the Brotherhood of the Horse on Stormwind's lost frontier",
+      "Fight back the Horde and Twilight's Hammer in places like Sunnyglade",
+      "Story hooks include a horse rescue, a pirate operation and Jom-Jom"
+    ],
+    "reward": "Quest XP and gear; possible Brotherhood of the Horse reputation",
+    "new": true,
+    "notes": "Riverglades has 150+ (some say nearly 200) new quests and lies between Redridge, Swamp of Sorrows and the Badlands. Individual quest names were not published by the sources found.",
+    "sourceUrl": "https://leprestore.com/guides/world-of-warcraft-forever/wow-forever-riverglades-guide/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Riverglades - Horde frontier (Boulderock ogres)",
+    "kind": "Zone story",
+    "faction": "Horde",
+    "levels": "35-45",
+    "startsAt": "Rog'mar (Horde staging point, Riverglades)",
+    "steps": [
+      "Push into Boulderock ogre territory (Bolder'ok)",
+      "Tie-in to the Krol'dok Stronghold dungeon (40-45)"
+    ],
+    "reward": "Quest XP and gear",
+    "new": true,
+    "notes": "Powderfuse Port is a neutral goblin port with a boat to Tanaris. The Bloodmasters Ring is an outdoor ogre arena.",
+    "sourceUrl": "https://leprestore.com/guides/world-of-warcraft-forever/wow-forever-riverglades-guide/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Shen'dralas - Gelkis and Magram centaur story",
+    "kind": "Zone story",
+    "faction": "Both",
+    "levels": "38-43 (req 35)",
+    "startsAt": "Valley of Bones (between Desolace and Mulgore)",
+    "steps": [
+      "Valley of Bones, Facing the Truth, Ravaging Ravagers",
+      "Bone Raising, Outcast Necromancers, Outing Outcasts",
+      "Proof of Concept",
+      "Bone Burying, Corrupting Tears, Mountain of Bones, No Mercy for the Weak, Saving Our Own",
+      "Bristleback Retreat (kill quilboar for Hagiak at Magram Front), Long-Term Solutions, Threat of Starvation, Going Home, Return to Orgrul"
+    ],
+    "reward": "Proof of Concept: choice of Blade of the Magram Clan, Staff of Revelations or Desperate Barrier; Gelkis or Magram reputation",
+    "new": true,
+    "notes": "19 quests listed. Gelkis and Magram reputations are mutually exclusive: raising one lowers the other. The zone is also linked to the Shen'dralar, Eldre'Thalas and Dire Maul. The steps listed are quest names in level order, not a confirmed sequence.",
+    "sourceUrl": "https://foreverchanges.pro/quests/shendralas",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Old Ironforge Incursion / Hall of Thanes chain",
+    "kind": "Questline",
+    "faction": "Alliance",
+    "levels": "~13-16",
+    "startsAt": "Dun Morogh (optional start: A Visitor to Dun Morogh)",
+    "steps": [
+      "Farsen's Watch, Nip 'Em in the Bud, Underground Map",
+      "Old Ironforge Incursion: claim the Head of Durgen Dirgehammer in Hall of Thanes",
+      "The Treaty of Understanding: deliver the treaty found in a vault to King Magni",
+      "Dungeon follow-ups: Important Heirlooms, The Restless Dead, An Ancient Grudge"
+    ],
+    "reward": "2,550 XP, +100 Ironforge and Gnomeregan Exiles reputation (Treaty)",
+    "new": true,
+    "notes": "Hall of Thanes is a new dungeon beneath Ironforge.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/The_Treaty_of_Understanding",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Unending Torment (Ruins of Lordaeron)",
+    "kind": "Questline",
+    "faction": "Horde",
+    "levels": "16",
+    "startsAt": "Abominable Head looted from The Baron; ends with Master Apothecary Faranell (Undercity)",
+    "steps": [
+      "Reattach the head to Othmar Garithos's body",
+      "Gather Blisterweed, Toxic Skullcap and Essence of Agony in the Undercity",
+      "Pour Hissing Serum on the body"
+    ],
+    "reward": "XP and an item reward",
+    "new": true,
+    "notes": "Part of the Forsaken reclaiming the Ruins of Lordaeron (new dungeon). Other Ruins quests: Light's Justice, The New Plague, The Wrath of Rath'mael, Crest of Lordaeron.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/the-ruins-of-lordaeron-quests/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "The Heartweaver story (A Frightened Request / Remember That I Love You)",
+    "kind": "Questline",
+    "faction": "Both",
+    "levels": "15-22",
+    "startsAt": "Horde: Tabetha Heartweaver, The Sepulcher (Silverpine). Alliance: Crumpled Paper beside Edward's body in Ruins of Lordaeron",
+    "steps": [
+      "Horde: find Edward Heartweaver's body in the Ruins of Lordaeron",
+      "Alliance: deliver the Blood-Stained Letter to Orphan Matron Nightingale, then to Avette Fellwood in Darkshire"
+    ],
+    "reward": "Tarnished Locket (Alliance)",
+    "new": true,
+    "notes": "Reveals that the couple's son Jeremy was adopted by Avette Fellwood.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/the-ruins-of-lordaeron-quests/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Dragonmaw Rumors / Open the Maw (Excavation Site: Wetlands)",
+    "kind": "Questline",
+    "faction": "Horde",
+    "levels": "31 (req 24)",
+    "startsAt": "Deathstalker Agent, Wetlands",
+    "steps": [
+      "Dragonmaw Rumors",
+      "Open the Maw: kill Dragonmaw Saboteurs and Wardens in the Excavation Site and take the Dragonmaw Dispatch"
+    ],
+    "reward": "Bloody Map plus Knife-Polishing Rag or Dirt-Heavy Bracers",
+    "new": true,
+    "notes": "",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Open_the_Maw",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Kyle's Gone Missing",
+    "kind": "Questline",
+    "faction": "Horde",
+    "levels": "5",
+    "startsAt": "Ahab Wheathoof, Bloodhoof Village (Mulgore)",
+    "steps": [],
+    "reward": "",
+    "new": true,
+    "notes": "A Burning Crusade-era Make-A-Wish quest brought into Forever after fan feedback.",
+    "sourceUrl": "https://www.gamesradar.com/games/world-of-warcraft/a-tear-was-shed-during-this-one-wow-forever-dev-says-it-was-an-honor-and-privilege-to-bring-an-old-make-a-wish-quest-back-in-blizzards-new-mmo/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Bandarion Keep (Undead Paladin class story)",
+    "kind": "Class",
+    "faction": "Horde",
+    "levels": "8-13",
+    "startsAt": "Danitha Morr, Bandarion Keep, Whispering Wood (Tirisfal Glades)",
+    "steps": [
+      "Murlocs at the Gates, Touring the Grounds",
+      "Making Repairs and The Tarnished (kill Tarnished Drudges and Zealots, take Commander Rudolph Gelhardt's head)",
+      "A Token of Good Faith",
+      "Bandarion Keep: meet Leonid Barthalomew the Revered, then A Righteous Cause"
+    ],
+    "reward": "XP, Undercity and Argent Dawn reputation",
+    "new": true,
+    "notes": "Bandarion Keep (called Tyr's Watch in beta) is the Forsaken paladin hub. The story is about paladins being accepted by the wider Forsaken.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Bandarion_Keep_(quest)",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "A Lesson in Divinity (Undead Paladin Redemption)",
+    "kind": "Class",
+    "faction": "Horde",
+    "levels": "12",
+    "startsAt": "Danitha Morr, Bandarion Keep (Tirisfal Glades)",
+    "steps": [
+      "Seven-part chain, starting with a visit to Tanis Alderwood in the Undercity Trade Quarter",
+      "Final part: return to Danitha Morr (from Deathguard Billmuth)"
+    ],
+    "reward": "Redemption (resurrection spell), +100 Undercity reputation",
+    "new": true,
+    "notes": "Follows A Token of Good Faith.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/A_Lesson_in_Divinity_(7)",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Wolfsbane (Undead Paladin weapon)",
+    "kind": "Class",
+    "faction": "Horde",
+    "levels": "18-22",
+    "startsAt": "Danitha Morr, Bandarion Keep (Diplomatic Incident)",
+    "steps": [
+      "Speak with Trevan Rol in The Sepulcher (A Curious Pair, A Grim Fate)",
+      "Into Fenris Keep: free Lumina Windsinger; The Windshaper's Wrath escorts her out",
+      "Gather Whitestone Oak Lumber (Deadmines), Enchanted Silver Ingot (Shadowfang Keep) and Purified Kor Gem (Ashenvale)",
+      "A Moon-Kissed Blade / The Moonsilver Blade: Ott in Tarren Mill forges it",
+      "Kill Old Fire-Eye at the Greymane Wall and return to Lumina"
+    ],
+    "reward": "Wolfsbane (level 31 two-handed sword); Earthen Ring reputation along the way",
+    "new": true,
+    "notes": "",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-paladin-weapon-quest/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Verigan's Fist (Alliance Paladin weapon)",
+    "kind": "Class",
+    "faction": "Alliance",
+    "levels": "20",
+    "startsAt": "Paladin trainer (The Tome of Valor)",
+    "steps": [
+      "Meet Duthorian Rall in the Cathedral of Light, Stormwind",
+      "Defend Daphne Stilwell's house in Westfall from Defias waves",
+      "Bring Jordan Stilwell (Dun Morogh) the Whitestone Oak Lumber, Refined Ore Shipment, Smithing Hammer and a Purified Kor Gem"
+    ],
+    "reward": "Verigan's Fist (level 31 two-handed mace)",
+    "new": false,
+    "notes": "Classic chain, with a Kor Gem step shared with the Forsaken version.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-paladin-weapon-quest/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Summon Charger (Alliance Paladin epic mount)",
+    "kind": "Class",
+    "faction": "Alliance",
+    "levels": "60",
+    "startsAt": "Lord Grayson Shadowbreaker, Cathedral of Light (Stormwind)",
+    "steps": [
+      "Judgment and Redemption chain",
+      "Ironforge errand, Terrordale exorcism, Arcanite Barding crafted with Grimand Elmore",
+      "Dire Maul West: defeat Tendris Warpwood and bless the barding",
+      "Scholomance Great Ossuary: summon and defeat Death Knight Darkreaver"
+    ],
+    "reward": "Summon Charger",
+    "new": false,
+    "notes": "Documented from quest records before launch and not yet verified on live servers. Classic costs (about 350g plus Runecloth, Arcanite and more) are not confirmed for Forever. The level 40 Warhorse is a separate quest.",
+    "sourceUrl": "https://leprestore.com/guides/world-of-warcraft-forever/wow-forever-paladin-epic-mount-guide/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Summon Forsaken Charger (Undead Paladin epic mount)",
+    "kind": "Class",
+    "faction": "Horde",
+    "levels": "60",
+    "startsAt": "",
+    "steps": [],
+    "reward": "Summon Forsaken Charger",
+    "new": true,
+    "notes": "Blizzard confirms a unique extended chain. Forsaken follow a Retribution path, where Alliance follows Redemption. A quest called Justice and Retribution appears in pre-launch data, but the start and steps are unverified. Undead paladins also get a Forsaken Warhorse at level 40.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/undead-paladin/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Dreadsteed of Xoroth (Warlock epic mount)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "Demon trainer, then Mor'zul Bloodbringer at the Altar of Storms (Burning Steppes)",
+    "steps": [
+      "Rage of Blood: 30 Raging Beast's Blood in Winterspring; Wildeyes: deliver to Gorzeeki Wildeyes",
+      "Lord Banehollow (Felwood): Ulathek the Traitor, Xorothian Stardust",
+      "Reagent turn-ins: Bell of Dethmoora, Wheel of the Black March, Doomsday Candle",
+      "Imp Delivery to the Scholomance alchemy lab; Arcanite",
+      "Dreadsteed of Xoroth: five-player ritual in Dire Maul West"
+    ],
+    "reward": "Summon Dreadsteed",
+    "new": false,
+    "notes": "Checked against Forever 1.60.1 quest data before launch. Reagent counts may differ.",
+    "sourceUrl": "https://leprestore.com/guides/world-of-warcraft-forever/wow-forever-warlock-epic-mount-guide/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Felsteed (Warlock mount)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "40",
+    "startsAt": "Capital Warlock trainer, then Strahad Farsan (Ratchet)",
+    "steps": [
+      "Starter quest from your capital trainer",
+      "Strahad Farsan teaches Summon Felsteed"
+    ],
+    "reward": "Summon Felsteed",
+    "new": false,
+    "notes": "Whether Riding must still be bought is unconfirmed. Levels 40+ were not playable in beta.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-quests/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Warlock demon quests (Imp, Voidwalker, Succubus/Incubus, Felhunter)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "1-30",
+    "startsAt": "Starting-zone and capital Warlock trainers",
+    "steps": [
+      "Imp (1-4): race-specific letter quest",
+      "Voidwalker (10): Gakin the Darkbinder (Stormwind), Carendin Halgar (Undercity) or Gan'rul Bloodeye (Orgrimmar)",
+      "Succubus or Incubus (20): Takar the Seer (Alliance) or Godrick Farsan / Cazul (Horde)",
+      "Felhunter (30): assemble the Tome of the Cabal for Strahad Farsan (Ratchet)"
+    ],
+    "reward": "Demon summons, Small Soul Pouch, Box of Souls",
+    "new": true,
+    "notes": "The Incubus choice is new compared with Classic. Troll warlocks may not be offered the Horde Felhunter quest. Also: Staff or Orb of Soran'ruk (Doan Karhan, Barrens, 20-25).",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-quests/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Warlock Infernal and Doomguard",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "50-60",
+    "startsAt": "Niby the Almighty (Felwood); Daio the Decrepit (Blasted Lands)",
+    "steps": [
+      "Infernal: three Flawless Fel Essences, then kill Kroshius",
+      "Doomguard: Satyr Blood (Dire Maul), Tears of the Hederine, then capture a Doomguard Commander"
+    ],
+    "reward": "Inferno; Ritual of Doom",
+    "new": false,
+    "notes": "Not verified in beta (which capped at 30).",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-warlock-quests/",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Dwarf Shaman totem quests",
+    "kind": "Class",
+    "faction": "Alliance",
+    "levels": "4-30",
+    "startsAt": "Teo Hammerstorm, Anvilmar (Dun Morogh)",
+    "steps": [
+      "Call of Earth (4): Iceclaw Bear Pendants, Earth Sapta at the Earth Spirit Stone",
+      "Call of Fire (10): Bruegs Kindleborn, then Braldir Ashmantle in Loch Modan",
+      "Call of Water (20): Norric Lochthane, then waterskins from Wetlands, Redridge and Ashenvale; corrupted water spirit in Westfall",
+      "Call of Air (30): Veyric Thunderhame in Arathi Highlands"
+    ],
+    "reward": "Earth, Fire, Water and Air Totems; Stoneskin, Searing and Healing Stream Totem",
+    "new": true,
+    "notes": "New Alliance versions of the shaman totem quests for the new Dwarf Shaman.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/dwarf-shaman-totem-quests/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "The Tempest's Weapons (Shaman weapon quest)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "30-40",
+    "startsAt": "Alliance: Eldrun Stormbreaker (Ironforge). Horde: Prate Cloudseer (Thousand Needles)",
+    "steps": [
+      "Call of Air",
+      "Elemental Aid: kill Charlga Razorflank in Razorfen Kraul",
+      "Eyes on the Sky (Horde only)",
+      "Storm, Earth, and Fire: 5 each of Water, Air, Earth and Fire Twisted Totems",
+      "Heed My Call: place Corrupted Totems at the Thousand Needles steam pools and defeat the Ravaging Tempest",
+      "Hand the Eye of the Tempest to Bath'rah the Windwatcher (Alterac Mountains)"
+    ],
+    "reward": "Choice of Rage of the Storm, Lightning's Grasp or Tidebringer's Claw; Alliance also get Elementalist's Guard",
+    "new": true,
+    "notes": "Numbers come from beta.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-shaman-weapon-quest/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Embracing the Elements (Skyborne Shaman)",
+    "kind": "Class",
+    "faction": "Horde",
+    "levels": "2+",
+    "startsAt": "Zephras Isle",
+    "steps": [
+      "Embracing the Elements",
+      "Call of Earth (Zephras Isle), parts 1 and 2"
+    ],
+    "reward": "Earth Totem (and the Fire Totem later on the isle)",
+    "new": true,
+    "notes": "",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Zephras_Isle_storyline",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Whirlwind Weapon (Warrior: Berserker Stance and Cyclonian)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "30-40",
+    "startsAt": "Warrior trainer in your capital (The Islander)",
+    "steps": [
+      "Travel to Klannoc Macleod on Fray Island (Barrens)",
+      "The Affray: arena event ending with Big Will, which teaches Berserker Stance",
+      "The Windwatcher: find Bath'rah in Alterac Mountains",
+      "Cyclonian: 8 Liferoot, 30 Bloodscalp Tusks and an Essence of the Exile",
+      "The Summoning: kill Cyclonian (level 40 elite) for the Whirlwind Heart"
+    ],
+    "reward": "Choice of Whirlwind Axe, Sword or Warhammer (item level 40)",
+    "new": false,
+    "notes": "Starts at 30 in Forever. The sword and warhammer options are new.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-warrior-weapon-quest/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Druid Bear Form",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "10",
+    "startsAt": "Night Elf: Mathrengyl Bearwalker (Darnassus). Tauren: Turak Runetotem (Thunder Bluff). Skyborne: Lotheluum Starbreeze",
+    "steps": [
+      "Heeding the Call and the Moonglade spirit step (Skyborne: The Great Ursera Spirit, Urs'endris near Valanaar)",
+      "Body and Heart: summon and defeat Lunaclaw (Skyborne: Strength and Mercy in the Shen'dar Highlands)"
+    ],
+    "reward": "Bear Form",
+    "new": false,
+    "notes": "The Skyborne version is new.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-druid-forms/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Druid Aquatic Form",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "16",
+    "startsAt": "Druid trainer (A Lesson to Learn), then Dendrite Starblaze (Moonglade)",
+    "steps": [
+      "Trial of the Lake",
+      "Trial of the Sea Lion: combine the two pendant halves",
+      "Aquatic Form"
+    ],
+    "reward": "Aquatic Form; choice of Aquarius Belt or Idol of Shifting Tides",
+    "new": false,
+    "notes": "",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-druid-forms/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Druid Cat Form (The Great Cat Spirit)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "20",
+    "startsAt": "Mathrengyl Bearwalker or Turak Runetotem; Skyborne via the Avatar of Saeyleenan",
+    "steps": [
+      "The Great Cat Spirit (Skyborne: The Great Windborne Cat Spirit)",
+      "Meet Dendrite Starblaze in Moonglade",
+      "Collect three relics from the Stormrage Barrow Dens",
+      "To Darnassus or To Thunder Bluff to learn the form"
+    ],
+    "reward": "Cat Form",
+    "new": true,
+    "notes": "Cat Form is a quest in Forever; in Classic it was bought from the trainer.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-druid-forms/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Taming the Beast (Hunter pet quest)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "10",
+    "startsAt": "Hunter trainer in each starting zone (Teldrassil, Dun Morogh, Zephras Isle, Mulgore, Durotar)",
+    "steps": [
+      "Tame three set beasts with the Taming Rod",
+      "Return to the trainer"
+    ],
+    "reward": "Tame Beast and Beast Training",
+    "new": false,
+    "notes": "There is a new Zephras Isle version (quest 94978). Human hunters are new in Forever; their version was not detailed.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-leveling/",
+    "confidence": "confirmed"
+  },
+  {
+    "name": "Rhok'delar (Stave of the Ancients)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "Ancient Petrified Leaf (Molten Core), then Vartrus the Ancient (Felwood)",
+    "steps": [
+      "Hunt the four demonic corrupters solo: Simone, Klinfran, Solenor and Artorius",
+      "Return their heads to Vartrus",
+      "Combine the stave with a bowstring from Stoma"
+    ],
+    "reward": "Rhok'delar, Longbow of the Ancient Keepers (or Lok'delar)",
+    "new": false,
+    "notes": "The wiki says the quest remains in Forever. It needs the Ancient Petrified Leaf from Molten Core, whose presence in Forever is not confirmed.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Stave_of_the_Ancients",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Benediction / Anathema (The Balance of Light and Shadow)",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "60",
+    "startsAt": "Eris Havenfire, Eastern Plaguelands",
+    "steps": [
+      "Get The Eye of Divinity (Molten Core, Majordomo's cache) and The Eye of Shadow (demons in Winterspring and Blasted Lands)",
+      "Save 50 peasants fleeing Stratholme before 15 die",
+      "Combine the Splinter of Nordrassil with both Eyes"
+    ],
+    "reward": "Benediction (staff, switchable to Anathema)",
+    "new": false,
+    "notes": "The wiki says the quest remains in Forever. It needs a Molten Core drop; Molten Core is not confirmed for Forever.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/The_Balance_of_Light_and_Shadow_(quest)",
+    "confidence": "vanilla-carryover"
+  },
+  {
+    "name": "Skyborne class starter quests",
+    "kind": "Class",
+    "faction": "Both",
+    "levels": "2",
+    "startsAt": "Class trainers, Thendal Village (Zephras Isle)",
+    "steps": [
+      "Druid: A Student of Nature",
+      "Hunter: The Way of the Hunter",
+      "Mage (Alliance): A Student of the Arcane",
+      "Rogue: At Home in the Shadows",
+      "Shaman (Horde): Embracing the Elements",
+      "Warrior: The Warrior's Path"
+    ],
+    "reward": "Early class items (e.g. a druid idol or shaman totem)",
+    "new": true,
+    "notes": "",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Zephras_Isle_storyline",
+    "confidence": "confirmed"
+  }
+]

@@ -1,0 +1,652 @@
+[
+  {
+    "name": "Duskstalker",
+    "kind": "Rare",
+    "levels": "9",
+    "where": "Teldrassil",
+    "drops": [
+      "Duskstalker's Hide (leather chest)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Bayne",
+    "kind": "Rare",
+    "levels": "10",
+    "where": "Tirisfal Glades",
+    "drops": [
+      "Bayne's Bite (dagger)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Fellicent's Shade",
+    "kind": "Rare",
+    "levels": "12",
+    "where": "Tirisfal Glades",
+    "drops": [
+      "Fellicent's Bindings (cloth wrist)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Geolord Mottle",
+    "kind": "Rare",
+    "levels": "9",
+    "where": "Durotar",
+    "drops": [
+      "Geolord's Mitts (cloth hands)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Shadowclaw",
+    "kind": "Rare",
+    "levels": "13",
+    "where": "Darkshore",
+    "drops": [
+      "Serrated Shadowclaw (dagger)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Lord Sinslayer",
+    "kind": "Rare",
+    "levels": "15-16",
+    "where": "Darkshore",
+    "drops": [
+      "Sinslayer's Smasher (one-hand mace)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Lady Moongazer",
+    "kind": "Rare",
+    "levels": "17",
+    "where": "Darkshore",
+    "drops": [
+      "Moongazer's Wand"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Firecaller Radison",
+    "kind": "Rare",
+    "levels": "19",
+    "where": "Darkshore",
+    "drops": [
+      "Crazed Firecaller's Cloak"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Takk the Leaper",
+    "kind": "Rare elite",
+    "levels": "19",
+    "where": "The Barrens",
+    "drops": [
+      "Raptor Hide Cloak"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Swiftmane",
+    "kind": "Rare elite",
+    "levels": "21",
+    "where": "The Barrens",
+    "drops": [
+      "Signet of the Zhevra (ring)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Humar the Pridelord",
+    "kind": "Rare elite",
+    "levels": "23",
+    "where": "The Barrens",
+    "drops": [
+      "Mark of the Pack Leader (neck)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Silithid Harvester",
+    "kind": "Rare",
+    "levels": "24",
+    "where": "The Barrens",
+    "drops": [
+      "Silithid Piercer (dagger)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Thunderstomp",
+    "kind": "Rare",
+    "levels": "24",
+    "where": "The Barrens",
+    "drops": [
+      "Thunderstomp's Horn (one-hand mace)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Azzere the Skyblade",
+    "kind": "Rare",
+    "levels": "25",
+    "where": "The Barrens",
+    "drops": [
+      "The Skyblade (two-hand sword)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Hagg Taurenbane",
+    "kind": "Rare elite",
+    "levels": "26",
+    "where": "The Barrens",
+    "drops": [
+      "Taurenbane's Family Cleaver (two-hand axe)"
+    ],
+    "notes": "Vanilla rare that now drops a new Forever item.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Slydris",
+    "kind": "Rare elite",
+    "levels": "6",
+    "where": "Zephras Isle",
+    "drops": [],
+    "notes": "New Skyborne starting-zone rare; drops not yet documented.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://bindonforever.com/rares"
+  },
+  {
+    "name": "Snapbeak the Quick",
+    "kind": "Rare elite",
+    "levels": "9",
+    "where": "Zephras Isle",
+    "drops": [],
+    "notes": "New Skyborne starting-zone rare; drops not yet documented.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://bindonforever.com/rares"
+  },
+  {
+    "name": "Fernfeather",
+    "kind": "Rare",
+    "levels": "10",
+    "where": "Zephras Isle",
+    "drops": [],
+    "notes": "New Skyborne starting-zone rare; drops not yet documented.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://bindonforever.com/rares"
+  },
+  {
+    "name": "Den'dralass",
+    "kind": "Rare",
+    "levels": "12-13",
+    "where": "Zephras Isle",
+    "drops": [],
+    "notes": "New Skyborne starting-zone rare; drops not yet documented.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://bindonforever.com/rares"
+  },
+  {
+    "name": "Mystmane",
+    "kind": "Rare",
+    "levels": "13",
+    "where": "Zephras Isle",
+    "drops": [],
+    "notes": "New Skyborne starting-zone rare; drops not yet documented.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://bindonforever.com/rares"
+  },
+  {
+    "name": "Elder Mystic Razorsnout",
+    "kind": "Rare elite",
+    "levels": "15",
+    "where": "The Barrens",
+    "drops": [
+      "Harvest Cloak"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Trigore the Lasher",
+    "kind": "Rare elite",
+    "levels": "19",
+    "where": "The Barrens",
+    "drops": [
+      "Runescale Girdle"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Boahn",
+    "kind": "Rare elite",
+    "levels": "20",
+    "where": "The Barrens",
+    "drops": [
+      "Brambleweed Leggings"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Gesharahan",
+    "kind": "Rare elite",
+    "levels": "20",
+    "where": "The Barrens",
+    "drops": [
+      "Shiver Blade"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Swinegart Spearhide",
+    "kind": "Rare elite",
+    "levels": "22",
+    "where": "The Barrens",
+    "drops": [],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Brontus",
+    "kind": "Rare elite",
+    "levels": "27",
+    "where": "The Barrens",
+    "drops": [],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Captain Gerogg Hammertoe",
+    "kind": "Rare elite",
+    "levels": "27",
+    "where": "The Barrens",
+    "drops": [],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Ambassador Bloodrage",
+    "kind": "Rare elite",
+    "levels": "36",
+    "where": "The Barrens",
+    "drops": [],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Emogg the Crusher",
+    "kind": "Rare elite",
+    "levels": "19",
+    "where": "Loch Modan",
+    "drops": [],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Brainwashed Noble",
+    "kind": "Rare elite",
+    "levels": "18",
+    "where": "Westfall",
+    "drops": [
+      "Girdle of Nobility"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Marisa du'Paige",
+    "kind": "Rare elite",
+    "levels": "18",
+    "where": "Westfall",
+    "drops": [
+      "Walking Boots"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Vultros",
+    "kind": "Rare",
+    "levels": "26",
+    "where": "Westfall",
+    "drops": [
+      "Feathered Cape"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Leprithus",
+    "kind": "Rare",
+    "levels": "19",
+    "where": "Westfall",
+    "drops": [
+      "Ghoul Fingers"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Boss Galgosh",
+    "kind": "Rare",
+    "levels": "22",
+    "where": "Loch Modan",
+    "drops": [
+      "Support Girdle"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Large Loch Crocolisk",
+    "kind": "Rare",
+    "levels": "22",
+    "where": "Loch Modan",
+    "drops": [
+      "Seafarer's Pantaloons"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Ravenclaw Regent",
+    "kind": "Rare",
+    "levels": "22",
+    "where": "Silverpine Forest",
+    "drops": [
+      "Regent's Cloak"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Snarlmane",
+    "kind": "Rare",
+    "levels": "23",
+    "where": "Silverpine Forest",
+    "drops": [
+      "Flesh Carver"
+    ],
+    "notes": "Classic rare listed in Forever rare databases.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+  },
+  {
+    "name": "Jimmy the Bleeder",
+    "kind": "Rare",
+    "levels": "23",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 21-32h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Cranky Benj",
+    "kind": "Rare",
+    "levels": "32",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 12-24h, tameable.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Araga",
+    "kind": "Rare",
+    "levels": "35",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 24-36h, tameable.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Gravis Slipknot",
+    "kind": "Rare",
+    "levels": "36",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 5-8h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Skhowl",
+    "kind": "Rare",
+    "levels": "36",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 10.5-16h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Stone Fury",
+    "kind": "Rare",
+    "levels": "37",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 5-8h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Lo'Grosh",
+    "kind": "Rare",
+    "levels": "39",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn 10.5-16h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Narillasanz",
+    "kind": "Rare elite",
+    "levels": "44",
+    "where": "Alterac Mountains",
+    "drops": [],
+    "notes": "Classic spawn data, not yet verified in Forever's reworked Alterac Mountains. Respawn about 14.8h.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://foreverdb.net/rares"
+  },
+  {
+    "name": "Azuregos",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Azshara",
+    "drops": [
+      "Fang of the Mystics",
+      "Eskhandar's Left Claw",
+      "Drape of Benediction"
+    ],
+    "notes": "Immune to Arcane. Client also holds an instanced 'Storm Cliffs' map. Not yet confirmed as an open-world spawn in Forever.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Lord Kazzak",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Blasted Lands",
+    "drops": [
+      "The Eye of Shadow",
+      "Blazefury Medallion",
+      "Empyrean Demolisher"
+    ],
+    "notes": "Client holds a 'Tainted Scar' map. Spawned briefly outside capitals at the end of beta; not confirmed for live.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Emeriss",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Emerald Dream portals: Duskwood, Ashenvale, The Hinterlands or Feralas",
+    "drops": [
+      "Polished Ironwood Crossbow",
+      "Boots of the Endless Moor",
+      "Dragonheart Necklace"
+    ],
+    "notes": "Dragon of Nightmare; immune to Nature. Client 'Nightmare Grove' map exists. Not confirmed.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Lethon",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Emerald Dream portals: Duskwood, Ashenvale, The Hinterlands or Feralas",
+    "drops": [
+      "Belt of the Dark Bog",
+      "Black Bark Wristbands",
+      "Dark Heart Pants"
+    ],
+    "notes": "Dragon of Nightmare; immune to Nature. Not confirmed.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Taerar",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Emerald Dream portals: Duskwood, Ashenvale, The Hinterlands or Feralas",
+    "drops": [
+      "Nightmare Blade",
+      "Mendicant's Slippers",
+      "Mindtear Band"
+    ],
+    "notes": "Dragon of Nightmare; immune to Nature. Not confirmed.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Ysondre",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "Emerald Dream portals: Duskwood, Ashenvale, The Hinterlands or Feralas",
+    "drops": [
+      "Emerald Dragonfang",
+      "Jade Inlaid Vestments",
+      "Hibernation Crystal"
+    ],
+    "notes": "Dragon of Nightmare; immune to Nature. Not confirmed.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+  },
+  {
+    "name": "Prince Thunderaan",
+    "kind": "World boss",
+    "levels": "??",
+    "where": "The Crystal Vale (client map)",
+    "drops": [],
+    "notes": "Encounter row exists in the Forever client and he appeared at the end-of-beta event; no live spawn confirmed.",
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://warcraftmaps.com/guides/world-bosses"
+  }
+]

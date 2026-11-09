@@ -1,0 +1,319 @@
+[
+  {
+    "name": "The Hall of Thanes",
+    "bosses": [
+      "Faldrim Anvilmar",
+      "Magmatus",
+      "Plunder",
+      "Durgen Dirgehammer"
+    ],
+    "notableLoot": [
+      "Aetherwisp Bracers",
+      "Ephemeral Choker",
+      "Spiritwraith Drape",
+      "Fang of Magmatus",
+      "Flamefist Grips",
+      "Kindlegem Girdle",
+      "Golemguard Chest",
+      "Golemheart Stave",
+      "Treads of the Protector Golem",
+      "Direhammer Leggings",
+      "Durgen's Crescent Axe",
+      "Robes of the Disgraced Thane"
+    ],
+    "notes": "Linear four-boss crypt in Old Ironforge, entered from the High Seat. Ghostly dwarves early, then Dark Iron dwarves and elementals. Faldrim (Mind Blast, curse) patrols his tomb - avoid pulling trash with him. Kill the patrolling Dark Iron Summoner before Magmatus and have the tank drag him away from the group (Fire Nova, Combust). Plunder only has Knock Away - corner him. Durgen comes with two stone golems and looters: clear looters, burn him fast, he fears and rends the tank. One beta-era database lists a boss called Infurnus in place of Magmatus. Quest rewards (not drops) include Catacomb Cloak, Dwarven Tome and Calibrated Blunderbuss.",
+    "sourceUrl": "https://www.method.gg/wow-forever/dungeons/hall-of-thanes"
+  },
+  {
+    "name": "Ruins of Lordaeron",
+    "bosses": [
+      "Witherfang",
+      "The Baron",
+      "Viktor the Vile",
+      "The Abandoned",
+      "Bjork",
+      "Rath'mael",
+      "Lordaeron Captain (rare)"
+    ],
+    "notableLoot": [
+      "Atrophic Girdle",
+      "Segmented Spider Leg",
+      "Witherbite Bracers",
+      "Abomination Bones",
+      "Leftover Abomination Skin",
+      "Meathook Slicer",
+      "Bloodied Chestwraps",
+      "Vileblood Scimitar",
+      "Vilewalkers",
+      "Grip of Fear",
+      "Rotmender's Leggings",
+      "Scepter of the Abandoned",
+      "Bonerust Leggings",
+      "Corpse Chopper",
+      "Tuskwrap Belt",
+      "Coldspire Staff",
+      "Mirror of Rath'mael",
+      "Rotmender's Treads",
+      "Haunting Blade",
+      "Phantom Armor",
+      "Sword of the Fallen",
+      "Rotmender's Garb",
+      "Rotmender's Gloves",
+      "Rotmender's Sash",
+      "Death Bindings"
+    ],
+    "notes": "Open ruins above the Undercity (entrance near the Brill-side Undercity gate). Route: Kings Alley (Witherfang, leech poison, two adds), Lordamere Overlook, Market Square (statue event - three add waves then The Abandoned with Frost Nova and Life Drain), Bjork in the centre (brief anti-magic shell, dangerous ghouls), The Baron (big Knockout hits). Viktor the Vile is optional, started from a chimney in a house southwest of the overlook: five add waves then the boss. Rath'mael is the easy end boss - step out of Flamestrike. The rare captain is called Deathsworn Captain on some loot sites. Several trash drops (Rotmender's pieces) complete a cloth set.",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Ruins_of_Lordaeron_(instance)"
+  },
+  {
+    "name": "Excavation Site: Wetlands",
+    "bosses": [
+      "Saltspine",
+      "Shadetooth",
+      "Highland Horror (Alliance quest boss)",
+      "Relic Guardian"
+    ],
+    "notableLoot": [
+      "Glinteye Slippers",
+      "Saltscale Girdle",
+      "Supple Bellyskin Leggings",
+      "Garb of Florid Feathers",
+      "Raptorclaw Greaves",
+      "Raptor's Gaze",
+      "Lambent Scale Gloves",
+      "Golemsight Long Gun",
+      "Reliquary Mantle",
+      "Ring of Power Regulation",
+      "Blueprint: Rock Garden",
+      "Blueprint: Greenhouse"
+    ],
+    "notes": "Single open map through Whelgar's Excavation Site (stone at 53.4, 65.3). Saltspine patrols the crocolisk lake and cuts the tank's threat with Dust Storm. Shadetooth walks the raptor path with two hunters, fears people into hidden grass packs (use Tremor Totem/Fear Ward) and enrages at 20%. Highland Horror is an Alliance quest target with roots and regeneration. Relic Guardian (level 31) is woken at a titan control panel: face his frontal smash away, ranged stay clear of War Stomp; he can be stunned and kited.",
+    "sourceUrl": "https://www.method.gg/wow-forever/dungeons/excavation-site-wetlands"
+  },
+  {
+    "name": "City of Dalaran",
+    "bosses": [
+      "Atrexis the Grave Knight",
+      "Arcane Anomaly",
+      "Arcanic Enigma",
+      "Unstable Sentinel",
+      "Mana Devourer",
+      "Fel Ancient",
+      "Lyn the Ignored",
+      "Shade of the Archmage"
+    ],
+    "notableLoot": [
+      "Bonebinder's Signet",
+      "Gravespike Repeater",
+      "Graveweave Bindings",
+      "Ephemeral Grips",
+      "Mana-Warped Chain Shirt",
+      "Runemender's Seal",
+      "Drape of Shifting Energy",
+      "Violet Sorcerer's Robes",
+      "Wand of Mana Concentration",
+      "Guardian's Dualblade",
+      "Refractory Scaleguards",
+      "Unstable Crystalline Shoulderpads",
+      "Manascale Treads",
+      "Slitherwrap Girdle",
+      "Spine of the Devourer",
+      "Blightleaf Rope",
+      "Felbough Arm",
+      "Garb of Fallen Felbark",
+      "Bonepile Gaze",
+      "Cartilage Shapers",
+      "Tendonscraper Dagger",
+      "Archmagister's Faceted Pendant",
+      "Ponderous Orb",
+      "Violet Sorcerer's Mantle",
+      "Blueprint: Arcane Salvager",
+      "Blueprint: Spinning Wheel"
+    ],
+    "notes": "Needs a Dalaran Sewer Key (from Image of Archmage Modera, Silverpine 68.6, 45.1). Start in the sewer bar; the right-hand pipes lead to Atrexis (skeleton adds, purgeable frenzy). A side passage with a Tome of Dalaran summons secret boss Lyn the Ignored. Up on the streets: Mana Devourer in the Violet Hold (healing check), Arcane Anomaly (rotating beam - stay behind it), Fel Ancient in Runeweaver Square (roots plus void zones), Arcanic Enigma (kill Mana Phantoms first, polymorph and silence), Unstable Sentinel (spread for Malfunction). Speak to Modera at the Violet Citadel to reach the Shade, who bounces a slow mana orb and mass-polymorphs when out of mana. A locked door near the start can skip to the Citadel. Item quality not yet published.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/city-of-dalaran/"
+  },
+  {
+    "name": "The Drowned City",
+    "bosses": [
+      "Zul'Alai",
+      "Var'Taka",
+      "Captain Dreadrise",
+      "Deathless Marrow",
+      "Primeval Elemental",
+      "Min'loth the Serpent",
+      "Zin'aka",
+      "Umbra (rare)",
+      "Gill (rare)"
+    ],
+    "notableLoot": [
+      "Berserker Shackles",
+      "Bloodslash Axe",
+      "Oathbound Bracers",
+      "Brinebelly Leggings",
+      "Harpoon of Command",
+      "Priestess Cloak",
+      "Briny Sash",
+      "Dreadfrost Saber",
+      "Frosty Blunderbuss",
+      "Heart of the Primeval",
+      "Robe of the Drowned",
+      "Waterlogged Burial Shroud",
+      "Knucklebone Ring",
+      "Maw of Min'loth",
+      "Serpentbane Crown",
+      "Gill's Gills",
+      "Tidebound Dagger"
+    ],
+    "notes": "Underwater cave entrance west of Grom'gol near The Vile Reef (about 21, 28); climb from the cavern into open ruins around a central pool, with side areas holding extra bosses. No boss mechanics published yet; no drops recorded yet for Zin'aka or Umbra. Item quality not yet published.",
+    "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/the-drowned-city/"
+  },
+  {
+    "name": "Krol'dok Stronghold",
+    "bosses": [
+      "Slavecrusher Grox",
+      "Twilight Commander Zarmok",
+      "War Handler Ashka",
+      "Nar'gurk",
+      "Bossman Toof",
+      "Overlord Mugg"
+    ],
+    "notableLoot": [
+      "Resistance Breaker Spaulder",
+      "Chain of Binding",
+      "Slavecrusher Scepter",
+      "Zarmok's Plated Signet",
+      "Shadowlight Athame",
+      "Bloodied Gutslicer",
+      "War Handler's Gaze",
+      "Chain of the Corruptor",
+      "Krol'dok Warplate Chest",
+      "Toofbreaker",
+      "Big-Belly Belt",
+      "Emblem of Slamming",
+      "Mugg's Jabber",
+      "Krol'dok Warplate Helmet",
+      "Krol'dok Warplate Pauldrons",
+      "Krol'dok Warplate Gauntlets",
+      "Krol'dok Warplate Legplates"
+    ],
+    "notes": "Contested ogre fort; the gates stay shut and the portal is in a small cave to the west (about 37.5, 37.2). The route climbs uphill and crosses a long wooden bridge - stay in the middle or side packs join. Grox follows a patrol; Zarmok applies a heavy bleed and opens the big gate on death; Ashka (with two wolves) may be off the main road; Nar'gurk mind-controls a player; Toof waits with shamans past the bridge; Mugg jumps around the summit - spread out and kill his adds (healing reduction on the tank). Boss drops are blue, ilvl 44-47. Krol'dok Warplate is a five-piece plate tank set (Chest from Nar'gurk, other pieces probably trash). Mugg also drops the Krol'dok Ogre Key (possible shortcut, unconfirmed).",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-kroldok-stronghold-guide/"
+  },
+  {
+    "name": "Alcaz Prison",
+    "bosses": [
+      "Overseer Wrex",
+      "The Questioner",
+      "Tidemistress Ca'zass",
+      "Katerina the Cleaner",
+      "Blazeroar"
+    ],
+    "notableLoot": [
+      "Grips of Control",
+      "Wrex's Pinky Ring",
+      "Girdle of Extracted Answers",
+      "Fingerbreaker Stamp",
+      "Defias Enforcer's Shoulderpads",
+      "Tidesong Wand",
+      "Seascale Bracers",
+      "Cloak of the Tidemistress",
+      "Cutthroat Chestguard",
+      "Sentimental Locket",
+      "Katerina's Shanker",
+      "Defias Enforcer's Prowlers",
+      "Defias Enforcer's Mask",
+      "Defias Enforcer's Chest",
+      "Alcaz Willcrusher",
+      "Defias Enforcer's Legguards"
+    ],
+    "notes": "Portal in the basement of the old tower on Alcaz Island (about 75.3, 14.1); Horde swim over from the shore. Feels like a much bigger Stockade: Defias jailers and cells upstairs, a locked lower floor opened with the Overseer's Keyring from Wrex. Wrex pulls his whole room - drag him into the corridor. The Questioner is a long tank-and-spank. Ca'zass's adds spam Polymorph (interrupt/kill first); move out of her Blizzard. Katerina deals heavy group fire damage - do not free the chained prisoners mid-fight. Blazeroar is a red dragon disguised as prisoner Zarla Ober, immune to fire in early runs. A hidden room lies behind him. Blazeroar's loot not yet recorded.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-alcaz-prison-guide/"
+  },
+  {
+    "name": "Blackmaw Hold",
+    "bosses": [
+      "Withermaw",
+      "Impaan the Imprisoner",
+      "Elder Shaman Bloodmane",
+      "Bonesnout the Unbroken",
+      "Varrox Bleakhoof",
+      "Blackmaw Behemoth",
+      "Unbound Spirit",
+      "Moontouched Wanderer (rare)"
+    ],
+    "notableLoot": [
+      "Withering Grips",
+      "Cloak of the Fleshborer",
+      "Impish Chain Hood",
+      "Lucky Shovelnose Tuft",
+      "Tuskblade Halberd",
+      "Behemoth Bones",
+      "Bleak Eye Shoulderplates",
+      "Claymore of Two Moons",
+      "Satyr's Touch"
+    ],
+    "notes": "Tunnel from northern Azshara (about 38.4, 32.6, meeting stone) climbs to the portal near the Winterspring border; no key needed. Huge, non-linear furbolg city (compared to Blackrock Depths) with two routes - ritualist/boar side or lake/rotting-bear cavern - meeting in the centre; deepest tunnels lead toward Barrow Deeps. Withermaw leaves lava pools - move out; Bonesnout is buffed by Legashi Ritualists - kill or CC them first; bring interrupts for Bloodmane. Varrox (level 60) is the Legacy kill. Most mechanics and many drops still unrecorded (Bloodmane, Unbound Spirit, Impaan partially).",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-blackmaw-hold-guide/"
+  },
+  {
+    "name": "Shaper's Terrace",
+    "bosses": [
+      "Bolt",
+      "Cinder",
+      "Snowtalon",
+      "Nanaya"
+    ],
+    "notableLoot": [],
+    "notes": "Titan facility above Marshal's Refuge in northern Un'Goro (about 48.1, 6.1). Mostly open: a tar-pit path to the Pillar of Assimilation, an eastern crystal cave, and a northern titan building leading to a waterfall with a sealed (possibly raid) gate. Bring Red/Blue/Green/Yellow Power Crystals from Un'Goro to use at consoles inside. Boss names come from Legacy statistics (Nanaya likely final; Bolt gorilla, Cinder and Snowtalon raptors) and there may be more. No loot or mechanics published yet.",
+    "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-shapers-terrace-guide/"
+  },
+  {
+    "name": "Barrow Deeps",
+    "bosses": [
+      "Deepscar Matriarch",
+      "Khalith the Dreadspinner",
+      "Amethrax",
+      "Ravus and Darlissa",
+      "Elder Tangleclaw",
+      "Well of Sorrow",
+      "Del'lynar Songwood",
+      "Sonya Darkhallow"
+    ],
+    "notableLoot": [
+      "Torch of Light",
+      "Sonya's Darkened Glaive"
+    ],
+    "notes": "10-player raid unlocking 9 Dec 2026. Loot is datamined only: loot tables are encrypted and no item is tied to a boss yet. Datamined items include Torch of Light (ilvl 65 healing wand), Sonya's Darkened Glaive, corrupted shards named after Tangleclaw, Dreadspinner and Amethrax, and a Brooch of the Wardens; about 20 sealed weapons. One guide lists Chillhowl instead of Deepscar Matriarch among the eight achievement bosses; Sonya Darkhallow is the likely final boss. A Crystal Giant ability set (Amethyst Cleave) probably belongs to Amethrax. New tier sets and a legendary are announced but not assigned to bosses.",
+    "sourceUrl": "https://expcarry.com/wow-forever-barrow-deeps-raid-guide"
+  },
+  {
+    "name": "Hyjal Summit",
+    "bosses": [
+      "Bandalar",
+      "Time-Lost Battalion",
+      "Old Gloomlurker",
+      "Kathris the Haunted",
+      "Elder Minderel",
+      "Council of Thorns",
+      "The Wild King",
+      "Ancient of Decay",
+      "Sylvesteris Dusksong",
+      "Gharalis the Abyssal",
+      "Anara Chillwind",
+      "Tracker Stillwind",
+      "Nythus the Dreambound"
+    ],
+    "notableLoot": [
+      "Soulrip Staff",
+      "Yjn'raathma, Sword of the Still Wind",
+      "Wild King Crown",
+      "Rotcleaver",
+      "Rumination",
+      "Fang of the Forlorn",
+      "Split"
+    ],
+    "notes": "20-player raid unlocking 9 Dec 2026. Loot is datamined only and not tied to bosses. Datamined Tier 1 sets (Head/Shoulders/Chest/Hands/Legs/Feet): Druid Grovekeeper (Raiment/Rage/Eclipse/Ferocity), Hunter Wildstalker Armor, Mage Manaflare Regalia, Paladin Justice (Armor/Battleplate/Battlegear), Priest Vestments/Raiments of Conviction, Rogue Grimstitch Armor, Shaman The Spiritcaller (plus Rage/Storm), Warlock Demonheart Raiment, Warrior Battlegear/Battleplate of Glory. An unnamed legendary is announced, possibly linked to a Branch of Nordrassil. Datamined abilities: Kathris (soul tether/rip, fear aura), Anara Chillwind (lunar/umbral marks, Starfall, Singularity), Elder Minderel (freezes druids, making them weak to fire), Nythus (Emerald Stasis), The Wild King (shapeshifting forms, Convoke the Spirits). Sources disagree on the final boss (wiki: Nythus; others: The Wild King).",
+    "sourceUrl": "https://expcarry.com/wow-forever-hyjal-summit-raid-guide"
+  }
+]

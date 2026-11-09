@@ -1,0 +1,96 @@
+{
+  "overview": "World of Warcraft: Forever is a permanent third version of WoW that sits alongside modern WoW and Classic. It takes the original 2004-era game as its base and reworks it with new zones, more than 1,000 new quests, nine new dungeons, a new playable race called the Skyborne, and rebalanced classes. The level cap is fixed at 60 for good, and Blizzard plans to grow the game with new content rather than new levels. Story-wise it is set in WoW's first year, before The Burning Crusade, and it favours slower, community-driven play over automatic matchmaking.",
+  "launch": "4 November 2026, 3:00 p.m. PST (23:00 UTC), worldwide",
+  "price": "Forever comes with a normal World of Warcraft subscription or Game Time, which also covers modern WoW. No separate box purchase is needed. The optional packs are the Skyborne Heroic Pack ($29.99: unlocks the Skyborne race and the Zephras Isle starting zone, plus early name reservation, a Cerulean Prideclaw mount, cosmetics, housing decor for modern WoW and 1 Invite-A-Friend code), the Skyborne Epic Pack ($59.99: everything in Heroic, plus beta access, 30 days of game time, an extra mount, a transmog set, pets, tabards and 3 invite codes in total) and the Warcraft Forever Collection ($79.99: everything in Epic, plus Warcraft III: Reforged with the Forsaken Kingdom campaign and figurine decor; sold for a limited time until 11 January 2027). A physical Collector's Edition was sold through the Blizzard Gear Store while stock lasted.",
+  "levelCap": "60 (permanent; Blizzard does not plan to raise it)",
+  "rulesets": [
+    {"name": "Normal", "desc": "A PvE-focused ruleset where PvP is opt-in. You can make characters on both factions."},
+    {"name": "PvP", "desc": "World PvP is always on, so opposing players can attack you anywhere. Each account is locked to one faction on this ruleset."},
+    {"name": "Roleplay", "desc": "Stricter naming and conduct rules for immersive roleplay, with PvE rules."},
+    {"name": "Roleplay PvP", "desc": "Roleplay rules combined with always-on world PvP."},
+    {"name": "Hardcore", "desc": "A permadeath ruleset planned for the winter after launch, with no fixed date yet. Hardcore is closed off from the other rulesets. A character that dies can be moved to another ruleset, and Legacy progress can flow out of Hardcore but not back in."}
+  ],
+  "skyborne": {
+    "desc": "The Skyborne (shen'dorei) are a new race descended from Highborne exiles who made a pact with the air spirits and built a civilization in Skywall, the elemental plane of air. The spirits have since vanished, and Skyborne society is now split. The race comes with new customization options, druid forms of its own, and HD models only at launch; SD models and SD druid forms are planned for early 2027.",
+    "factions": [
+      "Windshaper Skyborne (Horde), who follow elemental traditions",
+      "High Order Skyborne (Alliance), who pursue their ancestors' arcane legacy"
+    ],
+    "classes": [
+      "Druid (both)",
+      "Hunter (both)",
+      "Rogue (both)",
+      "Warrior (both)",
+      "Shaman (Windshaper / Horde only)",
+      "Mage (High Order / Alliance only)"
+    ],
+    "racials": [
+      "Walk on Air (both): lets you drift down slowly for up to 10 seconds",
+      "Wind Blessed (both): +1% Haste to melee, ranged and spells",
+      "Elemental Insight (both): +5% damage against Elementals",
+      "Skysight (Windshaper): an Elemental Blessing that gives +10% run speed",
+      "Read Ley Line (High Order): using a ley line doubles health and mana regeneration"
+    ],
+    "startingZone": "Zephras Isle (levels 1-12), an island that mixes classic Warcraft style with elemental architecture. Characters of other races can still visit it later.",
+    "howToUnlock": "Buy any Skyborne pack (Heroic $29.99, Epic $59.99, or the Warcraft Forever Collection $79.99). A subscription or Game Time alone does not unlock the race."
+  },
+  "systems": [
+    {"name": "Legacy System and Legacy Points", "desc": "This replaces achievements. There are 65 account-wide challenges at launch, covering class levels 25/45/60, profession milestones, PvP, exploration, and dungeon and raid bosses, and each one awards 1 Legacy Point. Each character spends up to 16 points in its own perk trees (Professions, Adventure and Resourcefulness), and can respec at class trainers. One character can earn enough points alone, so leveling alts is optional. Your account-wide point total also unlocks cosmetics, such as the Spectral Bear mount, pet and tabard. Open the system with the Y key."},
+    {"name": "Camping", "desc": "Cooking turns a Cooking Fire into a shared campfire. Nearby players can each add one profession-made feature to it, up to three, five or ten depending on the campfire's tier. Sitting or crafting at the camp for a minute gives buffs that are versions of class buffs and do not stack with them. Most features need skill 20 in the profession, and high-end ones drop in dungeons and raids. On PvP rulesets, enemies can find your camp."},
+    {"name": "Dual specialization", "desc": "Class trainers teach it at level 40 for 50 gold. You can swap specs anywhere outside combat and battlegrounds, and respec costs drop over time."},
+    {"name": "HD / SD graphics and experience presets", "desc": "Each character can use the original (SD) or updated (HD) model, which changes only its look. When you start, you pick a Classic preset (SD models, classic UI, no quest markers or transmog) or an Enhanced preset (HD models, quest guidance, one-bag view, transmog). Every setting can be changed later. The engine adds global illumination, volumetric fog, and better water and shadows, and the minimum GPU is AMD GCN 1, NVIDIA Maxwell or Intel Skylake."},
+    {"name": "Controller support", "desc": "Gamepads can target, cast, loot and move through menus, and the launch notes describe this support as a functional beta. You still need a keyboard to chat."},
+    {"name": "Mega-realms and layering", "desc": "There are no traditional realms. Each region has one large world per ruleset. Layering handles crowding, and community reports of the official tech podcast say layers follow zones or groups of zones, and that joining a group asks you when to switch layers. At launch, queues were reported to be only a few minutes."},
+    {"name": "Collections", "desc": "Mounts, pets, toys and transmog appearances are stored in an account-wide collection interface instead of your bags, and they are shared across rulesets."},
+    {"name": "Names with surnames", "desc": "Every character has a first name and a surname. The full name must be unique within the region, not just on one server. Name filters check both parts together, and you can hide surnames on nameplates."},
+    {"name": "Auction houses (including Blackwater)", "desc": "The Auction House uses the modern WoW interface. Markets are separate for each region and ruleset, and Blizzard calls linking rulesets a last resort. Community testing suggests each ruleset has three markets: Alliance, Horde, and a neutral one called Blackwater, which is probably found in the goblin towns. Blizzard has not officially confirmed the details of the neutral house."},
+    {"name": "Black Market (Powderfuse Port)", "desc": "Goblin traders in Powderfuse Port, in the Riverglades, run a bid-only auction for rare items such as cosmetics, Tier 0 pieces and the Deathcharger's Reins. They also sell some rare materials at fixed prices. These details are based on beta reports."},
+    {"name": "Discord integration", "desc": "You can link your Discord and Battle.net accounts and mirror guild chat both ways. This works in Forever and in modern WoW."},
+    {"name": "Professions and supply factions", "desc": "Characters can learn two primary professions plus Cooking, First Aid and Fishing. Many recipes come from the Azeroth Commerce Authority and Durotar Supply and Logistics, which return from Season of Discovery."},
+    {"name": "PvP progression", "desc": "PvP progression uses two currencies, Honor and Rank Points, with gear sets and seasonal weekly objectives. Forever adds a new 15v15 battleground, Battle for the Darkspear Islands."},
+    {"name": "Cooldown Manager and Damage Meter", "desc": "Built-in, optional UI tools under the advanced options. They replace some common addons."},
+    {"name": "Temporary Economy Holds", "desc": "Accounts suspected of real-money trading can be temporarily blocked from trade, mail, guild banks and the Auction House while Blizzard investigates. A hold is not a permanent strike."},
+    {"name": "Season of Discovery carry-overs", "desc": "Several features return from Season of Discovery: the Cozy Sleeping Bag, the Chronoboon Displacer, library books for every class, comprehension scrolls, and Tarnished Undermine Reals, which you trade in Booty Bay."}
+  ],
+  "roadmap": [
+    {"when": "12 Sep 2026", "what": "Announced at BlizzCon. Pre-purchase packs go on sale."},
+    {"when": "17 Sep - 23 Oct 2026", "what": "Beta (level cap later raised to 30)."},
+    {"when": "21 Oct 2026", "what": "Open stress test for all players. Characters were wiped afterwards."},
+    {"when": "27 Oct - 3 Nov 2026", "what": "Early name reservation for pack owners."},
+    {"when": "4 Nov 2026", "what": "Global launch at 23:00 UTC."},
+    {"when": "10 Nov 2026", "what": "First post-launch class tuning (Hunter pets, Voidwalkers, Affliction, Enhancement)."},
+    {"when": "12 Nov 2026", "what": "Pouch of Violet Dust Twitch drop and the launch celebration end."},
+    {"when": "9 Dec 2026", "what": "Raids open: Barrow Deeps (10), Hyjal Summit (20) and Onyxia's Lair (40)."},
+    {"when": "Winter 2026/27", "what": "Hardcore ruleset."},
+    {"when": "Early 2027", "what": "SD Skyborne models and SD druid forms."},
+    {"when": "11 Jan 2027", "what": "Warcraft Forever Collection is no longer sold."},
+    {"when": "Spring 2027", "what": "Two new raids, two new dungeons, new quests and a new zone, a legendary questline, and a PvP season refresh."},
+    {"when": "Summer 2027", "what": "A revamped iconic raid plus one new raid, more world content, two new dungeons, a PvP season refresh, and updates to professions and Legacy."}
+  ],
+  "faq": [
+    {"q": "Do I need to buy Forever?", "a": "No. A WoW subscription or Game Time covers it. You only need a paid pack to play the Skyborne race."},
+    {"q": "Will the level cap ever go above 60?", "a": "Blizzard says no. New content will come as raids, dungeons, zones and quests at level 60."},
+    {"q": "Can I play with friends on another ruleset or faction?", "a": "Grouping, guilds, dungeons and raids only work within the same ruleset and faction. Battlegrounds can mix rulesets, except Hardcore."},
+    {"q": "Can I move a character to another ruleset?", "a": "Not freely. You need a new character for each ruleset. The one exception is that a Hardcore character can move out after it dies."},
+    {"q": "Is progress shared across my account?", "a": "Yes for collections and Legacy Points. Gold, bags and reputation appear to stay with each character."},
+    {"q": "Is this the same as Classic Era?", "a": "No. Forever is a separate game version with new zones, a new race, reworked classes and talents, new systems such as Legacy and Camping, and optional modern conveniences."},
+    {"q": "When do raids open?", "a": "On 9 December 2026: Barrow Deeps, Hyjal Summit and Onyxia's Lair."},
+    {"q": "Can I play on a controller or a Mac?", "a": "Yes. Forever runs on Windows and macOS, and gamepad support is available but still labelled beta."},
+    {"q": "Is there Hardcore?", "a": "Not yet. It is planned for the winter after launch."}
+  ],
+  "links": [
+    {"title": "Official: Carve a New Path with WoW: Forever (editions)", "url": "https://news.blizzard.com/en-us/article/24302093/carve-a-new-path-with-world-of-warcraft-forever"},
+    {"title": "Official: Choose Your Ruleset", "url": "https://news.blizzard.com/en-us/article/24302070/choose-your-ruleset-in-world-of-warcraft-forever"},
+    {"title": "Official: Meet the Skyborne", "url": "https://news.blizzard.com/en-us/article/24302071/wow-forever-meet-the-new-skyborne"},
+    {"title": "Official: Legacy System", "url": "https://news.blizzard.com/en-us/article/24307383/get-to-know-the-world-of-warcraft-forever-legacy-system"},
+    {"title": "Official: Hotfixes (Nov 5-6, 2026)", "url": "https://news.blizzard.com/en-us/article/24315281/wow-forever-hotfixes-november-6-2026"},
+    {"title": "Official: WoW Weekly - launch, Discord, Taldramir", "url": "https://news.blizzard.com/en-us/article/24316097/the-adventure-begins-in-wow-forever-stay-connected-with-discord-and-taldramir-takes-shape-in-wow-weekly"},
+    {"title": "Official forums: WoW Forever discussion", "url": "https://us.forums.blizzard.com/en/wow/c/wow-forever/347"},
+    {"title": "Warcraft Wiki: World of Warcraft: Forever", "url": "https://warcraft.wiki.gg/wiki/World_of_Warcraft:_Forever"},
+    {"title": "Wowhead: Forever news", "url": "https://www.wowhead.com/forever/news"},
+    {"title": "Icy Veins: WoW Forever", "url": "https://www.icy-veins.com/wow-forever"},
+    {"title": "Warcraft Tavern: Forever news", "url": "https://www.warcrafttavern.com/forever/news/"},
+    {"title": "wowforever.co news timeline", "url": "https://wowforever.co/news"},
+    {"title": "PC Gamer: WoW Forever coverage", "url": "https://www.pcgamer.com/world-of-warcraft-forever/"}
+  ]
+}

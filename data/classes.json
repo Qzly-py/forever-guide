@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Warrior",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "High Order Skyborne (Alliance)",
+      "Orc",
+      "Tauren",
+      "Troll",
+      "Undead",
+      "Windshaper Skyborne (Horde)"
+    ],
+    "roles": [
+      "Tank",
+      "DPS"
+    ],
+    "specs": [
+      "Arms",
+      "Fury",
+      "Protection"
+    ],
+    "forevChanges": "Rage from hits taken ignores armor/absorbs; rage from dealing damage scales with weapon speed and crits give 75% more. Tactical Mastery (lvl 14) and Victory Rush (lvl 20) baseline; Recklessness/Retaliation/Shield Wall no longer share a cooldown. New talents: Weaponmaster and Spearing Strike (Arms), Raging Blows and redesigned Enrage, Bloodthirst no longer heals (Fury), Vanguard lets Charge work in Defensive Stance, plus Bastion and Focused Rage (Protection). New race option: Skyborne (both factions). Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/rage-will-benefit-from-crit-priest-warrior-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Paladin",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Undead"
+    ],
+    "roles": [
+      "Tank",
+      "Healer",
+      "DPS"
+    ],
+    "specs": [
+      "Holy",
+      "Protection",
+      "Retribution"
+    ],
+    "forevChanges": "Now available to the Horde via the new Undead Paladin combo. Holy Strike at level 6; Judgment no longer consumes Seals; Consecration baseline at 20 but much weaker. Holy: Holy Shock 10s cooldown, Infusion of Light, Light's Vigil, Reverence. Protection: Seal of Fury tank seal (Judgment taunts), Swift Judgment, Reckoning on blocks. Retribution: Vindication, Sacred Arbiter, Champion of the Light, Twist of Light. Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.wowhead.com/forever/blue-tracker/news/eu/24303313"
+  },
+  {
+    "name": "Hunter",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "High Order Skyborne (Alliance)",
+      "Orc",
+      "Tauren",
+      "Troll",
+      "Windshaper Skyborne (Horde)"
+    ],
+    "roles": [
+      "DPS"
+    ],
+    "specs": [
+      "Beast Mastery",
+      "Marksmanship",
+      "Survival"
+    ],
+    "forevChanges": "New combos: Human Hunter and Skyborne Hunter. Aimed Shot baseline at 20; traps usable in combat (30s cooldown, Frost and Fire separate). New Fox pet family; pets scale from hunter gear and each family has one unique ability. New talents: Lone Wolf (petless play), Summon Hawk, Careful Aim, Rapid Killing, Strider Kick, Lacerating Strikes; Survival can go full melee. Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/powershifting-is-back-sort-of-hunter-druid-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Rogue",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "High Order Skyborne (Alliance)",
+      "Orc",
+      "Troll",
+      "Undead",
+      "Windshaper Skyborne (Horde)"
+    ],
+    "roles": [
+      "DPS"
+    ],
+    "specs": [
+      "Assassination",
+      "Combat",
+      "Subtlety"
+    ],
+    "forevChanges": "Only new combo is Skyborne. Can use one-handed axes; poisons have more charges and stack with sharpening stones/weightstones; Sap no longer breaks stealth. New talents: Mutilate and Venom (Assassination), Hack and Slash and Flawless Execution (Combat), Thousand Cuts, Quietus, Cutthroat (Subtlety). Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/poison-pets-rogue-warlock-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Priest",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Troll",
+      "Undead"
+    ],
+    "roles": [
+      "Healer",
+      "DPS"
+    ],
+    "specs": [
+      "Discipline",
+      "Holy",
+      "Shadow"
+    ],
+    "forevChanges": "New combo: Gnome Priest. Racial priest spells reworked: Fear Ward and Devouring Plague for all priests at 20, Divine Spirit baseline at 30, Shadow Word: Death at 32. Fade threat drop doubled; Renew from multiple priests stacks on one target. New talents: Penance and Soul Warding (Discipline), Binding Heal and Prayer of Mending (Holy), Devouring Contagion, Early Demise and reworked Shadowform (Shadow). Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/rage-will-benefit-from-crit-priest-warrior-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Shaman",
+    "races": [
+      "Dwarf",
+      "Orc",
+      "Tauren",
+      "Troll",
+      "Windshaper Skyborne (Horde)"
+    ],
+    "roles": [
+      "Healer",
+      "DPS",
+      "Tank"
+    ],
+    "specs": [
+      "Elemental",
+      "Enhancement",
+      "Restoration"
+    ],
+    "forevChanges": "Now available to the Alliance via the new Dwarf Shaman combo; Skyborne shamans are Horde-only. Totems last 5 min, 1.0s GCD, totem bar UI, Totemic Recall/Projection and Call of the Elements/Spirits/Ancestors totem sets. Windfury and Flametongue are party buffs; imbues last 60 min and stack with oils. New talents include Lava Burst, Lightning Overload, Stormstrike (16-pt), Rage of the Farseer, Water Shield, Mana Tide Totem, Riptide; guides note Rockbiter may enable Enhancement tanking. Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/scrolls-totems-mage-shaman-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Mage",
+    "races": [
+      "Human",
+      "Gnome",
+      "High Order Skyborne (Alliance)",
+      "Orc",
+      "Troll",
+      "Undead"
+    ],
+    "roles": [
+      "DPS"
+    ],
+    "specs": [
+      "Arcane",
+      "Fire",
+      "Frost"
+    ],
+    "forevChanges": "New combos: Orc Mage and Skyborne Mage (Alliance only). New baseline Comprehension (scroll-reading tradeskill) and Frostfire Bolt at 40. New talents: Arcane Blast, Missile Barrage, Hot Streak (Fire), Ice Lance, Fingers of Frost. Cone of Cold and Improved Blizzard slow nerfed to curb AoE farming. Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/scrolls-totems-mage-shaman-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Warlock",
+    "races": [
+      "Human",
+      "Gnome",
+      "Orc",
+      "Troll",
+      "Undead"
+    ],
+    "roles": [
+      "DPS"
+    ],
+    "specs": [
+      "Affliction",
+      "Demonology",
+      "Destruction"
+    ],
+    "forevChanges": "New combo: Troll Warlock. Curse of Agony and Curse of Doom become Banes (one per warlock per target); Curse of Shadows removed; Firestone/Spellstone become weapon imbues; pets scale with the warlock. New talents: Wrack, Malediction, Soul Siphon, Pandemic (Affliction); Demonic Brand, Demonic Knowledge, Demonic Pact (Demonology); Bane of Havoc, Incinerate, Shadow and Flame (Destruction). Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/poison-pets-rogue-warlock-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "Druid",
+    "races": [
+      "Night Elf",
+      "High Order Skyborne (Alliance)",
+      "Tauren",
+      "Windshaper Skyborne (Horde)"
+    ],
+    "roles": [
+      "Tank",
+      "Healer",
+      "DPS"
+    ],
+    "specs": [
+      "Balance",
+      "Feral",
+      "Restoration"
+    ],
+    "forevChanges": "New combo: Skyborne Druid (both factions) with unique bird-like forms. Nature's Grasp (10), Omen of Clarity (20), Lacerate (42), Improved Mark of the Wild baseline; new Revive out-of-combat res at 12. Feral: Shifting Power (powershifting returns), Primal Bite replaces Mangle, Berserk. Restoration: Wild Growth. Wrath cheaper but weaker; shapeshifted druids can use most potions. Dual Specialization unlocks at level 40 from the class trainer (Blizzard deep dives); a 50g price is not confirmed by the sources read.",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/powershifting-is-back-sort-of-hunter-druid-deep-dive-for-wow-forever/"
+  },
+  {
+    "name": "_facts: new race/class combos",
+    "races": [
+      "Human",
+      "Dwarf",
+      "Gnome",
+      "Orc",
+      "Troll",
+      "Undead",
+      "Skyborne"
+    ],
+    "roles": [],
+    "specs": [],
+    "forevChanges": "Blizzard's six new combos for existing races: Gnome Priest, Human Hunter, Dwarf Shaman (Alliance gets Shaman), Orc Mage, Troll Warlock, Undead Paladin (Horde gets Paladin). The new Skyborne race (shen'dorei, start zone Zephras Isle, levels 1-12) is split by faction: High Order Skyborne (Alliance: Druid, Hunter, Mage, Rogue, Warrior) and Windshaper Skyborne (Horde: Druid, Hunter, Rogue, Shaman, Warrior). Shared racials: Walk on Air (10s glide), Wind Blessed (+1% Haste), Elemental Insight (+5% damage vs elementals); Windshaper adds Skysight (+10% run speed), High Order adds Read Ley Line (+100% health/mana regen on a ley line).",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24302071"
+  },
+  {
+    "name": "_facts: dual specialization",
+    "races": [],
+    "roles": [],
+    "specs": [],
+    "forevChanges": "Dual Talent Specialization is taught by class trainers from level 40 (stated in Blizzard's class deep dives). None of the sources read confirm a price: the 50g figure matches Season of Discovery and is unverified for Forever. Normal talent resets cost 1g, then 5g, rising to a 50g cap and decaying weekly; Legacy tree resets cost 10g.",
+    "sourceUrl": "https://lfcarry.com/guides/wow-forever-dual-spec"
+  }
+]

@@ -1,0 +1,62 @@
+name: Update guide
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # news every hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-guide
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull latest news
+        run: python scripts/update_feed.py
+
+      - name: Pull every item from Blizzard (once a day, or when run by hand)
+        env:
+          BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+          BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ] || [ ! -f items.json ]; then
+            python scripts/update_items.py
+          else
+            echo "Items refresh runs at 05:xx UTC; skipping this hour."
+          fi
+
+      - name: Save updates to the repository
+        run: |
+          git config user.name "guide-updater"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed.json items.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Automatic update $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push || true
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

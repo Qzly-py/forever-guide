@@ -1,0 +1,671 @@
+[
+ {
+  "name": "Ragefire Chasm",
+  "bosses": [
+   "Oggleflint",
+   "Taragaman the Hungerer",
+   "Jergosh the Invoker",
+   "Bazzalan",
+   "Zelemar the Wrathful"
+  ],
+  "notableLoot": [
+   "Cavedweller Bracers",
+   "Chanting Blade",
+   "Crystalline Cuffs",
+   "Cursed Felblade",
+   "Robe of Evocation",
+   "Subterranean Cape"
+  ],
+  "notes": "Short Orgrimmar cave run against Burning Blade cultists and troggs. Forever lists the four usual bosses with their Classic loot; Zelemar is an optional quest-summoned boss in Classic and is not listed by Forever loot trackers. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/ragefire-chasm/"
+ },
+ {
+  "name": "The Deadmines",
+  "bosses": [
+   "Rhahk'Zor",
+   "Miner Johnson",
+   "Sneed's Shredder",
+   "Sneed",
+   "Gilnid",
+   "Mr. Smite",
+   "Captain Greenskin",
+   "Edwin VanCleef",
+   "Cookie"
+  ],
+  "notableLoot": [
+   "Cape of the Brotherhood",
+   "Blackened Defias Armor",
+   "Corsair's Overshirt",
+   "Cruel Barb",
+   "Emberstone Staff",
+   "Smite's Mighty Hammer",
+   "Taskmaster Axe",
+   "Blackened Defias Belt"
+  ],
+  "notes": "Defias Brotherhood hideout under Westfall ending on VanCleef's ship. Forever trackers show the Classic boss loot unchanged so far; Forever gives the Blackened Defias leather set a new set bonus. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/the-deadmines/"
+ },
+ {
+  "name": "Wailing Caverns",
+  "bosses": [
+   "Lady Anacondra",
+   "Lord Cobrahn",
+   "Kresh",
+   "Lord Pythas",
+   "Skum",
+   "Lord Serpentis",
+   "Verdan the Everliving",
+   "Mutanus the Devourer",
+   "Deviate Faerie Dragon"
+  ],
+  "notableLoot": [
+   "Mutant Scale Breastplate",
+   "Slime-encrusted Pads",
+   "Deep Fathom Ring",
+   "Living Root",
+   "Seedcloud Buckler",
+   "Cobrahn's Grasp",
+   "Stinging Viper",
+   "Venomstrike"
+  ],
+  "notes": "Druids of the Fang dungeon in the Barrens; Mutanus appears after escorting the Disciple of Naralex. Forever keeps Classic loot so far and gives the Embrace of the Viper set a new set bonus. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/wailing-caverns/"
+ },
+ {
+  "name": "Shadowfang Keep",
+  "bosses": [
+   "Rethilgore",
+   "Razorclaw the Butcher",
+   "Baron Silverlaine",
+   "Commander Springvale",
+   "Odo the Blindwatcher",
+   "Deathsworn Captain",
+   "Fenrus the Devourer",
+   "Wolf Master Nandos",
+   "Archmage Arugal",
+   "Sever"
+  ],
+  "notableLoot": [
+   "Haunting Blade (new)",
+   "Phantom Armor (new)",
+   "Belt of Arugal",
+   "Meteor Shard",
+   "Robes of Arugal",
+   "Commander's Crest",
+   "Wolfmaster Cape",
+   "Arced War Axe"
+  ],
+  "notes": "Arugal's worgen-infested keep in Silverpine. In Forever, loot trackers flag Haunting Blade and Phantom Armor from the Deathsworn Captain (a rare spawn whose drops were largely unavailable in Classic Era) as new; Sever is a Scourge Invasion event boss whose loot is not yet seen in Forever. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/shadowfang-keep/"
+ },
+ {
+  "name": "The Stockade",
+  "bosses": [
+   "Targorr the Dread",
+   "Kam Deepfury",
+   "Hamhock",
+   "Bazil Thredd",
+   "Dextren Ward",
+   "Bruegal Ironknuckle"
+  ],
+  "notableLoot": [
+   "Hamhock's Cleaver",
+   "Debt Collector",
+   "Prison Shank",
+   "Concealed Hand Crossbow",
+   "Kam's Walking Stick",
+   "Iron Knuckles",
+   "Jimmied Handcuffs"
+  ],
+  "notes": "Stormwind prison riot dungeon, raised to 26-32 in Forever. Classic bosses had almost no loot, but Forever trackers list two to four items per boss (e.g. Hamhock's Cleaver, Debt Collector, Prison Shank); those Forever-only items are not in the Classic item data so they appear in bosses/notableLoot only, not as gear entries. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/the-stockade/"
+ },
+ {
+  "name": "Blackfathom Deeps",
+  "bosses": [
+   "Ghamoo-ra",
+   "Lady Sarevess",
+   "Gelihast",
+   "Lorgus Jett",
+   "Baron Aquanis",
+   "Twilight Lord Kelris",
+   "Old Serra'kis",
+   "Aku'mai"
+  ],
+  "notableLoot": [
+   "Leech Pants",
+   "Moss Cinch",
+   "Strike of the Hydra",
+   "Glowing Thresher Cape",
+   "Rod of the Sleepwalker",
+   "Algae Fists",
+   "Bite of Serra'kis",
+   "Gaze Dreamer Pants"
+  ],
+  "notes": "Flooded night elf temple in Ashenvale held by naga and the Twilight's Hammer. Forever loot tables mirror Classic so far; Baron Aquanis is a Horde quest-summoned boss. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/blackfathom-deeps/"
+ },
+ {
+  "name": "Razorfen Kraul",
+  "bosses": [
+   "Roogug",
+   "Aggem Thorncurse",
+   "Death Speaker Jargba",
+   "Overlord Ramtusk",
+   "Agathelos the Raging",
+   "Blind Hunter",
+   "Earthcaller Halmgar",
+   "Charlga Razorflank"
+  ],
+  "notableLoot": [
+   "Agamaggan's Clutch",
+   "Heart of Agamaggan",
+   "Pronged Reaver",
+   "Swinetusk Shank",
+   "Corpsemaker",
+   "Ferine Leggings",
+   "Death Speaker Scepter",
+   "Tusken Helm"
+  ],
+  "notes": "Quilboar thorn-maze in the southern Barrens. Forever loot matches Classic so far; a new Quilboar Blaster appears as a dungeon quest reward. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/razorfen-kraul/"
+ },
+ {
+  "name": "Gnomeregan",
+  "bosses": [
+   "Grubbis",
+   "Viscous Fallout",
+   "Electrocutioner 6000",
+   "Crowd Pummeler 9-60",
+   "Dark Iron Ambassador",
+   "Mekgineer Thermaplugg"
+  ],
+  "notableLoot": [
+   "Charged Gear",
+   "Electromagnetic Gigaflux Reactivator",
+   "Thermaplugg's Central Core",
+   "Thermaplugg's Left Arm",
+   "Glass Shooter",
+   "Royal Diplomatic Scepter",
+   "Electrocutioner Lagnut",
+   "Electrocutioner Leg"
+  ],
+  "notes": "Irradiated gnome capital under Dun Morogh. Forever trackers show Classic boss loot; no new drops confirmed yet. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/gnomeregan/"
+ },
+ {
+  "name": "Scarlet Monastery: Graveyard",
+  "bosses": [
+   "Interrogator Vishas",
+   "Bloodmage Thalnos",
+   "Ironspine",
+   "Azshir the Sleepless",
+   "Fallen Champion",
+   "Scorn"
+  ],
+  "notableLoot": [
+   "Polished Skullcap (new)",
+   "Orb of the Forgotten Seer",
+   "Blighted Leggings",
+   "Bloodmage Mantle",
+   "Ebon Vise",
+   "Embalmed Shroud",
+   "Ghostshard Talisman",
+   "Ironspine's Eye"
+  ],
+  "notes": "Undead-haunted crypt wing of the Monastery. Forever adds a new Polished Skullcap (mail head) to Bloodmage Thalnos, and news coverage says Forever is turning some Scarlet Monastery junk loot into real gear. Ironspine, Azshir and the Fallen Champion are rare spawns; Scorn was a Scourge Invasion boss in Classic. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/scarlet-monastery-graveyard/"
+ },
+ {
+  "name": "Scarlet Monastery: Library",
+  "bosses": [
+   "Houndmaster Loksey",
+   "Arcanist Doan"
+  ],
+  "notableLoot": [
+   "Deadman's Hand",
+   "Hypnotic Blade",
+   "Illusionary Rod",
+   "Mantle of Doan",
+   "Robe of Doan",
+   "Loksey's Training Stick",
+   "Dog Training Gloves"
+  ],
+  "notes": "Library wing; Doan's mantle and robe are the classic caster upgrades. Loot matches Classic so far in Forever trackers. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/scarlet-monastery-library/"
+ },
+ {
+  "name": "Scarlet Monastery: Armory",
+  "bosses": [
+   "Herod"
+  ],
+  "notableLoot": [
+   "Herod's Shoulder",
+   "Raging Berserker's Helm",
+   "Ravager"
+  ],
+  "notes": "Training-hall wing ending on Herod. Loot matches Classic so far; the wing shares the Monastery-wide trash drops. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/scarlet-monastery-armory/"
+ },
+ {
+  "name": "Scarlet Monastery: Cathedral",
+  "bosses": [
+   "High Inquisitor Fairbanks",
+   "Scarlet Commander Mograine",
+   "High Inquisitor Whitemane"
+  ],
+  "notableLoot": [
+   "Aegis of the Scarlet Commander",
+   "Gauntlets of Divinity",
+   "Hand of Righteousness",
+   "Mograine's Might",
+   "Triune Amulet",
+   "Whitemane's Chapeau",
+   "Branded Leather Bracers",
+   "Dusty Mail Boots"
+  ],
+  "notes": "Final wing with the Mograine and Whitemane double fight. Forever trackers list Classic loot and add Scarlet Leggings to Mograine and Captain's Buckler/Jouster's Chestplate to Whitemane (unconfirmed placements). Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/scarlet-monastery-cathedral/"
+ },
+ {
+  "name": "Razorfen Downs",
+  "bosses": [
+   "Tuten'kash",
+   "Mordresh Fire Eye",
+   "Glutton",
+   "Ragglesnout",
+   "Plaguemaw the Rotting",
+   "Lady Falther'ess",
+   "Amnennar the Coldbringer"
+  ],
+  "notableLoot": [
+   "Coldrage Dagger",
+   "Deathchill Armor",
+   "Icemetal Barbute",
+   "Robes of the Lich",
+   "Bonefingers",
+   "Arachnid Gloves",
+   "Boar Champion's Belt",
+   "Carapace of Tuten'kash"
+  ],
+  "notes": "Scourge-controlled quilboar warren ruled by the lich Amnennar. Classic loot carried over; Lady Falther'ess (Scourge Invasion boss) drops not yet seen in Forever. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/razorfen-downs/"
+ },
+ {
+  "name": "Uldaman",
+  "bosses": [
+   "Revelosh",
+   "Baelog",
+   "Eric \"The Swift\"",
+   "Olaf",
+   "Obsidian Sentinel",
+   "Ancient Stone Keeper",
+   "Galgann Firehammer",
+   "Grimlok",
+   "Ironaya",
+   "Archaedas"
+  ],
+  "notableLoot": [
+   "Stoneslayer",
+   "The Rockpounder",
+   "Archaedic Stone",
+   "Flameseer Mantle",
+   "Galgann's Fireblaster",
+   "Grimlok's Charge",
+   "Grimlok's Tribal Vestments",
+   "Emberscale Cape"
+  ],
+  "notes": "Titan vault in the Badlands. Classic loot carried over; Forever adds new Doomcaller's Pants and Fists of Impending Doom as rewards of the Solution to Doom quest. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/uldaman/"
+ },
+ {
+  "name": "Zul'Farrak",
+  "bosses": [
+   "Antu'sul",
+   "Theka the Martyr",
+   "Witch Doctor Zum'rah",
+   "Nekrum Gutchewer",
+   "Shadowpriest Sezz'ziz",
+   "Sergeant Bly",
+   "Sandfury Executioner",
+   "Hydromancer Velratha",
+   "Gahz'rilla",
+   "Chief Ukorz Sandscalp",
+   "Dustwraith",
+   "Zerillis"
+  ],
+  "notableLoot": [
+   "Big Bad Pauldrons",
+   "Embrace of the Lycan",
+   "Jang'thraze the Protector",
+   "Ripsaw",
+   "The Chief's Enforcer",
+   "Bad Mojo Mask",
+   "Diabolic Skiver",
+   "Jinxed Hoodoo Kilt"
+  ],
+  "notes": "Sandfury troll city in Tanaris with the pyramid event and Gahz'rilla summon. Classic loot carried over; several Classic world drops are listed against ZF bosses but not yet confirmed. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/zul-farrak/"
+ },
+ {
+  "name": "Maraudon",
+  "bosses": [
+   "Noxxion",
+   "Razorlash",
+   "Lord Vyletongue",
+   "Celebras the Cursed",
+   "Landslide",
+   "Tinkerer Gizlock",
+   "Rotgrip",
+   "Princess Theradras",
+   "Meshlok the Harvester"
+  ],
+  "notableLoot": [
+   "Blade of Eternal Darkness",
+   "Blackstone Ring",
+   "Bracers of the Stone Princess",
+   "Charstone Dirk",
+   "Elemental Rockridge Leggings",
+   "Eye of Theradras",
+   "Gemshard Heart",
+   "Princess Theradras' Scepter"
+  ],
+  "notes": "Centaur burial caverns in Desolace leading to Princess Theradras. Classic loot carried over; Blade of Eternal Darkness not yet seen in Forever. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/maraudon/"
+ },
+ {
+  "name": "Temple of Atal'Hakkar (Sunken Temple)",
+  "bosses": [
+   "Atal'alarion",
+   "Spawn of Hakkar",
+   "Avatar of Hakkar",
+   "Jammal'an the Prophet",
+   "Ogom the Wretched",
+   "Dreamscythe",
+   "Weaver",
+   "Morphaz",
+   "Hazzas",
+   "Shade of Eranikus"
+  ],
+  "notableLoot": [
+   "Dragon's Call",
+   "Embrace of the Wind Serpent",
+   "Crest of Supremacy",
+   "Dire Nail",
+   "Horns of Eranikus",
+   "Rod of Corrosion",
+   "The Dragon's Eye",
+   "Tooth of Eranikus"
+  ],
+  "notes": "Sunken troll temple in the Swamp of Sorrows; green dragons guard the top and Eranikus' shade waits below. Classic loot carried over. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/the-temple-of-atal-hakkar/"
+ },
+ {
+  "name": "Blackrock Depths",
+  "bosses": [
+   "High Interrogator Gerstahn",
+   "Lord Roccor",
+   "Houndmaster Grebmar",
+   "Anub'shiah",
+   "Eviscerator",
+   "Gorosh the Dervish",
+   "Grizzle",
+   "Hedrum the Creeper",
+   "Ok'thor the Breaker",
+   "Theldren",
+   "Pyromancer Loregrain",
+   "Warder Stilgiss",
+   "Verek",
+   "Fineous Darkvire",
+   "Lord Incendius",
+   "Bael'Gar",
+   "General Angerforge",
+   "Golem Lord Argelmach",
+   "Ribbly Screwspigot",
+   "Hurley Blackbreath",
+   "Plugger Spazzring",
+   "Phalanx",
+   "Ambassador Flamelash",
+   "Panzor the Invincible",
+   "Doom'rel",
+   "Anger'rel",
+   "Magmus",
+   "Princess Moira Bronzebeard",
+   "Emperor Dagran Thaurissan"
+  ],
+  "notableLoot": [
+   "Ironfoe",
+   "Circle of Flame",
+   "Savage Gladiator Chain",
+   "Emperor's Seal",
+   "Force of Will",
+   "Imperial Jewel",
+   "Robes of the Royal Crown",
+   "Sash of the Grand Hunt"
+  ],
+  "notes": "Huge Dark Iron city under Blackrock Mountain; Ring of Law arena bosses rotate. Classic loot carried over; most drops still undiscovered in Forever at time of writing. Part of the Alliance Onyxia attunement. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/blackrock-depths/"
+ },
+ {
+  "name": "Dire Maul: Warpwood Quarter (East)",
+  "bosses": [
+   "Pusillin",
+   "Zevrim Thornhoof",
+   "Hydrospawn",
+   "Lethtendris",
+   "Pimgib",
+   "Alzzin the Wildshaper",
+   "Isalien"
+  ],
+  "notableLoot": [
+   "Libram of Hope",
+   "Totem of Rebirth",
+   "Boots of Ferocity",
+   "Hammer of Revitalization",
+   "Huntsman's Harpoon",
+   "Ironweave Gloves",
+   "Pimgib's Collar",
+   "Energetic Rod"
+  ],
+  "notes": "Corrupted eastern gardens of Eldre'Thalas. Classic loot carried over; Isalien is summoned with the Brazier of Beckoning. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/dire-maul-east/"
+ },
+ {
+  "name": "Dire Maul: Capital Gardens (West)",
+  "bosses": [
+   "Tendris Warpwood",
+   "Illyanna Ravenoak",
+   "Magister Kalendris",
+   "Tsu'zee",
+   "Immol'thar",
+   "Prince Tortheldrin",
+   "Lord Hel'nurath",
+   "Revanchion"
+  ],
+  "notableLoot": [
+   "Cloak of Revanchion",
+   "Bile-etched Spaulders",
+   "Blade of the New Moon",
+   "Bracers of Mending",
+   "Bracers of the Eclipse",
+   "Chestplate of Tranquility",
+   "Cloak of the Cosmos",
+   "Demon Howl Wristguards"
+  ],
+  "notes": "Highborne wing with pylons guarding Immol'thar. Classic loot carried over; Lord Hel'nurath is a warlock-quest summon and Revanchion a Scourge Invasion boss. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/dire-maul-west/"
+ },
+ {
+  "name": "Dire Maul: Gordok Commons (North)",
+  "bosses": [
+   "Guard Mol'dar",
+   "Stomper Kreeg",
+   "Guard Fengus",
+   "Guard Slip'kik",
+   "Captain Kromcrush",
+   "Cho'Rush the Observer",
+   "King Gordok",
+   "Mizzle the Crafty"
+  ],
+  "notableLoot": [
+   "Band of the Ogre King",
+   "Barbarous Blade",
+   "Bracers of Prosperity",
+   "Brightly Glowing Stone",
+   "Counterattack Lodestone",
+   "Crown of the Ogre King",
+   "Gordok Bracers of Power",
+   "Grimy Metal Boots"
+  ],
+  "notes": "Gordok ogre wing; a tribute run (leaving guards alive) fills Mizzle's tribute chest. Classic loot carried over. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/dire-maul-north/"
+ },
+ {
+  "name": "Lower Blackrock Spire",
+  "bosses": [
+   "Highlord Omokk",
+   "Shadow Hunter Vosh'gajin",
+   "War Master Voone",
+   "Mother Smolderweb",
+   "Urok Doomhowl",
+   "Quartermaster Zigris",
+   "Halycon",
+   "Gizrul the Slavener",
+   "Overlord Wyrmthalak",
+   "Spirestone Butcher",
+   "Spirestone Battle Lord",
+   "Spirestone Lord Magus",
+   "Bannok Grimaxe",
+   "Crystal Fang",
+   "Ghok Bashguud",
+   "Burning Felguard",
+   "Mor Grayhoof"
+  ],
+  "notableLoot": [
+   "Mark of the Dragon Lord",
+   "Idol of Rejuvenation",
+   "Relentless Scythe",
+   "Belt of the Trickster",
+   "Bleak Howler Armguards",
+   "Chillpike",
+   "Fallbrush Handgrips",
+   "Fang of the Crystal Spider"
+  ],
+  "notes": "Orc-held lower half of the Spire with many rare spawns. Classic loot (incl. Dungeon Set 1 pieces) carried over; part of Horde Onyxia attunement. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/blackrock-spire-lower/"
+ },
+ {
+  "name": "Upper Blackrock Spire",
+  "bosses": [
+   "Pyroguard Emberseer",
+   "Solakar Flamewreath",
+   "Jed Runewatcher",
+   "Goraluk Anvilcrack",
+   "Warchief Rend Blackhand",
+   "Gyth",
+   "The Beast",
+   "Lord Valthalak",
+   "General Drakkisath"
+  ],
+  "notableLoot": [
+   "Blackblade of Shahram",
+   "Felstriker",
+   "Band of Rumination",
+   "Battleborn Armbraces",
+   "Beaststalker's Tunic",
+   "Blackhand Doomsaw",
+   "Blackmist Armguards",
+   "Blademaster Leggings"
+  ],
+  "notes": "Upper Spire ending at General Drakkisath, where Onyxia attunement concludes. Classic loot (Dungeon Set 1 chests from Drakkisath) carried over; Forever group size not confirmed. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/blackrock-spire-upper/"
+ },
+ {
+  "name": "Scholomance",
+  "bosses": [
+   "Kirtonos the Herald",
+   "Jandice Barov",
+   "Rattlegore",
+   "Marduk Blackpool",
+   "Vectus",
+   "Ras Frostwhisper",
+   "Kormok",
+   "Instructor Malicia",
+   "Doctor Theolen Krastinov",
+   "Lorekeeper Polkelt",
+   "The Ravenian",
+   "Lord Alexei Barov",
+   "Lady Illucia Barov",
+   "Darkmaster Gandling",
+   "Lord Blackwood",
+   "Death Knight Darkreaver"
+  ],
+  "notableLoot": [
+   "Alanna's Embrace",
+   "Headmaster's Charge",
+   "Amalgam's Band",
+   "Don Mauricio's Band of Domination",
+   "Band of the Steadfast Hero",
+   "Beaststalker's Cap",
+   "Blackwood's Thigh",
+   "Blade of Necromancy"
+  ],
+  "notes": "Necromancy school in Caer Darrow. Classic loot (Dungeon Set 1 helms from Gandling) carried over; Forever trackers have not yet seen most drops. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/scholomance/"
+ },
+ {
+  "name": "Stratholme",
+  "bosses": [
+   "Skul",
+   "Stratholme Courier",
+   "Fras Siabi",
+   "Hearthsinger Forresten",
+   "The Unforgiven",
+   "Timmy the Cruel",
+   "Cannon Master Willey",
+   "Archivist Galford",
+   "Balnazzar",
+   "Sothos",
+   "Jarien",
+   "Stonespine",
+   "Baroness Anastari",
+   "Nerub'enkan",
+   "Maleki the Pallid",
+   "Magistrate Barthilas",
+   "Ramstein the Gorger",
+   "Baron Rivendare",
+   "Postmaster Malown",
+   "Balzaphon"
+  ],
+  "notableLoot": [
+   "Book of the Dead",
+   "Runeblade of Baron Rivendare",
+   "Idol of Brutality",
+   "Cape of the Black Baron",
+   "Dracorian Gauntlets",
+   "Gauntlets of Deftness",
+   "Helm of the Executioner",
+   "Ritssyn's Wand of Bad Mojo"
+  ],
+  "notes": "Burning city with a Scarlet side (Main Gate) and a Scourge side (Service Gate). Classic loot carried over (Dungeon Set 1 legs from Rivendare); Balnazzar loot may be filed under Grand Crusader Dathrohan. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://wowtbc.gg/warcraftforever/loot-tables/dungeons/stratholme/"
+ },
+ {
+  "name": "Onyxia's Lair",
+  "bosses": [
+   "Onyxia"
+  ],
+  "notableLoot": [
+   "Ancient Cornerstone Grimoire",
+   "Bloodfang Hood",
+   "Dragonstalker's Helm",
+   "Halo of Transcendence",
+   "Helm of Wrath",
+   "Helmet of Ten Storms",
+   "Judgement Crown",
+   "Nemesis Skullcap"
+  ],
+  "notes": "Single-boss 40-player raid in Dustwallow Marsh, unlocking 9 Dec 2026 with the Drakefire Amulet attunement. No Forever loot has been seen yet; the Classic table (Tier 2 helms, Deathbringer, Vis'kag) is listed as an assumption. Forever reworked many Classic items (level/quality/stats), so exact stats may differ.",
+  "sourceUrl": "https://conquestcapped.com/guides/wow-forever/wow-forever-onyxias-lair-guide/"
+ }
+]

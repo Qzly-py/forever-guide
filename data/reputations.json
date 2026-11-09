@@ -1,0 +1,680 @@
+[
+  {
+    "name": "Kirin Tor",
+    "faction": "Alliance",
+    "where": "Dalaran (Alterac Mountains) and the City of Dalaran dungeon; quartermaster Archmage Alvareaux in Alterac Mountains",
+    "howToRaise": "Mostly quest-driven: a chain of quests in Stormwind, Zephras Isle, Dalaran, the City of Dalaran dungeon and Scarlet Monastery gives roughly 500 rep in total. Repeatable sources are not documented yet.",
+    "keyRewards": [
+      "Friendly: Pattern: Azure Gustwoven Hood / Spaulders",
+      "Friendly: Pattern: Azure Stormsewn Cowl / Epaulets",
+      "Friendly: Pattern: Azure Windraveled Cover / Drapes",
+      "Friendly: Plans: Azure Skyforged Helm / Pauldrons",
+      "Exalted: Kirin Tor Tabard"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/kirin-tor/"
+  },
+  {
+    "name": "Earthen Ring",
+    "faction": "Horde",
+    "where": "Questing around Mulgore and wider Azeroth (exact hub not documented)",
+    "howToRaise": "Questing; the Horde counterpart to the Kirin Tor. Repeatable sources not documented.",
+    "keyRewards": [
+      "Friendly: Pattern: Cloudy Stormsewn Cowl (and matching epaulets)",
+      "Friendly: Plans: Cloudy Skyforged Helm (and matching pauldrons)",
+      "Friendly: Cloudy Gustwoven / Windraveled helm and shoulder patterns"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://endgametools.com/en/wow-forever/news/wow-forever-reputations"
+  },
+  {
+    "name": "High Order",
+    "faction": "Alliance",
+    "where": "Zephras Isle (Skyborne homeland, Skywall)",
+    "howToRaise": "Skyborne starting-zone quests from level 1; almost all of its quests are on Zephras Isle.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://maxdps.com/forever/reputations/start-here"
+  },
+  {
+    "name": "Windshapers",
+    "faction": "Horde",
+    "where": "Zephras Isle (Skyborne homeland, Skywall)",
+    "howToRaise": "Skyborne starting-zone quests from level 1.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://maxdps.com/forever/reputations/start-here"
+  },
+  {
+    "name": "Nightclaw Druids",
+    "faction": "Both",
+    "where": "Shadowgale Forest, Zephras Isle; quartermaster Vayn Moongaze at the druid den entrance (64,36). Story starts with Lotheluum Starbreeze in Valanaar",
+    "howToRaise": "Follow the Shadowgale Forest storyline (gets you to around mid-Friendly), then hand in Al'Aketh Cultist's Ears: the first 10 via 'Mercy Falls on Deaf Ears', after which 'More Al'Aketh Ears' repeats for 5 ears at a time.",
+    "keyRewards": [
+      "Friendly: Skyforged / Gustwoven / Windraveled / Stormsewn starter armour patterns (wrist, hands, waist, feet; Azure and Cloudy colours)",
+      "Honored: Skyforged, Gustwoven, Windraveled and Stormsewn chest and leg patterns",
+      "Revered: Shadowgale Squirrel (companion pet)",
+      "Exalted: Nightclaw Mantle (cosmetic shoulders)",
+      "Exalted: '...of the Nightclaw' title"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/nightclaw-druids-reputation/"
+  },
+  {
+    "name": "Guardians of Hyjal",
+    "faction": "Both",
+    "where": "Mount Hyjal (level 60 zone)",
+    "howToRaise": "Endgame Mount Hyjal reputation; kill and turn-in sources are server-side and not yet mapped.",
+    "keyRewards": [
+      "Revered: Rousing Seed Pod (lets you equip two Artisan's Tier items instead of one; requires level 60)",
+      "Exalted: Guardians of Hyjal Tabard"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/guardians-of-hyjal/"
+  },
+  {
+    "name": "Barkskin Burrow",
+    "faction": "Both",
+    "where": "Mount Hyjal (uncorrupted furbolg tribe)",
+    "howToRaise": "Starts at Hostile. The only documented gain so far is handing in Ceremonial Mastic (+150). Full loop not mapped.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/barkskin-burrow/"
+  },
+  {
+    "name": "Cenarion Scouts",
+    "faction": "Both",
+    "where": "",
+    "howToRaise": "Not documented; distinct from the Cenarion Circle and not tied to a specific new zone.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://endgametools.com/en/wow-forever/news/wow-forever-reputations"
+  },
+  {
+    "name": "Powderfuse",
+    "faction": "Both",
+    "where": "Powderfuse Port, Riverglades (goblin, armed arm of the Steamwheedle Cartel)",
+    "howToRaise": "Riverglades questing from level 36; no reliable repeatable known yet.",
+    "keyRewards": [
+      "Friendly: Crawler's Clackers (level 40)",
+      "Friendly: Misplaced Pantaloons",
+      "Friendly: Disengagement Ring",
+      "Honored: Primitive Fishing Pole (two-handed polearm)",
+      "Honored: Thrash's Trash (off-hand)",
+      "Revered: Haughty Fellow's Monocle (cosmetic)"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://endgametools.com/en/wow-forever/news/wow-forever-reputations"
+  },
+  {
+    "name": "Bolder'ok Clan",
+    "faction": "Horde",
+    "where": "Riverglades",
+    "howToRaise": "Riverglades quests from level 36 (about two dozen quests award it). No repeatable known.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://maxdps.com/forever/reputations/start-here"
+  },
+  {
+    "name": "Brotherhood of the Horse",
+    "faction": "Alliance",
+    "where": "Riverglades (former Stormwind cavalry)",
+    "howToRaise": "Riverglades frontier storyline from level 36 (around 75 quests award it). No repeatable known.",
+    "keyRewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://maxdps.com/forever/reputations/start-here"
+  },
+  {
+    "name": "The Watchers",
+    "faction": "Both",
+    "where": "Night elf prison network (location not confirmed; Alcaz Prison is suspected)",
+    "howToRaise": "Server-side kill and turn-in sources; not documented yet.",
+    "keyRewards": [
+      "Friendly: Initiate's Signet of Brilliance / Ferocity / Resolve / Vigilance",
+      "Honored: Tracker's Signet line, Intricate Filigree, Nelanna's Enchanted Jewel",
+      "Revered: Watcher's Signet of Brilliance / Ferocity / Resolve / Vigilance (epic)",
+      "Exalted: Warden's Signet of Brilliance / Ferocity / Resolve / Vigilance (epic)"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/the-watchers/"
+  },
+  {
+    "name": "Darkspear Raiders",
+    "faction": "Horde",
+    "where": "Darkspear Islands battleground; base at Merchant Coast; quartermaster Creeg Bothunk north of Ratchet",
+    "howToRaise": "Play Darkspear Islands (levels 30-60) and turn in battleground reputation quests, which also give Marks of Honor.",
+    "keyRewards": [
+      "Friendly: Darkspear Voodoo Seal, Relentless Raider's Seal (trinkets)",
+      "Honored: Darkspear Signet, Darkspear Raider's Cloak",
+      "Revered: Tome of the Darkspear Prophecy, weapons and off-hands",
+      "Exalted: Darkspear Battle Tabard (via short questline), epic gloves and shoulders"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Theramore Expeditionary Force",
+    "faction": "Alliance",
+    "where": "Darkspear Islands battleground; base at Northwatch; quartermaster Bryanna Embreeze, Northwatch Hold",
+    "howToRaise": "Play Darkspear Islands (levels 30-60) and turn in battleground reputation quests, which also give Marks of Honor.",
+    "keyRewards": [
+      "Friendly: Enriched Seal, Volunteer's Lucky Seal (trinkets)",
+      "Honored: Theramore Signet, Expeditionary's Cape",
+      "Revered: Insurgent's Manifesto, Rebels' Rugged Reaper",
+      "Exalted: Theramore Battle Tabard (via short questline), Theramore Mantle"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Azeroth Commerce Authority",
+    "faction": "Alliance",
+    "where": "Three Corners, Redridge Mountains (crates to Marcy Baker; rewards from Tamelyn Aldridge; mount from Huey Sunnydale)",
+    "howToRaise": "Fill Waylaid Crates (world drops or Auction House) with one listed item and turn them in for rep plus Merchant's Favor; also complete Craftsman's Writs that drop from mobs. Your first crate gives a Shipping Label quest.",
+    "keyRewards": [
+      "Honored: Advertising License Application (Tradeskill Signpost toy quest) - 1,200 Merchant's Favor",
+      "Revered: Packmule Treat (pet) - 1,500 MF",
+      "Exalted: Reins of the Pack Kodo (mount) - 6,000 MF",
+      "Exalted: Azeroth Commerce Authority Tabard - 200 MF",
+      "Profession Certification titles at 300 skill - 1,000 MF",
+      "Friendly/Honored: profession recipes such as Schematic: Gnomish Poultryizer"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.method.gg/wow-forever/azerorth-commerce-authority-and-durotar-supply-and-logistics-reputation-guide"
+  },
+  {
+    "name": "Durotar Supply and Logistics",
+    "faction": "Horde",
+    "where": "Outpost near the Crossroads, The Barrens (crates to Dokimi; rewards from Gishah; mount from Okamache)",
+    "howToRaise": "Same as the Alliance version: Waylaid Crate turn-ins for rep and Merchant's Favor, plus Craftsman's Writs.",
+    "keyRewards": [
+      "Honored: Advertising License Application (toy quest) - 1,200 MF",
+      "Revered: Packmule Treat (pet) - 1,500 MF",
+      "Exalted: Reins of the Pack Kodo (mount) - 6,000 MF",
+      "Exalted: Durotar Supply and Logistics Tabard - 200 MF",
+      "Profession Certification titles at 300 skill - 1,000 MF"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.method.gg/wow-forever/azerorth-commerce-authority-and-durotar-supply-and-logistics-reputation-guide"
+  },
+  {
+    "name": "Booty Bay",
+    "faction": "Both",
+    "where": "Booty Bay, Stranglethorn Vale",
+    "howToRaise": "Steamwheedle quests in Stranglethorn; killing Bloodsail Buccaneers raises it.",
+    "keyRewards": [
+      "Friendly: Soggy Boots",
+      "Revered: Tough Guy's Eyepatch (new cosmetic)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Ratchet",
+    "faction": "Both",
+    "where": "Ratchet, The Barrens",
+    "howToRaise": "Steamwheedle quests in The Barrens.",
+    "keyRewards": [
+      "Friendly: Quilted Cloak",
+      "Revered: Barrens Headband (new cosmetic)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Gadgetzan",
+    "faction": "Both",
+    "where": "Gadgetzan, Tanaris",
+    "howToRaise": "Tanaris quests; killing Wastewander bandits.",
+    "keyRewards": [
+      "Friendly: Sunburn Spaulders",
+      "Revered: Stolen Wastewander Cowl (new cosmetic)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Everlook",
+    "faction": "Both",
+    "where": "Everlook, Winterspring",
+    "howToRaise": "Winterspring quests.",
+    "keyRewards": [
+      "Friendly: Coldmetal Guard",
+      "Revered: Fizzbolt's Fashionable Fedora (new cosmetic)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "The League of Arathor",
+    "faction": "Alliance",
+    "where": "Arathi Basin / Refuge Pointe, Arathi Highlands",
+    "howToRaise": "Arathi Basin matches (resource-based gains) and AB quests.",
+    "keyRewards": [
+      "Friendly: Talisman of Arathor",
+      "Honored: Highlander's girdles",
+      "Revered: Highlander's greaves",
+      "Exalted: Arathor Battle Tabard, Cloak of the Honor Guard, Ironbark Staff, Sageclaw"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "The Defilers",
+    "faction": "Horde",
+    "where": "Arathi Basin / Hammerfall, Arathi Highlands",
+    "howToRaise": "Arathi Basin matches and AB quests.",
+    "keyRewards": [
+      "Friendly: Defiler's Talisman",
+      "Exalted: Battle Tabard of the Defilers, Deathguard's Cloak, Mindfang"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Silverwing Sentinels",
+    "faction": "Alliance",
+    "where": "Warsong Gulch / Ashenvale",
+    "howToRaise": "Warsong Gulch wins, flag captures and WSG quests.",
+    "keyRewards": [
+      "Exalted: Silverwing Battle Tabard"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/silverwing-sentinels/"
+  },
+  {
+    "name": "Warsong Outriders",
+    "faction": "Horde",
+    "where": "Warsong Gulch / The Barrens",
+    "howToRaise": "Warsong Gulch wins, flag captures and WSG quests.",
+    "keyRewards": [
+      "Exalted: Warsong Battle Tabard"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/warsong-outriders/"
+  },
+  {
+    "name": "Stormpike Guard",
+    "faction": "Alliance",
+    "where": "Alterac Valley",
+    "howToRaise": "Alterac Valley objectives, kills and turn-ins.",
+    "keyRewards": [
+      "Exalted: Stormpike Battle Tabard",
+      "Exalted: Stormpike Battle Charger (mount)"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/stormpike-guard/"
+  },
+  {
+    "name": "Frostwolf Clan",
+    "faction": "Horde",
+    "where": "Alterac Valley",
+    "howToRaise": "Alterac Valley objectives, kills and turn-ins.",
+    "keyRewards": [
+      "Exalted: Frostwolf Battle Tabard",
+      "Exalted: Horn of the Frostwolf Howler (mount)"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/frostwolf-clan/"
+  },
+  {
+    "name": "Argent Dawn",
+    "faction": "Both",
+    "where": "Eastern and Western Plaguelands (Light's Hope Chapel, Chillwind Camp)",
+    "howToRaise": "Kill Scourge in the Plaguelands, Stratholme and Scholomance; turn in Scourgestones; wear an Argent Dawn Commission.",
+    "keyRewards": [
+      "Friendly: Enriched Manna Biscuit",
+      "Honored: Formula: Powerful Anti-Venom",
+      "Revered: Blessed Sunfruit, Arcanum head enchant access",
+      "Exalted: Plans: Icebane Breastplate"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Timbermaw Hold",
+    "faction": "Both",
+    "where": "Felwood and Winterspring (Timbermaw Hold tunnel)",
+    "howToRaise": "Kill Deadwood (Felwood) and Winterfall (Winterspring) furbolgs; hand in Deadwood Headdress Feathers and Winterfall Spirit Beads.",
+    "keyRewards": [
+      "Friendly: Warbear Harness patterns",
+      "Honored: Might of the Timbermaw",
+      "Revered: Mantle of the Timbermaw",
+      "Exalted: Defender of the Timbermaw"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Cenarion Circle",
+    "faction": "Both",
+    "where": "Cenarion Hold, Silithus (also Moonglade)",
+    "howToRaise": "Silithus quests, Twilight cultist kills and Twilight Text / Abyssal turn-ins; Ahn'Qiraj content.",
+    "keyRewards": [
+      "Friendly: Pattern: Sylvan Shoulders",
+      "Honored: Pattern: Sylvan Crown",
+      "Revered: Pattern: Sylvan Vest",
+      "Exalted: Plans: Obsidian Mail Tunic"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Thorium Brotherhood",
+    "faction": "Both",
+    "where": "Thorium Point, Searing Gorge (later Blackrock Depths)",
+    "howToRaise": "Turn in Dark Iron ore, Fiery Cores, Lava Cores and other Molten Core materials.",
+    "keyRewards": [
+      "Friendly: Plans: Dark Iron Bracers",
+      "Honored: Plans: Dark Iron Destroyer",
+      "Revered: Plans: Dark Iron Leggings",
+      "Exalted: Plans: Blackguard, Ebon Hand, Nightfall, Dark Iron Boots"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Hydraxian Waterlords",
+    "faction": "Both",
+    "where": "Azshara (Duke Hydraxis); earned in Molten Core",
+    "howToRaise": "Kill Molten Core elementals and bosses; complete Duke Hydraxis's quests (Aqual Quintessence to douse runes).",
+    "keyRewards": [
+      "Revered: Enchanted Sigil: Flowing Waters",
+      "Revered: Plans: Icebane Bracers"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Zandalar Tribe",
+    "faction": "Both",
+    "where": "Yojamba Isle, Stranglethorn Vale",
+    "howToRaise": "Zul'Gurub kills, coin and bijou turn-ins.",
+    "keyRewards": [
+      "Friendly: Formula: Brilliant Mana Oil",
+      "Honored: Formula: Magnificent Trollshine",
+      "Revered: Recipe: Mageblood Elixir",
+      "Exalted: Recipe: Living Action Potion"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Brood of Nozdormu",
+    "faction": "Both",
+    "where": "Caverns of Time entrance, Tanaris; earned in Ahn'Qiraj",
+    "howToRaise": "Ahn'Qiraj raid kills; the Signet Ring of the Bronze Dragonflight upgrades as you gain standing.",
+    "keyRewards": [
+      "Neutral-Exalted: Signet Ring of the Bronze Dragonflight (upgrades each standing)"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://foreverdb.net/reputation"
+  },
+  {
+    "name": "Shen'dralar",
+    "faction": "Both",
+    "where": "Dire Maul West, Feralas",
+    "howToRaise": "Dire Maul quests and Libram / class book turn-ins.",
+    "keyRewards": [
+      "Libram enchants and Shen'dralar class book quests"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/shen-dralar/"
+  },
+  {
+    "name": "Wintersaber Trainers",
+    "faction": "Alliance",
+    "where": "Frostsaber Rock, Winterspring",
+    "howToRaise": "Repeatable Rivern Frostwind quests in Winterspring.",
+    "keyRewards": [
+      "Exalted: Reins of the Winterspring Frostsaber (mount)"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/wintersaber-trainers/"
+  },
+  {
+    "name": "Bloodsail Buccaneers",
+    "faction": "Both",
+    "where": "Stranglethorn Vale",
+    "howToRaise": "Kill Booty Bay goblins and guards (lowers Steamwheedle rep).",
+    "keyRewards": [
+      "Pirate questline / 'Admiral' hat"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/bloodsail-buccaneers/"
+  },
+  {
+    "name": "Ravenholdt",
+    "faction": "Both",
+    "where": "Ravenholdt Manor, Alterac Mountains",
+    "howToRaise": "Kill Syndicate members and hand in Heavy Junkboxes (rogues).",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/ravenholdt/"
+  },
+  {
+    "name": "Wildhammer Clan",
+    "faction": "Alliance",
+    "where": "Aerie Peak, The Hinterlands",
+    "howToRaise": "Hinterlands quests.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/wildhammer-clan/"
+  },
+  {
+    "name": "Darkmoon Faire",
+    "faction": "Both",
+    "where": "Wherever the Darkmoon Faire is set up",
+    "howToRaise": "Turn in item sets for Darkmoon tickets.",
+    "keyRewards": [
+      "Ticket rewards such as Orb of the Darkmoon and Amulet of the Darkmoon"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/darkmoon-faire/"
+  },
+  {
+    "name": "Gelkis Clan Centaur",
+    "faction": "Both",
+    "where": "Desolace",
+    "howToRaise": "Desolace quests; killing Magram centaur.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/gelkis-clan-centaur/"
+  },
+  {
+    "name": "Magram Clan Centaur",
+    "faction": "Both",
+    "where": "Desolace",
+    "howToRaise": "Desolace quests; killing Gelkis centaur.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/magram-clan-centaur/"
+  },
+  {
+    "name": "Syndicate",
+    "faction": "Both",
+    "where": "Alterac Mountains / Arathi Highlands",
+    "howToRaise": "Hostile; lowered by killing Syndicate.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/syndicate/"
+  },
+  {
+    "name": "Emerald Wardens",
+    "faction": "Both",
+    "where": "",
+    "howToRaise": "Listed in the Forever faction list; how it is raised is not documented.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/emerald-wardens/"
+  },
+  {
+    "name": "Shatterspear Trolls",
+    "faction": "Both",
+    "where": "",
+    "howToRaise": "Listed in the Forever faction list; details not documented.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/shatterspear-trolls/"
+  },
+  {
+    "name": "Ravasaur Trainers",
+    "faction": "Horde",
+    "where": "Un'Goro Crater",
+    "howToRaise": "Listed in the Forever faction list; details not documented.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/ravasaur-trainers/"
+  },
+  {
+    "name": "Moro'gai",
+    "faction": "Both",
+    "where": "",
+    "howToRaise": "Listed in the Forever faction list; details not documented.",
+    "keyRewards": [],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowforevertalents.com/reputations/moro-gai/"
+  },
+  {
+    "name": "Stormwind",
+    "faction": "Alliance",
+    "where": "Stormwind City / Elwynn Forest",
+    "howToRaise": "Quests in human lands; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/stormwind/"
+  },
+  {
+    "name": "Ironforge",
+    "faction": "Alliance",
+    "where": "Ironforge / Dun Morogh",
+    "howToRaise": "Dwarf-area quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/ironforge/"
+  },
+  {
+    "name": "Darnassus",
+    "faction": "Alliance",
+    "where": "Darnassus / Teldrassil",
+    "howToRaise": "Night elf quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/darnassus/"
+  },
+  {
+    "name": "Gnomeregan Exiles",
+    "faction": "Alliance",
+    "where": "Ironforge (Tinker Town)",
+    "howToRaise": "Gnome quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/gnomeregan-exiles/"
+  },
+  {
+    "name": "Orgrimmar",
+    "faction": "Horde",
+    "where": "Orgrimmar / Durotar",
+    "howToRaise": "Orc quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/orgrimmar/"
+  },
+  {
+    "name": "Thunder Bluff",
+    "faction": "Horde",
+    "where": "Thunder Bluff / Mulgore",
+    "howToRaise": "Tauren quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/thunder-bluff/"
+  },
+  {
+    "name": "Undercity",
+    "faction": "Horde",
+    "where": "Undercity / Tirisfal Glades",
+    "howToRaise": "Forsaken quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/undercity/"
+  },
+  {
+    "name": "Darkspear Trolls",
+    "faction": "Horde",
+    "where": "Orgrimmar / Sen'jin Village, Durotar",
+    "howToRaise": "Troll quests; cloth donations.",
+    "keyRewards": [
+      "Exalted: racial mount access for other races"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://wowforevertalents.com/reputations/darkspear-trolls/"
+  }
+]

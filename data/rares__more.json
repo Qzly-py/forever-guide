@@ -1,0 +1,3863 @@
+[
+ {
+  "name": "Threggil",
+  "kind": "Rare",
+  "levels": "6",
+  "where": "Teldrassil (52.0, 50.5)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Uruson",
+  "kind": "Rare",
+  "levels": "7",
+  "where": "Teldrassil (67.9, 59.4)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Fury Shelda",
+  "kind": "Rare",
+  "levels": "8",
+  "where": "Teldrassil (34.4, 34.7)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Duskstalker",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Teldrassil (58.1, 76.7)",
+  "drops": [
+   "Duskstalker's Hide (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item. Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Grimmaw",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Teldrassil (40.1, 80.0)",
+  "drops": [
+   "Infantry Leggings (2.2%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Blackmoss the Fetid",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "Teldrassil (44.0, 30.2)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Lost Soul",
+  "kind": "Rare",
+  "levels": "6-7",
+  "where": "Tirisfal Glades (53.2, 48.4)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Farmer Solliden",
+  "kind": "Rare",
+  "levels": "8",
+  "where": "Tirisfal Glades (38.0, 49.6)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Tormented Spirit",
+  "kind": "Rare",
+  "levels": "8-9",
+  "where": "Tirisfal Glades (45.6, 31.6)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Bayne",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Tirisfal Glades (39.9, 42.2)",
+  "drops": [
+   "Bayne's Bite (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Muad",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Tirisfal Glades (36.5, 42.4)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Ressan the Needler",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Tirisfal Glades (42.9, 67.6)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Deeb",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Tirisfal Glades (63.3, 27.5)",
+  "drops": [
+   "Cranial Thumper (33%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Fellicent's Shade",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Tirisfal Glades (77.0, 60.4)",
+  "drops": [
+   "Fellicent's Bindings (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Sri'skulk",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "Tirisfal Glades (88.2, 51.4)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Edan the Howler",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Dun Morogh (39.0, 47.5)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Timber",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Dun Morogh (34.2, 41.8)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Gibblewilt",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Dun Morogh (27.4, 36.2)",
+  "drops": [
+   "Foreman Vest (50%)",
+   "Foreman Pants (50%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Great Father Arctikus",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Dun Morogh (22.8, 52.1)",
+  "drops": [
+   "Frostmane Scepter (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Bjarn",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Dun Morogh (55.6, 58.5)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Hammerspine",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Dun Morogh (71.5, 51.3)",
+  "drops": [
+   "Icepane Warhammer (20%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Geolord Mottle",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Durotar (43.2, 39.3)",
+  "drops": [
+   "Geolord's Mittens (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item. Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Warlord Kolkanis",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Durotar (47.9, 77.4)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Watch Commander Zalaphil",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Durotar (59.2, 58.5)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Captain Flat Tusk",
+  "kind": "Rare elite",
+  "levels": "11",
+  "where": "Durotar (42.6, 39.0)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Death Flayer",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Durotar (36.5, 49.7)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Felweaver Scornn",
+  "kind": "Rare elite",
+  "levels": "11",
+  "where": "Durotar (52.8, 9.0)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Mazzranache",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Mulgore (49.1, 48.7)",
+  "drops": [
+   "Sleek Feathered Tunic (50%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Snagglespear",
+  "kind": "Rare",
+  "levels": "9",
+  "where": "Mulgore (47.4, 73.3)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "The Rake",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Mulgore (51.6, 27.4)",
+  "drops": [
+   "Lionfur Armor (100%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Enforcer Emilgund",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Mulgore (40.8, 26.3)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Sister Hatelash",
+  "kind": "Rare elite",
+  "levels": "11",
+  "where": "Mulgore (37.2, 22.6)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Ghost Howl",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Mulgore (34.7, 34.2)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Morgaine the Sly",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Elwynn Forest (30.8, 64.7)",
+  "drops": [
+   "Jeweled Dagger (20%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Mother Fang",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Elwynn Forest (62.1, 48.0)",
+  "drops": [
+   "Brood Mother Carapace (15%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Narg the Taskmaster",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Elwynn Forest (40.9, 77.5)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Thuros Lightfingers",
+  "kind": "Rare",
+  "levels": "11",
+  "where": "Elwynn Forest (52.7, 58.9)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Fedfennel",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Elwynn Forest (68.1, 44.9)",
+  "drops": [
+   "Pale Skinner (30%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Gruff Swiftbite",
+  "kind": "Rare",
+  "levels": "12",
+  "where": "Elwynn Forest (25.4, 89.8)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Shadowclaw",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "Darkshore (40.3, 40.5)",
+  "drops": [
+   "Serrated Shadowclaw (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Licillin",
+  "kind": "Rare",
+  "levels": "14",
+  "where": "Darkshore (45.7, 36.4)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Lord Sinslayer",
+  "kind": "Rare",
+  "levels": "15-16",
+  "where": "Darkshore (56.6, 34.9)",
+  "drops": [
+   "Sinslayer's Smasher (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Carnivous the Breaker",
+  "kind": "Rare",
+  "levels": "16",
+  "where": "Darkshore (39.4, 53.5)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Flagglemurk the Cruel",
+  "kind": "Rare",
+  "levels": "16",
+  "where": "Darkshore (36.8, 67.6)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Lady Moongazer",
+  "kind": "Rare",
+  "levels": "17",
+  "where": "Darkshore (43.0, 61.1)",
+  "drops": [
+   "Moongazer's Wand (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Firecaller Radison",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "Darkshore (38.7, 87.6)",
+  "drops": [
+   "Crazed Firecaller's Cloak (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Strider Clutchmother",
+  "kind": "Rare",
+  "levels": "20",
+  "where": "Darkshore (34.8, 87.3)",
+  "drops": [
+   "Hulking Cloak",
+   "Rigid Moccasins",
+   "Grunt Axe",
+   "Light Bow"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Lady Vespira",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Darkshore (57.8, 21.4)",
+  "drops": [
+   "Spikelash Dagger (65%)",
+   "Black Pearl Ring (35%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Gorefang",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "Silverpine Forest (59.5, 7.6)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Old Vicejaw",
+  "kind": "Rare",
+  "levels": "14",
+  "where": "Silverpine Forest (53.9, 51.9)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Krethis Shadowspinner",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "Silverpine Forest (35.7, 8.2)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Dalaran Spellscribe",
+  "kind": "Rare",
+  "levels": "21",
+  "where": "Silverpine Forest (63.5, 63.4)",
+  "drops": [
+   "Jewel-encrusted Sash (75%)",
+   "Channeler's Staff (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Ravenclaw Regent",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Silverpine Forest (56.8, 70.2)",
+  "drops": [
+   "Regent's Cloak (75%)",
+   "Raven's Claws (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Rot Hide Bruiser",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Silverpine Forest (64.7, 23.1)",
+  "drops": [
+   "Ruffian Belt (75%)",
+   "Bruiser Club (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Snarlmane",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Silverpine Forest (65.1, 25.1)",
+  "drops": [
+   "Flesh Carver (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Dishu",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "The Barrens (49.6, 15.8)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Elder Mystic Razorsnout",
+  "kind": "Rare elite",
+  "levels": "15",
+  "where": "The Barrens (59.2, 24.4)",
+  "drops": [
+   "Harvest Cloak (50%)",
+   "Adept's Gloves (50%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Rathorian",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "The Barrens (48.0, 19.2)",
+  "drops": [
+   "Rathorian's Cape (70%)",
+   "Ritual Blade (30%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Stonearm",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "The Barrens (42.0, 24.7)",
+  "drops": [
+   "Buckskin Cape (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Brokespear",
+  "kind": "Rare",
+  "levels": "17",
+  "where": "The Barrens (57.1, 41.2)",
+  "drops": [
+   "Runic Cane (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Rocklance",
+  "kind": "Rare elite",
+  "levels": "17",
+  "where": "The Barrens (56.5, 41.6)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Snort the Heckler",
+  "kind": "Rare",
+  "levels": "17",
+  "where": "The Barrens (41.1, 22.2)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Engineer Whirleygig",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "The Barrens (56.2, 8.8)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Foreman Grills",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "The Barrens (56.4, 8.2)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Geopriest Gukk'rok",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "The Barrens (43.2, 52.1)",
+  "drops": [
+   "Gnarled Hermit's Staff (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Sister Rathtalon",
+  "kind": "Rare elite",
+  "levels": "19",
+  "where": "The Barrens (39.1, 15.3)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Sludge Beast",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "The Barrens (56.7, 8.2)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Takk the Leaper",
+  "kind": "Rare elite",
+  "levels": "19",
+  "where": "The Barrens (59.6, 8.3)",
+  "drops": [
+   "Raptor Hide Cloak (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Trigore the Lasher",
+  "kind": "Rare elite",
+  "levels": "19",
+  "where": "The Barrens (48.3, 33.1)",
+  "drops": [
+   "Runescale Girdle (50%)",
+   "Serpent's Kiss (50%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Boahn",
+  "kind": "Rare elite",
+  "levels": "20",
+  "where": "The Barrens (49.1, 33.9)",
+  "drops": [
+   "Brambleweed Leggings (70%)",
+   "Boahn's Fang (30%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Gesharahan",
+  "kind": "Rare elite",
+  "levels": "20",
+  "where": "The Barrens (46.5, 39.5)",
+  "drops": [
+   "Shiver Blade (75%)",
+   "Pulsating Hydra Heart (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Swiftmane",
+  "kind": "Rare elite",
+  "levels": "21",
+  "where": "The Barrens (61.2, 34.5)",
+  "drops": [
+   "Signet of the Zhevra (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Swinegart Spearhide",
+  "kind": "Rare elite",
+  "levels": "22",
+  "where": "The Barrens (40.8, 45.2)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Humar the Pridelord",
+  "kind": "Rare elite",
+  "levels": "23",
+  "where": "The Barrens (62.0, 33.3)",
+  "drops": [
+   "Mark of the Pack Leader (neck) (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item. Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Digger Flameforge",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "The Barrens (47.5, 85.5)",
+  "drops": [
+   "Brimstone Belt (20%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Hannah Bladeleaf",
+  "kind": "Rare elite",
+  "levels": "24",
+  "where": "The Barrens (48.5, 79.7)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Heggin Stonewhisker",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "The Barrens (47.0, 84.0)",
+  "drops": [
+   "Sword of the Night Sky (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Marcus Bel",
+  "kind": "Rare elite",
+  "levels": "24",
+  "where": "The Barrens (48.5, 79.7)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Silithid Harvester",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "The Barrens (43.1, 70.1)",
+  "drops": [
+   "Silithid Piercer (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Thunderstomp",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "The Barrens (48.1, 79.8)",
+  "drops": [
+   "Thunderstomp's Horn (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Aean Swiftriver",
+  "kind": "Rare elite",
+  "levels": "25",
+  "where": "The Barrens (48.5, 79.7)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Azzere the Skyblade",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "The Barrens (44.8, 64.1)",
+  "drops": [
+   "The Skyblade (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item. Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Malgin Barleybrew",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "The Barrens (49.6, 84.3)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Thora Feathermoon",
+  "kind": "Rare elite",
+  "levels": "25",
+  "where": "The Barrens (48.5, 79.7)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Hagg Taurenbane",
+  "kind": "Rare elite",
+  "levels": "26",
+  "where": "The Barrens (43.2, 83.2)",
+  "drops": [
+   "Taurenbane's Family Cleaver (new Forever item)"
+  ],
+  "notes": "Classic rare that drops a new Forever item.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Brontus",
+  "kind": "Rare elite",
+  "levels": "27",
+  "where": "The Barrens (47.3, 73.2)",
+  "drops": [
+   "Cavalier Two-hander",
+   "Sanguine Star",
+   "Savannah Ring"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Captain Gerogg Hammertoe",
+  "kind": "Rare elite",
+  "levels": "27",
+  "where": "The Barrens (49.5, 83.9)",
+  "drops": [
+   "Cavalier Two-hander",
+   "Sanguine Star",
+   "Savannah Ring"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Ambassador Bloodrage",
+  "kind": "Rare elite",
+  "levels": "36",
+  "where": "The Barrens (47.7, 90.7)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Grizlak",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "Loch Modan (34.6, 27.1)",
+  "drops": [
+   "Rat Cloth Cloak (55%)",
+   "Wax-polished Armor (45%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Lord Condar",
+  "kind": "Rare",
+  "levels": "16",
+  "where": "Loch Modan (77.7, 74.9)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Emogg the Crusher",
+  "kind": "Rare elite",
+  "levels": "19",
+  "where": "Loch Modan (73.1, 27.0)",
+  "drops": [
+   "Mo'grosh Masher (2%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Shanda the Spinner",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "Loch Modan (78.1, 52.4)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Magosh",
+  "kind": "Rare",
+  "levels": "21",
+  "where": "Loch Modan (70.1, 66.4)",
+  "drops": [
+   "Desperado Cape (60%)",
+   "Trogg Beater (40%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Boss Galgosh",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Loch Modan (68.1, 65.9)",
+  "drops": [
+   "Support Girdle (65%)",
+   "Block Mallet (35%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Large Loch Crocolisk",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Loch Modan (58.9, 31.1)",
+  "drops": [
+   "Seafarer's Pantaloons (70%)",
+   "Loch Croc Hide Vest (30%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Master Digger",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "Westfall (46.4, 19.1)",
+  "drops": [
+   "Burrowing Shovel (30%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Slark",
+  "kind": "Rare",
+  "levels": "15",
+  "where": "Westfall (47.0, 10.9)",
+  "drops": [
+   "Slarkskin (65%)",
+   "Coral Claymore (35%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Brainwashed Noble",
+  "kind": "Rare elite",
+  "levels": "18",
+  "where": "Westfall (44.0, 78.3)",
+  "drops": [
+   "Girdle of Nobility (64%)",
+   "Staff of Nobles (26%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Marisa du'Paige",
+  "kind": "Rare elite",
+  "levels": "18",
+  "where": "Westfall (42.2, 79.9)",
+  "drops": [
+   "Walking Boots (75%)",
+   "Noble's Robe (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Sergeant Brashclaw",
+  "kind": "Rare",
+  "levels": "18",
+  "where": "Westfall (36.9, 31.9)",
+  "drops": [
+   "Brashclaw's Skewer (75%)",
+   "Brashclaw's Chopper (25%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Brack",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "Westfall (27.3, 44.5)",
+  "drops": [
+   "Privateer's Cape (65%)",
+   "Brackclaw (35%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Leprithus",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "Westfall (43.0, 27.0)",
+  "drops": [
+   "Ghoul Fingers (75%)",
+   "Ghoulfang (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Foe Reaper 4000",
+  "kind": "Rare",
+  "levels": "20",
+  "where": "Westfall (44.8, 35.4)",
+  "drops": [
+   "Scarecrow Trousers (20%)"
+  ],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Vultros",
+  "kind": "Rare",
+  "levels": "26",
+  "where": "Westfall (50.6, 43.5)",
+  "drops": [
+   "Feathered Cape (75%)",
+   "Talon of Vultros (25%)"
+  ],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Ribchaser",
+  "kind": "Rare",
+  "levels": "17",
+  "where": "Redridge Mountains (11.1, 65.3)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Snarlflare",
+  "kind": "Rare",
+  "levels": "18",
+  "where": "Redridge Mountains (37.4, 31.0)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Squiddic",
+  "kind": "Rare",
+  "levels": "19",
+  "where": "Redridge Mountains (33.6, 56.3)",
+  "drops": [],
+  "notes": "Spawn data from Classic records; not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Seeker Aqualon",
+  "kind": "Rare",
+  "levels": "21",
+  "where": "Redridge Mountains (55.0, 56.2)",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Chatter",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Redridge Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Dro'zem the Blasphemous",
+  "kind": "Rare elite",
+  "levels": "23",
+  "where": "Redridge Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Boulderheart",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Redridge Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rohh the Silent",
+  "kind": "Rare",
+  "levels": "26",
+  "where": "Redridge Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kazon",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Redridge Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Taskmaster Whipfang",
+  "kind": "Rare elite",
+  "levels": "22",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Foreman Rigger",
+  "kind": "Rare elite",
+  "levels": "24",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Pridewing Patriarch",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Sorrow Wing",
+  "kind": "Rare elite",
+  "levels": "27",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Sister Riven",
+  "kind": "Rare elite",
+  "levels": "28",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Vengeful Ancient",
+  "kind": "Rare",
+  "levels": "30",
+  "where": "Stonetalon Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lady Vespia",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mist Howler",
+  "kind": "Rare",
+  "levels": "22",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mugglefin",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Branch Snapper",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rorgish Jowl",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Akkrilus",
+  "kind": "Rare",
+  "levels": "26",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Eck'alom",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Oakpaw",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ursol'lok",
+  "kind": "Rare",
+  "levels": "31",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Prince Raze",
+  "kind": "Rare",
+  "levels": "32",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Terrowulf Packlord",
+  "kind": "Rare",
+  "levels": "32",
+  "where": "Ashenvale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lupos",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Naraxis",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Malathrom",
+  "kind": "Rare",
+  "levels": "31",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Commander Felstrom",
+  "kind": "Rare",
+  "levels": "32",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Fenros",
+  "kind": "Rare",
+  "levels": "32",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Nefaru",
+  "kind": "Rare",
+  "levels": "34",
+  "where": "Duskwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Creepthess",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "Hillsbrad Foothills",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Big Samras",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Hillsbrad Foothills",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ro'Bark",
+  "kind": "Rare",
+  "levels": "28",
+  "where": "Hillsbrad Foothills",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scargil",
+  "kind": "Rare",
+  "levels": "30",
+  "where": "Hillsbrad Foothills",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lady Zephris",
+  "kind": "Rare",
+  "levels": "33",
+  "where": "Hillsbrad Foothills",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ma'ruk Wyrmscale",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Listed by ForeverDB as seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Gnawbone",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Leech Widow",
+  "kind": "Rare",
+  "levels": "24",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Carrodin",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mirelow",
+  "kind": "Rare",
+  "levels": "25",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Garneg Charskull",
+  "kind": "Rare",
+  "levels": "29",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Dragonmaw Battlemaster",
+  "kind": "Rare",
+  "levels": "30",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Sludginn",
+  "kind": "Rare",
+  "levels": "30",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Razormaw Matriarch",
+  "kind": "Rare",
+  "levels": "31",
+  "where": "Wetlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Harb Foulmountain",
+  "kind": "Rare",
+  "levels": "27",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gibblesnik",
+  "kind": "Rare",
+  "levels": "28",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Achellios the Banished",
+  "kind": "Rare",
+  "levels": "31",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Heartrazor",
+  "kind": "Rare elite",
+  "levels": "32",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Vile Sting",
+  "kind": "Rare elite",
+  "levels": "35",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ironeye the Invincible",
+  "kind": "Rare elite",
+  "levels": "37",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Silithid Ravager",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Thousand Needles",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Jimmy the Bleeder",
+  "kind": "Rare",
+  "levels": "23",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Araga",
+  "kind": "Rare",
+  "levels": "35",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gravis Slipknot",
+  "kind": "Rare",
+  "levels": "36",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Skhowl",
+  "kind": "Rare",
+  "levels": "36",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Stone Fury",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lo'Grosh",
+  "kind": "Rare",
+  "levels": "39",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Narillasanz",
+  "kind": "Rare elite",
+  "levels": "44",
+  "where": "Alterac Mountains",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Singer",
+  "kind": "Rare",
+  "levels": "34",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kovork",
+  "kind": "Rare",
+  "levels": "36",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Nimar the Slayer",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Darbel Montrose",
+  "kind": "Rare elite",
+  "levels": "39",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Molok the Crusher",
+  "kind": "Rare",
+  "levels": "39",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ruul Onestone",
+  "kind": "Rare elite",
+  "levels": "39",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Geomancer Flintdagger",
+  "kind": "Rare",
+  "levels": "40",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Zalas Witherbark",
+  "kind": "Rare",
+  "levels": "40",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Prince Nazjak",
+  "kind": "Rare",
+  "levels": "41",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Foulbelly",
+  "kind": "Rare elite",
+  "levels": "42",
+  "where": "Arathi Highlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Prince Kellen",
+  "kind": "Rare",
+  "levels": "33",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Giggler",
+  "kind": "Rare",
+  "levels": "34",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Accursed Slitherblade",
+  "kind": "Rare",
+  "levels": "35",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Hissperak",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kaskk",
+  "kind": "Rare",
+  "levels": "40",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Cursed Centaur",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "Desolace",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gluggle",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Roloch",
+  "kind": "Rare",
+  "levels": "38",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kurmokk",
+  "kind": "Rare",
+  "levels": "42",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mosh'Ogg Butcher",
+  "kind": "Rare elite",
+  "levels": "44",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rippa",
+  "kind": "Rare",
+  "levels": "44",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Sakrasis",
+  "kind": "Rare",
+  "levels": "45",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scale Belly",
+  "kind": "Rare",
+  "levels": "45",
+  "where": "Stranglethorn Vale",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "War Golem",
+  "kind": "Rare",
+  "levels": "36",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Broken Tooth",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Digmaster Shovelphlange",
+  "kind": "Rare elite",
+  "levels": "38",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Shadowforge Commander",
+  "kind": "Rare",
+  "levels": "40",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Siege Golem",
+  "kind": "Rare elite",
+  "levels": "40",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Anathemus",
+  "kind": "Rare elite",
+  "levels": "45",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rumbler",
+  "kind": "Rare",
+  "levels": "45",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Zaricotl",
+  "kind": "Rare elite",
+  "levels": "55-56",
+  "where": "Badlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Drogoth the Roamer",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Burgle Eye",
+  "kind": "Rare",
+  "levels": "38",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Dart",
+  "kind": "Rare",
+  "levels": "38",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ripscale",
+  "kind": "Rare",
+  "levels": "39",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Darkmist Widow",
+  "kind": "Rare",
+  "levels": "40",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Hayoc",
+  "kind": "Rare",
+  "levels": "41",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Oozeworm",
+  "kind": "Rare",
+  "levels": "42",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Angler",
+  "kind": "Rare",
+  "levels": "44",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Brimgore",
+  "kind": "Rare elite",
+  "levels": "45",
+  "where": "Dustwallow Marsh",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lost One Cook",
+  "kind": "Rare",
+  "levels": "37",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lost One Chieftain",
+  "kind": "Rare",
+  "levels": "39",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Molt Thorn",
+  "kind": "Rare",
+  "levels": "42",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Fingat",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gilmorian",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Captain Wyrmak",
+  "kind": "Rare elite",
+  "levels": "45",
+  "where": "Swamp of Sorrows",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Snarler",
+  "kind": "Rare",
+  "levels": "42",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Old Grizzlegut",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gnarl Leafbrother",
+  "kind": "Rare",
+  "levels": "44",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Diamond Head",
+  "kind": "Rare",
+  "levels": "45",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lady Szallah",
+  "kind": "Rare",
+  "levels": "46",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Qirot",
+  "kind": "Rare",
+  "levels": "47",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Antilus the Soarer",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Bloodroar the Stalker",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Arash-ethis",
+  "kind": "Rare",
+  "levels": "49",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Skarr the Unbreakable",
+  "kind": "Rare elite",
+  "levels": "58",
+  "where": "Feralas",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever. GearInsight lists it with two other level 58-60 elites, Mushgog and The Razza, at the same spawn point (an arena), with eight item drops at about 2.6% each.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Murderous Blisterpaw",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Warleader Krazzilak",
+  "kind": "Rare elite",
+  "levels": "45",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Greater Firebird",
+  "kind": "Rare",
+  "levels": "46",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Jin'Zallah the Sandbringer",
+  "kind": "Rare elite",
+  "levels": "46",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kregg Keelhaul",
+  "kind": "Rare",
+  "levels": "47",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Cyclok the Mad",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Haarka the Ravenous",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Omgorn the Lost",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Soriid the Devourer",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Tanaris",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Old Cliff Jumper",
+  "kind": "Rare",
+  "levels": "42",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Zul'arek Hatefowler",
+  "kind": "Rare",
+  "levels": "43",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Razortalon",
+  "kind": "Rare",
+  "levels": "44",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Witherheart the Stalker",
+  "kind": "Rare",
+  "levels": "45",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Retherokk the Berserker",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "The Reak",
+  "kind": "Rare",
+  "levels": "49",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Grimungous",
+  "kind": "Rare elite",
+  "levels": "50",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mith'rethis the Enchanter",
+  "kind": "Rare elite",
+  "levels": "52",
+  "where": "The Hinterlands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "The Evalcharr",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Varo'then's Ghost",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Antilos",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gatekeeper Rageroar",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "General Fangferror",
+  "kind": "Rare",
+  "levels": "51",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lady Sesspira",
+  "kind": "Rare",
+  "levels": "51",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Magister Hawkhelm",
+  "kind": "Rare",
+  "levels": "52",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Master Feardred",
+  "kind": "Rare",
+  "levels": "52",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Monnos the Elder",
+  "kind": "Rare elite",
+  "levels": "54",
+  "where": "Azshara",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mojo the Twisted",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Deatheye",
+  "kind": "Rare",
+  "levels": "49",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Grunter",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ravage",
+  "kind": "Rare",
+  "levels": "51",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Spiteflayer",
+  "kind": "Rare",
+  "levels": "52",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Clack the Reaver",
+  "kind": "Rare",
+  "levels": "53",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Akubar the Seer",
+  "kind": "Rare",
+  "levels": "54",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Magronos the Unyielding",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Dreadscorn",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Blasted Lands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Faulty War Golem",
+  "kind": "Rare",
+  "levels": "46",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Shleipnarr",
+  "kind": "Rare",
+  "levels": "47",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rekk'tilac",
+  "kind": "Rare",
+  "levels": "48",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scald",
+  "kind": "Rare",
+  "levels": "49",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Slave Master Blackheart",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Smoldar",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Highlord Mastrogonde",
+  "kind": "Rare elite",
+  "levels": "51",
+  "where": "Searing Gorge",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ravasaur Matriarch",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Un'Goro Crater",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Uhk'loc",
+  "kind": "Rare",
+  "levels": "53",
+  "where": "Un'Goro Crater",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Clutchmother Zavas",
+  "kind": "Rare",
+  "levels": "54",
+  "where": "Un'Goro Crater",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gruff",
+  "kind": "Rare elite",
+  "levels": "57",
+  "where": "Un'Goro Crater",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "King Mosh",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Un'Goro Crater",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Death Howl",
+  "kind": "Rare",
+  "levels": "49",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mongress",
+  "kind": "Rare",
+  "levels": "50",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Ragepaw",
+  "kind": "Rare",
+  "levels": "51",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "The Ongar",
+  "kind": "Rare",
+  "levels": "51",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Alshirr Banebreath",
+  "kind": "Rare",
+  "levels": "54",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Dessecus",
+  "kind": "Rare elite",
+  "levels": "56",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Immolatus",
+  "kind": "Rare elite",
+  "levels": "56",
+  "where": "Felwood",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Deathmaw",
+  "kind": "Rare",
+  "levels": "53",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gorgon'och",
+  "kind": "Rare",
+  "levels": "54",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Hahk'Zor",
+  "kind": "Rare",
+  "levels": "54",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Terrorspark",
+  "kind": "Rare",
+  "levels": "55",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Malfunctioning Reaver",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Thauris Balgarr",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gruklash",
+  "kind": "Rare",
+  "levels": "59",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Hematos",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Volchan",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Burning Steppes",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Foulmane",
+  "kind": "Rare",
+  "levels": "52",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Maldazzar",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Foreman Marcrid",
+  "kind": "Rare",
+  "levels": "58",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Putridius",
+  "kind": "Rare elite",
+  "levels": "58",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scarlet Smith",
+  "kind": "Rare",
+  "levels": "59",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scarlet Executioner",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scarlet Judge",
+  "kind": "Rare",
+  "levels": "60",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scarlet Interrogator",
+  "kind": "Rare elite",
+  "levels": "61",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Foreman Jerris",
+  "kind": "Rare elite",
+  "levels": "62",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "The Husk",
+  "kind": "Rare",
+  "levels": "62",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Scarlet High Clerist",
+  "kind": "Rare elite",
+  "levels": "63",
+  "where": "Western Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Deathspeaker Selendre",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gish the Unmoving",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Hed'mush the Rotting",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lord Darkscythe",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Warlord Thresh'jin",
+  "kind": "Rare",
+  "levels": "58",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "High General Abbendis",
+  "kind": "Rare elite",
+  "levels": "59",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Zul'Brin Warpbranch",
+  "kind": "Rare",
+  "levels": "59",
+  "where": "Eastern Plaguelands",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Krellack",
+  "kind": "Rare",
+  "levels": "56",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Gretheer",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rex Ashil",
+  "kind": "Rare elite",
+  "levels": "57",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Grubthor",
+  "kind": "Rare",
+  "levels": "58",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Huricanian",
+  "kind": "Rare",
+  "levels": "58",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Zora",
+  "kind": "Rare elite",
+  "levels": "59",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lapress",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Twilight Lord Everun",
+  "kind": "Rare",
+  "levels": "60",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Setis",
+  "kind": "Rare elite",
+  "levels": "61",
+  "where": "Silithus",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mezzir the Howler",
+  "kind": "Rare",
+  "levels": "55",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "General Colbatann",
+  "kind": "Rare elite",
+  "levels": "57",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Rak'shiri",
+  "kind": "Rare",
+  "levels": "57",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Azurous",
+  "kind": "Rare elite",
+  "levels": "59",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Grizzle Snowpaw",
+  "kind": "Rare",
+  "levels": "59",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Kashoch the Reaver",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Lady Hederine",
+  "kind": "Rare elite",
+  "levels": "61",
+  "where": "Winterspring",
+  "drops": [],
+  "notes": "Spawn data from Classic records (QuestieDB); not yet verified in Forever.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mushgog",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Listed under Mulgore (22.5, 98.1); same spawn point as Skarr the Unbreakable",
+  "drops": [
+   "Eight shared items, about 2.6% each (ilvl 57-63)"
+  ],
+  "notes": "Shares its spawn point and loot table with Skarr the Unbreakable and The Razza. 7h respawn.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "The Razza",
+  "kind": "Rare elite",
+  "levels": "60",
+  "where": "Listed under Mulgore (22.4, 98.0); same spawn point as Skarr the Unbreakable",
+  "drops": [
+   "Eight shared items, about 2.6% each (ilvl 57-63)"
+  ],
+  "notes": "Shares its spawn point and loot table with Skarr the Unbreakable and Mushgog. 7h respawn.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://gearinsight.app/wow/en/forever/rares"
+ },
+ {
+  "name": "Slydris",
+  "kind": "Rare elite",
+  "levels": "6",
+  "where": "Zephras Isle",
+  "drops": [],
+  "notes": "New Forever starting-zone rare elite (Skyborne). 19 recorded spawn points.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Snapbeak the Quick",
+  "kind": "Rare elite",
+  "levels": "9",
+  "where": "Zephras Isle",
+  "drops": [],
+  "notes": "New Forever rare elite. 24 recorded spawn points.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Fernfeather",
+  "kind": "Rare",
+  "levels": "10",
+  "where": "Zephras Isle: Gustberry Lowlands and Windfield Orchard (48.6, 86.0; 51.4, 82.4; 53.8, 78.8)",
+  "drops": [
+   "Scout Ranger's Belt",
+   "Skyseer's Belt",
+   "Thendal Watcher's Belt"
+  ],
+  "notes": "Forever-only galestrider beast added in patch 1.60.1. Tameable as a tallstrider-family hunter pet.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://warcraft.wiki.gg/wiki/Fernfeather"
+ },
+ {
+  "name": "Den'dralass",
+  "kind": "Rare",
+  "levels": "12-13",
+  "where": "Zephras Isle",
+  "drops": [],
+  "notes": "New Forever rare. 37 recorded spawn points.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Mystmane",
+  "kind": "Rare",
+  "levels": "13",
+  "where": "Zephras Isle",
+  "drops": [],
+  "notes": "New Forever rare. 27 recorded spawn points.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://bindonforever.com/rares"
+ },
+ {
+  "name": "Sewer Beast",
+  "kind": "Rare elite",
+  "levels": "50",
+  "where": "Stormwind City (Canals)",
+  "drops": [
+   "Baby Crocolisk (companion, per beta/datamined reports)"
+  ],
+  "notes": "Seen in Forever and tameable. During the beta it needed a large raid group to kill. BindOnForever lists it as non-elite, and WoWFun calls it an elite.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Azshir the Sleepless",
+  "kind": "Rare elite",
+  "levels": "33",
+  "where": "Scarlet Monastery (dungeon)",
+  "drops": [],
+  "notes": "Dungeon rare, seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Fallen Champion",
+  "kind": "Rare elite",
+  "levels": "33",
+  "where": "Scarlet Monastery (dungeon)",
+  "drops": [],
+  "notes": "Dungeon rare, seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Ironspine",
+  "kind": "Rare elite",
+  "levels": "33",
+  "where": "Scarlet Monastery (dungeon)",
+  "drops": [],
+  "notes": "Dungeon rare, seen in Forever.",
+  "new": false,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Matriarch Bristlefur",
+  "kind": "Rare",
+  "levels": "",
+  "where": "",
+  "drops": [],
+  "notes": "ForeverDB lists it as seen in Forever and tameable, but gives no zone or level. Likely a new Forever beast.",
+  "new": true,
+  "confidence": "confirmed",
+  "sourceUrl": "https://foreverdb.net/rares"
+ },
+ {
+  "name": "Azuregos",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Azshara (53.3, 80.4)",
+  "drops": [
+   "Fang of the Mystics",
+   "Eskhandar's Left Claw",
+   "Drape of Benediction"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ },
+ {
+  "name": "Lord Kazzak",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Blasted Lands (35.5, 75.0)",
+  "drops": [
+   "The Eye of Shadow",
+   "Blazefury Medallion",
+   "Empyrean Demolisher"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ },
+ {
+  "name": "Emeriss",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Any of four Emerald Dream groves: Feralas (51.2, 10.9), The Hinterlands (63.3, 27.8), Duskwood (45.4, 39.6), Ashenvale (94.2, 35.7)",
+  "drops": [
+   "Polished Ironwood Crossbow",
+   "Boots of the Endless Moor",
+   "Dragonheart Necklace"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ },
+ {
+  "name": "Lethon",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Any of four Emerald Dream groves: Feralas (51.2, 10.9), The Hinterlands (63.3, 27.8), Duskwood (45.4, 39.6), Ashenvale (94.2, 35.7)",
+  "drops": [
+   "Belt of the Dark Bog",
+   "Black Bark Wristbands",
+   "Dark Heart Pants"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ },
+ {
+  "name": "Taerar",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Any of four Emerald Dream groves: Feralas (51.2, 10.9), The Hinterlands (63.3, 27.8), Duskwood (45.4, 39.6), Ashenvale (94.2, 35.7)",
+  "drops": [
+   "Nightmare Blade",
+   "Mendicant's Slippers",
+   "Mindtear Band"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ },
+ {
+  "name": "Ysondre",
+  "kind": "World boss",
+  "levels": "??",
+  "where": "Any of four Emerald Dream groves: Feralas (51.2, 10.9), The Hinterlands (63.3, 27.8), Duskwood (45.4, 39.6), Ashenvale (94.2, 35.7)",
+  "drops": [
+   "Emerald Dragonfang",
+   "Jade Inlaid Vestments",
+   "Hibernation Crystal"
+  ],
+  "notes": "Classic world boss data; WoWCalc marks its presence in Forever as unverified.",
+  "new": false,
+  "confidence": "vanilla-carryover",
+  "sourceUrl": "https://wowcalc.net/en/forever/wiki/world-bosses"
+ }
+]

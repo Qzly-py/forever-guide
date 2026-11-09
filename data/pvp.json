@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Rank 1: Private / Scout",
+    "kind": "Rank",
+    "details": "Alliance title Private, Horde title Scout. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 1 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Tabard"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 2: Corporal / Grunt",
+    "kind": "Rank",
+    "details": "Alliance title Corporal, Horde title Grunt. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 2 via Rank Points (thresholds not published)",
+    "rewards": [
+      "PvP Trinket"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 3: Sergeant / Sergeant",
+    "kind": "Rank",
+    "details": "Alliance title Sergeant, Horde title Sergeant. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity. Reaching this rank also completes a Legacy challenge.",
+    "requirements": "Rank 3 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Cloaks"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 4: Master Sergeant / Senior Sergeant",
+    "kind": "Rank",
+    "details": "Alliance title Master Sergeant, Horde title Senior Sergeant. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 4 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Necklace"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 5: Sergeant Major / First Sergeant",
+    "kind": "Rank",
+    "details": "Alliance title Sergeant Major, Horde title First Sergeant. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 5 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Combat Potions"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 6: Knight / Stone Guard",
+    "kind": "Rank",
+    "details": "Alliance title Knight, Horde title Stone Guard. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 6 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Tabard"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 7: Knight-Lieutenant / Blood Guard",
+    "kind": "Rank",
+    "details": "Alliance title Knight-Lieutenant, Horde title Blood Guard. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity. Reaching this rank also completes a Legacy challenge.",
+    "requirements": "Rank 7 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Battle Standard"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 8: Knight-Captain / Legionnaire",
+    "kind": "Rank",
+    "details": "Alliance title Knight-Captain, Horde title Legionnaire. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 8 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Bracers / Epic Belt Upgrade Token"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 9: Knight-Champion / Centurion",
+    "kind": "Rank",
+    "details": "Alliance title Knight-Champion, Horde title Centurion. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 9 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Boots Upgrade Token"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 10: Lieutenant Commander / Champion",
+    "kind": "Rank",
+    "details": "Alliance title Lieutenant Commander, Horde title Champion. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity. Reaching this rank also completes a Legacy challenge.",
+    "requirements": "Rank 10 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Gloves Upgrade Token"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 11: Commander / Lieutenant General",
+    "kind": "Rank",
+    "details": "Alliance title Commander, Horde title Lieutenant General. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 11 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Mounts"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 12: Marshal / General",
+    "kind": "Rank",
+    "details": "Alliance title Marshal, Horde title General. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity.",
+    "requirements": "Rank 12 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Legs / Epic Shoulders Upgrade Token"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 13: Field Marshal / Warlord",
+    "kind": "Rank",
+    "details": "Alliance title Field Marshal, Horde title Warlord. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity. Reaching this rank also completes a Legacy challenge.",
+    "requirements": "Rank 13 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Chest / Epic Helm Upgrade Token"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 14: Grand Marshal / High Warlord",
+    "kind": "Rank",
+    "details": "Alliance title Grand Marshal, Horde title High Warlord. Ranks reset every season and are climbed with Rank Points; a weekly cap limits how fast you climb, but there is no decay for inactivity. Reaching this rank also completes a Legacy challenge.",
+    "requirements": "Rank 14 via Rank Points (thresholds not published)",
+    "rewards": [
+      "Epic Weapons"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Weekly rank cap",
+    "kind": "Rank",
+    "details": "Beta data shows the highest rank reachable each week of a season: week 1 rank 3, week 2 rank 5, week 3 rank 6, week 4 rank 7, week 5 rank 8, week 6 rank 9, week 7 rank 11, week 8 rank 12, week 9 rank 13, week 10+ rank 14. Blizzard confirmed a weekly cap but not these exact numbers.",
+    "requirements": "",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://wowcalc.net/en/forever/wiki/calendar"
+  },
+  {
+    "name": "Honor",
+    "kind": "Reward",
+    "details": "Currency earned from honorable kills, battleground results and PvP quests. Spent on gear; it does not decay. Honor gains were rebalanced so Alterac Valley is no longer the only efficient farm, and featured battlegrounds during holiday weeks give more.",
+    "requirements": "",
+    "rewards": [
+      "Blue PvP set",
+      "Emboldened Seals"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Rank Points",
+    "kind": "Reward",
+    "details": "Separate currency that drives rank. Earned from battlegrounds, PvP quests and honorable kills (not from ganking in the open world), boosted in featured battlegrounds.",
+    "requirements": "",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Blue PvP armour set",
+    "kind": "Reward",
+    "details": "Rare-quality PvP set bought with Honor, gated by rank. Shamans get dedicated healer, melee and caster sets.",
+    "requirements": "Honor plus the required rank",
+    "rewards": [
+      "Blue PvP armour pieces"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Epic PvP armour (Emboldened Seal upgrade)",
+    "kind": "Reward",
+    "details": "Epic pieces are made by combining the blue piece with an Emboldened Seal, bought with Honor and gated behind higher ranks (ranks 8-13 unlock the slot tokens).",
+    "requirements": "Blue piece + Emboldened Seal + rank requirement",
+    "rewards": [
+      "Epic PvP armour pieces"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/news/pvp-progression-in-wow-forever-ranks-honor-seasons/"
+  },
+  {
+    "name": "Rank 14 epic weapons",
+    "kind": "Reward",
+    "details": "Reaching Grand Marshal / High Warlord unlocks the epic PvP weapons; Blizzard says rank 14 is reachable within one season.",
+    "requirements": "Rank 14",
+    "rewards": [
+      "Epic PvP weapons"
+    ],
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Marks of Honor",
+    "kind": "Reward",
+    "details": "Earned by turning in battleground reputation quests; can be handed in for battleground reputation.",
+    "requirements": "",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24307308"
+  },
+  {
+    "name": "Battle for the Darkspear Islands",
+    "kind": "Battleground",
+    "details": "New 15v15 battleground off the coast of Dustwallow Marsh. Four capture points generate score over time and a central flag carried to a base you hold gives a bonus; first to 2,000 wins. Horde fight as the Darkspear Raiders (base at Merchant Coast), Alliance as the Theramore Expeditionary Force (base at Northwatch); both bases have portals, vendors and quests. Queue from battlemasters in capitals or The Barrens.",
+    "requirements": "Levels 30-60",
+    "rewards": [
+      "Darkspear Raiders / Theramore Expeditionary Force reputation",
+      "Trinkets, rings, cloaks, weapons and armour by standing",
+      "Exalted battle tabard questline",
+      "Legacy Point at Exalted"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://news.blizzard.com/en-us/article/24307308"
+  },
+  {
+    "name": "Warsong Gulch",
+    "kind": "Battleground",
+    "details": "10v10 capture-the-flag in Ashenvale; returns at launch.",
+    "requirements": "Brackets not announced",
+    "rewards": [
+      "Silverwing Sentinels / Warsong Outriders reputation"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Arathi Basin",
+    "kind": "Battleground",
+    "details": "15v15 resource race over five nodes in Arathi Highlands; returns at launch.",
+    "requirements": "Brackets not announced",
+    "rewards": [
+      "League of Arathor / Defilers reputation"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Alterac Valley",
+    "kind": "Battleground",
+    "details": "40v40 large-scale battle in Alterac Mountains; returns at launch with honor rebalanced against other battlegrounds.",
+    "requirements": "Brackets not announced",
+    "rewards": [
+      "Stormpike Guard / Frostwolf Clan reputation"
+    ],
+    "new": false,
+    "confidence": "vanilla-carryover",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "PvP realms",
+    "kind": "World PvP",
+    "details": "Open-world PvP is always on and each PvP realm is locked to a single faction. Rank only comes from battlegrounds, PvP quests and honorable kills, not from ganking.",
+    "requirements": "",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Normal realms",
+    "kind": "World PvP",
+    "details": "PvP is consensual (flag up to fight) and both factions can play on the same realm. Battlegrounds mix players across rulesets except Hardcore, which queues separately.",
+    "requirements": "",
+    "rewards": [],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://timesaver.gg/blog/wow-forever-pvp-battlegrounds-darkspear-islands-honor"
+  },
+  {
+    "name": "Field of Honor season journey",
+    "kind": "Season",
+    "details": "Each PvP season has a progression track of weekly quests that give Honor, Rank Points and Legacy Points. Completing the week 4, week 7 and week 10 quests gives a Legacy Point each (3 per season). Rank progress resets each season or content patch; Legacy Points carry over. Season length not announced. No rated PvP or arenas announced.",
+    "requirements": "",
+    "rewards": [
+      "Honor",
+      "Rank Points",
+      "Legacy Points (3 per season)"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://guildorder.com/games/wow_forever/wiki/pvp-ranks-battlegrounds-and-the-field-of-honor"
+  },
+  {
+    "name": "PvP Legacy challenges",
+    "kind": "Season",
+    "details": "Account-wide Legacy challenges for reaching ranks 3, 7, 10, 13 and 14, and for Exalted with your Darkspear Islands faction.",
+    "requirements": "",
+    "rewards": [
+      "Legacy Points"
+    ],
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://guildorder.com/games/wow_forever/wiki/pvp-ranks-battlegrounds-and-the-field-of-honor"
+  }
+]

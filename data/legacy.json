@@ -1,0 +1,875 @@
+[
+  {
+    "name": "Novice Druid",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Druid to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Druid",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Druid to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Druid",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Druid to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Hunter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Hunter to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Hunter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Hunter to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Hunter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Hunter to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Mage",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Mage to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Mage",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Mage to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Mage",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Mage to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Paladin",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Paladin to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Paladin",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Paladin to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Paladin",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Paladin to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Priest",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Priest to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Priest",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Priest to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Priest",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Priest to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Rogue",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Rogue to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Rogue",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Rogue to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Rogue",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Rogue to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Shaman",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Shaman to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Shaman",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Shaman to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Shaman",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Shaman to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Warlock",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warlock to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Warlock",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warlock to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Warlock",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warlock to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Warrior (Forever)",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warrior to level 25 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Experienced Warrior",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warrior to level 45 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master Warrior",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Get a Warrior to level 60 on your account.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Alchemist",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the alchemist profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Alchemist",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the alchemist profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Alchemist",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the alchemist profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Blacksmith",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the blacksmith profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Blacksmith",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the blacksmith profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Blacksmith",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the blacksmith profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Enchanter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the enchanter profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Enchanter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the enchanter profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Enchanter",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the enchanter profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Engineer",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the engineer profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Engineer",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the engineer profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Engineer",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the engineer profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Leatherworker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the leatherworker profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Leatherworker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the leatherworker profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Leatherworker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the leatherworker profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Journeyman Tailor",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the tailor profession to 150 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Expert Tailor",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the tailor profession to 225 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Artisan Tailor",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Raise the tailor profession to 300 skill on any character.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Rank 3",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Reach PvP honor rank 3.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Rank 7",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Reach PvP honor rank 7.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Rank 10",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Reach PvP honor rank 10.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Rank 13",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Reach PvP honor rank 13.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Rank 14",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Reach PvP honor rank 14.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master of Alterac Valley (Forever)",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Hit Exalted with the battleground faction this challenge is named for. (Warcraft Tavern says only one point is given across all four of these.)",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master of Arathi Basin (Forever)",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Hit Exalted with the battleground faction this challenge is named for. (Warcraft Tavern says only one point is given across all four of these.)",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master of Warsong Gulch (Forever)",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Hit Exalted with the battleground faction this challenge is named for. (Warcraft Tavern says only one point is given across all four of these.)",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Master of Darkspear Islands",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Hit Exalted with the battleground faction this challenge is named for. (Warcraft Tavern says only one point is given across all four of these.)",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Field of Honor: Week 4",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Finish week 4 of the Field of Honor PvP journey.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Field of Honor: Week 7",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Finish week 7 of the Field of Honor PvP journey.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Field of Honor: Week 10",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Finish week 10 of the Field of Honor PvP journey.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Lord Valthalak Laid to Rest",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Complete the Dungeon Set 2 / Lord Valthalak quest chain, running from 'An Earnest Proposition' to 'Saving the Best for Last'.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Explore Azeroth",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Have any character earn the Explore Azeroth achievement, which needs every Eastern Kingdoms and Kalimdor zone explored, including new zones such as Riverglades, Shen'dralas and Mount Hyjal.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Played in the WoW: Forever Beta",
+    "kind": "Achievement",
+    "points": "",
+    "how": "Listed as a challenge on the wiki for taking part in the beta. Its point value isn't stated, and it isn't part of the 65 launch points.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Novice Spelunker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Clear the low-level dungeon group: Ragefire Chasm or Hall of Thanes, Ruins of Lordaeron, Wailing Caverns, Deadmines, Shadowfang Keep and Excavation Site: Wetlands.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Experienced Spelunker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Clear the mid-level dungeon group: City of Dalaran, Blackfathom Deeps, Gnomeregan, The Drowned City, all Scarlet Monastery wings, Razorfen Kraul and Krol'dok Stronghold.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Master Spelunker",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Clear the high-level dungeon group: Razorfen Downs, Uldaman, Zul'Farrak, Maraudon, Alcaz Prison, Sunken Temple, BRD, Blackmaw Hold, LBRS/UBRS, Scholomance, Stratholme, Dire Maul and The Shaper's Terrace.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Conqueror of the Wilds",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Kill every boss in the Hyjal Summit raid.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Conqueror of the Deeps",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Kill every boss in the Barrow Deeps raid.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Conqueror of the Lair",
+    "kind": "Achievement",
+    "points": "1",
+    "how": "Kill Onyxia in Onyxia's Lair.",
+    "reward": "1 Legacy Point",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_Challenges"
+  },
+  {
+    "name": "Holstered Replica Ironforge Air Rifle",
+    "kind": "Reward",
+    "points": "15",
+    "how": "Reach 15 total Legacy Points on your account, then claim it from Innkeeper Wiley in Ratchet. Toy for an opt-in shootout. It only stuns other players who are also holding the rifle, and it counts your hits. Account-wide.",
+    "reward": "Holstered Replica Ironforge Air Rifle",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Spectral Bear Cub",
+    "kind": "Reward",
+    "points": "25",
+    "how": "Reach 25 total Legacy Points on your account, then claim it from Innkeeper Wiley in Ratchet. Companion pet. Account-wide.",
+    "reward": "Spectral Bear Cub",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Spectral Bear Tabard",
+    "kind": "Reward",
+    "points": "40",
+    "how": "Reach 40 total Legacy Points on your account, then claim it from Innkeeper Wiley in Ratchet. Tabard. Account-wide.",
+    "reward": "Spectral Bear Tabard",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Reins of the Spectral Bear",
+    "kind": "Reward",
+    "points": "55",
+    "how": "Reach 55 total Legacy Points on your account, then claim it from Innkeeper Wiley in Ratchet. Ground mount with 100% movement speed. Account-wide.",
+    "reward": "Reins of the Spectral Bear",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Professions Legacy Tree",
+    "kind": "Talent",
+    "points": "up to 25 per tree; 16 spendable per character at launch",
+    "how": "Covers tradeskill and gathering bonuses. Points are earned account-wide, but each character spends its own and can respec at a class trainer.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Adventure Legacy Tree",
+    "kind": "Talent",
+    "points": "up to 25 per tree; 16 spendable per character at launch",
+    "how": "Covers leveling, travel and out-in-the-world bonuses. Points are earned account-wide, but each character spends its own and can respec at a class trainer.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Resourcefulness Legacy Tree",
+    "kind": "Talent",
+    "points": "up to 25 per tree; 16 spendable per character at launch",
+    "how": "Covers food, death, reputation, honor and reagent savings. Points are earned account-wide, but each character spends its own and can respec at a class trainer.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Legacy_System"
+  },
+  {
+    "name": "Working Overtime",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Professions tree perk. Each rank adds 4% to your chance of a skill-up from any primary, secondary or class tradeskill.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Bountiful Harvest",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Professions tree perk. Gathering through Mining, Herbalism or Skinning yields more scarce materials, up to 20%.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Bartering",
+    "kind": "Perk",
+    "points": "2 ranks",
+    "how": "Professions tree perk. Vendors charge 5% less gold.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Performance Bonus",
+    "kind": "Perk",
+    "points": "3 ranks (needs Bountiful Harvest)",
+    "how": "Professions tree perk. When you hand in crates to the Azeroth Commerce Authority or Durotar Supply and Logistics, gives a 5% chance to double the Merchant's Favor you earn.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Master Chef",
+    "kind": "Perk",
+    "points": "1 rank per wiki; 5 per Warcraft Tavern",
+    "how": "Professions tree perk. Gives cooking recipes a 10% chance to make an extra item.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Dedicated Study",
+    "kind": "Perk",
+    "points": "1 rank (needs Bartering)",
+    "how": "Professions tree perk. Ability on a daily cooldown that adds one point to your lowest primary or secondary tradeskill. Once all five are at 300, it gives 2-4 random Elemental Essences instead.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Luremaster",
+    "kind": "Perk",
+    "points": "2 ranks",
+    "how": "Professions tree perk. With a lure active, you have a 25% chance to catch a bonus fish.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Well Rested",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Adventure tree perk. Rested XP builds faster and its cap is higher, by 4% per rank.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Thrill of Adventure",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Adventure tree perk. Killing blows on non-trivial foes restore 1% of your health and mana over 10 seconds. Open world only.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "High Alert",
+    "kind": "Perk",
+    "points": "2 ranks",
+    "how": "Adventure tree perk. Detect stealth as if you were one level higher. Doesn't work in battlegrounds.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Talented",
+    "kind": "Perk",
+    "points": "5 ranks (needs Well Rested)",
+    "how": "Adventure tree perk. Talent points start earlier than level 10, as early as level 5 at full rank. The 51-point cap stays.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Field Guide",
+    "kind": "Perk",
+    "points": "3 ranks",
+    "how": "Adventure tree perk. Shortens the cooldown on adding camp features by 8%.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Field Medicine",
+    "kind": "Perk",
+    "points": "2 ranks",
+    "how": "Adventure tree perk. Cuts 5 seconds off the Recently Bandaged debuff. Open world only.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Frequent Flier",
+    "kind": "Perk",
+    "points": "3 ranks per wiki; 1 per Warcraft Tavern (needs Field Guide)",
+    "how": "Adventure tree perk. Flight paths cost half as much and fly 20% faster.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Gourmand",
+    "kind": "Perk",
+    "points": "3 ranks",
+    "how": "Resourcefulness tree perk. Food buffs last 33% longer.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "The Quick and the Dead",
+    "kind": "Perk",
+    "points": "2 ranks",
+    "how": "Resourcefulness tree perk. Move 5% faster while dead. For 1 minute after resurrecting, or until combat, helpful spells cost nothing.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Reinforce",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Resourcefulness tree perk. Lose 8% less durability when you die.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "For Great Honor",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Resourcefulness tree perk. Earn 2% more honor.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Permanence",
+    "kind": "Perk",
+    "points": "2 ranks (needs Gourmand)",
+    "how": "Resourcefulness tree perk. Long class party/raid buffs and camp resting benefits last 50% longer.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Diplomat",
+    "kind": "Perk",
+    "points": "5 ranks",
+    "how": "Resourcefulness tree perk. Earn 2% more reputation.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Reagent Economy",
+    "kind": "Perk",
+    "points": "1 rank (needs The Quick and the Dead)",
+    "how": "Resourcefulness tree perk. Class abilities no longer use vendor-bought reagents.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Unrevealed Professions perks (2)",
+    "kind": "Perk",
+    "points": "",
+    "how": "The Professions tree has two hidden perk slots that Blizzard plans to reveal later.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Unrevealed Adventure perks (2)",
+    "kind": "Perk",
+    "points": "",
+    "how": "The Adventure tree has two hidden perk slots that Blizzard plans to reveal later.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  },
+  {
+    "name": "Unrevealed Resourcefulness perks (2)",
+    "kind": "Perk",
+    "points": "",
+    "how": "The Resourcefulness tree has two hidden perk slots that Blizzard plans to reveal later.",
+    "reward": "",
+    "new": true,
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/legacy/"
+  }
+]

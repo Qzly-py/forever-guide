@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Alchemy",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 66 new recipes. The six standard Healing Potions moved to First Aid; Alchemy instead gets a Discolored Healing Potion line (heals, then returns part of it as damage over time). Camp objects: Mana Well (skill 20, mana regen like Blessing of Wisdom), Fermenter (Blueprint from Rath'mael, Ruins of Lordaeron), Alchemy Laboratory (tier 3).",
+    "levelingTips": "Pair with Herbalism; most of the route is herbs (Stranglekelp, Peacebloom, Gromsblood). Roughly 335-390 crafts to 300.",
+    "notableRecipes": [
+      "Flask of the Titans",
+      "Flask of Supreme Power",
+      "Alchemist's Stone",
+      "Free Action Potion",
+      "Swiftness Potion",
+      "Discolored Healing Potion",
+      "Mana Well"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Blacksmithing",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 194 new recipes (434 total). New mail pieces for levels 10-35 and mostly new plate for 40-58; more recipes now drop in dungeons. Camp objects: Sharpening Wheel (Strength/AP, like Strength of Earth Totem), Anvil (Blueprint from Gilnid, The Deadmines), Master Forge.",
+    "levelingTips": "Pair with Mining; Bronze, Mithril and Thorium bars are the bulk. Roughly 330-395 crafts to 300.",
+    "notableRecipes": [
+      "Lionheart Helm",
+      "Enchanted Thorium Breastplate",
+      "Enriched Thorium Breastplate",
+      "Breastplate of Salvation",
+      "Annihilator",
+      "Stormcarver",
+      "Sharpening Wheel"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Enchanting",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 61 new recipes (222 total). Has Forever-specific items/stations. Camp objects: Enchanted Lute (armor, stats and resistances, like Mark of the Wild), Arcane Salvager (Blueprint from Shade of the Archmage, City of Dalaran), Arcane Forge. Crafts the new Heart of the Mountain trinkets.",
+    "levelingTips": "Disenchant your own greens/blues; Strange Dust and Dream Dust dominate. Pairs well with Tailoring. Roughly 365-440 crafts to 300.",
+    "notableRecipes": [
+      "Molten Heart of the Mountain",
+      "Frozen Heart of the Mountain",
+      "Dormant Heart of the Mountain",
+      "Brilliant Wand",
+      "Enchanted Lute"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Engineering",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 73 new recipes. Gnome racial changed: Engineering Specialization now means 20% fewer gadget failures/backfires instead of bonus skill. Camp objects: Reagent Bot (reagent vendor, no buff), Repair Bot (Blueprint from Sneed, The Deadmines), Anarchist's Workbench.",
+    "levelingTips": "Pair with Mining; Copper Bar, Mithril Bar and Solid Stone are the heaviest materials. Roughly 265-380 crafts to 300.",
+    "notableRecipes": [
+      "Goblin Sapper Charge",
+      "Dense Dynamite",
+      "Gnomish Net-o-Matic Projector",
+      "Goblin Rocket Helmet",
+      "Ultra-Flash Shadow Reflector",
+      "Force Reactive Disk",
+      "Gnomish Battle Chicken"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Herbalism",
+    "kind": "primary",
+    "trainers": "Profession trainers in towns; can also be picked up from a starting-zone gathering quest (Horde: The Barrens, Alliance: Elwynn Forest per RankedBoost)",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. Tauren Cultivation reworked: Tauren can harvest herbs without the skill (and get double yield if they have Herbalism, per Warcraft Tavern; RankedBoost describes it as growing a nearby herb once per herb). Legacy perk Bountiful Harvest gives more Scarce materials. Camp objects: Incense Candle (Intellect, like Arcane Intellect), Greenhouse (Blueprint from Shadetooth, Excavation Site: Wetlands), Seed Hybridizer.",
+    "levelingTips": "Gather nodes that are orange/yellow; pair with Alchemy.",
+    "notableRecipes": [
+      "Incense Candle",
+      "Greenhouse",
+      "Seed Hybridizer"
+    ],
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/professions/"
+  },
+  {
+    "name": "Leatherworking",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 267 new recipes (508 total): 102 new leather pieces for levels 10-50 and 24 new mail pieces for 40-50. Camp objects: Camp Tent (rested XP), Tanning Rack (Blueprint from Razorclaw the Butcher, Shadowfang Keep; required for advanced recipes), Sewing Machine.",
+    "levelingTips": "Pair with Skinning; Rugged, Heavy and Thick Leather are the main materials. Roughly 345-420 crafts to 300.",
+    "notableRecipes": [
+      "Devilsaur Leggings",
+      "Timbermaw Tunic",
+      "Dawn Armor",
+      "Living Crown",
+      "Warbear Helm",
+      "Red Dragonscale Breastplate",
+      "Camp Tent"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Mining",
+    "kind": "primary",
+    "trainers": "Profession trainers in towns; also from a starting-zone gathering quest (Horde: The Barrens, Alliance: Elwynn Forest per RankedBoost)",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. New smelts: Smelt Azerothium (at a forge) and Smelt Heavy Thorium (at a Molten Foundry); new materials Pitchblende and Heavy Thorium Ore. Camp objects: Lodestone (melee AP, like Blessing of Might), Rock Garden (Blueprint from Relic Guardian, Excavation Site: Wetlands), Molten Foundry.",
+    "levelingTips": "Feeds Blacksmithing and Engineering; mine orange/yellow nodes as you level.",
+    "notableRecipes": [
+      "Smelt Azerothium",
+      "Smelt Heavy Thorium",
+      "Lodestone",
+      "Rock Garden",
+      "Molten Foundry"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Skinning",
+    "kind": "primary",
+    "trainers": "Profession trainers in towns; also from a starting-zone gathering quest (Horde: Durotar, Alliance: Dun Morogh per RankedBoost)",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. No specific skinning changes listed beyond camping and Bountiful Harvest. Camp objects: Camp Chair (+2% crit, like Moonkin Aura), Field Guide (Blueprint from Lady Anacondra, Wailing Caverns), Trapper's Workbench.",
+    "levelingTips": "Skin everything you kill while questing; pair with Leatherworking or sell leather.",
+    "notableRecipes": [
+      "Camp Chair",
+      "Field Guide",
+      "Trapper's Workbench"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Tailoring",
+    "kind": "primary",
+    "trainers": "Profession trainers in capital cities and many towns",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 176 new recipes (413 total); 103 of 107 cloth pieces for levels 10-57 are new. Camp objects: Faction Banner (Spirit, like Divine Spirit), Spinning Wheel (Blueprint from Unstable Sentinel, City of Dalaran), Loom.",
+    "levelingTips": "No gathering needed; uses cloth drops (Silk, Mageweave, Runecloth). Pairs with Enchanting. Roughly 330-420 crafts to 300.",
+    "notableRecipes": [
+      "Robe of the Archmage",
+      "Robe of the Void",
+      "Truefaith Vestments",
+      "Robe of Winter Night",
+      "Felcloth Hood",
+      "Swarmtender's Footpads",
+      "Faction Banner"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Cooking",
+    "kind": "secondary",
+    "trainers": "Learned through a special quest; cooking trainers in cities",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. 37 new recipes (118 total). Crafted food now gives a small XP bonus plus stat buffs. Cooking makes the campfires: Basic Campfire (3 objects), Journeyman Campfire (5 objects; Blueprint from Lord Serpentis, Wailing Caverns), Expert Campfire (10 objects). Camp items Cookie's Feast (Blueprint from Cookie, The Deadmines) and Iron Oven. Legacy perk Master Chef gives a chance for extra food.",
+    "levelingTips": "Level alongside Fishing; roughly 325-340 crafts to 300.",
+    "notableRecipes": [
+      "Basic Campfire Kit",
+      "Journeyman Campfire Kit",
+      "Expert Campfire Kit",
+      "Cookie's Feast",
+      "Iron Oven"
+    ],
+    "sourceUrl": "https://www.wow-professions.com/forever/camping-guide"
+  },
+  {
+    "name": "First Aid",
+    "kind": "secondary",
+    "trainers": "Learned through a special quest; First Aid trainers in cities",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. Heavily expanded: 8 new recipes (28 total) and the six standard Healing Potions (Minor to Major) moved here from Alchemy. New cures such as Woolen Tourniquet (bleeds) and Simple Poultice (disease). Camp objects: First Aid Kit (Stamina, like Power Word: Fortitude), Toxin Study (Blueprint from Commander Springvale, Shadowfang Keep), Plague Doctor's Laboratory.",
+    "levelingTips": "Bandages still form the core; lets non-Alchemists make their own healing potions. Roughly 375-430 crafts to 300.",
+    "notableRecipes": [
+      "Healing Potions (Minor-Major)",
+      "Woolen Tourniquet",
+      "Simple Poultice",
+      "First Aid Kit",
+      "Anti-Venom"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Fishing",
+    "kind": "secondary",
+    "trainers": "Learned through a special quest; Expert rank comes from a book",
+    "maxSkill": "300",
+    "changes": "Every profession caps at 300 (Apprentice 75 / Journeyman 150 / Expert 225 / Artisan 300). No passive profession combat bonuses; Legacy perks Working Overtime (up to 5 ranks, +4% skill-up chance per the guide) and Dedicated Study (1 rank, daily: +1 skill to your lowest tradeskill, or 2-4 Elemental Essences once all are 300) apply. Legacy perk Luremaster: 25% chance for an extra fish while a lure is active. Camp objects: Fish Bowl (+8% stats, like Blessing of Kings), Fishing Rack (Blueprint from Gelihast, Blackfathom Deeps), Fishing Hut.",
+    "levelingTips": "Pair with Cooking; use lures and fish in progressively higher zones.",
+    "notableRecipes": [
+      "Fish Bowl",
+      "Fishing Rack",
+      "Fishing Hut"
+    ],
+    "sourceUrl": "https://rankedboost.com/world-of-warcraft/forever/professions/"
+  },
+  {
+    "name": "Camping",
+    "kind": "secondary",
+    "trainers": "Not a separate skill: campfires come from Cooking and each profession unlocks its own camp objects (tier 1 at skill 20 from trainers; tiers 2-3 from Blueprint drops in dungeons)",
+    "maxSkill": "",
+    "changes": "New Forever system. Any player can place a campfire; nearby players each add one object from their profession (3/5/10 slots by fire size). Sit about a minute to get one-hour Camp Benefits; buffs are slightly weaker than and do not stack with the class buffs they mirror. Placing an object triggers a one-hour cooldown. Legacy perks Field Guide (shorter cooldown), Reagent Economy (free tier 1 objects) and Permanence (+50% buff duration) improve it.",
+    "levelingTips": "Not leveled on its own; raise your professions to 140 and 300 and hunt Blueprints from dungeon bosses for upgraded objects.",
+    "notableRecipes": [
+      "Basic Campfire Kit",
+      "Journeyman Campfire Kit",
+      "Expert Campfire Kit"
+    ],
+    "sourceUrl": "https://www.wow-professions.com/forever/camping-guide"
+  }
+]

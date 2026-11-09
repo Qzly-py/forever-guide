@@ -1,0 +1,402 @@
+[
+  {
+    "name": "",
+    "family": "Bat",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Sonic Blast (new)",
+      "Bite",
+      "Dive",
+      "Cower"
+    ],
+    "diet": "Fruit, Fungus",
+    "role": "Offensive",
+    "notes": "Sonic Blast does not stack with Curse of Tongues or Mind-numbing Poison; reduces caster effectiveness (PvP utility). Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Bear",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Swipe (new)",
+      "Bite",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fish, Fruit, Fungus, Meat",
+    "role": "Defensive",
+    "notes": "Swipe only autocasts with more than one target. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Bird of Prey",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Mine! (new)",
+      "Claw",
+      "Dive",
+      "Cower"
+    ],
+    "diet": "Fish, Meat",
+    "role": "Offensive",
+    "notes": "Replaces the old Owl family; Mine! disarms the target. Seemeta lists diet as Meat only. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Boar",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Charge",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fish, Fruit, Fungus, Meat",
+    "role": "Defensive",
+    "notes": "Charge only autocasts on Assist after the hunter attacks first. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Carrion Bird",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Demoralizing Screech (updated)",
+      "Bite",
+      "Claw",
+      "Dive",
+      "Cower"
+    ],
+    "diet": "Fish, Meat",
+    "role": "Balanced",
+    "notes": "Screech does not stack with Demoralizing Roar. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Cat",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Prowl",
+      "Bite",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Fish, Meat",
+    "role": "Offensive",
+    "notes": "Recommended leveling/PvE damage pet. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Core Hound",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Lava Breath",
+      "Bite",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Offensive",
+    "notes": "Lava Breath first rank at level 48 per Seemeta. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Crab",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Pinch (new)",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Fish, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Crocolisk",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Dismember (new)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Fish, Meat",
+    "role": "Defensive",
+    "notes": "Dismember reduces healing received (50% per AccountShark); does not stack with Mortal Strike. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Fox",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Trickster's Dance (new)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Fruit, Meat",
+    "role": "Offensive",
+    "notes": "Only brand-new family in Forever; Trickster's Dance raises dodge and attack speed for 12 sec. Seemeta lists diet as Meat only. Family entry: signature ability listed first.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Gorilla",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Thunderstomp",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Hyena",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Tendon Rip (new)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Balanced",
+    "notes": "Seemeta lists diet as Meat, Fruit. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Raptor",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Savage Rend (new)",
+      "Bite",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Offensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Scorpid",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Scorpid Poison (new)",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Defensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Spider",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Web (new)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Offensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Tallstrider",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Dust Cloud (new)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Dust Cloud does not stack with Faerie Fire. Forever's new galestriders belong to this family. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Turtle",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Shell Shield",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Fish, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Wind Serpent",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Lightning Breath",
+      "Bite",
+      "Dive",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fish",
+    "role": "Offensive",
+    "notes": "Lightning Breath is ranged and ignores armor. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "",
+    "family": "Wolf",
+    "levels": "",
+    "where": "",
+    "abilities": [
+      "Furious Howl (updated)",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Meat",
+    "role": "Balanced",
+    "notes": "Furious Howl buffs party melee attack power; does not stack with Battle Shout. Family entry: signature ability listed first.",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/hunter-pet-families/"
+  },
+  {
+    "name": "Broken Tooth",
+    "family": "Cat",
+    "levels": "",
+    "where": "Badlands",
+    "abilities": [
+      "Prowl",
+      "Bite",
+      "Claw",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Fish, Meat",
+    "role": "Offensive",
+    "notes": "Rare spawn (roughly 7-8 hour respawn); prized for PvP thanks to its 1.0 sec attack speed. Level not stated by the Forever source (Classic: 37).",
+    "new": false,
+    "confidence": "confirmed",
+    "sourceUrl": "https://www.warcrafttavern.com/forever/guides/best-hunter-pets/"
+  },
+  {
+    "name": "Fernfeather",
+    "family": "Tallstrider",
+    "levels": "10",
+    "where": "Gustberry Lowlands and Windfield Orchard, Zephras Isle",
+    "abilities": [
+      "Dust Cloud",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Rare galestrider exclusive to Forever.",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Fernfeather"
+  },
+  {
+    "name": "",
+    "family": "Tallstrider",
+    "levels": "",
+    "where": "Zephras Isle",
+    "abilities": [
+      "Dust Cloud",
+      "Bite",
+      "Dash",
+      "Cower"
+    ],
+    "diet": "Bread, Cheese, Fruit, Fungus",
+    "role": "Defensive",
+    "notes": "Galestrider: new Forever creature type, tameable as a Tallstrider (inferred from the rare Fernfeather being a tameable galestrider).",
+    "new": true,
+    "confidence": "confirmed",
+    "sourceUrl": "https://warcraft.wiki.gg/wiki/Fernfeather"
+  }
+]
