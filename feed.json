@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T20:26:28+00:00",
+"updated": "2026-11-09T21:25:28+00:00",
 "news": [
 {
 "date": "2026-11-09",
@@ -23,6 +23,14 @@
 "summary": "Professions are more important than ever in WoW Forever. There’s a ton of new recipes that make crafting professions more attractive. The more utility professions like Engineering and Alchemy have some new fun stuff…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/profession-trainers/",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "Darkmoon Faire Guide",
+"summary": "Come one, come all, and step right up to our Darkmoon Faire guide for WoW Forever! This traveling carnival visits Elwynn Forest and Mulgore on alternating months, bringing a variety of fun activities, collectibles, and…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/darkmoon-faire/",
 "auto": true
 },
 {
