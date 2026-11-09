@@ -489,9 +489,57 @@ def professions():
     save("recipes", out)
 
 
+# ---------------------------------------------------------------- official images: creature renders and icons
+def media():
+    """Creature portraits (hunter pets, mounts, pets) and icons (achievements, talents, professions, classes).
+    Cached in live/media.json; only new ids are fetched unless it's a full refresh."""
+    old = {} if FULL else (load("media") or {})
+    out = {k: dict(old.get(k, {})) for k in ("creature", "achievement", "spell", "profession", "class", "mount", "pet")}
+
+    def asset(path, prefer=("zoom", "icon", "avatar", "inset", "main")):
+        d = get(path) or {}
+        assets = {a.get("key"): a.get("value") for a in d.get("assets", []) if a.get("value")}
+        return next((assets[k] for k in prefer if k in assets), next(iter(assets.values()), ""))
+
+    def fill(kind, ids, path_fmt, prefer=("zoom", "icon")):
+        todo = [i for i in dict.fromkeys(ids) if i and str(i) not in out[kind]]
+        for i, url in zip(todo, pmap(lambda x: asset(path_fmt.format(x), prefer), todo)):
+            out[kind][str(i)] = url or ""
+        print(f"media {kind}: {sum(1 for v in out[kind].values() if v)} images ({len(todo)} new lookups)")
+
+    hp = load("hunterpets").get("entries", [])
+    fill("creature", [e.get("display") for e in hp], "/data/wow/media/creature-display/{}")
+    # mounts and pets: find their creature displays, then render them
+    mounts_ = (get("/data/wow/mount/index") or {}).get("mounts", [])
+    todo = [m["id"] for m in mounts_ if str(m["id"]) not in out["mount"]]
+    for mid, d in zip(todo, pmap(lambda x: get(f"/data/wow/mount/{x}") or {}, todo)):
+        disp = (d.get("creature_displays") or [{}])[0].get("id")
+        out["mount"][str(mid)] = asset(f"/data/wow/media/creature-display/{disp}") if disp else ""
+    print(f"media mount: {sum(1 for v in out['mount'].values() if v)} renders")
+    pets_ = (get("/data/wow/pet/index") or {}).get("pets", [])
+    todo = [p["id"] for p in pets_ if str(p["id"]) not in out["pet"]]
+
+    def pet_render(pid):
+        d = get(f"/data/wow/pet/{pid}") or {}
+        cid = (d.get("creature") or {}).get("id")
+        c = get(f"/data/wow/creature/{cid}") if cid else {}
+        disp = ((c or {}).get("creature_displays") or [{}])[0].get("id")
+        return asset(f"/data/wow/media/creature-display/{disp}") if disp else ""
+    for pid, url in zip(todo, pmap(pet_render, todo)):
+        out["pet"][str(pid)] = url
+    print(f"media pet: {sum(1 for v in out['pet'].values() if v)} renders")
+    fill("achievement", [e["id"] for e in load("achievements").get("entries", [])], "/data/wow/media/achievement/{}", ("icon",))
+    fill("spell", [e.get("spell") for e in load("talents").get("entries", [])], "/data/wow/media/spell/{}", ("icon",))
+    fill("profession", [e["id"] for e in load("professions").get("entries", [])], "/data/wow/media/profession/{}", ("icon",))
+    fill("class", [e["id"] for e in load("classes").get("entries", []) if e.get("kind") == "Class"],
+         "/data/wow/media/playable-class/{}", ("icon",))
+    (LIVE / "media.json").write_text(json.dumps({"updated": NOW.isoformat(timespec="seconds"), **out},
+                                                ensure_ascii=False, separators=(",", ":")))
+
+
 ONLY = {s.strip() for s in os.environ.get("SECTIONS", "").split(",") if s.strip()}
 for fn in (hunterpets, mounts, pets, toys, titles, itemsets, achievements, reputations, classes, talents, quests,
-           professions, items):
+           professions, items, media):
     if not ONLY or fn.__name__ in ONLY:
         section(fn)
 print(f"done: {_calls[0]} API calls, full refresh={FULL}")
