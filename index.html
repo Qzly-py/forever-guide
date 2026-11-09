@@ -431,7 +431,7 @@ const CFG = {
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["reward","Reward"]])+srcLink(it)},
   reputations:{filters:["faction"], sort:(a,b)=>(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:"", tags:tagsFor(it,["faction","group"])}),
-    body:it=>(has(it.howToRaise)?`<p>${esc(it.howToRaise)}</p>`:"")+dlFor(it,[["where","Where"],["keyRewards","Rewards"],["standings","Standings"]])+srcLink(it)},
+    body:it=>(has(it.howToRaise)?`<p>${esc(it.howToRaise)}</p>`:"")+dlFor(it,[["where","Where"],["keyRewards","Rewards"],["standings","Standings"]])+repRewards(it)+srcLink(it)},
   rares:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
     head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind"])}),
     body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["where","Where"],["drops","Drops"]])+srcLink(it)},
@@ -501,6 +501,29 @@ function iconOf(sec,it){
   return "";
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
+
+/* ---------- reputation rewards (items that require a standing) and the quests that raise it ---------- */
+const STANDINGS=["Friendly","Honored","Revered","Exalted"];
+let REPIDX=null;
+function repIndex(){
+  if(REPIDX) return REPIDX; REPIDX=new Map();
+  for(const it of (DATA.items||[])){ if(/^test\b/i.test(it.name||"")) continue;
+    for(const s of arr(it.stats)){ const m=String(s).match(/^Requires (.+?) - (Neutral|Friendly|Honored|Revered|Exalted)$/); if(!m) continue;
+      const k=m[1].toLowerCase(); if(!REPIDX.has(k)) REPIDX.set(k,[]); REPIDX.get(k).push([m[2],it]); } }
+  return REPIDX;
+}
+function repRewards(rep){
+  if(!DATA||!(DATA.items||[]).length) return "";
+  const list=repIndex().get(String(rep.name||"").toLowerCase())||[];
+  const quests=(DATA.quests||[]).map(q=>{ const r=arr(q.reputation).find(x=>String(x).toLowerCase().startsWith(String(rep.name).toLowerCase()+" +")); return r?[+(r.split("+")[1]),q]:null; })
+    .filter(Boolean).sort((a,b)=>b[0]-a[0]);
+  let html="";
+  if(list.length){ html+=`<div class="loot"><h4>Rewards by standing</h4>${STANDINGS.map(st=>{ const xs=list.filter(([s])=>s===st); if(!xs.length) return "";
+    return `<details class="lootboss" open><summary>${st} <span>${xs.length} item${xs.length===1?"":"s"}</span></summary><table><thead><tr><th>Item</th><th>Type</th><th class="num">iLvl</th><th class="num">Price</th></tr></thead><tbody>${
+      xs.map(([,it])=>`<tr><td>${itemLink(it.name)||esc(it.name)}</td><td>${esc([it.slot,it.subclass].filter(Boolean).join(" · "))}</td><td class="num">${it.level||""}</td><td class="num">${esc(it.buyPrice||"")}</td></tr>`).join("")}</tbody></table></details>`; }).join("")}</div>`; }
+  if(quests.length) html+=`<div class="loot"><h4>Quests that give ${esc(rep.name)} reputation · ${quests.length}</h4><div class="rel">${quests.slice(0,40).map(([v,q])=>`<a href="#quests/${encodeURIComponent(keyOf(q))}">${esc(q.name)} <b style="margin-left:4px">+${v}</b></a>`).join("")}</div></div>`;
+  return html;
+}
 
 /* ---------- loot tables for dungeons and raids ---------- */
 function dropChance(it){ for(const s of arr(it.stats)){ const m=String(s).match(/Drop Chance:\s*([\d.]+)%/i); if(m) return +m[1]; } return null; }
@@ -852,7 +875,7 @@ function loadItems(){
       for(const [k,v] of Object.entries(it)) if(has(v)) m[k]=v;
       m.api=true; byId.set(it.id,m);
     }
-    DATA.items=[...byId.values()];
+    DATA.items=[...byId.values()]; REPIDX=null;
     EMPTY.items="The item database couldn't load. Reload the page to try again.";
     for(const k in IDX) delete IDX[k];
     const [id,key]=(location.hash||"#home").slice(1).split("/");
