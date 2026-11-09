@@ -212,6 +212,15 @@ body a.ilink.q-Poor{color:var(--q-poor)!important} body a.ilink.q-Common{color:v
 body a.ilink.q-Rare{color:#3d9bff!important} body a.ilink.q-Epic{color:#c47bff!important} body a.ilink.q-Legendary{color:var(--q-legendary)!important}
 body a.ilink.q-Artifact,body a.ilink.q-Heirloom{color:var(--q-artifact)!important}
 .entrypage.solo{grid-template-columns:1fr!important}
+/* flight map */
+.map.world{aspect-ratio:16/10;background:radial-gradient(ellipse 26% 46% at 24% 50%,rgba(120,90,40,.28),transparent 70%),radial-gradient(ellipse 20% 46% at 76% 50%,rgba(120,90,40,.28),transparent 70%),
+  linear-gradient(rgba(201,154,62,.08) 1px,transparent 1px) 0 0/5% 5%,linear-gradient(90deg,rgba(201,154,62,.08) 1px,transparent 1px) 0 0/5% 5%,#0c1418}
+.fsvg{position:absolute;inset:0;width:100%;height:100%}
+.fsvg .cont{font:700 2.2px var(--f-display);fill:rgba(248,212,122,.35);text-anchor:middle;letter-spacing:.3px}
+.fnode{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;padding:0;border-radius:50%;border:2px solid #000;background:var(--gold);cursor:pointer;z-index:2}
+.fnode span{display:none;position:absolute;left:14px;top:-4px;white-space:nowrap;font:600 12px var(--f-body);color:#fff;text-shadow:0 1px 2px #000,0 0 4px #000;pointer-events:none}
+.fnode:hover span,.fnode.on span,.fnode.sel span{display:block}
+.fnode.on{background:#fff;transform:scale(1.3)} .fnode.sel{background:#3fd03f;transform:scale(1.4)}
 /* quest chains */
 .chain h4{margin:4px 0;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;opacity:.8}
 .chain ol{margin:0;padding-left:22px;display:grid;gap:3px}
@@ -328,6 +337,7 @@ const SECTIONS = [
   {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
   {id:"talentcalc", label:"Talent calculator", title:"Talent calculator"},
   {id:"planner", label:"Levelling planner", title:"Levelling planner"},
+  {id:"flights", label:"Flight map", title:"Flight paths"},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
   {id:"treasures", label:"Treasures & nodes", title:"Treasures, herbs & ore", lede:"Chests, footlockers, crates, herbs and ore veins: where they spawn and what they can contain. Filter by kind to see just herbs or just ore."},
@@ -508,6 +518,69 @@ function iconOf(sec,it){
   return "";
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
+
+/* ---------- flight path network (stylised world layout, my own placement of zones) ---------- */
+const ZPOS={"Teldrassil":[14,8],"Darnassus":[13,7],"Darkshore":[18,19],"Moonglade":[26,10],"Winterspring":[34,15],"Mount Hyjal":[29,19],"Felwood":[24,24],"Azshara":[40,27],"Ashenvale":[24,33],
+  "Stonetalon Mountains":[13,37],"Stonetalon":[13,37],"The Barrens":[28,48],"Barrens":[28,48],"Durotar":[39,43],"Orgrimmar":[38,36],"Mulgore":[21,53],"Thunder Bluff":[18,51],"Desolace":[9,49],"Feralas":[10,67],
+  "Thousand Needles":[25,68],"Dustwallow Marsh":[37,62],"Dustwallow":[37,62],"Theramore":[39,63],"Tanaris":[31,81],"Un'Goro Crater":[20,82],"Un'Goro":[20,82],"Silithus":[10,85],"Shen'dralas":[6,58],"Ratchet":[33,50],"Gadgetzan":[31,79],"Booty Bay":[70,92],
+  "Zephras Isle":[49,9],
+  "Tirisfal Glades":[64,11],"Tirisfal":[64,11],"Undercity":[66,13],"Silverpine Forest":[61,20],"Silverpine":[61,20],"Western Plaguelands":[73,15],"Eastern Plaguelands":[83,12],"Alterac Mountains":[70,21],"Alterac":[70,21],"Dalaran":[68,22],
+  "Hillsbrad Foothills":[70,28],"Hillsbrad":[70,28],"The Hinterlands":[82,23],"Hinterlands":[82,23],"Arathi Highlands":[78,32],"Arathi":[78,32],"Wetlands":[75,40],"Dun Morogh":[70,47],"Ironforge":[72,45],"Loch Modan":[81,45],
+  "Badlands":[83,53],"Searing Gorge":[74,54],"Burning Steppes":[76,60],"Redridge Mountains":[80,65],"Redridge":[80,65],"Riverglades":[88,61],"Elwynn Forest":[70,67],"Elwynn":[70,67],"Stormwind City":[66,64],"Stormwind":[66,64],
+  "Westfall":[63,73],"Duskwood":[70,75],"Deadwind Pass":[78,75],"Swamp of Sorrows":[85,72],"Blasted Lands":[85,82],"Stranglethorn Vale":[70,86],"Stranglethorn":[70,86]};
+function flightGraph(){
+  const nodes=new Map(), edges=[];
+  const parse=s=>{ const m=String(s||"").match(/^(.+?)(?:,\s*([^(]+?))?\s*(?:\(([\d.]+),\s*([\d.]+)\))?$/); return m?{name:m[1].trim(),zone:(m[2]||"").trim(),x:+m[3],y:+m[4]}:null; };
+  const zoneOf_=z=>{ if(!z) return null; if(ZPOS[z]) return z; const k=Object.keys(ZPOS).find(k=>k.toLowerCase().startsWith(z.toLowerCase())||z.toLowerCase().startsWith(k.toLowerCase())); return k||null; };
+  const add=(name,zone,fac,x,y,entry)=>{ const key=name.toLowerCase(); let n=nodes.get(key);
+    if(!n){ n={name,zone:zoneOf_(zone)||zoneOf_(name),fac:new Set(),x,y,entry}; nodes.set(key,n); }
+    if(fac) n.fac.add(fac); if(entry&&!n.entry) n.entry=entry; if(!n.zone) n.zone=zoneOf_(zone); if(x&&!n.x){n.x=x;n.y=y;} return n; };
+  for(const t of (DATA.travel||[]).filter(t=>/flight/i.test(t.kind))){
+    const f=parse(t.from); if(!f) continue; const fac=t.faction||"";
+    const a=add(f.name,f.zone,fac,f.x,f.y,t);
+    for(const part of String(t.to||"").split(/,\s*(?![^()]*\))/)){ const m=part.trim().match(/^(.+?)\s*\(([^)]+)\)$/); const nm_=m?m[1]:part.trim(); if(!nm_) continue;
+      const b=add(nm_,m?m[2]:"",fac); edges.push([a,b,fac]); }
+  }
+  for(const n of nodes.values()){ const p=ZPOS[n.zone]; if(p){ n.px=p[0]+(n.x?(n.x-50)/100*5:0); n.py=p[1]+(n.y?(n.y-50)/100*5:0); } }
+  return {nodes:[...nodes.values()].filter(n=>n.px!=null),edges:edges.filter(([a,b])=>a.px!=null&&b.px!=null)};
+}
+function renderFlights(){
+  const st=state.flights||(state.flights={fac:"",from:"",to:"",sel:""});
+  const G=flightGraph(), main=$("#main");
+  const facOk=f=>!st.fac||!f||f===st.fac||f==="Both"||f==="Neutral";
+  const nodeOk=n=>!st.fac||!n.fac.size||[...n.fac].some(facOk);
+  const opts=G.nodes.filter(nodeOk).sort((a,b)=>a.name.localeCompare(b.name)).map(n=>`<option value="${esc(n.name)}">${esc(n.name)}${n.zone?` (${esc(n.zone)})`:""}</option>`).join("");
+  main.innerHTML=`<h2>Flight paths</h2><p class="lede">Forever's flight network, including the new Riverglades, Mount Hyjal and Zephras Isle routes. The continents are a stylised layout, not the game's map. Click a flight master to highlight its routes, or pick two points to find the route with the fewest hops. Every flight point is plotted; connecting routes are shown where sources list them (so far mainly Forever's new routes), and more will be added.</p>
+    <div class="filters"><select id="ff" aria-label="Faction"><option value="">Both factions</option><option${st.fac==="Alliance"?" selected":""}>Alliance</option><option${st.fac==="Horde"?" selected":""}>Horde</option></select>
+      <select id="fa" aria-label="From"><option value="">From…</option>${opts}</select><select id="fb" aria-label="To"><option value="">To…</option>${opts}</select><span class="count" id="fr"></span></div>
+    <div class="map world" id="fmap"></div><div id="finfo" class="panel parch" style="margin-top:12px;padding:14px 18px;display:none"></div>`;
+  const route=()=>{ if(!st.from||!st.to) return []; const adj=new Map(); for(const [a,b,f] of G.edges) if(facOk(f)){ for(const [x,y] of [[a,b],[b,a]]){ if(!adj.has(x)) adj.set(x,[]); adj.get(x).push(y);} }
+    const A=G.nodes.find(n=>n.name===st.from), B=G.nodes.find(n=>n.name===st.to); if(!A||!B) return [];
+    const prev=new Map([[A,null]]), qq=[A]; while(qq.length){ const c=qq.shift(); if(c===B) break; for(const n of adj.get(c)||[]) if(!prev.has(n)){ prev.set(n,c); qq.push(n);} }
+    if(!prev.has(B)) return []; const p=[]; for(let c=B;c;c=prev.get(c)) p.unshift(c); return p; };
+  const svg=()=>{ const path=route(); const onPath=new Set(path), pe=new Set(path.slice(1).map((n,i)=>path[i].name+"→"+n.name));
+    const E=G.edges.filter(([a,b,f])=>facOk(f)&&nodeOk(a)&&nodeOk(b));
+    const col=f=>f==="Alliance"?"#5a8cff":f==="Horde"?"#ff4b3a":"#e3b448";
+    return `<svg viewBox="0 0 100 100" preserveAspectRatio="none" class="fsvg">
+      <text x="22" y="97" class="cont">KALIMDOR</text><text x="75" y="97" class="cont">EASTERN KINGDOMS</text>
+      ${E.map(([a,b,f])=>{ const hit=pe.has(a.name+"→"+b.name)||pe.has(b.name+"→"+a.name); const sel=st.sel&&(a.name===st.sel||b.name===st.sel);
+        return `<line x1="${a.px}" y1="${a.py}" x2="${b.px}" y2="${b.py}" stroke="${hit?"#fff":col(f)}" stroke-opacity="${hit||sel?1:.35}" vector-effect="non-scaling-stroke" style="stroke-width:${hit?4:sel?3:1.4}px"/>`; }).join("")}
+      </svg>${G.nodes.filter(nodeOk).map(n=>`<button type="button" class="fnode${onPath.has(n)?" on":""}${st.sel===n.name?" sel":""}" style="left:${n.px}%;top:${n.py}%" data-n="${esc(n.name)}" title="${esc(n.name)}${n.zone?" · "+esc(n.zone):""}"><span>${esc(n.name)}</span></button>`).join("")}`; };
+  const draw=()=>{ $("#fmap").innerHTML=svg(); const p=route();
+    $("#fr").textContent=st.from&&st.to?(p.length?`${p.length-1} flight${p.length===2?"":"s"}: ${p.map(n=>n.name).join(" → ")}`:"No connection found in this data"):`${G.nodes.filter(nodeOk).length} flight points`;
+    const info=$("#finfo"); const n=st.sel&&G.nodes.find(x=>x.name===st.sel);
+    if(n){ const links=[...new Set(G.edges.filter(([a,b,f])=>facOk(f)&&(a===n||b===n)).map(([a,b])=>a===n?b:a))]; info.style.display="block";
+      info.innerHTML=`<h3 style="margin:0 0 6px">${esc(n.name)}</h3><p style="margin:0 0 6px">${esc(n.zone||"")}${n.x?` (${n.x}, ${n.y})`:""} · ${[...n.fac].join(", ")||"neutral"}</p>
+        <div class="rel">${links.map(x=>`<a href="#" data-n="${esc(x.name)}">${esc(x.name)}</a>`).join("")}</div>${n.entry&&n.entry.notes?`<p style="margin:8px 0 0">${esc(n.entry.notes)}</p>`:""}`; }
+    else info.style.display="none"; };
+  main.querySelector("#ff").onchange=e=>{ st.fac=e.target.value; renderFlights(); };
+  main.querySelector("#fa").value=st.from; main.querySelector("#fb").value=st.to;
+  main.querySelector("#fa").onchange=e=>{ st.from=e.target.value; draw(); };
+  main.querySelector("#fb").onchange=e=>{ st.to=e.target.value; draw(); };
+  main.querySelector("#fmap").addEventListener("click",e=>{ const b=e.target.closest("[data-n]"); if(!b) return; st.sel=st.sel===b.dataset.n?"":b.dataset.n; draw(); });
+  main.querySelector("#finfo").addEventListener("click",e=>{ const b=e.target.closest("[data-n]"); if(!b) return; e.preventDefault(); st.sel=b.dataset.n; draw(); });
+  draw();
+}
 
 /* ---------- quest chains ---------- */
 function questByName(name,ref){ /* same-named quests exist per faction: prefer the one matching the current quest */
@@ -903,6 +976,7 @@ function route(){
   document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
   if(DATA&&key&&CFG[id]&&!q){ const it=findEntry(id,key); if(it) return renderEntry(id,it); }
   if(DATA&&id==="planner"&&!q) return renderPlanner();
+  if(DATA&&id==="flights"&&!q) return renderFlights();
   if(DATA&&id==="talentcalc"&&!q){ const p=(location.hash||"").slice(1).split("/"); return renderCalc(decodeURIComponent(p[1]||""),p[2]||"",p[3]); }
   if(!DATA) return;
   if(q.length>=2) return renderSearch(q);
@@ -910,7 +984,7 @@ function route(){
 }
 
 const NAVGROUPS=[["Start",["home","news","guides","planner","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
-  ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","instances","rares","treasures","travel","services","reputations","events","pvp"]],
+  ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","flights","instances","rares","treasures","travel","services","reputations","events","pvp"]],
   ["Characters",["classes","talentcalc","talents"]]];
 { const used=new Set(NAVGROUPS.flatMap(g=>g[1])); const rest=SECTIONS.filter(s=>!used.has(s.id)).map(s=>s.id);
   const link=id=>{const s=SECTIONS.find(x=>x.id===id); return s?`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`:"";};
