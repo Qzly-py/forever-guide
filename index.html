@@ -212,6 +212,12 @@ body a.ilink.q-Poor{color:var(--q-poor)!important} body a.ilink.q-Common{color:v
 body a.ilink.q-Rare{color:#3d9bff!important} body a.ilink.q-Epic{color:#c47bff!important} body a.ilink.q-Legendary{color:var(--q-legendary)!important}
 body a.ilink.q-Artifact,body a.ilink.q-Heirloom{color:var(--q-artifact)!important}
 .entrypage.solo{grid-template-columns:1fr!important}
+/* quest chains */
+.chain h4{margin:4px 0;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.chain ol{margin:0;padding-left:22px;display:grid;gap:3px}
+.chain li.me{font-weight:700}
+.chain .lvl{font:500 11px var(--f-data);opacity:.7;margin-left:4px}
+#plist .lootboss{background:linear-gradient(var(--parch),var(--parch-2));color:var(--ink)} #plist a{color:#7a1d0e}
 /* loot tables */
 .loot h4{margin:6px 0;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;opacity:.8}
 .lootboss{margin:0 0 8px;border:1px solid rgba(122,90,34,.5);border-radius:5px;overflow:hidden}
@@ -321,6 +327,7 @@ const SECTIONS = [
   {id:"recipes", label:"Recipes", title:"Recipes", lede:"Profession recipes, camp objects and blueprints, with what they make, the materials and where to learn each one."},
   {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
   {id:"talentcalc", label:"Talent calculator", title:"Talent calculator"},
+  {id:"planner", label:"Levelling planner", title:"Levelling planner"},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
   {id:"treasures", label:"Treasures & nodes", title:"Treasures, herbs & ore", lede:"Chests, footlockers, crates, herbs and ore veins: where they spawn and what they can contain. Filter by kind to see just herbs or just ore."},
@@ -502,6 +509,54 @@ function iconOf(sec,it){
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
 
+/* ---------- quest chains ---------- */
+function questByName(name,ref){ /* same-named quests exist per faction: prefer the one matching the current quest */
+  const all=(DATA.quests||[]).filter(q=>String(q.name).toLowerCase()===String(name||"").toLowerCase()); if(!all.length) return null;
+  return all.find(q=>q.faction===ref.faction&&q.zone===ref.zone)||all.find(q=>!q.faction||!ref.faction||q.faction===ref.faction)||all[0];
+}
+function chainHTML(q){
+  const back=[], fwd=[], seen=new Set([q]);
+  let cur=q; for(let i=0;i<25;i++){ const p=arr(cur.after)[0]; const pq=p&&questByName(p,cur); if(!pq||seen.has(pq)) break; seen.add(pq); back.unshift(pq); cur=pq; }
+  cur=q; for(let i=0;i<25;i++){ const nq=cur.leadsTo&&questByName(cur.leadsTo,cur); if(!nq||seen.has(nq)) break; seen.add(nq); fwd.push(nq); cur=nq; }
+  const opens=(DATA.quests||[]).filter(x=>!seen.has(x)&&arr(x.after).includes(q.name)&&(!x.faction||!q.faction||x.faction===q.faction)).slice(0,12);
+  const extra=arr(q.after).slice(1).map(n=>questByName(n,q)).filter(Boolean);
+  if(!back.length&&!fwd.length&&!extra.length&&!opens.length) return "";
+  if(!back.length&&!fwd.length) return `<div class="chain">${extra.length?`<p style="margin:4px 0 0">Needs: ${extra.map(x=>`<a href="#quests/${encodeURIComponent(keyOf(x))}">${esc(x.name)}</a>`).join(", ")}</p>`:""}${opens.length?`<p style="margin:4px 0 0">Opens up: ${opens.map(x=>`<a href="#quests/${encodeURIComponent(keyOf(x))}">${esc(x.name)}</a>`).join(", ")}</p>`:""}</div>`;
+  const step=(x,me)=>`<li class="${me?"me":""}">${me?`<b>${esc(x.name)}</b>`:`<a href="#quests/${encodeURIComponent(keyOf(x))}">${esc(x.name)}</a>`}${x.level?` <span class="lvl">${x.level}</span>`:""}${x.zone&&x.zone!==q.zone?` <span class="lvl">${esc(x.zone)}</span>`:""}</li>`;
+  return `<div class="chain"><h4>Quest chain · ${back.length+fwd.length+1} steps</h4><ol>${back.map(x=>step(x)).join("")}${step(q,true)}${fwd.map(x=>step(x)).join("")}</ol>
+    ${extra.length?`<p style="margin:4px 0 0">Also needs: ${extra.map(x=>`<a href="#quests/${encodeURIComponent(keyOf(x))}">${esc(x.name)}</a>`).join(", ")}</p>`:""}
+    ${opens.length?`<p style="margin:4px 0 0">Also opens up: ${opens.map(x=>`<a href="#quests/${encodeURIComponent(keyOf(x))}">${esc(x.name)}</a>`).join(", ")}</p>`:""}</div>`;
+}
+const qLvl=q=>+q.level||(lvMin(q.levels)<999?lvMin(q.levels):0)||+q.reqLevel||0;
+
+/* ---------- levelling planner ---------- */
+function renderPlanner(){
+  const st=state.planner||(state.planner={fac:"Alliance",lo:1,hi:10,hide:false});
+  let done; try{ done=new Set(JSON.parse(localStorage.getItem("fg-quests-done")||"[]")); }catch(e){ done=new Set(); }
+  const save=()=>{ try{ localStorage.setItem("fg-quests-done",JSON.stringify([...done])); }catch(e){} };
+  const main=$("#main");
+  main.innerHTML=`<h2>Levelling planner</h2><p class="lede">Every quest for your faction in a level range, grouped by zone and sorted by level, with quest givers and map coordinates. Tick quests off as you go: progress is saved in this browser.</p>
+    <div class="filters"><select id="pf" aria-label="Faction"><option${st.fac==="Alliance"?" selected":""}>Alliance</option><option${st.fac==="Horde"?" selected":""}>Horde</option></select>
+      <label class="toggle">Levels <input id="plo" type="number" min="1" max="60" value="${st.lo}" style="width:48px;background:transparent;border:0;color:inherit"> to <input id="phi" type="number" min="1" max="60" value="${st.hi}" style="width:48px;background:transparent;border:0;color:inherit"></label>
+      <label class="toggle"><input type="checkbox" id="phide"${st.hide?" checked":""}> Hide done</label><span class="count" id="pcount"></span></div><div id="plist"></div>`;
+  const draw=()=>{
+    const qs=(DATA.quests||[]).filter(q=>{ const L=qLvl(q); return L&&L>=st.lo&&L<=st.hi&&(!q.faction||q.faction===st.fac)&&q.zone&&q.zone!=="Starting zone"&&!q.repeatable; });
+    const byZone=new Map(); for(const q of qs){ if(!byZone.has(q.zone)) byZone.set(q.zone,[]); byZone.get(q.zone).push(q); }
+    const zones=[...byZone.entries()].map(([z,l])=>[z,l.sort((a,b)=>qLvl(a)-qLvl(b)||String(a.name).localeCompare(b.name))]).sort((a,b)=>qLvl(a[1][0])-qLvl(b[1][0])||b[1].length-a[1].length);
+    $("#pcount").textContent=`${qs.filter(q=>done.has(keyOf(q))).length} / ${qs.length} done`;
+    $("#plist").innerHTML=zones.map(([z,l])=>{ const vis=l.filter(q=>!st.hide||!done.has(keyOf(q))); if(!vis.length) return "";
+      return `<details class="lootboss" open><summary>${esc(z)} <span>${l.filter(q=>done.has(keyOf(q))).length}/${l.length} · Lv ${qLvl(l[0])}-${qLvl(l[l.length-1])}</span></summary><table><tbody>${vis.map(q=>`<tr>
+        <td style="width:34px"><input type="checkbox" data-q="${esc(keyOf(q))}"${done.has(keyOf(q))?" checked":""} aria-label="Done"></td>
+        <td class="num" style="width:34px">${qLvl(q)||""}</td><td><a href="#quests/${encodeURIComponent(keyOf(q))}">${esc(q.name)}</a></td><td style="opacity:.8">${esc(String(q.startsAt||"").split(";")[0])}</td></tr>`).join("")}</tbody></table></details>`; }).join("")||`<div class="empty">No quests in that range yet.</div>`;
+  };
+  main.querySelector("#pf").onchange=e=>{ st.fac=e.target.value; draw(); };
+  main.querySelector("#plo").onchange=e=>{ st.lo=Math.max(1,Math.min(60,+e.target.value||1)); draw(); };
+  main.querySelector("#phi").onchange=e=>{ st.hi=Math.max(1,Math.min(60,+e.target.value||60)); draw(); };
+  main.querySelector("#phide").onchange=e=>{ st.hide=e.target.checked; draw(); };
+  main.querySelector("#plist").addEventListener("change",e=>{ const k=e.target.dataset.q; if(!k) return; e.target.checked?done.add(k):done.delete(k); save(); draw(); });
+  draw();
+}
+
 /* ---------- reputation rewards (items that require a standing) and the quests that raise it ---------- */
 const STANDINGS=["Friendly","Honored","Revered","Exalted"];
 let REPIDX=null;
@@ -617,7 +672,7 @@ function related(sec,it){
   }
   if(sec==="hunterpets"&&it.family){ b.push(relBlock(`More from the ${it.family} family`,cap(same("hunterpets",x=>x.family===it.family&&x.name)).map(x=>lk(sec,x))));
     if(z) b.push(relBlock(`Other beasts in ${z}`,cap(same("hunterpets",x=>x.name&&zoneOf(x)===z)).map(x=>lk(sec,x)))); }
-  if(sec==="quests"){ b.push(relBlock("Complete first",arr(it.after).map(n=>lkName("quests",n))), relBlock("Leads to",[lkName("quests",it.leadsTo)]),
+  if(sec==="quests"){ b.push(chainHTML(it),
       relBlock("Item rewards",arr(it.rewardItems).map(n=>lkName("items",n)))); if(z) b.push(relBlock(`More quests in ${z}`,cap(same("quests",x=>zoneOf(x)===z),18).map(x=>lk(sec,x)))); }
   if(sec==="items"){ const n=String(it.name||"");
     b.push(relBlock("Rewarded by",cap(same("quests",x=>arr(x.rewardItems).includes(n))).map(x=>lk("quests",x))),
@@ -847,13 +902,14 @@ function route(){
   let [id,key]=(location.hash||"#home").slice(1).split("/"); key=key?decodeURIComponent(key):""; if(!SECTIONS.some(s=>s.id===id)) id="home";
   document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
   if(DATA&&key&&CFG[id]&&!q){ const it=findEntry(id,key); if(it) return renderEntry(id,it); }
+  if(DATA&&id==="planner"&&!q) return renderPlanner();
   if(DATA&&id==="talentcalc"&&!q){ const p=(location.hash||"").slice(1).split("/"); return renderCalc(decodeURIComponent(p[1]||""),p[2]||"",p[3]); }
   if(!DATA) return;
   if(q.length>=2) return renderSearch(q);
   if(id==="home") renderHome(); else if(id==="systems") renderSystems(); else renderList(id);
 }
 
-const NAVGROUPS=[["Start",["home","news","guides","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
+const NAVGROUPS=[["Start",["home","news","guides","planner","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
   ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","instances","rares","treasures","travel","services","reputations","events","pvp"]],
   ["Characters",["classes","talentcalc","talents"]]];
 { const used=new Set(NAVGROUPS.flatMap(g=>g[1])); const rest=SECTIONS.filter(s=>!used.has(s.id)).map(s=>s.id);
@@ -923,7 +979,7 @@ function loadLive(){
     DATA.treasures=L.treasures.map(e=>({...e,_live:true}));
     MEDIA=res[LIVE_FILES.length]||{}; for(const k in IDX) delete IDX[k];
     const [id,key]=(location.hash||"#home").slice(1).split("/");
-    if($("#q").value.trim().length>=2||key||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services","treasures"].includes(id)) route();
+    if($("#q").value.trim().length>=2||key||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services","treasures","planner","talentcalc"].includes(id)) route();
   });
 }
 Promise.all([
