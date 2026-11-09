@@ -207,6 +207,15 @@ details.entry[open] .body .chips span{background:rgba(255,255,255,.35);border-co
 .rel a img{width:20px;height:20px;border-radius:50%;object-fit:cover;background:#2b1c0c}
 .rel a:hover{background:rgba(255,255,255,.65)}
 .permalink{font-size:13px}
+/* collection tracker */
+.colbtn{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--gold-3);background:#0d0a07;color:transparent;font-weight:700;cursor:pointer;margin-left:8px;align-self:center}
+.colbtn:hover{color:#6b5a3a}
+.colbtn.on{background:radial-gradient(#3fd03f,#1a7a1a);border-color:#9aff9a;color:#fff;text-shadow:0 1px 0 #000}
+.row1{align-items:center}
+.progress{margin:0 0 14px}
+.bar{position:relative;height:26px;border:1px solid var(--gold-3);border-radius:4px;background:#0d0a07;overflow:hidden;box-shadow:var(--frame)}
+.bar i{position:absolute;inset:0 auto 0 0;background:linear-gradient(#3a8a2a,#1d5a14);border-right:1px solid #9aff9a}
+.bar span{position:relative;display:block;text-align:center;font:600 13px/26px var(--f-data);color:#fff;text-shadow:0 1px 0 #000}
 /* talent calculator */
 .calc{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .tree{background:linear-gradient(#1d1610,#100c08);border:1px solid var(--gold-3);border-radius:var(--r);box-shadow:var(--frame);padding:12px}
@@ -478,6 +487,18 @@ function iconOf(sec,it){
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
 
+/* ---------- collection tracker (saved in this browser only) ---------- */
+const COLLECT={mounts:"collected",pets:"collected",collectibles:"collected",achievements:"earned",hunterpets:"tamed",legacy:"done",treasures:"looted",rares:"killed"};
+const colCache={};
+function colSet(sec){ if(!colCache[sec]){ let a=[]; try{ a=JSON.parse(localStorage.getItem("fg-col-"+sec)||"[]"); }catch(e){} colCache[sec]=new Set(a); } return colCache[sec]; }
+function colToggle(sec,key){ const s=colSet(sec); s.has(key)?s.delete(key):s.add(key); try{ localStorage.setItem("fg-col-"+sec,JSON.stringify([...s])); }catch(e){}
+  document.querySelectorAll(`.colbtn[data-sec="${sec}"][data-key="${CSS.escape(key)}"]`).forEach(b=>{ b.classList.toggle("on",s.has(key)); b.setAttribute("aria-pressed",s.has(key)); });
+  if(COLH) COLH(); }
+let COLH=null;
+const colBtn=(sec,it)=>{ if(!COLLECT[sec]||!it.name) return ""; const k=keyOf(it), on=colSet(sec).has(k);
+  return `<button type="button" class="colbtn${on?" on":""}" data-sec="${sec}" data-key="${esc(k)}" aria-pressed="${on}" title="Mark as ${esc(COLLECT[sec])}">✓</button>`; };
+document.addEventListener("click",e=>{ const b=e.target.closest(".colbtn"); if(!b) return; e.preventDefault(); e.stopPropagation(); colToggle(b.dataset.sec,b.dataset.key); },true);
+
 /* ---------- item links + WoW-style tooltips ---------- */
 function itemLink(name,chip){
   if(!DATA||!DATA.items||!DATA.items.length||typeof name!=="string") return "";
@@ -649,7 +670,7 @@ function renderEntry(sec,it){
   const pic=imgOf(sec,it), icon=iconOf(sec,it), z=sec==="zones"?it.name:zoneOf(it);
   const map=z?mapHTML(z,sec==="zones"?null:it):"";
   $("#main").innerHTML=`<p class="eyebrow" style="margin:0 0 6px"><a href="#${sec}">${esc(meta.label||sec)}</a> ›</p>
-    <h2 class="${h.cls||""}">${icon&&!pic?`<img class="ico" src="${esc(icon)}" alt="" style="width:36px;height:36px;vertical-align:-6px">`:""}${esc(h.title)}</h2>
+    <h2 class="${h.cls||""}">${icon&&!pic?`<img class="ico" src="${esc(icon)}" alt="" style="width:36px;height:36px;vertical-align:-6px">`:""}${esc(h.title)} ${colBtn(sec,it)}</h2>
     ${h.tags?`<div class="tags" style="margin:10px 0 16px">${h.tags}${h.right?`<span class="tag">${esc(h.right)}</span>`:""}</div>`:""}
     <div class="entrypage">
       <div class="panel parch" style="padding:20px 22px;display:grid;gap:14px">${CFG[sec].body(it)}${whLink(sec,it)}${related(sec,it)}</div>
@@ -662,7 +683,7 @@ function entryHTML(sec,it){
   const h=CFG[sec].head(it);
   const pic=imgOf(sec,it), icon=pic?"":(h.icon||iconOf(sec,it));
   const thumb=pic?`<img class="thumb" src="${esc(pic)}" alt="" loading="lazy">`:"";
-  return `<details class="entry" data-sec="${sec}" data-key="${esc(keyOf(it))}"><summary><div class="row0">${thumb}<div><div class="row1"><h3 class="${h.cls||""}">${icon?`<img class="ico" src="${esc(icon)}" alt="" loading="lazy" width="22" height="22">`:""}${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</div></div></summary><div class="body">${CFG[sec].body(it)}${whLink(sec,it)} <a class="permalink" href="#${sec}/${encodeURIComponent(keyOf(it))}">Full page →</a></div></details>`;
+  return `<details class="entry" data-sec="${sec}" data-key="${esc(keyOf(it))}"><summary><div class="row0">${thumb}<div><div class="row1"><h3 class="${h.cls||""}">${icon?`<img class="ico" src="${esc(icon)}" alt="" loading="lazy" width="22" height="22">`:""}${esc(h.title)}</h3>${h.right?`<span class="lv">${esc(h.right)}</span>`:""}${colBtn(sec,it)}</div>${h.tags?`<div class="tags">${h.tags}</div>`:""}</div></div></summary><div class="body">${CFG[sec].body(it)}${whLink(sec,it)} <a class="permalink" href="#${sec}/${encodeURIComponent(keyOf(it))}">Full page →</a></div></details>`;
 }
 
 function renderList(sec){
@@ -672,20 +693,27 @@ function renderList(sec){
   const filt=cfg.filters.map(k=>{const o=opts(k); if(o.length<2) return "";
     const PL={class:"classes",spec:"specs",sub:"subcategories",rank:"ranks",family:"families",category:"categories",quality:"qualities",itemClass:"item types",slot:"slots",source:"sources",faction:"factions",kind:"kinds",type:"types",zone:"zones",continent:"continents",profession:"professions"};
     return `<select data-k="${k}" aria-label="Filter by ${k}"><option value="">All ${PL[k]||k+"s"}</option>${o.map(v=>`<option${st[k]===v?" selected":""}>${esc(v)}</option>`).join("")}</select>`;}).join("");
-  const anyNew=all.some(i=>i.new);
+  const anyNew=all.some(i=>i.new), col=COLLECT[sec];
   $("#main").innerHTML=`<h2>${esc(meta.title||meta.label)}</h2>${meta.lede?`<p class="lede">${esc(meta.lede)}</p>`:""}
-    <div class="filters">${filt}${anyNew?`<label class="toggle"><input type="checkbox" id="newOnly"${st.newOnly?" checked":""}> New in Forever only</label>`:""}<span class="count" id="count"></span></div>
+    ${col?`<div class="progress" id="progress"></div>`:""}
+    <div class="filters">${filt}${col?`<select id="colf" aria-label="Collection filter"><option value="">All (${esc(col)})</option><option value="have"${st.col==="have"?" selected":""}>Only ${esc(col)}</option><option value="need"${st.col==="need"?" selected":""}>Only not ${esc(col)}</option></select>`:""}${anyNew?`<label class="toggle"><input type="checkbox" id="newOnly"${st.newOnly?" checked":""}> New in Forever only</label>`:""}<span class="count" id="count"></span></div>
     <div class="split"><div class="list" id="list"></div>${PANE}</div>`;
   const draw=()=>{
-    const q=$("#q").value.trim().toLowerCase();
-    const items=all.filter(it=>cfg.filters.every(k=>!st[k]||it[k]===st[k]) && (!st.newOnly||it.new) && (!q||flat(it).includes(q)));
+    const q=$("#q").value.trim().toLowerCase(), have=colSet(sec);
+    const items=all.filter(it=>cfg.filters.every(k=>!st[k]||it[k]===st[k]) && (!st.newOnly||it.new) && (!q||flat(it).includes(q))
+      && (!st.col||(st.col==="have")===have.has(keyOf(it))));
     $("#count").textContent=`${items.length} of ${all.length}`;
+    if(col){ const n=all.filter(it=>have.has(keyOf(it))).length, pct=all.length?Math.round(n/all.length*100):0;
+      $("#progress").innerHTML=`<div class="bar"><i style="width:${pct}%"></i><span>${n} / ${all.length} ${esc(col)} · ${pct}%</span></div>`; }
     if(items.length) paged($("#list"), sec, items);
     else $("#list").innerHTML=`<div class="empty">${all.length?"Nothing matches those filters.":(EMPTY[sec]||"No entries yet. The next refresh will add them as sources confirm them.")}</div>`;
     selectFirst();
   };
   $("#main").querySelectorAll("select").forEach(s=>s.onchange=()=>{st[s.dataset.k]=s.value;draw();});
   const n=$("#newOnly"); if(n) n.onchange=()=>{st.newOnly=n.checked;draw();};
+  const cf=$("#colf"); if(cf) cf.onchange=()=>{st.col=cf.value;draw();};
+  COLH=(()=>{ if(st.col) draw(); else { const have=colSet(sec), n=all.filter(it=>have.has(keyOf(it))).length, pct=all.length?Math.round(n/all.length*100):0;
+    const p=$("#progress"); if(p) p.innerHTML=`<div class="bar"><i style="width:${pct}%"></i><span>${n} / ${all.length} ${esc(col)} · ${pct}%</span></div>`; } });
   draw();
 }
 
@@ -758,6 +786,7 @@ function renderSystems(){
 }
 
 function route(){
+  COLH=null;
   const q=$("#q").value.trim();
   let [id,key]=(location.hash||"#home").slice(1).split("/"); key=key?decodeURIComponent(key):""; if(!SECTIONS.some(s=>s.id===id)) id="home";
   document.querySelectorAll("#nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.id===id&&!q?"page":"false"));
