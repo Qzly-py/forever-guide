@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 * * * *"   # news every hour
   workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Re-download every Blizzard detail (slow)"
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -29,26 +34,33 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Rebuild the written guide (data.json)
+        run: python build.py
+
       - name: Pull latest news
         run: python scripts/update_feed.py
 
-      - name: Pull every item from Blizzard (once a day, or when run by hand)
+      - name: Pull everything from Blizzard (once a day, or when run by hand)
+        if: github.event_name != 'push'
+        timeout-minutes: 90
         env:
           BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
           BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+          FULL_REFRESH: ${{ github.event.inputs.full_refresh == 'true' && '1' || '' }}
         run: |
           HOUR=$(date -u +%H)
-          if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ] || [ ! -f items.json ]; then
-            python scripts/update_items.py
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$HOUR" = "05" ] || [ ! -f live/quests.json ]; then
+            python scripts/update_blizzard.py
           else
-            echo "Items refresh runs at 05:xx UTC; skipping this hour."
+            echo "Blizzard refresh runs at 05:xx UTC; skipping this hour."
           fi
 
       - name: Save updates to the repository
         run: |
           git config user.name "guide-updater"
           git config user.email "actions@users.noreply.github.com"
-          git add feed.json items.json 2>/dev/null || true
+          git pull --rebase -q || true
+          git add data.json feed.json items.json live 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Automatic update $(date -u +%Y-%m-%dT%H:%MZ)"
           git push || true
 
