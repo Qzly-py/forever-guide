@@ -207,6 +207,20 @@ details.entry[open] .body .chips span{background:rgba(255,255,255,.35);border-co
 .rel a img{width:20px;height:20px;border-radius:50%;object-fit:cover;background:#2b1c0c}
 .rel a:hover{background:rgba(255,255,255,.65)}
 .permalink{font-size:13px}
+/* item links and in-game style tooltips */
+a.ilink{text-decoration:none;font-weight:500;display:inline-flex;align-items:center;gap:5px;text-shadow:0 1px 0 rgba(0,0,0,.6)}
+a.ilink img{width:18px;height:18px;border-radius:3px;border:1px solid #000;box-shadow:0 0 0 1px var(--gold-3)}
+a.ilink:hover{text-decoration:underline}
+a.ilink.chip{font-size:13px;padding:2px 8px 2px 3px;border-radius:999px;border:1px solid #3a2c18;background:#100c08}
+.parch a.ilink,.pane .body a.ilink,details.entry[open] .body a.ilink{background:#1b140d;border-color:#000;text-shadow:none}
+.parch a.ilink:not(.chip),.pane .body a.ilink:not(.chip),details.entry[open] .body a.ilink:not(.chip){padding:1px 6px 1px 2px;border-radius:4px}
+.wtt{position:fixed;z-index:50;display:none;max-width:340px;min-width:220px;pointer-events:none;padding:9px 11px;font:14px/1.45 var(--f-body);color:#fff;
+  background:linear-gradient(rgba(8,10,28,.97),rgba(4,5,16,.97));border:1px solid #9aa0b8;border-radius:5px;box-shadow:0 0 0 1px #000,0 6px 18px rgba(0,0,0,.7)}
+.wtt-name{font-size:16px;font-weight:700;margin-bottom:2px}
+.wtt-ilvl{color:#ffd100}
+.wtt-row{display:flex;justify-content:space-between;gap:16px}
+.wtt-green{color:#1eff00} .wtt-flavor{color:#ffd100} .wtt-set{color:#ffd100;margin-top:4px} .wtt-sell{color:#fff;margin-top:4px} .wtt-src{color:#9aa0b8;font-size:12px;margin-top:4px}
+.wtt .q-Common{color:#fff} .wtt .q-Poor{color:#9d9d9d}
 .entrypage{display:grid;gap:16px}
 .entrypage .panel.parch{border-color:var(--ink-line)}
 @media (min-width:1100px){ .entrypage{grid-template-columns:minmax(0,1.35fr) minmax(360px,1fr);align-items:start} }
@@ -298,8 +312,10 @@ const dlFor = (it, pairs)=>{
   const rows = pairs.filter(([k])=>has(it[k])).map(([k,label])=>{
     const v=it[k];
     const OL=["steps","rotation","statPriority","route","strategy"], UL=["bossLoot","tips","bonuses","standings","racials","books","bestRaces","keyGear","reputation"];
-    const list=(tag)=>`<${tag} class="plain" style="margin:0;padding-left:18px">${arr(v).map(x=>`<li>${esc(x)}</li>`).join("")}</${tag}>`;
-    const val = (OL.includes(k)&&Array.isArray(v))?list("ol"):(UL.includes(k)&&Array.isArray(v))?list("ul"):Array.isArray(v)?`<div class="chips">${arr(v).map(x=>`<span>${esc(x)}</span>`).join("")}</div>`:esc(v);
+    const line=x=>{ const m=k==="bossLoot"&&String(x).match(/^([^:]+):\s*(.+)$/);
+      return m?`${esc(m[1])}: ${m[2].split(/,\s*/).map(n=>itemLink(n)||esc(n)).join(", ")}`:(itemLink(x)||esc(x)); };
+    const list=(tag)=>`<${tag} class="plain" style="margin:0;padding-left:18px">${arr(v).map(x=>`<li>${line(x)}</li>`).join("")}</${tag}>`;
+    const val = (OL.includes(k)&&Array.isArray(v))?list("ol"):(UL.includes(k)&&Array.isArray(v))?list("ul"):Array.isArray(v)?`<div class="chips">${arr(v).map(x=>itemLink(x,true)||`<span>${esc(x)}</span>`).join("")}</div>`:esc(v);
     return `<dt>${label}</dt><dd>${val}</dd>`;}).join("");
   return rows?`<dl>${rows}</dl>`:"";
 };
@@ -445,6 +461,52 @@ function iconOf(sec,it){
   return "";
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
+
+/* ---------- item links + WoW-style tooltips ---------- */
+function itemLink(name,chip){
+  if(!DATA||!DATA.items||!DATA.items.length||typeof name!=="string") return "";
+  const it=byName("items").get(name.replace(/^\d+x\s+/,"").trim().toLowerCase()); if(!it) return "";
+  const q=it.quality||"Common";
+  return `<a class="ilink q-${esc(q)}${chip?" chip":""}" href="#items/${encodeURIComponent(keyOf(it))}" data-item="${esc(keyOf(it))}">${it.icon?`<img src="${esc(it.icon)}" alt="" loading="lazy">`:""}${esc(name)}</a>`;
+}
+function tooltipHTML(it){
+  const q=it.quality||"Common", lines=arr(it.stats);
+  const green=s=>/^(Use|Equip|Chance on hit):/i.test(s), quote=s=>/^“/.test(s);
+  const first=[], rest=[], drop=[], seen=new Set([String(it.slot||"").toLowerCase(),String(it.subclass||"").toLowerCase()]);
+  for(const s of lines){ const l=String(s).toLowerCase(); if(seen.has(l)) continue; seen.add(l);
+    if(/^requires level/i.test(s)&&it.reqLevel) continue;
+    if(/^(dropped by|drop chance|sold by|contained in)/i.test(s)){ drop.push(s); continue; }
+    (/^(Binds|Unique|Soulbound|Quest Item)/i.test(s)?first:rest).push(s); }
+  const row=(l,r)=>(l||r)?`<div class="wtt-row"><span>${esc(l||"")}</span><span>${esc(r||"")}</span></div>`:"";
+  return `<div class="wtt-name q-${esc(q)}">${esc(it.name)}</div>
+    ${it.level?`<div class="wtt-ilvl">Item Level ${esc(it.level)}</div>`:""}
+    ${first.map(s=>`<div>${esc(s)}</div>`).join("")}
+    ${row(it.slot,it.subclass!==it.slot?it.subclass:"")}
+    ${rest.map(s=>`<div class="${green(s)?"wtt-green":quote(s)?"wtt-flavor":""}">${esc(s)}</div>`).join("")}
+    ${it.durability?`<div>${esc(it.durability)}</div>`:""}
+    ${it.reqLevel?`<div>Requires Level ${esc(it.reqLevel)}</div>`:""}
+    ${it.set?`<div class="wtt-set">Part of: ${esc(it.set)}</div>`:""}
+    ${it.sellPrice?`<div class="wtt-sell">Sell Price: ${esc(it.sellPrice)}</div>`:""}
+    ${drop.map(s=>`<div class="wtt-src">${esc(s)}</div>`).join("")}
+    ${it.source&&!drop.length?`<div class="wtt-src">Source: ${esc(it.source)}</div>`:""}`;
+}
+let TT;
+function showTT(el,ev){
+  const key=el.dataset.item||decodeURIComponent((el.getAttribute("href")||"").split("/")[1]||"");
+  const it=key&&findEntry("items",key); if(!it) return;
+  TT=TT||document.body.appendChild(Object.assign(document.createElement("div"),{className:"wtt",role:"tooltip"}));
+  TT.innerHTML=tooltipHTML(it); TT.style.display="block"; moveTT(ev);
+}
+function moveTT(ev){ if(!TT||TT.style.display!=="block") return; const pad=16, w=TT.offsetWidth, h=TT.offsetHeight;
+  let x=ev.clientX+pad, y=ev.clientY+pad; if(x+w>innerWidth-8) x=ev.clientX-w-pad; if(y+h>innerHeight-8) y=Math.max(8,innerHeight-h-8);
+  TT.style.left=x+"px"; TT.style.top=y+"px"; }
+const hideTT=()=>{ if(TT) TT.style.display="none"; };
+if(matchMedia("(hover:hover)").matches){
+  document.addEventListener("mouseover",e=>{ const a=e.target.closest('[data-item],a[href^="#items/"],#main details.entry[data-sec="items"]>summary');
+    if(!a) return hideTT(); if(a.tagName==="SUMMARY"){ const d=a.parentElement; return showTT({dataset:{item:d.dataset.key}},e); } showTT(a,e); });
+  document.addEventListener("mousemove",moveTT);
+  window.addEventListener("scroll",hideTT,{passive:true});
+}
 
 /* ---------- Related: links between sections ---------- */
 const lk=(sec,it)=>{ if(!it) return ""; const p=imgOf(sec,it)||iconOf(sec,it); return `<a href="#${sec}/${encodeURIComponent(keyOf(it))}">${p?`<img src="${esc(p)}" alt="" loading="lazy">`:""}${esc(it.name||it.title||it.family)}</a>`; };
