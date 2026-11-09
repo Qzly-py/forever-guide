@@ -269,7 +269,7 @@ const SECTIONS = [
   {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
-  {id:"treasures", label:"Treasures", title:"Treasure chests & objects", lede:"Chests, footlockers, crates and other lootable objects: where they spawn and what they can contain."},
+  {id:"treasures", label:"Treasures & nodes", title:"Treasures, herbs & ore", lede:"Chests, footlockers, crates, herbs and ore veins: where they spawn and what they can contain. Filter by kind to see just herbs or just ore."},
   {id:"services", label:"NPC finder", title:"NPC finder", lede:"Flight masters, trainers, innkeepers, stable masters, banks, auctioneers and battlemasters, with map coordinates."},
   {id:"items", label:"Item database", title:"Item database", lede:"Every item from the original game with stats and where it drops. Blizzard's live Forever data replaces each one as it arrives, and Forever-only items are added automatically."},
   {id:"travel", label:"Travel", title:"Travel", lede:"Flight paths, boats, zeppelins and portals, including Forever's new routes."},
@@ -483,7 +483,7 @@ function related(sec,it){
 }
 
 /* ---------- interactive maps (coordinates on a grid; no game artwork) ---------- */
-const MAPL=[["quests","Quest givers"],["hunterpets","Tameable beasts"],["rares","Rares"],["treasures","Treasures"],["services","NPCs"]];
+const MAPL=[["quests","Quest givers"],["hunterpets","Tameable beasts"],["rares","Rares"],["treasures","Treasures, herbs & ore"],["services","NPCs"]];
 function mapHTML(zone,focus){
   const zl=zone.toLowerCase(), pins=[];
   for(const [s] of MAPL) for(const it of (DATA[s]||[])){
