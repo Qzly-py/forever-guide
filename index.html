@@ -142,6 +142,7 @@ const SECTIONS = [
   {id:"achievements", label:"Achievements", title:"Achievements", lede:"Every Forever achievement, what it asks and what it rewards, including Legacy points."},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
+  {id:"treasures", label:"Treasures", title:"Treasure chests & objects", lede:"Chests, footlockers, crates and other lootable objects: where they spawn and what they can contain."},
   {id:"services", label:"NPC finder", title:"NPC finder", lede:"Flight masters, trainers, innkeepers, stable masters, banks, auctioneers and battlemasters, with map coordinates."},
   {id:"items", label:"Item database", title:"Item database", lede:"Every item from the original game with stats and where it drops. Blizzard's live Forever data replaces each one as it arrives, and Forever-only items are added automatically."},
   {id:"travel", label:"Travel", title:"Travel", lede:"Flight paths, boats, zeppelins and portals, including Forever's new routes."},
@@ -175,7 +176,7 @@ const dlFor = (it, pairs)=>{
     return `<dt>${label}</dt><dd>${val}</dd>`;}).join("");
   return rows?`<dl>${rows}</dl>`:"";
 };
-const WH = {hunterpets:"npc", rares:"npc", services:"npc", quests:"quest", achievements:"achievement", itemsets:"item-set"};
+const WH = {hunterpets:"npc", rares:"npc", services:"npc", treasures:"object", quests:"quest", achievements:"achievement", itemsets:"item-set"};
 const whLink = (sec,it)=>{
   let kind=WH[sec], id=it.id;
   if(sec==="talents"&&it.spell){kind="spell";id=it.spell;}
@@ -238,7 +239,10 @@ const CFG = {
     body:it=>dlFor(it,[["pieces","Pieces"],["bonuses","Set bonuses"]])},
   services:{filters:["kind","zone","faction"], sort:(a,b)=>(a.zone||"").localeCompare(b.zone||"")||(a.kind||"").localeCompare(b.kind||"")||(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:it.title||"", tags:tagsFor(it,["kind","zone","faction"])}),
-    body:it=>dlFor(it,[["where","Where"],["title","Role"]])},
+    body:it=>dlFor(it,[["where","Where"],["title","Role"],["sells","Sells"]])+srcLink(it)},
+  treasures:{filters:["kind","zone"], sort:(a,b)=>(a.zone||"").localeCompare(b.zone||"")||(a.name||"").localeCompare(b.name||""),
+    head:it=>({title:it.name, right:arr(it.drops).length?`${arr(it.drops).length} possible items`:"", tags:tagsFor(it,["kind","zone"])}),
+    body:it=>dlFor(it,[["where","Found in"],["spots","Example spots"],["drops","Can contain"]])},
   legacy:{filters:["kind"], sort:(a,b)=>(a.kind||"").localeCompare(b.kind||"")||(parseFloat(a.points)||0)-(parseFloat(b.points)||0),
     head:it=>({title:it.name, right:has(it.points)?`${it.points} pts`:"", tags:tagsFor(it,["kind"])}),
     body:it=>(has(it.how)?`<p>${esc(it.how)}</p>`:"")+dlFor(it,[["reward","Reward"]])+srcLink(it)},
@@ -390,20 +394,21 @@ const norm=s=>String(s||"").toLowerCase().replace(/^(recipe|pattern|plans|formul
 function mergeInto(sec, entries, prep){
   const list=DATA[sec]=DATA[sec]||[];
   const byName=new Map(); for(const it of list){ const k=norm(it.name||it.title); if(k&&!byName.has(k)) byName.set(k,it); }
-  for(const raw of entries){ const e=prep?prep(raw):raw; if(!e||!has(e.name)) continue; e._live=true;
+  for(const raw of entries){ const e=prep?prep(raw):raw; if(!e||!has(e.name)||/^(DNT\b|\[PH\]|TEST\b)|\bDNT\b|Test (Creature|Prop|Reputation)\b/i.test(e.name)) continue; e._live=true;
     /* fill a researched entry once; same-named live entries (e.g. Alliance and Horde versions of a quest) stay separate */
     const old=byName.get(norm(e.name));
     if(old&&!old._live){ for(const [k,v] of Object.entries(e)) if(has(v)&&!has(old[k])) old[k]=v; old._live=true; if(e.id&&!old.id) old.id=e.id; }
     else list.push(e);
   }
 }
-const LIVE_FILES=["instances","hunterpets","mounts","pets","toys","titles","itemsets","achievements","reputations","classes","talents","quests","professions","recipes","rares","services"];
+const LIVE_FILES=["treasures","instances","hunterpets","mounts","pets","toys","titles","itemsets","achievements","reputations","classes","talents","quests","professions","recipes","rares","services"];
 function loadLive(){
   Promise.all(LIVE_FILES.map(f=>opt(`live/${f}.json`))).then(res=>{
     const L={}; LIVE_FILES.forEach((f,i)=>L[f]=(res[i]&&res[i].entries)||[]);
     for(const f of (DATA.hunterpets||[])) if(!f.name&&f.family) FAM[f.family]=f;
     mergeInto("instances", L.instances);
     mergeInto("hunterpets", L.hunterpets);
+    DATA.hunterpets=(DATA.hunterpets||[]).filter(x=>!x.hidden);
     mergeInto("mounts", L.mounts, e=>({...e, source:e.source||"In game data"}));
     mergeInto("pets", L.pets);
     mergeInto("collectibles", L.toys);
@@ -420,8 +425,9 @@ function loadLive(){
     mergeInto("recipes", L.recipes);
     mergeInto("rares", L.rares);
     mergeInto("services", L.services);
+    DATA.treasures=L.treasures.map(e=>({...e,_live:true}));
     const id=(location.hash||"#home").slice(1);
-    if($("#q").value.trim().length>=2||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services"].includes(id)) route();
+    if($("#q").value.trim().length>=2||id==="home"||LIVE_FILES.includes(id)||["collectibles","legacy","achievements","talents","itemsets","services","treasures"].includes(id)) route();
   });
 }
 Promise.all([

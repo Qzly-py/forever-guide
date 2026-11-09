@@ -346,8 +346,33 @@ if it:
             e["where"] = ". ".join(p for p in parts if not p.endswith(("by ", "in ", "from "))) + "."
             e["source"] = "Drop" if drops or at(r, 3) else "Vendor" if at(r, 14) else "Quest" if at(r, 6) else "Other"
             n += 1
+    # Forever-only items Questie doesn't know: use Blizzard's own quest rewards and recipes.
+    rewards, crafted = {}, {}
+    for q in (qs or {}).get("entries", []):
+        for nm_ in q.get("rewardItems") or []:
+            rewards.setdefault(nm_, []).append(q.get("name"))
+    rec = load(LIVE / "recipes.json") or {}
+    for r in rec.get("entries", []):
+        if r.get("madeId"):
+            crafted.setdefault(r["madeId"], []).append(f"{r.get('profession')} ({r.get('name')})")
+    m = 0
+    for e in it["items"]:
+        parts = []
+        if e.get("id") in crafted:
+            parts.append("Crafted with " + ", ".join(dict.fromkeys(crafted[e["id"]])))
+        if e.get("name") in rewards:
+            parts.append("Reward from " + ", ".join(f"“{x}”" for x in list(dict.fromkeys(rewards[e["name"]]))[:5]))
+        if not parts:
+            continue
+        extra = ". ".join(parts) + "."
+        if not e.get("where"):
+            e["where"] = extra
+            e["source"] = "Crafted" if e.get("id") in crafted else "Quest"
+            m += 1
+        elif extra not in e["where"]:
+            e["where"] += " " + extra
     write(ROOT / "items.json", it)
-    print(f"items enriched: {n}/{len(it['items'])}")
+    print(f"items enriched: {n}/{len(it['items'])} from Questie, +{m} from Blizzard quests and recipes")
 
 # ------------------------------------------------------------------ rares & elites list (named rare spawns)
 rares = []
@@ -419,6 +444,57 @@ for nid, r in NPC.items():
     svc.append({"id": nid, "name": i["name"], "title": i["title"], "kind": roles[0], "zone": i["at"][0],
                 "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})",
                 "faction": {"A": "Alliance", "H": "Horde", "AH": "Both"}.get(i["friendly"], "")})
+# ------------------------------------------------------------------ vendors and what each one sells
+SELLS = {}
+for iid, ir in ITEM.items():
+    for nid in (at(ir, 14) or []):
+        SELLS.setdefault(nid, []).append(at(ir, 1))
+BYID = {s["id"]: s for s in svc}
+for nid, goods in SELLS.items():
+    if nid in BYID:  # a trainer, innkeeper etc. who also sells things
+        BYID[nid]["sells"] = sorted(set(g for g in goods if g))[:80]
+        continue
+    i = npc_info(nid)
+    if not i or not i["zones"] or not i["at"]:
+        continue
+    x, y = i["at"][1]
+    svc.append({"id": nid, "name": i["name"], "title": i["title"] or "Vendor", "kind": "Vendor", "zone": i["at"][0],
+                "where": f"{i['at'][0]} ({x:.0f}, {y:.0f})", "sells": sorted(set(g for g in goods if g))[:80],
+                "faction": {"A": "Alliance", "H": "Horde", "AH": "Both"}.get(i["friendly"], "")})
+print(f"vendors with stock lists: {len(SELLS)}")
+
+# ------------------------------------------------------------------ treasure chests and other lootable objects
+CONTAINS = {}
+for iid, ir in ITEM.items():
+    for oid in (at(ir, 3) or []):
+        CONTAINS.setdefault(oid, []).append(at(ir, 1))
+CHEST = re.compile(r"chest|box|footlocker|strongbox|coffer|cache|crate|treasure|lockbox|trunk|stash|satchel|barrel|sack", re.I)
+treasures = []
+for oid, r in OBJ.items():
+    name = at(r, 1) or ""
+    sp = at(r, 4) or {}
+    if not isinstance(sp, dict) or not sp or not (CHEST.search(name) or oid in CONTAINS):
+        continue
+    if at(r, 2) or at(r, 3):  # quest givers / turn-ins aren't treasure
+        continue
+    zones_ = Counter()
+    sample = []
+    for z, pts in sp.items():
+        zn = zone(z)
+        if zn and pts:
+            zones_[zn] += len(pts)
+            sample += [f"{zn} ({p[0]:.0f}, {p[1]:.0f})" for p in pts[:3]]
+    if not zones_:
+        continue
+    loot = sorted(set(x for x in CONTAINS.get(oid, []) if x))
+    treasures.append({"id": oid, "name": name, "kind": "Chest" if CHEST.search(name) else "Object",
+                      "zone": zones_.most_common(1)[0][0],
+                      "where": ", ".join(f"{z} ({n} spot{'s' if n > 1 else ''})" for z, n in zones_.most_common(8)),
+                      "spots": sample[:12], "drops": loot[:40]})
+write(LIVE / "treasures.json", {"updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                                "entries": treasures})
+print(f"treasures/objects: {len(treasures)}")
+
 write(LIVE / "services.json", {"updated": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
                                "entries": svc})
 print(f"services: {len(svc)}")

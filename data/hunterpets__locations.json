@@ -1,0 +1,959 @@
+[
+    {
+        "name":  "Raptor",
+        "family":  "Raptor",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Forest Stalker",
+        "family":  "Spider",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Bloodscalp Tiger",
+        "family":  "Cat",
+        "where":  "Stranglethorn Vale",
+        "zone":  "Stranglethorn Vale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=698"
+    },
+    {
+        "name":  "Bloodscalp Panther",
+        "family":  "Cat",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Skullsplitter Panther",
+        "family":  "Cat",
+        "where":  "Stranglethorn Vale",
+        "zone":  "Stranglethorn Vale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=756"
+    },
+    {
+        "name":  "Skullsplitter Tiger",
+        "family":  "Cat",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Nahr\u0027ek\u0027s Pack",
+        "family":  "Wolf",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Enraged Silverback Gorilla",
+        "family":  "Gorilla",
+        "where":  "Stranglethorn Vale",
+        "zone":  "Stranglethorn Vale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=1511"
+    },
+    {
+        "name":  "Konda",
+        "family":  "Gorilla",
+        "where":  "Stranglethorn Vale",
+        "zone":  "Stranglethorn Vale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=1516"
+    },
+    {
+        "name":  "Mega Rabbit",
+        "family":  null,
+        "hidden":  true
+    },
+    {
+        "name":  "Rotting Condor",
+        "family":  "Carrion Bird",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Plaguewing Vulture",
+        "family":  "Carrion Bird",
+        "where":  "Western Plaguelands",
+        "zone":  "Western Plaguelands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=1811"
+    },
+    {
+        "name":  "TEST WOLF (ALPHA FIRST)",
+        "family":  "Wolf",
+        "hidden":  true
+    },
+    {
+        "name":  "TEST WOLF (ALPHA SECOND)",
+        "family":  "Wolf",
+        "hidden":  true
+    },
+    {
+        "name":  "Enraged Stanley",
+        "family":  "Wolf",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Ishamuhale",
+        "family":  "Raptor",
+        "where":  "The Barrens",
+        "zone":  "The Barrens",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=3257"
+    },
+    {
+        "name":  "Mud Crawler",
+        "family":  "Crab",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Echeyakee",
+        "family":  "Cat",
+        "where":  "The Barrens",
+        "zone":  "The Barrens",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=3475"
+    },
+    {
+        "name":  "Ghost Saber",
+        "family":  "Cat",
+        "where":  "Darkshore",
+        "zone":  "Darkshore",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=3619"
+    },
+    {
+        "name":  "Rabid Ghostpaw",
+        "family":  "Wolf",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Razormane Wolf",
+        "family":  "Wolf",
+        "where":  "The Barrens",
+        "zone":  "The Barrens",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=3939"
+    },
+    {
+        "name":  "Deepmoss Hatchling",
+        "family":  "Spider",
+        "where":  "Stonetalon Mountains",
+        "zone":  "Stonetalon Mountains",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4263"
+    },
+    {
+        "name":  "Deepmoss Matriarch",
+        "family":  "Spider",
+        "where":  "Stonetalon Mountains",
+        "zone":  "Stonetalon Mountains",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4264"
+    },
+    {
+        "name":  "Drywallow Vicejaw",
+        "family":  "Crocolisk",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4342"
+    },
+    {
+        "name":  "Bloodfen Scytheclaw",
+        "family":  "Raptor",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4355"
+    },
+    {
+        "name":  "Darkmist Lurker",
+        "family":  "Spider",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4377"
+    },
+    {
+        "name":  "Mudrock Tortoise",
+        "family":  "Turtle",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4396"
+    },
+    {
+        "name":  "Mudrock Burrower",
+        "family":  "Turtle",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4398"
+    },
+    {
+        "name":  "Mudrock Borer",
+        "family":  "Turtle",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4399"
+    },
+    {
+        "name":  "Mudrock Snapjaw",
+        "family":  "Turtle",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4400"
+    },
+    {
+        "name":  "Darkfang Lurker",
+        "family":  "Spider",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4411"
+    },
+    {
+        "name":  "Darkfang Spider",
+        "family":  "Spider",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4413"
+    },
+    {
+        "name":  "Vilebranch Wolf",
+        "family":  "Wolf",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Maraudine Bonepaw",
+        "family":  "Hyena",
+        "where":  "Desolace",
+        "zone":  "Desolace",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4660"
+    },
+    {
+        "name":  "Murderous Bonepaw",
+        "family":  "Hyena",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Sandstrider",
+        "family":  "Tallstrider",
+        "where":  "Desolace",
+        "zone":  "Desolace",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4724"
+    },
+    {
+        "name":  "Crazed Sandstrider",
+        "family":  "Tallstrider",
+        "where":  "Desolace",
+        "zone":  "Desolace",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=4725"
+    },
+    {
+        "name":  "Rabid Shrike Bat",
+        "family":  "Bat",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Groddoc Chestpounder",
+        "family":  "Gorilla",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Twain Test Prop",
+        "family":  "Wolf",
+        "hidden":  true
+    },
+    {
+        "name":  "Rabid Snickerfang",
+        "family":  "Hyena",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Scorpok Snapper",
+        "family":  "Scorpid",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Scorpok Lasher",
+        "family":  "Scorpid",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Wayward Buzzard",
+        "family":  "Carrion Bird",
+        "where":  "Badlands",
+        "zone":  "Badlands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=6013"
+    },
+    {
+        "name":  "Crawler",
+        "family":  "Crab",
+        "where":  "Westfall",
+        "zone":  "Westfall",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=6250"
+    },
+    {
+        "name":  "Tracking Hound",
+        "family":  "Hyena",
+        "where":  "Darkspear Islands, Excavation Site: Wetlands, Scarlet Monastery",
+        "zone":  "Darkspear Islands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=6867"
+    },
+    {
+        "name":  "Scorpid Duneburrower",
+        "family":  "Scorpid",
+        "where":  "Tanaris",
+        "zone":  "Tanaris",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=7803"
+    },
+    {
+        "name":  "Hakkari Sapper",
+        "family":  "Wind Serpent",
+        "where":  "The Temple of Atal\u0027Hakkar",
+        "zone":  "The Temple of Atal\u0027Hakkar",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=8336"
+    },
+    {
+        "name":  "Deep Stinger",
+        "family":  "Scorpid",
+        "where":  "Blackrock Depths",
+        "zone":  "Blackrock Depths",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=8926"
+    },
+    {
+        "name":  "Dark Screecher",
+        "family":  "Bat",
+        "where":  "Blackrock Depths",
+        "zone":  "Blackrock Depths",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=8927"
+    },
+    {
+        "name":  "Cave Creeper",
+        "family":  "Spider",
+        "where":  "Blackrock Depths",
+        "zone":  "Blackrock Depths",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=8933"
+    },
+    {
+        "name":  "Young Arikara",
+        "family":  "Wind Serpent",
+        "where":  "Thousand Needles",
+        "zone":  "Thousand Needles",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=10581"
+    },
+    {
+        "name":  "Shy-Rotam",
+        "family":  "Cat",
+        "where":  "Winterspring",
+        "zone":  "Winterspring",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=10737"
+    },
+    {
+        "name":  "Sian-Rotam",
+        "family":  "Cat",
+        "where":  "Winterspring",
+        "zone":  "Winterspring",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=10741"
+    },
+    {
+        "name":  "Arikara",
+        "family":  "Wind Serpent",
+        "where":  "Thousand Needles",
+        "zone":  "Thousand Needles",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=10882"
+    },
+    {
+        "name":  "Scarlet Hound",
+        "family":  "Hyena",
+        "where":  "Western Plaguelands, Scarlet Enclave",
+        "zone":  "Western Plaguelands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=10979"
+    },
+    {
+        "name":  "Dart",
+        "family":  "Raptor",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=14232"
+    },
+    {
+        "name":  "Ripscale",
+        "family":  "Crocolisk",
+        "where":  "Dustwallow Marsh",
+        "zone":  "Dustwallow Marsh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=14233"
+    },
+    {
+        "name":  "Frenzied Bloodseeker Bat",
+        "family":  "Bat",
+        "where":  "Zul\u0027Gurub",
+        "zone":  "Zul\u0027Gurub",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=14965"
+    },
+    {
+        "name":  "Generic Hunter Pet",
+        "family":  "Wolf",
+        "hidden":  true
+    },
+    {
+        "name":  "Mokwa",
+        "family":  "Cat",
+        "where":  "Mulgore",
+        "zone":  "Mulgore",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=205382"
+    },
+    {
+        "name":  "Raluk",
+        "family":  "Cat",
+        "where":  "Durotar",
+        "zone":  "Durotar",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=208124"
+    },
+    {
+        "name":  "Fyodi",
+        "family":  "Boar",
+        "where":  "Dun Morogh",
+        "zone":  "Dun Morogh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=208638"
+    },
+    {
+        "name":  "Jorul",
+        "family":  "Bear",
+        "where":  "Dun Morogh",
+        "zone":  "Dun Morogh",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=208812"
+    },
+    {
+        "name":  "Mowgh",
+        "family":  "Bear",
+        "where":  "Teldrassil",
+        "zone":  "Teldrassil",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=209928"
+    },
+    {
+        "name":  "Kackle",
+        "family":  "Crocolisk",
+        "where":  "Loch Modan",
+        "zone":  "Loch Modan",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=210107"
+    },
+    {
+        "name":  "Silverspur",
+        "family":  "Wolf",
+        "where":  "Westfall",
+        "zone":  "Westfall",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=210533"
+    },
+    {
+        "name":  "Koartul",
+        "family":  "Turtle",
+        "where":  "Hillsbrad Foothills",
+        "zone":  "Hillsbrad Foothills",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=211951"
+    },
+    {
+        "name":  "Carrodin",
+        "family":  "Bird of Prey",
+        "where":  "Wetlands",
+        "zone":  "Wetlands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=211965"
+    },
+    {
+        "name":  "Gharrik",
+        "family":  "Carrion Bird",
+        "where":  "Badlands",
+        "zone":  "Badlands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=213795"
+    },
+    {
+        "name":  "Dire Wolf Alpha",
+        "family":  "Wolf",
+        "where":  "Duskwood",
+        "zone":  "Duskwood",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=221168"
+    },
+    {
+        "name":  "Black Widow Broodmother",
+        "family":  "Spider",
+        "where":  "Duskwood",
+        "zone":  "Duskwood",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=221169"
+    },
+    {
+        "name":  "Nightmare Grizzly",
+        "family":  "Bear",
+        "where":  "Ashenvale",
+        "zone":  "Ashenvale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=221230"
+    },
+    {
+        "name":  "Dreamthorn Stalker",
+        "family":  "Spider",
+        "where":  "Ashenvale",
+        "zone":  "Ashenvale",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=221258"
+    },
+    {
+        "name":  "Dreamwater Vicejaw",
+        "family":  "Turtle",
+        "where":  "The Hinterlands",
+        "zone":  "The Hinterlands",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=221328"
+    },
+    {
+        "name":  "Zopilote",
+        "family":  "Carrion Bird",
+        "where":  "Tanaris",
+        "zone":  "Tanaris",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=222243"
+    },
+    {
+        "name":  "Enraged Stormcrow",
+        "family":  "Carrion Bird",
+        "where":  "Searing Gorge",
+        "zone":  "Searing Gorge",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=222699"
+    },
+    {
+        "name":  "Zotl",
+        "family":  "Bat",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Siopi",
+        "family":  "Cat",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Cellar Spider",
+        "family":  "Spider",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Crypt Stalker",
+        "family":  "Spider",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Annie",
+        "family":  "Wolf",
+        "where":  "Karazhan Crypts",
+        "zone":  "Karazhan Crypts",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=238425"
+    },
+    {
+        "name":  "Steele",
+        "family":  "Wolf",
+        "where":  "Karazhan Crypts",
+        "zone":  "Karazhan Crypts",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=238426"
+    },
+    {
+        "name":  "Flora",
+        "family":  "Wolf",
+        "where":  "Karazhan Crypts",
+        "zone":  "Karazhan Crypts",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=238427"
+    },
+    {
+        "name":  "Broodwidow",
+        "family":  "Spider",
+        "where":  "Karazhan Crypts",
+        "zone":  "Karazhan Crypts",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=238628"
+    },
+    {
+        "name":  "Deep Stalker",
+        "family":  "Spider",
+        "where":  "Karazhan Crypts",
+        "zone":  "Karazhan Crypts",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=238629"
+    },
+    {
+        "name":  "Scalebeard",
+        "family":  "Turtle",
+        "where":  "Azshara",
+        "zone":  "Azshara",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=244188"
+    },
+    {
+        "name":  "Hyjal Bear",
+        "family":  "Bear",
+        "where":  "Mount Hyjal",
+        "zone":  "Mount Hyjal",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=244525"
+    },
+    {
+        "name":  "Tainted Hyjal Bear",
+        "family":  "Bear",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Skinning Bear",
+        "family":  "Bear",
+        "hidden":  true
+    },
+    {
+        "name":  "Bloodshrike",
+        "family":  "Bird of Prey",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Cooking Bear",
+        "family":  "Bear",
+        "hidden":  true
+    },
+    {
+        "name":  "Cooking Wolf",
+        "family":  "Bear",
+        "hidden":  true
+    },
+    {
+        "name":  "Elmpaw",
+        "family":  "Bear",
+        "where":  "Elwynn Forest",
+        "zone":  "Elwynn Forest",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=248299"
+    },
+    {
+        "name":  "Hyjal Owl",
+        "family":  "Bird of Prey",
+        "where":  "Mount Hyjal",
+        "zone":  "Mount Hyjal",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=249053"
+    },
+    {
+        "name":  "Child of Tortolla",
+        "family":  "Turtle",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Ghostfang Alpha",
+        "family":  "Wolf",
+        "where":  "Mount Hyjal",
+        "zone":  "Mount Hyjal",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=249225"
+    },
+    {
+        "name":  "Rustleaf Fox",
+        "family":  "Fox",
+        "where":  "Mount Hyjal, Winterspring",
+        "zone":  "Mount Hyjal",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=249474"
+    },
+    {
+        "name":  "Inariel",
+        "family":  "Fox",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Nightsaber Guardian",
+        "family":  "Cat",
+        "where":  "Mount Hyjal",
+        "zone":  "Mount Hyjal",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=249493"
+    },
+    {
+        "name":  "Tunnelweb Matriarch",
+        "family":  "Spider",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Tunnelweb Stalker",
+        "family":  "Spider",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Grizzled Timbermaw Bear",
+        "family":  "Bear",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Feral Timbermaw Boar",
+        "family":  "Boar",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Spider",
+        "family":  "Spider",
+        "hidden":  true
+    },
+    {
+        "name":  "Broodling",
+        "family":  "Spider",
+        "where":  "Ruins of Lordaeron",
+        "zone":  "Ruins of Lordaeron",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250625"
+    },
+    {
+        "name":  "Venom Lurker",
+        "family":  "Spider",
+        "where":  "Ruins of Lordaeron",
+        "zone":  "Ruins of Lordaeron",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250735"
+    },
+    {
+        "name":  "Vuldren",
+        "family":  "Fox",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250868"
+    },
+    {
+        "name":  "Juvenile Vuldren",
+        "family":  "Fox",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250873"
+    },
+    {
+        "name":  "Vuldren Alpha",
+        "family":  "Fox",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250874"
+    },
+    {
+        "name":  "Scrawny Ursera",
+        "family":  "Bear",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250926"
+    },
+    {
+        "name":  "Shadowgale Ursera",
+        "family":  "Bear",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250927"
+    },
+    {
+        "name":  "Highlands Ursera",
+        "family":  "Bear",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250928"
+    },
+    {
+        "name":  "Ursera Defender",
+        "family":  "Bear",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Ursera Scavenger",
+        "family":  "Bear",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=250937"
+    },
+    {
+        "name":  "Urs\u0027anah",
+        "family":  "Bear",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=251115"
+    },
+    {
+        "name":  "Head Scratcher",
+        "family":  "Bear",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Prideclaw",
+        "family":  "Cat",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=251245"
+    },
+    {
+        "name":  "Galestrider",
+        "family":  "Tallstrider",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=251661"
+    },
+    {
+        "name":  "Ornery Galestrider",
+        "family":  "Tallstrider",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=251707"
+    },
+    {
+        "name":  "Lake Crawler",
+        "family":  "Crab",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Territorial Fox",
+        "family":  "Fox",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Ravasaur Hunter",
+        "family":  "Raptor",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Ravasaur Matriarch",
+        "family":  "Raptor",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Shriekling Fledgling",
+        "family":  "Bird of Prey",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=253282"
+    },
+    {
+        "name":  "Shriekling Matriarch",
+        "family":  "Bird of Prey",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=253283"
+    },
+    {
+        "name":  "Bristleback Snortsnout",
+        "family":  "Boar",
+        "where":  "Shen\u0027dralas",
+        "zone":  "Shen\u0027dralas",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=253529"
+    },
+    {
+        "name":  "Windsong Crawler",
+        "family":  "Crab",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=254588"
+    },
+    {
+        "name":  "Vulgara the Insatiable",
+        "family":  "Fox",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=254589"
+    },
+    {
+        "name":  "Blind Screecher",
+        "family":  "Bat",
+        "where":  "Shen\u0027dralas",
+        "zone":  "Shen\u0027dralas",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=255174"
+    },
+    {
+        "name":  "Slavering Hound",
+        "family":  "Hyena",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Mature Paletusk",
+        "family":  "Boar",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=255851"
+    },
+    {
+        "name":  "Slydris",
+        "family":  "Fox",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=255887"
+    },
+    {
+        "name":  "Deep Widow",
+        "family":  "Spider",
+        "where":  "Ruins of Lordaeron",
+        "zone":  "Ruins of Lordaeron",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=256040"
+    },
+    {
+        "name":  "Shadowgale Shriekling",
+        "family":  "Bird of Prey",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=256092"
+    },
+    {
+        "name":  "Fernfeather",
+        "family":  "Tallstrider",
+        "where":  "Zephras Isle",
+        "zone":  "Zephras Isle",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=256492"
+    },
+    {
+        "name":  "Twilight Worg",
+        "family":  "Wolf",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=257017"
+    },
+    {
+        "name":  "Bloated Grizzly",
+        "family":  "Bear",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Young Paletusk",
+        "family":  "Boar",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=258331"
+    },
+    {
+        "name":  "Sootfur",
+        "family":  "Wolf",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=258522"
+    },
+    {
+        "name":  "Chasm Crawler",
+        "family":  "Crab",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Hungry Crocolisk",
+        "family":  "Crocolisk",
+        "where":  "Not yet spotted in Forever\u0027s world (may be unused, summoned or event-only)"
+    },
+    {
+        "name":  "Freshwater Crocolisk",
+        "family":  "Crocolisk",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=259046"
+    },
+    {
+        "name":  "Wildplains Patriarch",
+        "family":  "Cat",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=259054"
+    },
+    {
+        "name":  "Wildplains Huntress",
+        "family":  "Cat",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=259055"
+    },
+    {
+        "name":  "Coyote Prowler",
+        "family":  "Wolf",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=259263"
+    },
+    {
+        "name":  "Plains Coyote",
+        "family":  "Wolf",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=259267"
+    },
+    {
+        "name":  "Riding Wolf",
+        "family":  "Wolf",
+        "hidden":  true
+    },
+    {
+        "name":  "Ghostmaw",
+        "family":  "Crocolisk",
+        "where":  "Riverglades",
+        "zone":  "Riverglades",
+        "sourceUrl":  "https://www.wowhead.com/forever/npc=263380"
+    },
+    {
+        "name":  "Bear",
+        "family":  "Bear",
+        "hidden":  true
+    },
+    {
+        "name":  "Aidan\u0027s Test Creature DNT",
+        "family":  "Crocolisk",
+        "hidden":  true
+    }
+]

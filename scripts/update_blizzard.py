@@ -2,7 +2,7 @@
 Standard library only. Needs repository secrets BLIZZARD_CLIENT_ID and BLIZZARD_CLIENT_SECRET; exits quietly
 without them. Detail lookups are cached in the previous output files, so daily runs only fetch what's new;
 a full refresh happens on Mondays (or with FULL_REFRESH=1)."""
-import os, sys, json, time, base64, pathlib, datetime, threading, urllib.request, urllib.parse, urllib.error
+import os, re, sys, json, time, base64, pathlib, datetime, threading, urllib.request, urllib.parse, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -100,8 +100,11 @@ def cached(name, key="entries"):
     return {e["id"]: e for e in load(name).get(key, []) if isinstance(e, dict) and e.get("id") is not None}
 
 
+TESTNAME = re.compile(r"^(DNT\b|\[PH\]|TEST\b|zz|Generic\b)|\bDNT\b|Test (Creature|Prop|Reputation)\b", re.I)
+
+
 def save(name, entries, **extra):
-    entries = [e for e in entries if e and e.get("name")]
+    entries = [e for e in entries if e and e.get("name") and not TESTNAME.search(e["name"])]
     if not entries and (LIVE / f"{name}.json").exists():
         print(f"{name}: API returned nothing; keeping previous file")
         return

@@ -10,9 +10,9 @@ UA = "ForeverFieldGuide/1.0 (fan guide; GitHub Actions)"
 # (url, category, forever_only_feed). General feeds are filtered to stories that mention Forever.
 FEEDS = [
     ("https://news.blizzard.com/en-us/feed/world-of-warcraft", "Official", False),
-    ("https://www.wowhead.com/forever/news/rss", "Community", True),
+    ("https://www.wowhead.com/news/rss/forever", "Community", True),
     ("https://www.wowhead.com/news/rss/all", "Community", False),
-    ("https://www.warcrafttavern.com/forever/news/feed/", "Community", True),
+    ("https://www.warcrafttavern.com/forever/feed/", "Community", True),
     ("https://www.warcrafttavern.com/feed/", "Community", False),
 ]
 KEYWORDS = re.compile(r"\bforever\b|skyborne|zephras|shen'?dralas|riverglades", re.I)
