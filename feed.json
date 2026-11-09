@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T20:12:19+00:00",
+"updated": "2026-11-09T20:24:19+00:00",
 "news": [
 {
 "date": "2026-11-09",
@@ -7,6 +7,22 @@
 "summary": "The Cozy Sleeping Bag in WoW: Forever gives you a 3% experience buff and is worth going out of your way for, even though it does take a while to get. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383801/level-faster-with-your-cozy-sleeping-bag-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "The Darkmoon Faire is Now Open in WoW Forever",
+"summary": "Come one, come all: the Darkmoon Faire has opened for the first time in WoW Forever, bringing all of its original activities and rewards from WoW Classic to the new version of the game. So far we haven’t spotted…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/the-darkmoon-faire-is-now-open-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "Profession Trainer Locations",
+"summary": "Professions are more important than ever in WoW Forever. There’s a ton of new recipes that make crafting professions more attractive. The more utility professions like Engineering and Alchemy have some new fun stuff…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/profession-trainers/",
 "auto": true
 },
 {
@@ -31,6 +47,22 @@
 "summary": "The iconic Darkmoon Faire event will be making its first stop in WoW Forever in Elwynn Forest, giving the Alliance the first home-field advantage. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383802/the-darkmoon-faire-is-coming-to-elwynn-forest-first-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-08",
+"title": "Experience from Dungeon Kills Increased in WoW Forever",
+"summary": "The most common complaint across all WoW Forever social media since launch has been regarding low experience from dungeon kills. Blizzard has finally relented and increased all dungeon kill experience by 50%. So it’s…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/experience-from-dungeon-kills-increased-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-08",
+"title": "Cooking Leveling Guide (1-300)",
+"summary": "Cooking is one of the most useful professions to level in WoW Forever, particularly while leveling a new character. Not only can you prepare food that provides valuable buffs, but Cooking also plays an important role in…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/cooking-leveling/",
 "auto": true
 },
 {
@@ -63,6 +95,38 @@
 "summary": "MrGM interviewed Kris Zierhut and Josh Greenfield on WoW: Forever and discussed the Black Market Auction House, Quest Helpers and more Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383781/black-market-auction-house-global-raid-launch-quest-helpers-mrgm-interview-on",
+"auto": true
+},
+{
+"date": "2026-11-07",
+"title": "Rogue Lockpicking Guide",
+"summary": "Lockpicking is a special feature of the Rogue class that retains much of its original flavor in WoW Forever! The ability lets Rogues break into most chests, doors, lockboxes, and strongboxes in Azeroth, opening up…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/lockpicking/",
+"auto": true
+},
+{
+"date": "2026-11-07",
+"title": "Forever is World of Warcraft’s Biggest Launch Ever",
+"summary": "Blizzard has tweeted some exciting news about WoW Forever: the new game mode is the largest launch in World of Warcraft history by peak concurrent player count. Given that information, the launch was remarkably smooth,…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/forever-is-world-of-warcrafts-biggest-launch-ever/",
+"auto": true
+},
+{
+"date": "2026-11-07",
+"title": "World First Level 60s in WoW Forever: Paladin, Shaman & 3 Mages",
+"summary": "The race to level 60 has ended just a little over 3 days after it began, with a full party of five sharing the top spot. The five winners were: Paladin – Cloud Bells Shaman – Lmgd Mmr Mage – Jokerd Prime Mage – Burning…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/world-first-level-60s-in-wow-forever-paladin-shaman-3-mages/",
+"auto": true
+},
+{
+"date": "2026-11-07",
+"title": "Voidwalker Health Increased: WoW Forever Hotfixes for November 6",
+"summary": "Blizzard has published a new set of hotfixes for WoW Forever, fixing several bugs for classes, quests, dungeons, and NPCs. Notably, the base health of the Warlock Voidwalker demon has been increased across all levels.…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/voidwalker-health-increased-wow-forever-hotfixes-for-november-6/",
 "auto": true
 },
 {
@@ -170,6 +234,22 @@
 "auto": true
 },
 {
+"date": "2026-11-06",
+"title": "Class Tuning Coming for Shamans, Warlocks & Hunter Pets in WoW Forever",
+"summary": "We’re two days into the launch of WoW Forever, and Blizzard has pinpointed a couple of problem areas for classes that they want to address with the first weekly maintenance on Tuesday, November 10th. Included in the…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/class-tuning-coming-for-shamans-warlocks-hunter-pets-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-06",
+"title": "Skyborne Druid Class Quests Guide",
+"summary": "Druids in WoW Forever learn some of their shapeshifting forms and other class abilities through a series of special class quests. Skyborne Druids get their own versions of some of these quests to reflect their unique…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/skyborne-druid-quests/",
+"auto": true
+},
+{
 "date": "2026-11-05",
 "title": "Various NPC Fixes and Deathstalker Erland Spawn Rate - WoW: Forever Hotfixes",
 "summary": "The first set of hotfixes are out for WoW: Forever, which fixes issues with various NPCs and spawns Deathstalker Erland faster for his quest! Continue reading »",
@@ -250,11 +330,75 @@
 "auto": true
 },
 {
+"date": "2026-11-05",
+"title": "McDonald's Canada Offering WoW Game Time for Reward Points",
+"summary": "McDonald's Canada is offering new WoW reward redemptions on their app until November 23rd. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383745/mcdonalds-canada-offering-wow-game-time-for-reward-points",
+"auto": true
+},
+{
 "date": "2026-11-04",
 "title": "The Great Outdoors Quest Bugged and How to Complete",
 "summary": "The tutorial quest for camping, \"The Great Outdoors,\" is slightly bugged, but players can quickly work around it. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383753/the-great-outdoors-quest-bugged-and-how-to-complete",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "Official Warcraft Twitch Stream Showing Heat Map of Level Ups",
+"summary": "The official Warcraft Twitch Stream is showing a player heat map as players spawn into the game and level up! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383750/official-warcraft-twitch-stream-showing-heat-map-of-level-ups",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "Obtain the Pouch of Violet Dust Toy - Increases Camp Benefits by 1 Hour",
+"summary": "Blizzard has revealed another way to earn the Pouch of Violet Dust Toy! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383751/obtain-the-pouch-of-violet-dust-toy-increases-camp-benefits-by-1-hour",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "World of Warcraft: Forever is Now Live",
+"summary": "World of Warcraft: Forever is now live! Enjoy your Journey through Azeroth. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383749/world-of-warcraft-forever-is-now-live",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "Secret Twitch Drop Awarded Pouch of Violet Dust Toy to Live Stream Viewers in WoW: Forever",
+"summary": "Players who watched the Legendary crafting stream on Twitch have been awarded a Pouch of Violet Dust Toy via Twitch Drops! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383748/secret-twitch-drop-awards-pouch-of-violet-dust-toy-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "Taldramir, the Whispering Wood Revealed as WoW: Forever Legendary",
+"summary": "Taldramir, the Whispering Wood has been revealed as WoW: Forever's new legendary! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383747/taldramir-the-whispering-wood-revealed-as-wow-forever-legendary",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "The Questie Addon is Back in WoW: Forever",
+"summary": "If you played Classic in 2019 (and beyond), the Questie addon is likely a well-known name to you, and the addon is back in WoW: Forever. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383744/the-questie-addon-is-back-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-04",
+"title": "Twitch Teasing \"Major Reveal\" on Warcraft Twitch Stream",
+"summary": "Twitch is teasing a \"major reveal\" in an \"exciting moment you don't want to miss\" on the Warcraft Twitch Stream! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383742/twitch-teasing-major-reveal-on-warcraft-twitch-stream",
 "auto": true
 }
 ]
