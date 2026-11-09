@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T21:55:12+00:00",
+"updated": "2026-11-09T21:57:17+00:00",
 "news": [
 {
 "date": "2026-11-09",
@@ -31,6 +31,14 @@
 "summary": "Come one, come all, and step right up to our Darkmoon Faire guide for WoW Forever! This traveling carnival visits Elwynn Forest and Mulgore on alternating months, bringing a variety of fun activities, collectibles, and…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/darkmoon-faire/",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "Blizzard Taking Down WoW: Forever Servers Shortly",
+"summary": "Blizzard has announced via in-game server messages that they are taking down the WoW: Forever servers briefly. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly",
 "auto": true
 },
 {
