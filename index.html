@@ -338,6 +338,7 @@ const SECTIONS = [
   {id:"talentcalc", label:"Talent calculator", title:"Talent calculator"},
   {id:"planner", label:"Levelling planner", title:"Levelling planner"},
   {id:"flights", label:"Flight map", title:"Flight paths"},
+  {id:"upgrades", label:"Gear upgrade finder", title:"Gear upgrade finder"},
   {id:"talents", label:"Talents", title:"Talents", lede:"Every talent for every class and tree, with its full effect at max rank."},
   {id:"itemsets", label:"Gear sets", title:"Gear sets", lede:"Every armour set, its pieces and its set bonuses."},
   {id:"treasures", label:"Treasures & nodes", title:"Treasures, herbs & ore", lede:"Chests, footlockers, crates, herbs and ore veins: where they spawn and what they can contain. Filter by kind to see just herbs or just ore."},
@@ -579,6 +580,80 @@ function renderFlights(){
   main.querySelector("#fb").onchange=e=>{ st.to=e.target.value; draw(); };
   main.querySelector("#fmap").addEventListener("click",e=>{ const b=e.target.closest("[data-n]"); if(!b) return; st.sel=st.sel===b.dataset.n?"":b.dataset.n; draw(); });
   main.querySelector("#finfo").addEventListener("click",e=>{ const b=e.target.closest("[data-n]"); if(!b) return; e.preventDefault(); st.sel=b.dataset.n; draw(); });
+  draw();
+}
+
+/* ---------- gear upgrade finder ---------- */
+const ROLES={
+  /* % lines (Classic style) and rating lines (Forever's "+14 Critical Strike") are weighted separately */
+  "Strength melee":{str:2.2,ap:1,agi:1,crit:22,hit:20,critR:1.6,hitR:1.8,hasteR:1.2,sta:.4,dps:9},
+  "Agility melee":{agi:2.2,ap:1,str:1,crit:22,hit:20,critR:1.6,hitR:1.8,hasteR:1.2,sta:.4,dps:9},
+  "Ranged (Hunter)":{agi:2.3,ap:1,rap:1,crit:22,hit:20,critR:1.6,hitR:1.8,hasteR:1.3,int:.3,sta:.3,rdps:9},
+  "Caster damage":{sp:1.2,int:.6,crit:13,hit:15,critR:.9,hitR:1.1,hasteR:1,spi:.2,sta:.3},
+  "Healer":{heal:1,sp:.9,int:.8,spi:.6,mp5:2,crit:8,critR:.6,hasteR:.8,sta:.3},
+  "Tank":{sta:1.6,def:1.5,armor:.06,str:1,agi:1,dodge:18,parry:16,block:10,hit:8,hitR:.6,sp:.4}
+};
+const CLASSGEAR={
+  Warrior:{armor:["Mail","Plate"],plateAt:40,weapons:/Axe|Sword|Mace|Polearm|Staff|Dagger|Fist|Bow|Gun|Crossbow|Thrown|Shield/,roles:["Strength melee","Tank"]},
+  Paladin:{armor:["Mail","Plate"],plateAt:40,weapons:/Axe|Sword|Mace|Polearm|Shield|Libram/,roles:["Strength melee","Tank","Healer","Caster damage"]},
+  Hunter:{armor:["Leather","Mail"],mailAt:40,weapons:/Axe|Sword|Polearm|Staff|Dagger|Fist|Bow|Gun|Crossbow|Thrown/,roles:["Ranged (Hunter)","Agility melee"]},
+  Shaman:{armor:["Leather","Mail"],mailAt:40,weapons:/Axe|Mace|Staff|Dagger|Fist|Shield|Totem/,roles:["Strength melee","Caster damage","Healer","Tank"]},
+  Rogue:{armor:["Leather"],weapons:/Dagger|Fist|Sword|Mace|Axe|Bow|Gun|Crossbow|Thrown/,roles:["Agility melee"]},
+  Druid:{armor:["Leather"],weapons:/Staff|Mace|Dagger|Fist|Polearm|Idol/,roles:["Agility melee","Tank","Caster damage","Healer"]},
+  Mage:{armor:["Cloth"],weapons:/Staff|Dagger|Sword|Wand/,roles:["Caster damage"]},
+  Priest:{armor:["Cloth"],weapons:/Staff|Dagger|Mace|Wand/,roles:["Healer","Caster damage"]},
+  Warlock:{armor:["Cloth"],weapons:/Staff|Dagger|Sword|Wand/,roles:["Caster damage"]}
+};
+function itemStats(it){
+  if(it._st) return it._st; const s={}; const add=(k,v)=>{ s[k]=(s[k]||0)+v; };
+  const MAP={strength:"str",agility:"agi",intellect:"int",stamina:"sta",spirit:"spi","attack power":"ap","ranged attack power":"rap","spell power":"sp","spell damage":"sp","healing":"heal","critical strike":"critR","hit":"hitR","haste":"hasteR","defense":"def","dodge":"dodge","parry":"parry","block":"block"};
+  for(const raw of arr(it.stats)){ const l=String(raw); let m;
+    if((m=l.match(/^\+?(\d+)\s+(Strength|Agility|Intellect|Stamina|Spirit|Attack Power|Ranged Attack Power|Spell Power|Spell Damage|Critical Strike|Haste|Hit|Defense)\b/i))) add(MAP[m[2].toLowerCase()],+m[1]);
+    else if((m=l.match(/^(\d+)\s+Armor/i))) add("armor",+m[1]);
+    else if((m=l.match(/damage and healing done by magical spells and effects by up to (\d+)/i))){ add("sp",+m[1]); add("heal",+m[1]); }
+    else if((m=l.match(/healing done by spells and effects by up to (\d+)/i))) add("heal",+m[1]);
+    else if((m=l.match(/damage done by (?:\w+ )?spells and effects by up to (\d+)/i))) add("sp",+m[1]*.7);
+    else if((m=l.match(/\+(\d+) (?:ranged )?Attack Power/i))) add(/ranged/i.test(l)?"rap":"ap",+m[1]);
+    else if((m=l.match(/critical strike(?: with spells)? by (\d+)%/i))) add("crit",+m[1]);
+    else if((m=l.match(/chance to hit(?: with spells)? by (\d+)%/i))) add("hit",+m[1]);
+    else if((m=l.match(/Restores (\d+) mana per 5 sec/i))) add("mp5",+m[1]);
+    else if((m=l.match(/Increased Defense \+(\d+)/i))) add("def",+m[1]);
+    else if((m=l.match(/chance to (dodge|parry|block)[^\d]*(\d+)%/i))) add(m[1].toLowerCase(),+m[2]);
+    else if((m=l.match(/\(([\d.]+) damage per second\)/i))) add(/Bow|Gun|Crossbow|Thrown|Wand/.test(it.subclass||"")?"rdps":"dps",+m[1]); }
+  return it._st=s;
+}
+const SLOTS=["Head","Neck","Shoulder","Back","Chest","Wrist","Hands","Waist","Legs","Feet","Finger","Trinket","Main Hand","One-Hand","Two-Hand","Off Hand","Held In Off-hand","Ranged","Relic"];
+function renderUpgrades(){
+  const st=state.upg||(state.upg={cls:"Warrior",role:"",lvl:30,slot:""});
+  const C=CLASSGEAR[st.cls]; if(!C.roles.includes(st.role)) st.role=C.roles[0];
+  const main=$("#main");
+  main.innerHTML=`<h2>Gear upgrade finder</h2><p class="lede">The best items your character can use in every slot, ranked by real stats with weights for your role (based on the class guides' stat priorities). Hover an item for its tooltip; click for where it drops or who sells it. Scores are a guide, not gospel.</p>
+    <div class="filters"><select id="uc" aria-label="Class">${Object.keys(CLASSGEAR).map(c=>`<option${c===st.cls?" selected":""}>${c}</option>`).join("")}</select>
+      <select id="ur" aria-label="Role">${C.roles.map(r=>`<option${r===st.role?" selected":""}>${r}</option>`).join("")}</select>
+      <label class="toggle">Level <input id="ul" type="number" min="1" max="60" value="${st.lvl}" style="width:48px;background:transparent;border:0;color:inherit"></label>
+      <select id="us" aria-label="Slot"><option value="">All slots (top 5 each)</option>${SLOTS.map(s=>`<option${s===st.slot?" selected":""}>${s}</option>`).join("")}</select><span class="count" id="ucount"></span></div><div id="ulist"></div>`;
+  const draw=()=>{
+    const W=ROLES[st.role], armorOK=it=>{ if(it.itemClass!=="Armor") return true; const sc=it.subclass;
+      if(["Cloth","Leather","Mail","Plate"].includes(sc)){ if(it.slot==="Back") return true; if(!C.armor.includes(sc)) return false;
+        if(sc==="Plate"&&st.lvl<(C.plateAt||0)) return false; if(sc==="Mail"&&C.mailAt&&st.lvl<C.mailAt) return false; return true; }
+      return C.weapons.test(sc||"")||["Miscellaneous"].includes(sc); };
+    const weapOK=it=>it.itemClass!=="Weapon"||C.weapons.test(it.subclass||"");
+    const score=it=>{ const s=itemStats(it); let v=0; for(const k in W) v+=(s[k]||0)*W[k]; return Math.round(v*10)/10; };
+    const req=it=>+it.reqLevel||(+it.level>=60?60:Math.max(1,(+it.level||1)-5)); /* estimate when the data doesn't say */
+    const pool=(DATA.items||[]).filter(it=>it.slot&&it.name&&!/^(Monster|Test|\[)/.test(it.name)&&["Uncommon","Rare","Epic","Legendary"].includes(it.quality)
+      &&req(it)<=st.lvl&&req(it)>=Math.max(1,st.lvl-12)&&armorOK(it)&&weapOK(it));
+    const bySlot=new Map(); for(const it of pool){ const sc=score(it); if(sc<=0) continue; const k=it.slot; if(st.slot&&k!==st.slot) continue; if(!bySlot.has(k)) bySlot.set(k,[]); bySlot.get(k).push([sc,it]); }
+    const n=st.slot?40:5; let shown=0;
+    $("#ulist").innerHTML=SLOTS.filter(s=>bySlot.has(s)).map(s=>{ const l=bySlot.get(s).sort((a,b)=>b[0]-a[0]).slice(0,n); shown+=l.length;
+      return `<details class="lootboss" open><summary>${esc(s)} <span>${bySlot.get(s).length} options</span></summary><table><thead><tr><th>Item</th><th>Type</th><th class="num">Req</th><th class="num">Score</th><th>Source</th></tr></thead><tbody>${
+        l.map(([sc,it])=>`<tr><td>${itemLink(it.name)}</td><td>${esc(it.subclass||"")}</td><td class="num">${it.reqLevel||`~${req(it)}`}</td><td class="num"><b>${sc}</b></td><td style="opacity:.85;font-size:13px">${esc(String(it.where||it.source||"").replace(/\.$/,"").slice(0,90))}</td></tr>`).join("")}</tbody></table></details>`; }).join("")||`<div class="empty">No matching items for that level yet.</div>`;
+    $("#ucount").textContent=`${pool.length} usable items considered`;
+  };
+  main.querySelector("#uc").onchange=e=>{ st.cls=e.target.value; renderUpgrades(); };
+  main.querySelector("#ur").onchange=e=>{ st.role=e.target.value; draw(); };
+  main.querySelector("#ul").onchange=e=>{ st.lvl=Math.max(1,Math.min(60,+e.target.value||60)); draw(); };
+  main.querySelector("#us").onchange=e=>{ st.slot=e.target.value; draw(); };
+  if(!(DATA.items||[]).length){ $("#ulist").innerHTML=`<div class="empty">Loading the item database…</div>`; return; }
   draw();
 }
 
@@ -977,6 +1052,7 @@ function route(){
   if(DATA&&key&&CFG[id]&&!q){ const it=findEntry(id,key); if(it) return renderEntry(id,it); }
   if(DATA&&id==="planner"&&!q) return renderPlanner();
   if(DATA&&id==="flights"&&!q) return renderFlights();
+  if(DATA&&id==="upgrades"&&!q) return renderUpgrades();
   if(DATA&&id==="talentcalc"&&!q){ const p=(location.hash||"").slice(1).split("/"); return renderCalc(decodeURIComponent(p[1]||""),p[2]||"",p[3]); }
   if(!DATA) return;
   if(q.length>=2) return renderSearch(q);
@@ -984,7 +1060,7 @@ function route(){
 }
 
 const NAVGROUPS=[["Start",["home","news","guides","planner","systems"]],["Collect",["mounts","pets","hunterpets","collectibles","achievements","legacy"]],
-  ["Gear & crafting",["gear","items","itemsets","recipes","professions"]],["World",["quests","zones","flights","instances","rares","treasures","travel","services","reputations","events","pvp"]],
+  ["Gear & crafting",["upgrades","gear","items","itemsets","recipes","professions"]],["World",["quests","zones","flights","instances","rares","treasures","travel","services","reputations","events","pvp"]],
   ["Characters",["classes","talentcalc","talents"]]];
 { const used=new Set(NAVGROUPS.flatMap(g=>g[1])); const rest=SECTIONS.filter(s=>!used.has(s.id)).map(s=>s.id);
   const link=id=>{const s=SECTIONS.find(x=>x.id===id); return s?`<a href="#${s.id}" data-id="${s.id}">${esc(s.label)}</a>`:"";};
@@ -1009,7 +1085,7 @@ function loadItems(){
     EMPTY.items="The item database couldn't load. Reload the page to try again.";
     for(const k in IDX) delete IDX[k];
     const [id,key]=(location.hash||"#home").slice(1).split("/");
-    if($("#q").value.trim().length>=2||key||["items","home","mounts","pets","recipes","collectibles","itemsets"].includes(id)) route();
+    if($("#q").value.trim().length>=2||key||["items","home","mounts","pets","recipes","collectibles","itemsets","upgrades","reputations","instances"].includes(id)) route();
   });
 }
 /* Blizzard's official Forever data (live/*.json, refreshed daily, enriched with Questie's levels, zones and sources).
