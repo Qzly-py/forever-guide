@@ -490,6 +490,41 @@ def professions():
     save("recipes", out)
 
 
+# ---------------------------------------------------------------- full talent tree layouts for the calculator
+def talenttrees():
+    trees = (get("/data/wow/talent-tree/index") or {}).get("spec_talent_trees", [])
+
+    def one(t):
+        path = urllib.parse.urlparse((t.get("key") or {}).get("href", "")).path
+        return get(path) or {}
+    out = []
+    for t, d in zip(trees, pmap(one, trees)):
+        if not d:
+            continue
+        nodes = []
+        for n in d.get("spec_talent_nodes", []) + d.get("class_talent_nodes", []):
+            ranks = n.get("ranks") or []
+            r0 = (ranks[0].get("tooltip") or {}) if ranks else {}
+            if not r0 and ranks and ranks[0].get("choice_of_tooltips"):
+                r0 = ranks[0]["choice_of_tooltips"][0]
+            tal, sp = r0.get("talent") or {}, (r0.get("spell_tooltip") or {})
+            nodes.append(clean({
+                "id": n.get("id"), "row": n.get("display_row"), "col": n.get("display_col"),
+                "name": nm(tal) or nm(sp.get("spell")), "talent": tal.get("id"), "spell": (sp.get("spell") or {}).get("id"),
+                "active": "ACTIVE" in json.dumps(n.get("node_type") or {}),
+                "ranks": [((r.get("tooltip") or {}).get("spell_tooltip") or {}).get("description") or "" for r in ranks],
+                "cast": sp.get("cast_time"), "range": sp.get("range"), "cost": sp.get("power_cost"), "cooldown": sp.get("cooldown"),
+                "req": [x.get("id") if isinstance(x, dict) else x for x in (n.get("locked_by") or [])],
+            }))
+        if out == [] and d.get("spec_talent_nodes"):
+            print("talent node sample:", json.dumps({k: v for k, v in d["spec_talent_nodes"][0].items() if k != "ranks"})[:600])
+        out.append({"id": d.get("id"), "name": nm(d.get("playable_specialization")) or nm(d),
+                    "class": nm(d.get("playable_class")), "nodes": nodes})
+    (LIVE / "talenttrees.json").write_text(json.dumps({"updated": NOW.isoformat(timespec="seconds"), "trees": out},
+                                                      ensure_ascii=False, separators=(",", ":")))
+    print(f"talent trees: {len(out)}, nodes: {sum(len(t['nodes']) for t in out)}")
+
+
 # ---------------------------------------------------------------- official images: creature renders and icons
 def media():
     """Creature portraits (hunter pets, mounts, pets) and icons (achievements, talents, professions, classes).
@@ -558,7 +593,7 @@ def media():
 
 ONLY = {s.strip() for s in os.environ.get("SECTIONS", "").split(",") if s.strip()}
 for fn in (hunterpets, mounts, pets, toys, titles, itemsets, achievements, reputations, classes, talents, quests,
-           professions, items, media):
+           professions, items, talenttrees, media):
     if not ONLY or fn.__name__ in ONLY:
         section(fn)
 print(f"done: {_calls[0]} API calls, full refresh={FULL}")
