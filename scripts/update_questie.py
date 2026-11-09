@@ -504,8 +504,8 @@ for oid, r in OBJ.items():
     sp = at(r, 4) or {}
     if not isinstance(sp, dict) or not sp or not (CHEST.search(name) or oid in CONTAINS):
         continue
-    if at(r, 2) or at(r, 3):  # quest givers / turn-ins aren't treasure
-        continue
+    if at(r, 2) or at(r, 3) or re.search(r"mailbox|signpost|bonfire|campfire|doodad|^\s*$", name, re.I):
+        continue  # quest givers / turn-ins and scenery aren't treasure
     zones_ = Counter()
     sample = []
     for z, pts in sp.items():
@@ -516,7 +516,10 @@ for oid, r in OBJ.items():
     if not zones_:
         continue
     loot = sorted(set(x for x in CONTAINS.get(oid, []) if x))
-    treasures.append({"id": oid, "name": name, "kind": "Chest" if CHEST.search(name) else "Object",
+    kind = ("Ore vein" if re.search(r"\b(vein|deposit)\b", name, re.I)
+            else "Herb" if name in loot or re.search(r"\b(bloom|leaf|root|weed|thorn|kelp|lotus|moss|whisker|steelbloom|blood)\b", name, re.I) and len(loot) <= 4
+            else "Chest" if CHEST.search(name) else "Object")
+    treasures.append({"id": oid, "name": name, "kind": kind,
                       "zone": zones_.most_common(1)[0][0],
                       "where": ", ".join(f"{z} ({n} spot{'s' if n > 1 else ''})" for z, n in zones_.most_common(8)),
                       "spots": sample[:12], "drops": loot[:40], "pts": spawn_pts(sp, 25)})
