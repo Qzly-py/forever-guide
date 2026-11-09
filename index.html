@@ -207,6 +207,21 @@ details.entry[open] .body .chips span{background:rgba(255,255,255,.35);border-co
 .rel a img{width:20px;height:20px;border-radius:50%;object-fit:cover;background:#2b1c0c}
 .rel a:hover{background:rgba(255,255,255,.65)}
 .permalink{font-size:13px}
+/* item links keep the game's bright quality colours on their dark chips, even on parchment */
+body a.ilink.q-Poor{color:var(--q-poor)!important} body a.ilink.q-Common{color:var(--q-common)!important} body a.ilink.q-Uncommon{color:var(--q-uncommon)!important}
+body a.ilink.q-Rare{color:#3d9bff!important} body a.ilink.q-Epic{color:#c47bff!important} body a.ilink.q-Legendary{color:var(--q-legendary)!important}
+body a.ilink.q-Artifact,body a.ilink.q-Heirloom{color:var(--q-artifact)!important}
+.entrypage.solo{grid-template-columns:1fr!important}
+/* loot tables */
+.loot h4{margin:6px 0;font:700 13px/1.2 var(--f-display);letter-spacing:.06em;text-transform:uppercase;opacity:.8}
+.lootboss{margin:0 0 8px;border:1px solid rgba(122,90,34,.5);border-radius:5px;overflow:hidden}
+.lootboss>summary{cursor:pointer;padding:6px 10px;font:700 15px var(--f-display);background:rgba(0,0,0,.08)}
+.lootboss>summary span{font:500 12px var(--f-data);opacity:.7;margin-left:6px}
+.loot table{width:100%;border-collapse:collapse;font-size:14px}
+.loot th{text-align:left;font:500 11px var(--f-data);text-transform:uppercase;letter-spacing:.05em;opacity:.7;padding:4px 8px}
+.loot td{padding:4px 8px;border-top:1px solid rgba(122,90,34,.25);vertical-align:middle}
+.loot .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+@media (max-width:600px){ .loot th:nth-child(3),.loot td:nth-child(3){display:none} }
 /* collection tracker */
 .colbtn{flex:none;width:26px;height:26px;border-radius:50%;border:1px solid var(--gold-3);background:#0d0a07;color:transparent;font-weight:700;cursor:pointer;margin-left:8px;align-self:center}
 .colbtn:hover{color:#6b5a3a}
@@ -431,7 +446,7 @@ const CFG = {
     body:it=>(has(it.changed)?`<p>${esc(it.changed)}</p>`:"")+dlFor(it,[["highlights","Highlights"]])+zoneCounts(it.name)+srcLink(it)},
   instances:{filters:["kind"], sort:(a,b)=>lvMin(a.levels)-lvMin(b.levels),
     head:it=>({title:it.name, right:it.levels?`Lv ${it.levels}`:"", tags:tagsFor(it,["kind","size"])}),
-    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["location","Location"],["unlock","Opens"],["bosses","Bosses"],["strategy","Boss tactics"],["notableLoot","Notable loot"],["bossLoot","Loot by boss"],["tips","Tips"]])+srcLink(it)},
+    body:it=>(has(it.notes)?`<p>${esc(it.notes)}</p>`:"")+dlFor(it,[["location","Location"],["unlock","Opens"],["bosses","Bosses"],["strategy","Boss tactics"],["tips","Tips"]])+lootTables(it)+srcLink(it)},
   classes:{filters:["kind","faction"], sort:(a,b)=>(a.kind||"Class").localeCompare(b.kind||"Class")||(a.name||"").localeCompare(b.name||""),
     head:it=>({title:it.name, right:it.power||"", tags:tagsFor(it,["kind","faction"])+arr(it.roles).map(r=>`<span class="tag">${esc(r)}</span>`).join("")}),
     body:it=>(has(it.forevChanges)?`<p>${esc(it.forevChanges)}</p>`:"")+dlFor(it,[["specs","Talent trees"],["races","Races"],["classes","Classes"],["racials","Racial abilities"]])+srcLink(it)},
@@ -486,6 +501,24 @@ function iconOf(sec,it){
   return "";
 }
 function findEntry(sec,key){ const all=DATA[sec]||[]; return all.find(x=>keyOf(x)===key)||all.find(x=>slug(x.name||x.title)===key); }
+
+/* ---------- loot tables for dungeons and raids ---------- */
+function dropChance(it){ for(const s of arr(it.stats)){ const m=String(s).match(/Drop Chance:\s*([\d.]+)%/i); if(m) return +m[1]; } return null; }
+function lootTables(ins){
+  const groups=[];
+  for(const line of arr(ins.bossLoot)){ const m=String(line).match(/^([^:]+):\s*(.+)$/); if(m) groups.push([m[1],m[2].split(/,\s*/)]); }
+  const known=new Set(groups.flatMap(g=>g[1].map(n=>n.toLowerCase())));
+  const extra=arr(ins.notableLoot).filter(n=>!known.has(String(n).toLowerCase()));
+  if(extra.length) groups.push([groups.length?"Other notable loot":"Notable loot",extra]);
+  if(!groups.length) return "";
+  const haveItems=DATA&&DATA.items&&DATA.items.length;
+  return `<div class="loot"><h4>Loot</h4>${groups.map(([boss,names])=>{
+    const rows=names.map(n=>{ const it=haveItems&&byName("items").get(String(n).toLowerCase()); const dc=it&&dropChance(it);
+      return `<tr><td>${itemLink(n)||esc(n)}</td><td>${esc((it&&(it.slot||it.subclass))||"")}</td><td>${esc(it&&it.subclass&&it.slot?it.subclass:"")}</td><td class="num">${(it&&it.level)||""}</td><td class="num">${dc!=null?dc+"%":""}</td></tr>`; }).join("");
+    return `<details class="lootboss" open><summary>${esc(boss)} <span>${names.length} item${names.length===1?"":"s"}</span></summary>
+      <table><thead><tr><th>Item</th><th>Slot</th><th>Type</th><th class="num">iLvl</th><th class="num">Drop</th></tr></thead><tbody>${rows}</tbody></table></details>`; }).join("")}
+    <p class="src" style="margin:6px 0 0;opacity:.8">Drop chances are from the original game where known; Forever's may differ.</p></div>`;
+}
 
 /* ---------- collection tracker (saved in this browser only) ---------- */
 const COLLECT={mounts:"collected",pets:"collected",collectibles:"collected",achievements:"earned",hunterpets:"tamed",legacy:"done",treasures:"looted",rares:"killed"};
@@ -672,7 +705,7 @@ function renderEntry(sec,it){
   $("#main").innerHTML=`<p class="eyebrow" style="margin:0 0 6px"><a href="#${sec}">${esc(meta.label||sec)}</a> ›</p>
     <h2 class="${h.cls||""}">${icon&&!pic?`<img class="ico" src="${esc(icon)}" alt="" style="width:36px;height:36px;vertical-align:-6px">`:""}${esc(h.title)} ${colBtn(sec,it)}</h2>
     ${h.tags?`<div class="tags" style="margin:10px 0 16px">${h.tags}${h.right?`<span class="tag">${esc(h.right)}</span>`:""}</div>`:""}
-    <div class="entrypage">
+    <div class="entrypage${pic||map?"":" solo"}">
       <div class="panel parch" style="padding:20px 22px;display:grid;gap:14px">${CFG[sec].body(it)}${whLink(sec,it)}${related(sec,it)}</div>
       <div style="display:grid;gap:14px;align-content:start">${pic?`<img class="portrait" src="${esc(pic)}" alt="${esc(h.title)}">`:""}${map?`<div class="panel parch" style="padding:14px">${map}</div>`:""}</div>
     </div>`;
