@@ -57,7 +57,15 @@ seen = {n["url"] for n in existing if n.get("url")}
 added = 0
 for url, cat, forever_only in FEEDS:
     try:
-        root = ET.fromstring(fetch(url))
+        raw = fetch(url)
+        try:
+            root = ET.fromstring(raw)
+        except ET.ParseError:
+            # Some feeds ship stray control characters or bare '&': clean them and try once more.
+            txt = raw.decode("utf-8", "replace")
+            txt = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", txt)
+            txt = re.sub(r"&(?!(?:[a-zA-Z]+|#\d+|#x[0-9a-fA-F]+);)", "&amp;", txt)
+            root = ET.fromstring(txt.encode("utf-8"))
     except Exception as e:
         print(f"skip {url}: {e}")
         continue
