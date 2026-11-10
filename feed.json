@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-09T21:59:08+00:00",
+"updated": "2026-11-10T02:12:34+00:00",
 "news": [
 {
 "date": "2026-11-09",
@@ -39,6 +39,14 @@
 "summary": "Blizzard has announced via in-game server messages that they are taking down the WoW: Forever servers briefly. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383815/blizzard-taking-down-wow-forever-servers-shortly",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "Blizzard Made Character Creation on Higher Population Faction Increasingly Difficult",
+"summary": "Blizzard has announced that they have adjusted their character creation system and it will become increasingly difficult to create a character on the faction with the higher population on PvP servers. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383817/blizzard-made-character-creation-on-higher-population-faction-increasingly",
 "auto": true
 },
 {
