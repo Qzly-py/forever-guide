@@ -1,6 +1,22 @@
 {
-"updated": "2026-11-10T02:12:34+00:00",
+"updated": "2026-11-10T09:57:33+00:00",
 "news": [
+{
+"date": "2026-11-10",
+"title": "Player Population Reduction in Zones: WoW Forever Hotfixes for November 9",
+"summary": "Following the announcement that they’ll be tightening up population restrictions on PvP rulesets, Blizzard has posted a long list of hotfixes for WoW Forever. There are several bug fixes for classes, dungeons, NPCs,…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/player-population-reduction-in-zones-wow-forever-hotfixes-for-november-9/",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "Blizzard Addresses PvP Faction Balance Concerns in WoW Forever",
+"summary": "Social media has been abuzz with concerns about faction balance on PvP rulesets in WoW Forever, as various population trackers have begun to show an increasing tilt toward one side or the other. Blizzard has announced…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-pvp-faction-balance-concerns-in-wow-forever/",
+"auto": true
+},
 {
 "date": "2026-11-09",
 "title": "Level Faster with your Cozy Sleeping Bag in WoW: Forever",
@@ -47,6 +63,14 @@
 "summary": "Blizzard has announced that they have adjusted their character creation system and it will become increasingly difficult to create a character on the faction with the higher population on PvP servers. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383817/blizzard-made-character-creation-on-higher-population-faction-increasingly",
+"auto": true
+},
+{
+"date": "2026-11-09",
+"title": "Drowned City Nerfs & Reduced Population in Zones - WoW: Forever Hotfixes for November 9th",
+"summary": "Blizzard has posted hotfixes for today, which includes many class bug fixes, a nerf to The Drowned City, and reducing the population in zones with significant population. Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383819/drowned-city-nerfs-and-reduced-population-in-zones-wow-forever-hotfixes-for",
 "auto": true
 },
 {
