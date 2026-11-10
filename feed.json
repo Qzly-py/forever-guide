@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-10T09:57:33+00:00",
+"updated": "2026-11-10T17:55:20+00:00",
 "news": [
 {
 "date": "2026-11-10",
@@ -15,6 +15,30 @@
 "summary": "Social media has been abuzz with concerns about faction balance on PvP rulesets in WoW Forever, as various population trackers have begun to show an increasing tilt toward one side or the other. Blizzard has announced…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/blizzard-addresses-pvp-faction-balance-concerns-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "Secret Hunt in WoW: Forever with the Night Watchman's Torch",
+"summary": "The hunt for secrets is on in WoW: Forever, and to jump in, you'll need to find the Night Watchman's Torch in Duskwood. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383145/secret-hunt-in-wow-forever-with-the-night-watchmans-torch",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "Every Quest for Level 20 to 30 Dungeons in WoW: Forever",
+"summary": "Here are all the quests for the level 20 to 30 dungeons to help you level faster in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383814/every-quest-for-level-20-to-30-dungeons-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "New \"Dawn Waker\" Secret Found in WoW: Forever",
+"summary": "A New extensive quest chain to unlock potentially powerful weapons has been discovered in WoW: Forever, thanks to the Secret Finding Discord! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383813/new-dawn-waker-secret-found-in-wow-forever",
 "auto": true
 },
 {
