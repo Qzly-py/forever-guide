@@ -1,6 +1,30 @@
 {
-"updated": "2026-11-10T23:27:59+00:00",
+"updated": "2026-11-11T06:35:18+00:00",
 "news": [
+{
+"date": "2026-11-11",
+"title": "Mage Portals & Teleports Guide",
+"summary": "Mages in WoW Forever can teleport throughout Azeroth at will and create portals for others to teleport across the world, significantly lessening travel time! This guide covers everything you need to know about Mage…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/mage-portals/",
+"auto": true
+},
+{
+"date": "2026-11-11",
+"title": "Mage Scrolls, Comprehension & Research Guide",
+"summary": "Mages in WoW Forever unlock the ability to decipher scrolls, which grants them a variety of new spell effects and buffs to use. This guide will cover everything there is to know about Mage Scrolls, the new Comprehension…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/mage-scrolls/",
+"auto": true
+},
+{
+"date": "2026-11-11",
+"title": "More Gold From Quests Above Level 48 in WoW Forever",
+"summary": "The first players to reach level 60 in WoW Forever discovered that the gold you earn from quests does not increase when you reach the level cap. Blizzard has addressed this in a blue post: this was the original way that…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/more-gold-from-quests-above-level-48-in-wow-forever/",
+"auto": true
+},
 {
 "date": "2026-11-10",
 "title": "Player Population Reduction in Zones: WoW Forever Hotfixes for November 9",
@@ -79,6 +103,22 @@
 "summary": "On the Weekly Reset, the Shaman Class Weapon, Rage of the Storm, has been hotfixed to change the attack speed and stats of the weapon. Continue reading »",
 "category": "Hotfix",
 "url": "https://www.wowhead.com/news=383824/enhancement-shaman-class-weapon-hotfixed-on-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "Hunter Pet Nerf and Enhancement Shaman Changes - WoW: Forever Hotfixes for November 10, 2026",
+"summary": "Blizzard has posted hotfixes for today, which includes a pet nerf for Hunters, a pet buff for Warlocks, Enhancement Shaman changes and more! Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383837/hunter-pet-nerf-and-enhancement-shaman-changes-wow-forever-hotfixes-for-november",
+"auto": true
+},
+{
+"date": "2026-11-10",
+"title": "Blizzard Addressing Missing Shaman Totems Due to Monday's Server Issue in WoW: Forever",
+"summary": "Blizzard has fixed an issue with missing Shaman totems due to server issues on Monday. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383833/blizzard-addressing-missing-shaman-totems-due-to-mondays-server-issue-in-wow",
 "auto": true
 },
 {
