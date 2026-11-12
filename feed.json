@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T12:48:54+00:00",
+"updated": "2026-11-12T20:52:11+00:00",
 "news": [
 {
 "date": "2026-11-12",
@@ -15,6 +15,78 @@
 "summary": "Managing your inventory and storage space is an integral part of the World of Warcraft experience. WoW Forever introduces some new ways to organize our bags and banks compared to Classic. This guide will teach you all…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/inventory/",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "New High Level Battle Mage Weapon Discovered in WoW: Forever",
+"summary": "Players have discovered a new high-level Battle Mage weapon called Wit's Edge in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383860/new-high-level-battle-mage-weapon-discovered-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Enhancement Shaman Class Changes Now Live in WoW: Forever",
+"summary": "Blizzard has confirmed that the Enhancement Shaman changes are now live. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383858/enhancement-shaman-class-changes-now-live",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "\"Start Making Other Arrangements\" - Josh Greenfield on Locking Character Creation on PvP Rulesets",
+"summary": "In episode 7 of the WoW: Forever podcast, Josh Greenfield comments on locking character creation on PvP rulesets, noting that Horde players who have not made a character on most PvP and RP-PVP realms should \"start…",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383854/start-making-other-arrangements-josh-greenfield-expands-on-pvp-ruleset-character",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "The WoW: Forever Podcast Episode 7 Now Available - Lore Episode",
+"summary": "The WoW: Forever podcast continues! Episode 7 is here and the team is talking about the lore. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383853/the-wow-forever-podcast-episode-7-now-available-lore-episode",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Loot Ocarina of Time Boots from Drowned City in WoW: Forever",
+"summary": "A pair of boots has been discovered in the Drowned City loot table, which appears to be a clear reference to The Legend of Zelda: Ocarina of Time! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383842/loot-ocarina-of-time-boots-from-drowned-city-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Party with Other Players to Use Their Sleeping Bags for Experience Buff in WoW: Forever",
+"summary": "Getting the Cozy Sleeping Bag takes a long time, but you can use other players' sleeping bags to get the same experience buff if you're in the same party! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383807/party-with-other-players-to-use-their-sleeping-bags-for-experience-buff-in-wow",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Catch-Up Mechanics & The Economy in WoW: Forever - But Why Tho? Interview",
+"summary": "But Why Tho? interviewed Mike Nuthals and Tim Jones on WoW: Forever and discussed the possibility of catch-up mechanics and the Economy. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383818/catch-up-mechanics-and-the-economy-in-wow-forever-but-why-tho-interview",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Episode 7 of the WoW Forever Podcast Digs into Lore",
+"summary": "After taking a week off for the game’s launch, the official WoW Forever Podcast is back with episode 7, which focuses on the game’s lore. Hosts CountdowntoClassic and Senior Game Designer Josh “Aggrend” Greenfield are…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/episode-7-of-the-wow-forever-podcast-digs-into-lore/",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Forever World Buffs Now Provided in Razor Hill, Goldshire, Lakeshire, & Sentinel Hill",
+"summary": "While World Buffs no longer work in raids in WoW Forever, they are still very much available. Previously, these world buffs would only be provided to players in Orgrimmar and the Crossroads for Horde, and Stormwind for…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/forever-world-buffs-now-provided-in-razor-hill-goldshire-lakeshire-sentinel-hill/",
 "auto": true
 },
 {
