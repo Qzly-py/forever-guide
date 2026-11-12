@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T03:52:02+00:00",
+"updated": "2026-11-12T12:48:54+00:00",
 "news": [
 {
 "date": "2026-11-12",
@@ -7,6 +7,14 @@
 "summary": "The latest round of hotfixes has hit WoW Forever, following another large batch that went live yesterday. The changes include the adjustments to Tailoring bags that were spotted earlier today. There are also a few…",
 "category": "Hotfix",
 "url": "https://www.warcrafttavern.com/forever/news/riverglades-mob-nerfs-wow-forever-hotfixes-for-november-11/",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Bags & Bank Guide",
+"summary": "Managing your inventory and storage space is an integral part of the World of Warcraft experience. WoW Forever introduces some new ways to organize our bags and banks compared to Classic. This guide will teach you all…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/inventory/",
 "auto": true
 },
 {
@@ -95,6 +103,14 @@
 "summary": "Players have noticed an unannounced change in WoW Forever today: many bags crafted with Tailoring now offer 2 additional inventory slots. The change makes the bags more valuable for players looking to expand their…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/bag-slots-increased-for-tailoring-bags-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-11",
+"title": "Restoration Druid Change to Wild Growth in WoW: Forever",
+"summary": "Restoration Druids have gotten a change to Wild Growth today in WoW: Forever. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383851/restoration-druid-change-to-wild-growth-in-wow-forever",
 "auto": true
 },
 {
