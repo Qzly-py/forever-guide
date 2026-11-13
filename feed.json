@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-12T20:52:11+00:00",
+"updated": "2026-11-13T01:53:09+00:00",
 "news": [
 {
 "date": "2026-11-12",
@@ -87,6 +87,30 @@
 "summary": "While World Buffs no longer work in raids in WoW Forever, they are still very much available. Previously, these world buffs would only be provided to players in Orgrimmar and the Crossroads for Horde, and Stormwind for…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/forever-world-buffs-now-provided-in-razor-hill-goldshire-lakeshire-sentinel-hill/",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "New Max Level Weekly Quest Rewards Up to 100 Gold in WoW: Forever",
+"summary": "Once you reach max level in WoW: Forever, there's a new Weekly Quest that awards a random amount of gold, up to 100 Gold! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383846/new-max-level-weekly-quest-rewards-up-to-100-gold-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Learning Dual Spec Can Trigger Empty Action Bars When Logging Out in WoW: Forever",
+"summary": "Once you learn Dual Spec, a bug can randomly trigger when you log out, wiping abilities off your Action Bars! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383862/dual-spec-bug-causes-empty-action-bars-after-logging-out",
+"auto": true
+},
+{
+"date": "2026-11-12",
+"title": "Season of Discovery's Scarlet Enclave Raid to Return in WoW: Forever",
+"summary": "In the latest episode of the WoW: Forever podcast, Blizzard has confirmed that the SoD exclusive raid, The Scarlet Enclave, will eventually return in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383855/season-of-discoverys-scarlet-enclave-raid-to-return-in-wow-forever",
 "auto": true
 },
 {
