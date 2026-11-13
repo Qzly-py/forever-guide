@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-13T17:48:46+00:00",
+"updated": "2026-11-13T23:37:38+00:00",
 "news": [
 {
 "date": "2026-11-13",
@@ -15,6 +15,70 @@
 "summary": "A new secret toy, the Alcaz Operative Disguise, has been found in WoW Forever, starting in the new dungeon: Alcaz Prison. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383859/secret-disguise-toy-found-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "Riverglades is One of the Best Leveling Zones in WoW: Forever",
+"summary": "Many players have mentioned that the Riverglades is one of the best leveling zones in WoW: Forever, so make sure to visit on your journey to 60! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383849/riverglades-is-one-of-the-best-leveling-zones-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "Skyborne Don't Have Reputation Discount for Mounts in WoW: Forever",
+"summary": "Skyborne don't get the 10% reputation discount for learning your mount in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383873/skyborne-dont-have-reputation-discount-for-mounts-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "Blizzard Taking Down WoW: Forever Realms in 30 Minutes to Fix Urgent Server Crash",
+"summary": "Blizzard has announced emergency realm maintenance in 30 minutes to fix an urgent server crash for WoW: Forever realms. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383870/blizzard-taking-down-wow-forever-realms-in-30-minutes-to-fix-urgent-server-crash",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "The WoW: Forever Podcast, a New Short Story, This Week’s Videos, and More! — WoW Weekly",
+"summary": "Blizzard has posted a recap of this week in WoW, highlighting the continuation of the WoW: Forever podcast, a new short story, and more! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383869/the-wow-forever-podcast-a-new-short-story-this-week-s-videos-and-more-wow-weekly",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "New Short Story “Cost of Honor” for WoW: Forever",
+"summary": "Blizzard has released a new short story for WoW: Forever called \"The Cost of Honor\"! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383868/new-short-story-cost-of-honor-for-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "Where to Turn in Library Books in WoW Forever",
+"summary": "If you’ve stumbled upon a glittering scroll or tome in WoW Forever and clicked on it to pick up a book, you might be wondering what you’re supposed to do with it. The item doesn’t start a quest on its own, and there…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/where-to-turn-in-library-books-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "New WoW Forever Short Story: The Cost of Honor",
+"summary": "Following yesterday’s Episode 7 of the WoW Forever Podcast, which was all about lore, Blizzard has released a new short story for WoW Forever: The Cost of Honor. The story is available as an animated video and PDF. In…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-short-story-the-cost-of-honor/",
+"auto": true
+},
+{
+"date": "2026-11-13",
+"title": "PvP Vendor Locations",
+"summary": "WoW Forever spices up the Classic PvP formula with a brand-new Battleground in Darkspear Islands designed in a similar way to TBC’s Eye of the Storm but with less purple. It also overhauls PvP ranks and rewards and…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/pvp-vendors/",
 "auto": true
 },
 {
