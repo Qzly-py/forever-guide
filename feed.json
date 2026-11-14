@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T19:13:43+00:00",
+"updated": "2026-11-14T23:02:33+00:00",
 "news": [
 {
 "date": "2026-11-14",
@@ -63,6 +63,14 @@
 "summary": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre! Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "WoW Forever Players Reporting Dungeons Giving No Exp After Recent Change",
+"summary": "In the hotfixes from November 13th, experience gain in dungeons was changed. This change made it so that if an enemy in a dungeon is trivial (gray level) to anyone in the party, it will not give experience to anyone.…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
 "auto": true
 },
 {
