@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T14:13:32+00:00",
+"updated": "2026-11-14T19:13:43+00:00",
 "news": [
 {
 "date": "2026-11-14",
@@ -39,6 +39,30 @@
 "summary": "Travel has become much easier in WoW Forever, as players can now reach Darnassus from Stormwind with little trouble. This guide will walk you through the newly added route step by step! How to Reach Darnassus from…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/how-to-get-to-darnassus-from-stormwind/",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "Infiltrate Krol'dok Stronghold: New Dungeon in WoW: Forever",
+"summary": "Krol'dok Stronghold is a new dungeon that challenges players in the Level 40-45 bracket in WoW: Forever - take a look at the quests and rewards you'll find inside! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383871/infiltrate-kroldok-stronghold-new-dungeon-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "Dungeon Mobs Grant Zero Experience if Trivial to Anyone in Party in WoW: Forever",
+"summary": "In last night's hotfixes, Blizzard announced that if any party member in a dungeon is too high-level, no one in the party will receive experience. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383880/dungeon-mobs-grant-zero-experience-if-trivial-to-anyone-in-party",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "New Dungeon Set Transforms Players into an Ogre in WoW: Forever",
+"summary": "Players have discovered an additional bonus to equipping all of the new Krol'dok Battlegear armor from Krol'dok Stronghold in Forever: turning the player into an Ogre! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383861/new-dungeon-set-transforms-players-into-an-ogre-in-wow-forever",
 "auto": true
 },
 {
