@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-15T17:46:34+00:00",
+"updated": "2026-11-15T22:54:01+00:00",
 "news": [
 {
 "date": "2026-11-15",
@@ -15,6 +15,22 @@
 "summary": "First Aid is a secondary profession in WoW Forever that allows players to craft bandages to restore health without using healing spells. It’s particularly useful for classes with limited self-healing, helping you…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/first-aid-leveling/",
+"auto": true
+},
+{
+"date": "2026-11-15",
+"title": "Save Gold and Gain Bag Space by Earning Quest Rewards in WoW: Forever",
+"summary": "Looking to upgrade your bags, but are a little tight on gold? Here are some bag upgrades from quests in Forever that should give you a bit more storage space! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383845/save-gold-and-gain-bag-space-by-earning-quest-rewards-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-15",
+"title": "Dungeon Kill Experience Changed Again in WoW Forever",
+"summary": "In their ongoing effort to balance out the experience gained from dungeons in WoW Forever, Blizzard has once again adjusted the amount of XP granted from enemy kills. A recent change had effectively disabled experience…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/dungeon-kill-experience-changed-again-in-wow-forever/",
 "auto": true
 },
 {
@@ -95,6 +111,14 @@
 "summary": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey! Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "More Fishing Tournament Winners: WoW Forever Hotfixes for November 13",
+"summary": "The most recent hotfixes for WoW Forever are in, a little over a week after the game’s launch and just ahead of the weekend. Notably, the Stranglethorn Vale Fishing Extravaganza has been changed to allow more winners,…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/more-fishing-tournament-winners-wow-forever-hotfixes-for-november-13/",
 "auto": true
 },
 {
