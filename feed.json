@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-14T23:02:33+00:00",
+"updated": "2026-11-15T02:44:26+00:00",
 "news": [
 {
 "date": "2026-11-14",
@@ -71,6 +71,14 @@
 "summary": "In the hotfixes from November 13th, experience gain in dungeons was changed. This change made it so that if an enemy in a dungeon is trivial (gray level) to anyone in the party, it will not give experience to anyone.…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/wow-forever-players-reporting-dungeons-giving-no-exp-after-recent-change/",
+"auto": true
+},
+{
+"date": "2026-11-14",
+"title": "Dungeon Mobs Now Grant Zero Experience When Highest Player is 13 Levels Above the Creature in WoW: Forever",
+"summary": "In a brand-new change, dungeon mobs will now grant zero experience when the highest-level player is more than 12 levels above the creature, instead of when the mob is grey! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383883/dungeon-mobs-now-grant-zero-experience-when-highest-player-is-13-levels-above",
 "auto": true
 },
 {
