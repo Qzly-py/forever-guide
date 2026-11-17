@@ -1,6 +1,22 @@
 {
-"updated": "2026-11-16T22:12:37+00:00",
+"updated": "2026-11-17T04:34:07+00:00",
 "news": [
+{
+"date": "2026-11-17",
+"title": "Fishing Rack Adjustments: WoW Forever Hotfixes for November 16",
+"summary": "A round of hotfixes has gone out for WoW Forever to address some issues with classes, items, and quests. Included in the fixes is a notable change for the Fishing Rack Camping object, which should now provide lures to…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/fishing-rack-adjustments-wow-forever-hotfixes-for-november-16/",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "Engineering Specializations Guide",
+"summary": "Engineering has two specializations in WoW Forever: Gnomish Engineering and Goblin Engineering. Each of these specializations allows players to craft some exclusive schematics. This guide will cover the differences…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/engineering-specializations/",
+"auto": true
+},
 {
 "date": "2026-11-16",
 "title": "100+ Gold Per Hour Farm Nerfed in WoW: Forever",
@@ -23,6 +39,22 @@
 "summary": "In WoW: Forever, dungeon quests may not guarantee being completed in one clear. Should this be adjusted, or is this better for the game? Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383806/should-wow-forever-dungeons-let-players-complete-quests-in-one-run",
+"auto": true
+},
+{
+"date": "2026-11-16",
+"title": "More Classes, Quest, and Item Changes - WoW: Forever Hotfixes for November 16, 2026",
+"summary": "Blizzard has announced hotfixes for today, which includes a lot of changes for classes, quests, items and dungeons! Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383900/more-classes-quest-and-item-changes-wow-forever-hotfixes-for-november-16-2026",
+"auto": true
+},
+{
+"date": "2026-11-16",
+"title": "New Scarlet Monastery Hearthstone in WoW: Forever",
+"summary": "A new cosmetic Hearthstone has been found in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383893/new-scarlet-monastery-hearthstone-in-wow-forever",
 "auto": true
 },
 {
