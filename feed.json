@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-17T14:32:00+00:00",
+"updated": "2026-11-17T22:56:23+00:00",
 "news": [
 {
 "date": "2026-11-17",
@@ -15,6 +15,46 @@
 "summary": "Engineering has two specializations in WoW Forever: Gnomish Engineering and Goblin Engineering. Each of these specializations allows players to craft some exclusive schematics. This guide will cover the differences…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/engineering-specializations/",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "Blizzard Removing Gold and Applying Account Suspensions to Significant Abusers of Blackmaw Hold Farm",
+"summary": "Blizzard will be removing all gold earned from the Blackmaw Hold farm and applying account suspensions to significant abusers! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383910/blizzard-applying-account-suspensions-to-significant-abusers-of-blackmaw-hold",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "Spell Power Added to Soulforge Paladin Armor - Item Hotfixes in WoW: Forever",
+"summary": "The latest hotfixes have changed the stats of some items in WoW: Forever, including adding spell power to the Soulforge Paladin Armor! Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383909/spell-power-added-to-soulforge-paladin-armor-item-hotfixes-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "WoW: Forever Post Hits #1 on r/all - Many Players Are Very Upset About the Blackmaw Hold Gold Farm",
+"summary": "Players are very upset about the recent gold farm in Blackmaw Hold and how this injection of gold can affect the economy. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383906/many-players-are-very-upset-about-the-blackmaw-hold-gold-farm",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "NA WoW: Forever Servers Down for Scheduled Maintenance for 1 Hour",
+"summary": "WoW: Forever is down for 1 hour on NA realms for scheduled maintenance. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383905/na-wow-forever-servers-down-for-scheduled-maintenance-for-1-hour",
+"auto": true
+},
+{
+"date": "2026-11-17",
+"title": "Blizzard Suspending Accounts Over Blackmaw Hold Exploit in WoW Forever",
+"summary": "Players have been making noise all over social media about a gold farm that was recently hotfixed, but which allowed some players to accumulate an enormous amount of gold before it went away. The exploit gained a lot of…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/blizzard-suspending-accounts-over-blackmaw-hold-exploit-in-wow-forever/",
 "auto": true
 },
 {
