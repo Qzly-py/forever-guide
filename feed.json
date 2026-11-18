@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-18T14:07:43+00:00",
+"updated": "2026-11-18T22:01:53+00:00",
 "news": [
 {
 "date": "2026-11-18",
@@ -23,6 +23,46 @@
 "summary": "Fishing is a relatively straightforward profession to level in WoW Forever, but there are a few things you’ll need to know if you want to make the most of your time and make it all the way to the 300 skill cap. If…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/fishing-leveling/",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "Weekly Gold Quest Requires Blackrock Spire and Blackrock Depths in WoW: Forever",
+"summary": "To complete this week's Gold Quest for level 60 characters, players must complete Blackrock Spire and Blackrock Depths. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383919/weekly-gold-quest-requires-blackrock-spire-and-blackrock-depths-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "WoW: Forever PvP Overview Video - Honor Rewards & Battlegrounds",
+"summary": "Blizzard has released a video going over WoW: Forever's PvP system, highlighting Honor rewards, Rank rewards, and Battlegrounds! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383918/wow-forever-pvp-overview-video-honor-rewards-and-battlegrounds",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "Auction House Minimum Deposit Reduced to 1 Copper in WoW: Forever",
+"summary": "The Auction House minimum deposit has finally been reduced back down to 1 Copper. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383917/auction-house-minimum-deposit-reduced-to-1-copper-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "WoW Forever Lone Wolf Hunter Bug",
+"summary": "If you ever thought Hunter was a strong class in WoW Forever, the latest bug makes them even more overpowered! In the latest patch, Hunter’s Lone Wolf talent works incorrectly, applying to pets when it’s supposed to…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/wow-forever-lone-wolf-hunter-bug/",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "Blacksmithing Plans Guide",
+"summary": "This guide covers all of the notable recipes available for Blacksmithing in World of Warcraft Forever, including where to learn them. We’ll list the plans available from reputations, raids, specializations, and other…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/blacksmithing-plans/",
 "auto": true
 },
 {
