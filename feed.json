@@ -1,6 +1,14 @@
 {
-"updated": "2026-11-18T22:01:53+00:00",
+"updated": "2026-11-19T03:35:04+00:00",
 "news": [
+{
+"date": "2026-11-19",
+"title": "Barbershop Locations & Customizations",
+"summary": "In WoW Forever, you can change your character’s appearance at any time by vising a Barbershop. These special shops are found in every major city. You can usually spot them by the red-and-white barber pole nearby and the…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/barbershops/",
+"auto": true
+},
 {
 "date": "2026-11-18",
 "title": "Cozy Sleeping Bag & Shen’dralas: WoW Forever Hotfixes for November 17",
@@ -63,6 +71,22 @@
 "summary": "This guide covers all of the notable recipes available for Blacksmithing in World of Warcraft Forever, including where to learn them. We’ll list the plans available from reputations, raids, specializations, and other…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/blacksmithing-plans/",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "Turn On In-Game Quest Objective Markers for Easier Navigation in WoW: Forever",
+"summary": "In-game quest objective markers are available in WoW: Forever, allowing for easier navigation without needing additional addons. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383924/turn-on-in-game-quest-objective-markers-for-easier-navigation-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-18",
+"title": "New WoW Forever Video: Honor Rewards & Battlegrounds",
+"summary": "Earlier today, Blizzard shared a new video titled “Honor Rewards & Battlegrounds”, providing an overview of the revamped PvP system in WoW Forever. Designed to make PvP progression more approachable and accessible, the…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-video-honor-rewards-battlegrounds/",
 "auto": true
 },
 {
