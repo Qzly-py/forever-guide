@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T03:35:04+00:00",
+"updated": "2026-11-19T13:20:07+00:00",
 "news": [
 {
 "date": "2026-11-19",
@@ -7,6 +7,22 @@
 "summary": "In WoW Forever, you can change your character’s appearance at any time by vising a Barbershop. These special shops are found in every major city. You can usually spot them by the red-and-white barber pole nearby and the…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/barbershops/",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Druid Aquatic Form & Cure Poison Quests Guide",
+"summary": "Druids who want to learn Aquatic Form and Cure Poison in WoW Forever will need to complete a series of special class quests. Completing both chains together is ideal since you’ll be visiting the same zones for both. The…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/druid-aquatic-form-cure-poison-quests/",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "How to Tame Ta’shkal, the Corrupted Cat",
+"summary": "Hunters in WoW Forever have a wide variety of pets to choose from, but one particularly exciting addition is Ta’shkal, a corrupted cat with a unique appearance and an exceptionally fast base attack speed of just 0.85…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/how-to-tame-tashkal-the-corrupted-cat/",
 "auto": true
 },
 {
