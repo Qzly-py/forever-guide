@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-19T22:12:19+00:00",
+"updated": "2026-11-20T03:25:43+00:00",
 "news": [
 {
 "date": "2026-11-19",
@@ -135,6 +135,30 @@
 "summary": "The newest episode of the official WoW Forever Podcast has hit YouTube, and the topic has come back around to classes. There’s no Aggrend this week and no content creator guests. Host CountdowntoClassic is instead…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/episode-8-of-the-wow-forever-podcast-returns-to-classes/",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Blizzard Investigating Several Bugged Quests in WoW: Forever",
+"summary": "The official BlizzardCS account has commented on several quests in Wowhead's database, letting players know they are investigating bugs. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383938/blizzard-investigating-several-bugged-quests-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Blizzard Addresses Spell Power Gear Shortage in WoW: Forever",
+"summary": "In the latest episode of the WoW: Forever Podcast, developers Kris Zierhut and Aidan Moon address the concern about a lack of Spell Power gear in WoW: Forever. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383928/blizzard-addresses-spell-power-gear-shortage-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Some EU Players Reporting Issues with PvP Queues and Honor Gains in WoW: Forever",
+"summary": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
 "auto": true
 },
 {
