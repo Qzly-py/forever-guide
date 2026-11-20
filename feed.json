@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T13:00:04+00:00",
+"updated": "2026-11-20T21:12:07+00:00",
 "news": [
 {
 "date": "2026-11-20",
@@ -15,6 +15,70 @@
 "summary": "A new set of hotfixes has hit WoW Forever with a number of small but notable changes. The Seed Hybridizer Camping object for Herbalism has been re-enabled with some adjustments. Retribution Paladins have seen a fix for…",
 "category": "Hotfix",
 "url": "https://www.warcrafttavern.com/forever/news/seed-hybridizer-cultivation-fixes-wow-forever-hotfixes-for-november-19/",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Itemization of Crafted Tier Sets Revealed in WoW: Forever's First Raid Tier",
+"summary": "The stats for the crafted versions of Tier Set gear from the first raid tier have been revealed in a hotfix to Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383946/itemization-of-crafted-tier-sets-revealed-in-wow-forevers-first-raid-tier",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Layer Swap and Other Targeted Layering Addons Will Be Disabled Soon in WoW: Forever",
+"summary": "Targeted Layering Addons will no longer work in an upcoming hotfix for WoW: Forever, as various API calls that show a realm ID will be obfuscated soon. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383943/layer-swap-and-other-targeted-layering-addons-will-be-disabled-soon-in-wow",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "WoW: Forever Class Design, Patch 12.1.7, WoW Anniversary - WoW Weekly",
+"summary": "Blizzard has recapped some of the biggest events in WoW this week, which includes a podcast on WoW: Forever class design, details on Patch 12.1.7, the WoW Anniversary event, and more! Continue reading »",
+"category": "Patch",
+"url": "https://www.wowhead.com/news=383944/wow-forever-class-design-patch-12-1-7-wow-anniversary-wow-weekly",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Unlock a Dungeon Shortcut in WoW: Forever with the Compound Key",
+"summary": "Completing a quest in one of the new WoW: Forever dungeons will make future runs go a bit smoother: you'll gain a key to unlock doors leading to a final boss shortcut! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383890/unlock-a-dungeon-shortcut-in-wow-forever-with-the-compound-key",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Every Quest for Level 30 to 40 Dungeons in WoW: Forever",
+"summary": "Here are all the quests for the level 30 to 40 dungeons to help you level faster in WoW: Forever! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383933/every-quest-for-level-30-to-40-dungeons-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Onyxia’s Lair Attunement Guide – Horde",
+"summary": "Getting attuned to the Onyxia’s Lair raid as Horde in WoW Forever means completing a lengthy quest chain that serves as a sort of rite of passage as your character arrives at the endgame. This quest chain takes you all…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/onyxias-lair-attunement-horde/",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Onyxia’s Lair Attunement Guide – Alliance",
+"summary": "Getting attuned to the Onyxia’s Lair raid as Alliance in WoW Forever means completing a lengthy quest chain that serves as a sort of rite of passage as your character arrives at the endgame. This quest chain takes you…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/onyxias-lair-attunement-alliance/",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Layer Hopping Functionality Will Be Reduced for Addons in WoW Forever",
+"summary": "Senior Software Engineer Daniel Yates, AKA Meorawr, has posted some API changes in the WoWUIDev Discord that will limit addons’ ability to send you to a specific layer. The changes will block several addon workarounds…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/layer-hopping-functionality-will-be-reduced-for-addons-in-wow-forever/",
 "auto": true
 },
 {
