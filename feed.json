@@ -1,6 +1,22 @@
 {
-"updated": "2026-11-20T03:25:43+00:00",
+"updated": "2026-11-20T13:00:04+00:00",
 "news": [
+{
+"date": "2026-11-20",
+"title": "Druid Shapeshifting & Forms Guide",
+"summary": "Shapeshifting is a core feature of the Druid class, allowing them to change into the forms of different creatures with unique mechanics and abilities. In WoW Forever, shapeshifting forms have received several…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/druid-forms/",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "Seed Hybridizer & Cultivation Fixes: WoW Forever Hotfixes for November 19",
+"summary": "A new set of hotfixes has hit WoW Forever with a number of small but notable changes. The Seed Hybridizer Camping object for Herbalism has been re-enabled with some adjustments. Retribution Paladins have seen a fix for…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/seed-hybridizer-cultivation-fixes-wow-forever-hotfixes-for-november-19/",
+"auto": true
+},
 {
 "date": "2026-11-19",
 "title": "Barbershop Locations & Customizations",
@@ -159,6 +175,22 @@
 "summary": "Some EU players have been reporting issues with PvP queues, preventing any Battleground queues from popping. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383937/some-eu-players-reporting-issues-with-pvp-queues-and-honor-gains-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Skyborne Now Get Reputation Discount for Mounts in WoW: Forever But You'll Need A Lot of Runecloth",
+"summary": "Skyborne now get a 10% reputation discount for mounts in WoW: Forever when they hit Honored. Get your Runecloth turn-ins ready! Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383940/skyborne-now-get-reputation-discount-for-mounts-in-wow-forever-but-youll-need-a",
+"auto": true
+},
+{
+"date": "2026-11-19",
+"title": "Ret Paladin Bug Fix and Seed Hybridizer Available Again - WoW: Forever Hotfixes for November 19th",
+"summary": "Blizzard has posted hotfixes for today, which includes a Ret Paladin bug fix and making the Seed Hybridizer available again! Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383939/ret-paladin-bug-fix-and-seed-hybridizer-available-again-wow-forever-hotfixes-for",
 "auto": true
 },
 {
