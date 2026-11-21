@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-20T21:12:07+00:00",
+"updated": "2026-11-21T02:23:38+00:00",
 "news": [
 {
 "date": "2026-11-20",
@@ -79,6 +79,14 @@
 "summary": "Senior Software Engineer Daniel Yates, AKA Meorawr, has posted some API changes in the WoWUIDev Discord that will limit addons’ ability to send you to a specific layer. The changes will block several addon workarounds…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/layer-hopping-functionality-will-be-reduced-for-addons-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-20",
+"title": "LFG Bug Fix Causes Players to See More Groups - WoW: Forever Hotfixes for November 20, 2026",
+"summary": "Blizzard has posted hotfixes for today, which contains a bug fix for players seeing fewer groups than intended in LFG. Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383949/lfg-bug-fix-causes-players-to-see-more-groups-wow-forever-hotfixes-for-november",
 "auto": true
 },
 {
