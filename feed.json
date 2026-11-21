@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-21T18:03:54+00:00",
+"updated": "2026-11-21T23:24:11+00:00",
 "news": [
 {
 "date": "2026-11-21",
@@ -31,6 +31,22 @@
 "summary": "The quest chain to acquire your Tier 0.5, or Dungeon Set 2, in WoW Forever is long and complicated. These quests will take you all over the world and into multiple dungeons, and you’ll need a good bit of gold and…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/guides/dungeon-set-2-quests/",
+"auto": true
+},
+{
+"date": "2026-11-21",
+"title": "Maximum Dungeons Per Hour Reduced in WoW: Forever Hotfix - Solo Gold Farming Nerf?",
+"summary": "Blizzard has reduced the maximum number of dungeons players can run per hour in WoW: Forever. Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383950/maximum-dungeons-per-hour-reduced-in-wow-forever-hotfix-solo-gold-farming-nerf",
+"auto": true
+},
+{
+"date": "2026-11-21",
+"title": "PvP Overview: Battlegrounds, World PvP, Vendors & Ranks",
+"summary": "Player versus Player is an important part of WoW Forever, coming in many shapes and forms and rewarding players heavily for participating in all-out faction wars. This guide covers everything you need to know about…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/pvp/",
 "auto": true
 },
 {
