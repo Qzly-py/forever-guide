@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T15:24:36+00:00",
+"updated": "2026-11-22T21:51:11+00:00",
 "news": [
 {
 "date": "2026-11-22",
@@ -7,6 +7,30 @@
 "summary": "In Classic WoW, Rogues had a go-to method for leveling Lockpicking from 250-300. In Forever, that method has changed - no more BRD runs! Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383884/the-best-way-to-level-lockpicking-to-max-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-22",
+"title": "Players Can No Longer Peek Inside Lockboxes in WoW: Forever to Fix New Exploit",
+"summary": "With recent hotfixes, players can no longer peek inside lockboxes in WoW: Forever, likely due to a Lockbox exploit. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383956/players-can-no-longer-peek-inside-lockboxes-due-to-reroll-exploit",
+"auto": true
+},
+{
+"date": "2026-11-22",
+"title": "World Buffs Removed on Any Loading Screen in WoW: Forever",
+"summary": "World Buffs are now removed whenever a loading screen triggers, preventing players from using them in dungeons or on the opposite continent. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383954/world-buffs-removed-on-any-loading-screen-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-22",
+"title": "The Weekly Reset with Taliesin and Evitel: Gold in Forever",
+"summary": "Taliesin and Evitel check out the latest news for both Forever and Retail, as well as the gold farm, chores, and exploit controversy in Forever. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever",
 "auto": true
 },
 {
