@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-22T21:51:11+00:00",
+"updated": "2026-11-23T02:51:09+00:00",
 "news": [
 {
 "date": "2026-11-22",
@@ -31,6 +31,22 @@
 "summary": "Taliesin and Evitel check out the latest news for both Forever and Retail, as well as the gold farm, chores, and exploit controversy in Forever. Continue reading »",
 "category": "Community",
 "url": "https://www.wowhead.com/news=383947/the-weekly-reset-with-taliesin-and-evitel-gold-in-forever",
+"auto": true
+},
+{
+"date": "2026-11-22",
+"title": "Uldaman Boss No Longer Drops Loot - Nerf to Gold Farming Strategy",
+"summary": "The loot from one of the bosses in Uldaman has been completely removed, likely due to an efficient gold farm. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383955/uldaman-boss-no-longer-drops-loot-nerf-targets-gold-farming-strategy",
+"auto": true
+},
+{
+"date": "2026-11-22",
+"title": "Aidan Moon Announces That World Buffs Dropping on Loading Screen is Bug",
+"summary": "Aidan Moon has responded on X (Twitter) that World Buffs dropping during a loading screen is a bug. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383959/aidan-moon-announces-that-world-buffs-dropping-on-loading-screen-is-bug",
 "auto": true
 },
 {
