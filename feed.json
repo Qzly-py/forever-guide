@@ -1,6 +1,14 @@
 {
-"updated": "2026-11-24T00:57:33+00:00",
+"updated": "2026-11-24T11:00:37+00:00",
 "news": [
+{
+"date": "2026-11-24",
+"title": "Obsidian Sentinel Loot Nerfed: WoW Forever Hotfixes for November 23",
+"summary": "A new round of hotfixes has arrived in WoW Forever, with a couple of notable changes included. The Obsidian Sentinel in Uldaman briefly had its loot removed to block a lucrative gold farm. It should now drop loot again,…",
+"category": "Hotfix",
+"url": "https://www.warcrafttavern.com/forever/news/obsidian-sentinel-loot-nerfed-wow-forever-hotfixes-for-november-23/",
+"auto": true
+},
 {
 "date": "2026-11-23",
 "title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
@@ -47,6 +55,14 @@
 "summary": "Fishing in WoW Forever is more popular, and more lucrative than ever. With new Legacy Talents and camping features giving you big boosts to your catches, there has never been a better time to pick up Fishing and make…",
 "category": "Community",
 "url": "https://www.warcrafttavern.com/forever/news/how-to-set-up-one-key-fishing-in-wow-forever/",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "Class and Profession Bug Fixes - WoW: Forever Hotfixes for November 23, 2026",
+"summary": "Blizzard has announced hotfixes for today, which includes more class and profession bug fixes! Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383972/class-and-profession-bug-fixes-wow-forever-hotfixes-for-november-23-2026",
 "auto": true
 },
 {
