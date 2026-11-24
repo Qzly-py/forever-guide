@@ -1,6 +1,54 @@
 {
-"updated": "2026-11-23T12:57:47+00:00",
+"updated": "2026-11-24T00:57:33+00:00",
 "news": [
+{
+"date": "2026-11-23",
+"title": "Players Reporting that Sunder Armor Effects Don't Work in WoW: Forever Dungeons",
+"summary": "According to the Classic WoW community Github, Sunder Armor effects don't work in WoW: Forever dungeons. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383969/players-reporting-that-sunder-armor-effects-dont-work-in-wow-forever-dungeons",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "Uldaman Boss Drops Loot Again But Item Vendor Price Nerfed",
+"summary": "The Obsidian Golem boss in Uldaman drops loot again, but the vendor cost of the items has been nerfed. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383968/uldaman-boss-drops-loot-again-but-item-vendor-price-nerfed",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "World Buffs Now Persist Through Loading Screen & Nerf to Dire Maul Tribute Buff - World Buff Hotfixes in WoW: Forever",
+"summary": "World Buffs now persist through loading screens in WoW: Forever, but one of the Dire Maul Tribute buffs has been nerfed. Continue reading »",
+"category": "Hotfix",
+"url": "https://www.wowhead.com/news=383967/world-buffs-now-persist-through-loading-screen-and-nerf-to-dire-maul-tribute",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "Blizzard Working on a Fix for Paladin and Warlocks Not Unlocking Epic Riding",
+"summary": "Blizzard is working on a fix for Paladins and Warlocks not unlocking Epic Riding by completing the class quest. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383965/blizzard-working-on-a-fix-for-paladin-and-warlocks-not-getting-epic-riding",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "Blizzard Announces Lockbox Change is Temporary in WoW: Forever - Peeking Inside Lockboxes Will Return",
+"summary": "Blizzard has announced that the lockbox change is temporary while they work on a proper fix. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383963/blizzard-announces-lockbox-change-is-temporary-and-peeking-inside-lockboxes-will",
+"auto": true
+},
+{
+"date": "2026-11-23",
+"title": "How To Set Up One-Key Fishing in WoW Forever",
+"summary": "Fishing in WoW Forever is more popular, and more lucrative than ever. With new Legacy Talents and camping features giving you big boosts to your catches, there has never been a better time to pick up Fishing and make…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/how-to-set-up-one-key-fishing-in-wow-forever/",
+"auto": true
+},
 {
 "date": "2026-11-22",
 "title": "The Best Way to Level Lockpicking to Max in WoW: Forever",
