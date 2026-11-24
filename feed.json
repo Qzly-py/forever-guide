@@ -1,5 +1,5 @@
 {
-"updated": "2026-11-24T11:00:37+00:00",
+"updated": "2026-11-24T21:18:10+00:00",
 "news": [
 {
 "date": "2026-11-24",
@@ -7,6 +7,46 @@
 "summary": "A new round of hotfixes has arrived in WoW Forever, with a couple of notable changes included. The Obsidian Sentinel in Uldaman briefly had its loot removed to block a lucrative gold farm. It should now drop loot again,…",
 "category": "Hotfix",
 "url": "https://www.warcrafttavern.com/forever/news/obsidian-sentinel-loot-nerfed-wow-forever-hotfixes-for-november-23/",
+"auto": true
+},
+{
+"date": "2026-11-24",
+"title": "Watch \"Al'Aketh Rising\" - New Motion Comic for WoW: Forever",
+"summary": "Blizzard has released a new motion comic for WoW: Forever called \"Al'Aketh Rising,\" which follows a local Skyborne constable on Zephras Isle. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383980/watch-alaketh-rising-new-motion-comic-for-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-24",
+"title": "All Tier 3 Blueprint Sources for Crafting in WoW: Forever",
+"summary": "Tier 3 workstations are necessary for high-level crafting, so take a look at where to find all the blueprints you'll need in WoW: Forever. Continue reading »",
+"category": "Community",
+"url": "https://www.wowhead.com/news=383961/all-tier-3-blueprint-sources-for-crafting-in-wow-forever",
+"auto": true
+},
+{
+"date": "2026-11-24",
+"title": "New WoW Forever Comic: Al’Aketh Rising",
+"summary": "Blizzard has shared another short story for WoW Forever, this time in the form of a comic. Al’Aketh Rising is available as a PDF or YouTube video. The video is voiced by actress Sam Slade. The comic follows Aonda, the…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/new-wow-forever-comic-alaketh-rising/",
+"auto": true
+},
+{
+"date": "2026-11-24",
+"title": "No, You’re Not Behind: The Average WoW Forever Character is Level 22",
+"summary": "World of Warcraft: Forever launched three weeks ago, and a lot of players have already reached level 60. You may see them on your Friends List, or posting on social media, and feel like you’re way behind the curve. If…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/news/no-youre-not-behind-the-average-wow-forever-character-is-level-22/",
+"auto": true
+},
+{
+"date": "2026-11-24",
+"title": "PvP Race Tier List: Best Racials Ranked",
+"summary": "Player versus Player in WoW Forever is heavily dictated by skill, but racial abilities and race choice also plays a huge part into whether or not a player can succeed. This guide covers all the racial abilities in WoW…",
+"category": "Community",
+"url": "https://www.warcrafttavern.com/forever/guides/pvp-race-tier-list/",
 "auto": true
 },
 {
